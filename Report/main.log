@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.16)  20 FEB 2014 14:25
+=======
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.16)  20 FEB 2014 14:48
+>>>>>>> d77e94697213ea0d1f9caf158ff055e9b12e50fc
 entering extended mode
 **main.tex
 (C:\Users\Esther\Masteroppgave\Report\main.tex
@@ -1705,13 +1709,22 @@ No file main.acr.
 
 
 ]
+<<<<<<< HEAD
 <./figs/MP01.jpg, id=196, 752.8125pt x 602.25pt>
 File: ./figs/MP01.jpg Graphic file (type jpg)
  <use ./figs/MP01.jpg>
 Package pdftex.def Info: ./figs/MP01.jpg used on input line 14.
 (pdftex.def)             Requested size: 182.0pt x 145.59975pt.
+=======
+<./figs/adhocprotocols.png, id=201, 1014.79124pt x 360.59718pt>
+File: ./figs/adhocprotocols.png Graphic file (type png)
+>>>>>>> d77e94697213ea0d1f9caf158ff055e9b12e50fc
 
+<use ./figs/adhocprotocols.png>
+Package pdftex.def Info: ./figs/adhocprotocols.png used on input line 17.
+(pdftex.def)             Requested size: 364.0pt x 129.34169pt.
 
+<<<<<<< HEAD
 LaTeX Warning: Reference `MP01' on page 3 undefined on input line 20.
 
 [3pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}
@@ -1722,8 +1735,23 @@ LaTeX Warning: Reference `MP01' on page 3 undefined on input line 20.
 l.23 
       <C:/Users/Esther/Masteroppgave/Report/figs/MP01.jpg>]) [4]
 (C:\Users\Esther\Masteroppgave\Report\main.bbl
-bibitemlist
+=======
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3]) [4pdfTeX warning (ext4): destination with the same identifier (name{figure
+.2.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.85 \include{background}
+                          <C:/Users/Ida Malene/Masteroppgave/Report/figs/adhocp
+rotocols.png>] ("C:\Users\Ida Malene\Masteroppgave\Report\main.bbl"
+>>>>>>> d77e94697213ea0d1f9caf158ff055e9b12e50fc
+bibitemlist
+) [5
+
+<<<<<<< HEAD
 Underfull \hbox (badness 6188) in paragraph at lines 8--11
 []\T1/lmr/m/n/10 (+20) V. Telco, ``Mesh potato,'' 2013.  http://store.villagete
 lco.com/mesh-
@@ -1732,6 +1760,9 @@ lco.com/mesh-
 ) [5
 
 
+=======
+
+>>>>>>> d77e94697213ea0d1f9caf158ff055e9b12e50fc
 ]
 \tf@toc=\write8
 \tf@lof=\write9
@@ -1747,6 +1778,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
 Package rerunfilecheck Info: File `main.out' has not changed.
+<<<<<<< HEAD
 (rerunfilecheck)             Checksum: DCC9BCCA707C71EA65BE720BD935FECF;1212.
 
 
@@ -1774,4 +1806,30 @@ PDF statistics:
  254 PDF objects out of 1000 (max. 8388607)
  47 named destinations out of 1000 (max. 500000)
  17059 words of extra memory for PDF output out of 17280 (max. 10000000)
+=======
+(rerunfilecheck)             Checksum: 70B43058080F3C9C1DD5A91ED8A53279;1212.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 103.
+ ) 
+Here is how much of TeX's memory you used:
+ 20649 strings out of 493921
+ 299666 string characters out of 3147267
+ 534916 words of memory out of 3000000
+ 23404 multiletter control sequences out of 15000+200000
+ 79423 words of font info for 84 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 58i,12n,45p,1504b,407s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
+r10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/lm/lmss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pf
+b>
+Output written on main.pdf (23 pages, 267068 bytes).
+PDF statistics:
+ 268 PDF objects out of 1000 (max. 8388607)
+ 49 named destinations out of 1000 (max. 500000)
+ 19107 words of extra memory for PDF output out of 20736 (max. 10000000)
+>>>>>>> d77e94697213ea0d1f9caf158ff055e9b12e50fc
 
