@@ -4,8 +4,5 @@
 \select@language {english}
 \addvspace {10pt}
 \addvspace {10pt}
-<<<<<<< HEAD
 \contentsline {figure}{\numberline {2.1}{\ignorespaces The Mesh Potato}}{3}{figure.2.1}
-=======
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Different groups of ad hoc routing protocols \cite {adhoc}.}}{4}{figure.2.1}
->>>>>>> d77e94697213ea0d1f9caf158ff055e9b12e50fc
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Different groups of ad hoc routing protocols \cite {adhoc}.}}{4}{figure.2.2}

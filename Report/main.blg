@@ -5,13 +5,9 @@ A level-1 auxiliary file: introduction.aux
 A level-1 auxiliary file: background.aux
 The style file: ieeetr.bst
 Database file #1: references.bib
-<<<<<<< HEAD
 Warning--entry type for "MP" isn't style-file defined
 --line 1 of file references.bib
 Warning--entry type for "background" isn't style-file defined
 --line 8 of file references.bib
-(There were 2 warnings)
-=======
 Warning--empty journal in adhoc2
-(There was 1 warning)
->>>>>>> d77e94697213ea0d1f9caf158ff055e9b12e50fc
+(There were 3 warnings)
