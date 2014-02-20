@@ -13,12 +13,12 @@
 \contentsline {chapter}{\chapternumberline {2}Background}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}Village Telco}{3}{section.2.1}
 \contentsline {section}{\numberline {2.2}Mesh Potato}{3}{section.2.2}
-\contentsline {section}{\numberline {2.3}Technology}{3}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Ad Hoc and Mesh Networks}{3}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}OpenWRT}{3}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}The Cost Structure and Revenue Model(s) of Village Telco Today}{3}{section.2.4}
-\contentsline {section}{\numberline {2.5}Comparison of Village Telco and Other Telcos}{3}{section.2.5}
-\contentsline {section}{\numberline {2.6}Refugee Camps}{3}{section.2.6}
-\contentsline {subsection}{\numberline {2.6.1}The Existing Communication Methods}{3}{subsection.2.6.1}
+\contentsline {section}{\numberline {2.3}Technology}{4}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Ad Hoc and Mesh Networks}{4}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}OpenWrt}{4}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}The Cost Structure and Revenue Model(s) of Village Telco Today}{4}{section.2.4}
+\contentsline {section}{\numberline {2.5}Comparison of Village Telco and Other Telcos}{4}{section.2.5}
+\contentsline {section}{\numberline {2.6}Refugee Camps}{4}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}The Existing Communication Methods}{4}{subsection.2.6.1}
 \contentsline {chapter}{References}{5}{section*.5}
  \vspace {1em} \noindent \bfseries Appendices\par \vspace {-.5em} 
