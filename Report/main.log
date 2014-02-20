@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.16)  18 FEB 2014 11:25
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.16)  20 FEB 2014 11:18
 entering extended mode
 **main.tex
 ("C:\Users\Ida Malene\Masteroppgave\Report\main.tex"
@@ -1624,7 +1624,7 @@ LaTeX Info: Redefining \nameref on input line 24.
 \@outlinefile=\write7
 \c@lstlisting=\count311
 
-<./figs/ntnu-logo.pdf, id=59, 241.4922pt x 52.79724pt>
+<./figs/ntnu-logo.pdf, id=79, 241.4922pt x 52.79724pt>
 File: ./figs/ntnu-logo.pdf Graphic file (type pdf)
 
 <use ./figs/ntnu-logo.pdf>
@@ -1726,23 +1726,16 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
 ("C:\Users\Ida Malene\Masteroppgave\Report\background.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: BAD36E53331F97F18A9576FDB9C4B719;866
-(rerunfilecheck)             After:  984E6FE7147C26C5EDE7B78496F03590;862.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: AB7B19CE7C60C437E9A1A893711B6279;1212.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 103.
  ) 
 Here is how much of TeX's memory you used:
- 20561 strings out of 493921
- 298440 string characters out of 3147267
- 533779 words of memory out of 3000000
- 23362 multiletter control sequences out of 15000+200000
- 64744 words of font info for 64 fonts, out of 3000000 for 9000
+ 20580 strings out of 493921
+ 298733 string characters out of 3147267
+ 534779 words of memory out of 3000000
+ 23372 multiletter control sequences out of 15000+200000
+ 70895 words of font info for 68 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  58i,11n,45p,1504b,407s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/M
@@ -1751,9 +1744,9 @@ ype1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
 r10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on main.pdf (23 pages, 179308 bytes).
+Output written on main.pdf (23 pages, 186852 bytes).
 PDF statistics:
- 215 PDF objects out of 1000 (max. 8388607)
- 39 named destinations out of 1000 (max. 500000)
- 12406 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 241 PDF objects out of 1000 (max. 8388607)
+ 44 named destinations out of 1000 (max. 500000)
+ 15006 words of extra memory for PDF output out of 17280 (max. 10000000)
 
