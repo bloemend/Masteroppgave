@@ -1,3 +1,17 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{adhoc}
+X.~Hong, K.~Xu, and M.~Gerla, ``Scalable routing protocols for mobile ad hoc
+  networks,'' {\em IEEE}, 2002.
+
+\bibitem{adhoc2}
+J.~Hoebeke, I.~Moerman, B.~Dhoedt, and P.~Demeester, ``An overview of mobile ad
+  hoc networks: Applications and challenges,'' 2004.
+
+\bibitem{proactivereactive}
+B.~D. Shivahare, C.~Wahi, and S.~Shivhare, ``Comparison of proactive and
+  reactive routing protocols in mobile adhoc network using routing protocol
+  property,'' {\em International Journal of Emerging Technology and Advanced
+  Engineering}, 2012.
 
 \end{thebibliography}
