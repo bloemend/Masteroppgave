@@ -65,9 +65,35 @@ MP02
 There exists many challenges when it comes to these types of networks. The routing protocols must be able to adapt quickly due to the topology changes. \fref{fig:adhocprotocols} shows the different groups of the ad hoc protocols that exist. The routing protocols must not cause excessive overhead. Under the category flat routing, there are two types of routing protocols; proactive and reactive. \textit{Proactive routing protocols} (e.g. OLSR) are table driven \citep{proactivereactive}. This means that every network node has a routing table for the forwarding of data. To obtain stability, each node broadcasts and modifies the routing table periodically. Proactive routing protocols are suitable when there are few nodes in the network. Because of the routing table that is periodically updated, the overhead exceeds the desired value when there are a high number of nodes in the network. In contrary to the proactive routing protocols, \textit{reactive routing protocols} (e.g. AODV) are on demand. Since they are on demand, the overhead is significantly lower. These protocols utilizes flooding. The network is flooded with the route request (RREQ) in order to set up the route. The reactive routing protocols does not have a up-to-date routing table like proactive routing protocols \cite{proactivereactive}. Routes are only set up to nodes they communicate with, and these routes are only kept alive while they are needed  \cite{adhoc2}. As shown in \fref{fig:adhocprotocols}, there are several different protocols under proactive and reactive. 
 
 \paragraph{B.A.T.M.A.N}
-Better Approach To Mobile Adhoc Networking (B.A.T.M.A.N) is the routing protocol utilized in the networks formed by the Mesh Potatoes. B.A.T.M.A.N is a proactive routing protocol for wireless ad hoc networks. This includes MANETs \cite{batman}. This protocol was developed as an alternative to OLSR (Optimized Link State Routing) \cite{batman2}. Like mentioned before, routing protocols must be able to adapt quickly to topology changes. B.A.T.M.A.N was made to be a more efficient routing protocol in this area. 
+Better Approach To Mobile Adhoc Networking (B.A.T.M.A.N) is the routing protocol utilized in the networks formed by the Mesh Potatoes. B.A.T.M.A.N is a proactive routing protocol for wireless ad hoc networks. This includes MANETs \cite{batman}. This protocol was developed as an alternative to OLSR (Optimized Link State Routing) \cite{batman2}. Like mentioned before, routing protocols must be able to adapt quickly to topology changes. B.A.T.M.A.N was made to be a more efficient routing protocol in this area, since it employs a new method for discovering routes. The nodes in the network broadcasts a OGM periodically. A OGM is a Originator Message which contains: 
 
-Information about the nodes that are accessible via single-hop or multi-hop are maintained and updated. 
+\begin{itemize}
+\item The address of the node
+\item Sequence number
+\item TTL (Time to live)
+\end{itemize}
+
+The address and the sequence number enables identification of a packet and duplicate detection. 
+
+\begin{figure}[h!]
+  \centering
+    \includegraphics[width=0.8\textwidth]{batman.png}
+     \caption{SKRIVE NOE HER \cite{batman2}.}
+\label{fig:batman}
+\end{figure}
+
+
+Information about the nodes that are accessible via single-hop or multi-hop are maintained and updated \cite{batman}. Every node updates it's routing table each time it receives and OGM. The routing table includes information about \cite{batman2}:
+
+\begin{description}
+  \item[Originator Address] \hfill \\
+  This is the source address of the node that sent the OGM.
+  \item[Current Sequence Number] \hfill \\
+  The sequence number of the last OGM. This is used to discover if there are any duplicates or outdated information. 
+  \item[Sliding Window] \hfill \\
+  FYLL UT HER \ldots
+\end{description}
+
 
 
 %Eksempel på nettverk
