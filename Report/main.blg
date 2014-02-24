@@ -11,5 +11,8 @@ Warning--entry type for "background" isn't style-file defined
 --line 8 of file references.bib
 Warning--entry type for "MPorigin" isn't style-file defined
 --line 38 of file references.bib
+Warning--entry type for "OLSR" isn't style-file defined
+--line 58 of file references.bib
 Warning--empty journal in adhoc2
-(There were 4 warnings)
+Warning--empty journal in batman
+(There were 6 warnings)

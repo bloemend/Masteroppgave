@@ -28,4 +28,15 @@ B.~D. Shivahare, C.~Wahi, and S.~Shivhare, ``Comparison of proactive and
   property,'' {\em International Journal of Emerging Technology and Advanced
   Engineering}, 2012.
 
+\bibitem{batman}
+A.~Neumann, C.~Aichele, M.~Lindner, and S.~Wunderlich, ``Better approach to
+  mobile ad-hoc networking (b.a.t.m.a.n.),'' 2008.
+\newblock
+  \url{http://tools.ietf.org/html/draft-wunderlich-openmesh-manet-routing-00},
+  accessed 21.02.2014.
+
+\bibitem{OLSR}
+T.~Clausen and P.~Jacquet, ``Optimized link state routing protocol (olsr),''
+  2003.
+
 \end{thebibliography}

@@ -11,7 +11,11 @@
 
 
 %MP01
+<<<<<<< HEAD
 The whole concept around the Mesh Potato was developed in June 2008 during a workshop with the Village Telco team. The aim was to develop a business model as well as a prototype for a Villa Telco. Initially the idea was to use low cost VoIP headsets. At the time this was the most viable and convenient way to deliver telephone services to the customers. With a VoIP telephone service the nodes can not be more that 100 meters away from each other, requiring more nodes to be able to cover the desirable area. Which again drastically increases the start-up costs for a village. In order to keep the cost down, it was also important to keep the number of access points down. A mesh network have a larger range, and one suggestion was to use a small mesh device like a Open Mesh AP and connect a SIP phone to it. This solution would solve a lot of the problems regarding range, antenna and number of access points, but the idea was still an expensive option. During the debating, Rael Lissoos took a Analouge Telephone Adapter (ATA) and an Open Mesh AP, held them together and said that we need these two devices in one. This point was the birth of the Mesh Potato. The name comes from combining the words mesh, POTS (Plain Old Telephone) and ATA. Patata is the Spanish word for potato, and hence the name Mesh Potato. A mesh enabled WiFi device with the possibility to connect any inexpensive regular phone and IP device. \cite{MPorigin}
+=======
+The whole concept around the Mesh Potato was developed in June 2008 during a workshop with the Village Telco team. The aim was to develop a business model as well as a prototype for a Village Telco. Initially the idea was to use low cost VoIP headsets since it was the most viable and convenient way to deliver telephone services to the customers. With a VoIP telephone service the nodes can not be more than 100 meters away from each other requiring more nodes to be able to cover the desirable area. Which again drastically increased the start-up costs for a village. In order to keep the cost down, it is also important to keep the number of access points down. A mesh network have a larger range, and one suggestion was to use a small mesh device like a Open Mesh AP and connect a SIP phone to it. This solution would solve a lot of the problems regarding range, antenna and number of access points, but the idea was still an expensive option. During the debating, Rael Lissoos took a Analouge Telephone Adapter (ATA) and an Open Mesh AP, held them together and said that we need these two devices in one. This point was the birth of the Mesh Potato. The name comes from combining the words mesh, POTS (Plain Old Telephone) and ATA. "Patata" is the Spanish word for potato, and hence the name Mesh Potato. A mesh enabled WiFi device with the possibility to connect any inexpensive regular phone and IP device. \cite{MPorigin}
+>>>>>>> 48118eeb54d92f9fb9eb7897a927417878f85a17
 
 \begin{figure}[h!]
   \centering
@@ -20,18 +24,18 @@ The whole concept around the Mesh Potato was developed in June 2008 during a wor
   \label{fig:MP01}
 \end{figure}
 
-The First generation of the Mesh Potato is shown in \fref{fig:MP01}. This Device is designed to be used in rural areas. It can be deployed and run anywhere in the world relying only on a low, but stable power supply. The Ethernet port, Foreign eXchange Station (FXS) ports and power are robust and designed. This in order to handle hard weather, poor power conditions, lightening and static electricity. In addition the Mesh Potato comes in a waterproof box for outdoor mounting \cite{background}.
+The First generation of the Mesh Potato is shown in \fref{fig:MP01}. This device is designed to be used in rural areas. It can be deployed and run anywhere in the world relying only on a low, but stable power supply. The Ethernet port, Foreign eXchange Station (FXS) ports and power are robust and designed. This in order to handle hard weather, poor power conditions, lightening and static electricity. In addition the Mesh Potato comes in a waterproof box for outdoor mounting \cite{background}.
 
-The Mesh Potato combines the features of a 802.11bg WiFi router with an Analog telephone Adaptor (ATA) \cite{MP}. Each Mesh Potato provies a single fixed telephone line to the end user. The MPs are connected together via a mesh WiFi network, and  configure themselves automatically to form a peer-to-peer network, greatly extending the range of the network over regual WiFi. Enabling phone calls to be made independent of landlines and telephone towers. Creating the basis for the "plug-and-play" solution. 
-
-
+The Mesh Potato combines the features of a 802.11bg WiFi router with an Analog telephone Adaptor (ATA) \cite{MP}. Each Mesh Potato provides a single fixed telephone line to the end user. The MPs are connected together via a mesh WiFi network, and  configure themselves automatically to form a peer-to-peer network, greatly extending the range of the network over regular WiFi. Enabling phone calls to be made independent of landlines and telephone towers. Creating the basis for the "plug-and-play" solution. 
 
 
 
 
 
 
-The Mesh network can be connected vi a backbone link to the rest of the world by using VoIP trunks. 
+
+
+The Mesh network can be connected via backbone link to the rest of the world by using VoIP trunks. 
 
 
 MP02
@@ -62,10 +66,12 @@ MP02
 
 
 \subsubsection{Routing Protocols}
-There exists many challenges when it comes to these types of networks. The routing protocols must be able to adapt quickly due to the topology changes. \fref{fig:adhocprotocols} shows the different groups of the ad hoc protocols that exist. The routing protocols must not cause excessive overhead. Under the category flat routing, there are two types of routing protocols; proactive and reactive. \textit{Proactive routing protocols} are table driven \citep{proactivereactive}. This means that every network node has a routing table for the forwarding of data. To obtain stability, each node broadcasts and modifies the routing table periodically. Proactive routing protocols are suitable when there are few nodes in the network. Because of the routing table that is periodically updated, the overhead exceeds the desired value when there are a high number of nodes in the network. In contrary to the proactive routing protocols, \textit{reactive routing protocols} are on demand. Since they are on demand, the overhead is significantly lower. These protocols utilizes flooding. The network is flooded with the route request (RREQ) in order to set up the route. The reactive routing protocols does not have a up-to-date routing table like proactive routing protocols \cite{proactivereactive}. Routes are only set up to nodes they communicate with. These routes are only kept alive while they are needed  \cite{adhoc2}. As shown in \fref{fig:adhocprotocols}, there are several different protocols under proactive and reactive. 
+There exists many challenges when it comes to these types of networks. The routing protocols must be able to adapt quickly due to the topology changes. \fref{fig:adhocprotocols} shows the different groups of the ad hoc protocols that exist. The routing protocols must not cause excessive overhead. Under the category flat routing, there are two types of routing protocols; proactive and reactive. \textit{Proactive routing protocols} (e.g. OLSR) are table driven \citep{proactivereactive}. This means that every network node has a routing table for the forwarding of data. To obtain stability, each node broadcasts and modifies the routing table periodically. Proactive routing protocols are suitable when there are few nodes in the network. Because of the routing table that is periodically updated, the overhead exceeds the desired value when there are a high number of nodes in the network. In contrary to the proactive routing protocols, \textit{reactive routing protocols} (e.g. AODV) are on demand. Since they are on demand, the overhead is significantly lower. These protocols utilizes flooding. The network is flooded with the route request (RREQ) in order to set up the route. The reactive routing protocols does not have a up-to-date routing table like proactive routing protocols \cite{proactivereactive}. Routes are only set up to nodes they communicate with, and these routes are only kept alive while they are needed  \cite{adhoc2}. As shown in \fref{fig:adhocprotocols}, there are several different protocols under proactive and reactive. 
 
 \paragraph{B.A.T.M.A.N}
-Better Approach To Mobile Adhoc Networking (B.A.T.M.A.N) is the routing protocol utilized in the networks formed by the Mesh Potatoes. B.A.T.M.A.N is a proactive routing protocol for wireless ad hoc networks. This includes MANETs \cite{batman}. Information about the nodes that are accessible via single-hop or multi-hop are maintained in a proactively manner. 
+Better Approach To Mobile Adhoc Networking (B.A.T.M.A.N) is the routing protocol utilized in the networks formed by the Mesh Potatoes. B.A.T.M.A.N is a proactive routing protocol for wireless ad hoc networks. This includes MANETs \cite{batman}. This protocol was developed as an alternative to OLSR (Optimized Link State Routing) \cite{batman2}. Like mentioned before, routing protocols must be able to adapt quickly to topology changes. B.A.T.M.A.N was made to be a more efficient routing protocol in this area. 
+
+Information about the nodes that are accessible via single-hop or multi-hop are maintained and updated. 
 
 
 %Eksempel på nettverk
