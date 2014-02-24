@@ -13,6 +13,11 @@ Warning--entry type for "MPorigin" isn't style-file defined
 --line 38 of file references.bib
 Warning--entry type for "batman2" isn't style-file defined
 --line 52 of file references.bib
+<<<<<<< HEAD
+=======
+Warning--entry type for "MPworkshop" isn't style-file defined
+--line 66 of file references.bib
+>>>>>>> 608f1764a62aa47c12bb5fd2932700d61654d3a6
 Warning--empty journal in adhoc2
 Warning--empty journal in batman
-(There were 6 warnings)
+(There were 7 warnings)

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.16)  24 FEB 2014 17:07
+=======
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.16)  24 FEB 2014 16:33
+>>>>>>> 608f1764a62aa47c12bb5fd2932700d61654d3a6
 entering extended mode
 **main.tex
 ("C:\Users\Ida Malene\Masteroppgave\Report\main.tex"
@@ -1704,7 +1708,11 @@ No file main.acr.
 
 
 ]
+<<<<<<< HEAD
 <./figs/MP01.jpg, id=207, 752.8125pt x 602.25pt>
+=======
+<./figs/MP01.jpg, id=204, 752.8125pt x 602.25pt>
+>>>>>>> 608f1764a62aa47c12bb5fd2932700d61654d3a6
 File: ./figs/MP01.jpg Graphic file (type jpg)
  <use ./figs/MP01.jpg>
 Package pdftex.def Info: ./figs/MP01.jpg used on input line 18.
@@ -1713,6 +1721,7 @@ Package pdftex.def Info: ./figs/MP01.jpg used on input line 18.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+<<<<<<< HEAD
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1721,6 +1730,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: ./figs/adhoc.png Graphic file (type png)
  <use ./figs/adhoc.png>
 Package pdftex.def Info: ./figs/adhoc.png used on input line 49.
+=======
+[3] <./figs/adhoc.png, id=214, 339.51843pt x 176.15813pt>
+File: ./figs/adhoc.png Graphic file (type png)
+
+<use ./figs/adhoc.png>
+Package pdftex.def Info: ./figs/adhoc.png used on input line 50.
+>>>>>>> 608f1764a62aa47c12bb5fd2932700d61654d3a6
 (pdftex.def)             Requested size: 291.20111pt x 151.0952pt.
 
 
@@ -1731,6 +1747,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
+<<<<<<< HEAD
 l.55 
       <C:/Users/Ida Malene/Masteroppgave/Report/figs/MP01.jpg>]
 <./figs/adhocprotocols.png, id=232, 1014.79124pt x 360.59718pt>
@@ -1738,12 +1755,22 @@ File: ./figs/adhocprotocols.png Graphic file (type png)
 
 <use ./figs/adhocprotocols.png>
 Package pdftex.def Info: ./figs/adhocprotocols.png used on input line 58.
+=======
+l.56 
+      <C:/Users/Esther/Masteroppgave/Report/figs/MP01.jpg>]
+<./figs/adhocprotocols.png, id=229, 1014.79124pt x 360.59718pt>
+File: ./figs/adhocprotocols.png Graphic file (type png)
+
+<use ./figs/adhocprotocols.png>
+Package pdftex.def Info: ./figs/adhocprotocols.png used on input line 59.
+>>>>>>> 608f1764a62aa47c12bb5fd2932700d61654d3a6
 (pdftex.def)             Requested size: 364.0pt x 129.34169pt.
  [5pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
+<<<<<<< HEAD
 l.66 
      pdfTeX warning (ext4): destination with the same identifier (name{figure.2
 .3}) has been already used, duplicate ignored
@@ -1781,13 +1808,26 @@ Overfull \vbox (12.0pt too high) has occurred while \output is active []
 
 
 ]
+=======
+l.67 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.2
+.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.67 
+      <C:/Users/Esther/Masteroppgave/Report/figs/adhoc.png> <C:/Users/Esther/Ma
+steroppgave/Report/figs/adhocprotocols.png>]) [6]
+(C:\Users\Esther\Masteroppgave\Report\main.bbl
+>>>>>>> 608f1764a62aa47c12bb5fd2932700d61654d3a6
 bibitemlist
 
-Underfull \hbox (badness 6188) in paragraph at lines 17--20
+Underfull \hbox (badness 6188) in paragraph at lines 22--25
 []\T1/lmr/m/n/10 (+20) V. Telco, ``Mesh potato,'' 2013.  http://store.villagete
 lco.com/mesh-
  []
 
+<<<<<<< HEAD
 
 Underfull \hbox (badness 10000) in paragraph at lines 39--44
 []\T1/lmr/m/n/10 (+20) Freie Uni-ver-sität Berlin, ``Bet-ter ap-proach to mo-bi
@@ -1801,13 +1841,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--44
  []
 
 )
+=======
+>>>>>>> 608f1764a62aa47c12bb5fd2932700d61654d3a6
 
-Class memoir Warning: The material used in the headers is too large
-(24.0pt) for the given head height (12.0pt), it is recommended to
-either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 103.
+Underfull \hbox (badness 10000) in paragraph at lines 44--48
+[]\T1/lmr/m/n/10 (+20) F. U. Berlin, ``Bet-ter ap-proach to mo-bile ad hoc net-
 
+<<<<<<< HEAD
 [9]
+=======
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--48
+\T1/lmr/m/n/10 (+20) work-ing (b.a.t.m.a.n.).''  [][]$http : / / www . des-[]te
+stbed . net / content /$
+ []
+
+) [7
+
+
+]
+>>>>>>> 608f1764a62aa47c12bb5fd2932700d61654d3a6
 \tf@toc=\write8
 \tf@lof=\write9
 \tf@lot=\write10
@@ -1830,6 +1885,7 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 103.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  20734 strings out of 493921
  300794 string characters out of 3147267
  535215 words of memory out of 3000000
@@ -1850,4 +1906,26 @@ PDF statistics:
  328 PDF objects out of 1000 (max. 8388607)
  63 named destinations out of 1000 (max. 500000)
  19122 words of extra memory for PDF output out of 20736 (max. 10000000)
+=======
+ 20724 strings out of 493921
+ 302225 string characters out of 3144873
+ 535150 words of memory out of 3000000
+ 23434 multiletter control sequences out of 15000+200000
+ 80715 words of font info for 99 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 58i,12n,45p,1647b,412s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
+public/lm/lmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr
+i10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
+Output written on main.pdf (25 pages, 443987 bytes).
+PDF statistics:
+ 313 PDF objects out of 1000 (max. 8388607)
+ 61 named destinations out of 1000 (max. 500000)
+ 19117 words of extra memory for PDF output out of 20736 (max. 10000000)
+>>>>>>> 608f1764a62aa47c12bb5fd2932700d61654d3a6
 
