@@ -1,8 +1,15 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{adhoc}
 X.~Hong, K.~Xu, and M.~Gerla, ``Scalable routing protocols for mobile ad hoc
   networks,'' {\em IEEE}, 2002.
+
+\bibitem{batman2}
+{Freie Universität Berlin}, ``Better approach to mobile ad hoc networking
+  (b.a.t.m.a.n.).''
+\newblock
+  \url{http://www.des-testbed.net/content/better-approach-mobile-ad-hoc-networking-batman},
+  accessed 24.02.2014.
 
 \bibitem{MPworkshop}
 V.~Telco, ``Village telco workshop,'' 2008.
@@ -23,6 +30,10 @@ V.~Telco, ``Mesh potato,'' 2013.
 \newblock {http://store.villagetelco.com/mesh-potatoes/mesh-potato.html}, last
   accessed 20.02.2014.
 
+\bibitem{MPbyRowe}
+D.~Rowe, ``The mesh potato part 1,'' 2008.
+\newblock \url{http://www.rowetel.com/blog/?p=70}, accessed 26.02.2014.
+
 \bibitem{adhoc2}
 J.~Hoebeke, I.~Moerman, B.~Dhoedt, and P.~Demeester, ``An overview of mobile ad
   hoc networks: Applications and challenges,'' 2004.
@@ -39,16 +50,5 @@ A.~Neumann, C.~Aichele, M.~Lindner, and S.~Wunderlich, ``Better approach to
 \newblock
   \url{http://tools.ietf.org/html/draft-wunderlich-openmesh-manet-routing-00},
   accessed 21.02.2014.
-
-\bibitem{batman2}
-<<<<<<< HEAD
-{Freie Universität Berlin}, ``Better approach to mobile ad hoc networking
-  (b.a.t.m.a.n.).''
-=======
-F.~U. Berlin, ``Better approach to mobile ad hoc networking (b.a.t.m.a.n.).''
->>>>>>> 608f1764a62aa47c12bb5fd2932700d61654d3a6
-\newblock
-  \url{http://www.des-testbed.net/content/better-approach-mobile-ad-hoc-networking-batman},
-  accessed 24.02.2014.
 
 \end{thebibliography}
