@@ -81,7 +81,7 @@ The address and the sequence number enables identification of a packet and dupli
   \centering
     \includegraphics[width=0.8\textwidth]{batman.png}
      \caption{SKRIVE NOE HER \cite{batman2}.}
-\label{fig:batman}
+\label{fig:batman} 
 \end{figure}
 
 
@@ -91,12 +91,15 @@ Information about the nodes that are accessible via single-hop or multi-hop are 
   \item[Originator Address] \hfill \\
   This is the source address of the node that sent the OGM.
   \item[Current Sequence Number] \hfill \\
-  The sequence number of the last OGM. This is used to discover if there are any duplicates or outdated information. 
+  The sequence number of the last OGM. This is used to discover if there are any duplicates or any information that is outdated.
   \item[Sliding Window] \hfill \\
-  FYLL UT HER \ldots
+  A list of sequence numbers that is stored for each originator and each previous hop, i.e., for the neighbour node that forwarded or originated the OGM. 
+ 
+  
+%The sliding windows are used to determine the best next hop for each destination
 \end{description}
 
-
+When a node receives an OGM it will decrease the TTL, and then forward it to the neighbour nodes. The same OGM can arrive to a node, but from a different paths. In this case, only the first copy is preserved. 
 
 %Eksempel på nettverk
 
