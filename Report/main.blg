@@ -15,12 +15,12 @@ Warning--entry type for "batman2" isn't style-file defined
 --line 52 of file references.bib
 Warning--entry type for "MPworkshop" isn't style-file defined
 --line 66 of file references.bib
-<<<<<<< HEAD
 Warning--entry type for "MPbyRowe" isn't style-file defined
-=======
+--line 73 of file references.bib
+Warning--entry type for "MParticle" isn't style-file defined
+--line 80 of file references.bib
 Warning--entry type for "spud" isn't style-file defined
->>>>>>> accd1a4bf4754ca6b08bc2e818d5a2298dca06a4
---line 74 of file references.bib
+--line 88 of file references.bib
 Warning--empty journal in adhoc2
 Warning--empty journal in batman
-(There were 8 warnings)
+(There were 10 warnings)

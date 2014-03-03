@@ -50,19 +50,17 @@ Difference between MP01 and MP02?
 \label{fig:adhoc}
 \end{figure}
 
-\subsubsection{MANETs} Mobile ad hoc networks (MANETs) are networks that does not rely on an underlying and fixed infrastructure (access points and routers), in other words infrastructureless. MANETs acts in a shared wireless media \cite{adhoc}. The structure of these networks change dynamically, and key factors for MANETs is self-configuration, self-organization, self-discovering, and self-healing \cite{wmn}. The members of the network are mobile and are free to join or leave the network \cite{adhoc2}, and therefore these factors are important. MANETs are based on multi-hop forwarding. This means that each node acts not only as a host, but also as a router. The nodes themselves establishes and maintain routes, and forward packets to other nodes if necessary. This enables communication between nodes that are originally not within each other's send range \cite{adhoc2}. Because of these characteristics MANETs is suited for use in situations where there are no fixed underlying infrastructure. MANETs can operate as a stand-alone solution, but it can also be attached to the Internet. This makes room for numerous of services. 
+\subsubsection{MANETs} Mobile ad hoc networks (MANETs) are networks that does not rely on an underlying and fixed infrastructure (access points and routers), in other words infrastructureless. MANETs acts in a shared wireless media \cite{adhoc}. The structure of these networks change dynamically, and key factors for MANETs is self-configuration, self-organization, self-discovery, and self-healing \cite{wmn}. The members of the network are mobile and are free to join or leave the network \cite{adhoc2}, and therefore these factors are important. MANETs are based on multi-hop forwarding. This means that each node acts not only as a host, but also as a router. The nodes themselves establishes and maintain routes, and forward packets to other nodes if necessary. This enables communication between nodes that are originally not within each other's send range \cite{adhoc2}. Because of these characteristics MANETs is suited for use in situations where there are no fixed underlying infrastructure. MANETs can operate as a stand-alone solution, but it can also be attached to the Internet. This makes room for numerous of services. 
 
 \begin{figure}[h!]
   \centering
     \includegraphics[width=0.8\textwidth]{wmn.png}
      \caption [Example of a Wireless Mesh Network]{\textbf{Example of a Wireless Mesh Network}. This figure illustrates the architecture of a typical WMN \cite{wmn}.}
-\label{fig:wmr}
+\label{fig:wmn}
 \end{figure}
 
 \subsubsection{Wireless Mesh Networks}
-A wireless mesh network (WMN) is a type of MANET \cite{wmn}. A WMN has as objective to serve a larger number of users with high bandwidth access. As mentioned before, MANETs are infrastructureless and they are self-configuring, self-organizing, self-healing and self-discovering. WMNs share all these characteristics, except from the infrastructure part. WMNs, on the contrary to MANETs, are often a collection of routers called mesh routers (MRs). These MRs are usually stationary. The MRs can be employed for different use. One MR could for example be connected via cable to Internet, and then become a Internet gateway. Then this MR can provide Internet connectivity to the other MRs in the mesh network. A wireless mesh network consists of two parts; the backbone of the mesh (the MRs) and the clients of the mesh. An example of a WMN architecture is shown in \fref{fig:wmn}. 
-
-%Compared to pure MANETs, a WMN has a hierarchical structure and the topology of the wireless backbone is relatively stable. 
+A wireless mesh network (WMN) is a type of MANET \cite{wmn}. A WMN has as objective to serve a larger number of users with high bandwidth access. As mentioned before, MANETs are infrastructureless and they are self-configuring, self-organizing, self-healing and self-discovering. WMNs share all these characteristics, except from the infrastructure part. WMNs, on the contrary to MANETs, are often a collection of routers called mesh routers (MRs). These MRs are usually stationary. The MRs can be employed for different use. One MR could for example be connected via cable to Internet, and then become a Internet gateway. Then this MR can provide Internet connectivity to the other MRs in the mesh network. A wireless mesh network consists of two parts \cite{wmn}; the backbone of the mesh (the MRs) and the clients of the mesh. An example of a WMN architecture is shown in \fref{fig:wmn}. 
 
 
 \subsubsection{Routing Protocols}
@@ -78,7 +76,7 @@ There exists many challenges when it comes to routing protocols in ad hoc networ
 
 
 \paragraph{B.A.T.M.A.N}
-Better Approach To Mobile Adhoc Networking (B.A.T.M.A.N) is the routing protocol utilized in the networks formed by the Mesh Potatoes. B.A.T.M.A.N is a proactive routing protocol for wireless ad hoc networks. This includes MANETs \cite{batman}. This protocol was developed as an alternative to OLSR (Optimized Link State Routing) \cite{batman2}. Like mentioned before, routing protocols must be able to adapt quickly to topology changes. B.A.T.M.A.N was made to be a more efficient routing protocol in this area, since it employs a new method for discovering routes. The nodes in the network broadcasts a OGM periodically. A OGM is a Originator Message which contains: 
+Better Approach To Mobile Adhoc Networking (B.A.T.M.A.N) is the routing protocol utilized in the networks formed by the Mesh Potatoes. B.A.T.M.A.N is a proactive routing protocol for wireless ad hoc networks. This includes MANETs \cite{batman}. This protocol was developed as an alternative to OLSR (Optimized Link State Routing) \cite{batman2}. Like mentioned before, routing protocols must be able to adapt quickly to topology changes. B.A.T.M.A.N was made to be a more efficient routing protocol in this area, since it employs a new method for discovering routes. The nodes in the network broadcasts a OGM periodically, like shown in \fref{fig:batman}. A OGM is a Originator Message which contains: 
 
 \begin{itemize}
 \item The address of the node
@@ -91,7 +89,7 @@ The address and the sequence number enables identification of a packet and dupli
 \begin{figure}[h!]
   \centering
     \includegraphics[width=0.8\textwidth]{batman.png}
-     \caption{SKRIVE NOE HER \cite{batman2}.}
+     \caption{Originator Message used in B.A.T.M.A.N \cite{batman2}.}
 \label{fig:batman} 
 \end{figure}
 
@@ -109,7 +107,7 @@ Information about the nodes that are accessible via single-hop or multi-hop are 
 
 When a node receives an OGM it will decrease the TTL, and then forward it to the neighbour nodes. The same OGM can arrive to a node, but from a different paths. In this case, only the first copy is preserved. 
 
-\subsubsection{R.O.B.I.N}
+\subsubsection{R.O.B.IN}
 Her skal vi skrive om ROBIN
 
 %Eksempel på nettverk
@@ -117,9 +115,10 @@ Her skal vi skrive om ROBIN
 Simple Unified Dashboard (SPUD) for mesh networks is a tool for visualization made for B.A.T.M.A.N mesh networks, and for the users of the networks \cite{spud}. The Simple Unified Dashboard is, like the name insinuates, a dashboard based on PHP which is designed to be simple. It communicates with the B.A.T.M.A.N visualization server. The dashboard makes it possible to monitor the link status of the networks, by displaying real time wireless link status. Other features are client management and customization. The software is written in CakePHP and for visualization SPUD uses Google Maps API 1.3 \cite{spud}.
 
 
-
-
 \subsection{OpenWrt}
+OS for routers
+extensible, modifiable
+
 
 \section{The Cost Structure and Revenue Model(s) of Village Telco Today}
 

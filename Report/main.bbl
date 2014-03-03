@@ -11,6 +11,12 @@ X.~Hong, K.~Xu, and M.~Gerla, ``Scalable routing protocols for mobile ad hoc
   \url{http://www.des-testbed.net/content/better-approach-mobile-ad-hoc-networking-batman},
   accessed 24.02.2014.
 
+\bibitem{MParticle}
+J.~Dempsey, ``The mesh potato network,'' 2008.
+\newblock
+  \url{http://ictupdate.cta.int/en/Feature-Articles/The-mesh-potato-network},
+  accessed 26.02.2014.
+
 \bibitem{MPworkshop}
 V.~Telco, ``Village telco workshop,'' 2008.
 \newblock \url{http://villagetelco.org/2008/07/village-telco-workshop/}, last
@@ -56,13 +62,10 @@ A.~Neumann, C.~Aichele, M.~Lindner, and S.~Wunderlich, ``Better approach to
   \url{http://tools.ietf.org/html/draft-wunderlich-openmesh-manet-routing-00},
   accessed 21.02.2014.
 
-<<<<<<< HEAD
-=======
 \bibitem{spud}
 V.~Telco, ``Spud – simple unified dashboard for mesh networks.''
 \newblock
   \url{http://villagetelco.org/2011/06/spud-simple-unified-dashboard-for-mesh-networks/},
   accessed 26.02.2014.
 
->>>>>>> accd1a4bf4754ca6b08bc2e818d5a2298dca06a4
 \end{thebibliography}
