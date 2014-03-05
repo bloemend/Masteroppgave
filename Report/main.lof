@@ -5,9 +5,16 @@
 \addvspace {10pt}
 \addvspace {10pt}
 \contentsline {figure}{\numberline {2.1}{\ignorespaces The Mesh Potato}}{4}{figure.2.1}
+<<<<<<< HEAD
 \contentsline {figure}{\numberline {2.2}{\ignorespaces MP2}}{5}{figure.2.2}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces MP2}}{5}{figure.2.3}
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Cellular network vs. MANET}}{6}{figure.2.4}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Example of a Wireless Mesh Network}}{7}{figure.2.5}
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Different groups of ad hoc routing protocols \cite {adhoc}.}}{8}{figure.2.6}
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Originator Message used in B.A.T.M.A.N \cite {batman2}.}}{9}{figure.2.7}
+=======
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Cellular network vs. MANET}}{5}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Example of a Wireless Mesh Network}}{6}{figure.2.3}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Ad Hoc Routing Protocols}}{7}{figure.2.4}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Originator Message in B.A.T.M.A.N}}{8}{figure.2.5}
+>>>>>>> 0ffebae78a29ec1dbc06db554ff1531afc0f44cc
