@@ -8,11 +8,15 @@
 \BOOKMARK [1][-]{section.1.4}{Limitations}{chapter.1}% 8
 \BOOKMARK [0][-]{chapter.2}{Background}{}% 9
 \BOOKMARK [1][-]{section.2.1}{Village Telco}{chapter.2}% 10
-\BOOKMARK [1][-]{section.2.2}{Mesh Potato}{chapter.2}% 11
-\BOOKMARK [2][-]{subsection.2.2.1}{Ad Hoc Networks and Mesh Networks}{section.2.2}% 12
-\BOOKMARK [2][-]{subsection.2.2.2}{OpenWrt}{section.2.2}% 13
-\BOOKMARK [1][-]{section.2.3}{The Cost Structure and Revenue Model\(s\) of Village Telco Today}{chapter.2}% 14
-\BOOKMARK [1][-]{section.2.4}{Comparison of Village Telco and Other Telcos}{chapter.2}% 15
-\BOOKMARK [1][-]{section.2.5}{Refugee Camps}{chapter.2}% 16
-\BOOKMARK [2][-]{subsection.2.5.1}{The Existing Communication Methods}{section.2.5}% 17
-\BOOKMARK [0][-]{section*.13}{References}{}% 18
+\BOOKMARK [1][-]{section.2.2}{Relevant Technologies}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.1}{Mobile Ad Hoc Networks}{section.2.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.2}{Wireless Mesh Networks}{section.2.2}% 13
+\BOOKMARK [2][-]{subsection.2.2.3}{Routing Protocols}{section.2.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.4}{B.A.T.M.A.N}{section.2.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.5}{OpenWrt}{section.2.2}% 16
+\BOOKMARK [1][-]{section.2.3}{Mesh Potato}{chapter.2}% 17
+\BOOKMARK [1][-]{section.2.4}{The Cost Structure and Revenue Model\(s\) of Village Telco Today}{chapter.2}% 18
+\BOOKMARK [1][-]{section.2.5}{Comparison of Village Telco and Other Telcos}{chapter.2}% 19
+\BOOKMARK [1][-]{section.2.6}{Refugee Camps}{chapter.2}% 20
+\BOOKMARK [2][-]{subsection.2.6.1}{The Existing Communication Methods}{section.2.6}% 21
+\BOOKMARK [0][-]{section*.10}{References}{}% 22

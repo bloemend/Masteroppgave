@@ -4,95 +4,44 @@
 \section{Village Telco}
 %How did it all start?
 
-\section{Mesh Potato}
-%Generelt om MP
+\section{Relevant Technologies}
+In this section we will go through some of the most relevant technologies used to develop and run the Mesh Potatoes. In order to understand how the Mesh Potato work, it is important to have a certain knowledge about the underlying technology. 
 
-% hvordan MPen fikk navnet. 
+\subsection{Mobile Ad Hoc Networks}
 
-
-%MP01
-The whole concept around the Mesh Potato was developed in June 2008 during a workshop at the Shuttleworth Foundation. The main goal was to figure out how to develop an inexpensive system to provide rural and under-served areas with affordable telephone communication \cite{MParticle}. The workshop included, among others, participants like open hardware pioneer Dawid Rowe and Elektra, the developer of the B.A.T.M.A.N. mesh networking protocol \cite{MPworkshop}. The aim of the workshop was to develop a business model as well as a prototype for a Village Telco. Initially the idea was to use low cost VoIP headsets. At that time it was the most viable and convenient way to deliver telephone services to the customers. With a VoIP telephone services the nodes can not be more than 100 meters away from each other, requiring more nodes in order to cover the desirable area. Which again would drastically increase the start-up costs for a village. In order to keep the cost down, it was also important to keep the number of access points down. A mesh network have a larger range, and one suggestion was to use a small mesh device like an Open Mesh AP and connect a SIP phone to it. This solution would solve a lot of the problems regarding range, antenna and number of access points, but the idea was still an expensive option. The challenge was to create something that would be simple enough to be implemented and scaled by local entrepreneurs with limited technical skills. As well as keeping the cost down. The two key cost factors that emerged in the scale-up of a Village Telco were the cost of the customer's phone and the power supply. It was clear that the the power supply was the most important factor, and that they had to look at other, and cheaper options regardig the customers phones \cite{MPworkshop}. During the debating, Rael Lissoos took a Analogue Telephone Adapter (ATA) and an Open Mesh AP, held them together and said that we need these two devices in one. These small OpenMesh devices are able to run an adapted version of the B.A.T.M.A.N. protocol, called RO.B.IN (Routing Batman Inside). This point was the birth of the Mesh Potato, fully based on customized open hardware and open software design. The name comes from combining the words mesh, POTS (Plain Old Telephone) and ATA. "Patata" is the Spanish word for potato, and hence the name Mesh Potato. A mesh enabled WiFi device with the possibility to connect any inexpensive regular phone and IP device. \cite{MPorigin}
-
-\begin{figure}[h!]
-  \centering
-      \includegraphics[width=0.5\textwidth]{MP01}
-  \caption [The Mesh Potato]{\textbf{The fist generation Mesh Potato, MP01}}
-  \label{fig:MP01}
-\end{figure}
-
-The First generation of the Mesh Potato is shown in \fref{fig:MP01}. This device is designed to be used in rural areas. It can be deployed and run anywhere in the world relying only on a low, but stable, power supply. The Ethernet port, Foreign eXchange Station (FXS) ports and power are robust and designed in order to handle all weather conditions, poor power conditions, lightening and static electricity. In addition the Mesh Potato comes in a waterproof box for outdoor mounting \cite{background}.
-
-The Mesh Potato combines the features of a 802.11bg WiFi router with an Analog telephone Adaptor (ATA) \cite{MP}. The ATA converts the signal from a standard telephone, into the digital signal needed to connect to the internet and use the SIP protocol \cite{MParticle}. The device is based on the Atheros chipset that is used, among others, by OpenMesh, and would run OpenWRT and B.A.T.M.A.N. Each Mesh Potato provides a single fixed telephone line to the end user. The MPs are connected together via a mesh WiFi network, and configure themselves automatically to form a peer-to-peer network, greatly extending the range of the network over regular WiFi. Enabling phone calls to be made independent of landlines and telephone towers. Creating the basis for the "plug-and-play" solution. 
-
-As mentioned the Mesh Potato is open, based on open hardware as well as open software design. Everything is kept open in order for any third party to test, set standards, and come with feedback. Some of the key goals while developing was to minimize the binarly bolbs, a closed source binary only driver that has no publicly available source code \cite{binaryBolb}, closed software and make the hardware open. 
-
-The Mesh network can be connected via a backbone link to the rest of the world by using VoIP gateways. No cell phone towers, no land lines, and no big telcos required. A Village Telco is a community owned telephony, allowing a local entrepreneur to roll out the Village Telco system only needing a server and the wanted amount of Mesh Potatoes. The mesh network is self healing and self organizing, meaning if one node goes down, B.A.T.M.A.N. routes the calls through other available nodes in the network \cite{MPbyRowe}. In order to provide internet access a super node have to be placed in connection with an internet connection. The internet signal enters the server in the Village Telco, this could for example be an existing internet café, with a broadband, link or satellite connection. The signal is transmitted to the super node. The super node consists of three external access points, and is placed high over ground, giving a 360 degree coverage, with approximately 1 km range. The Internet signal is then carried through the network from one MP to another. 
-
-
-\subsubsection{Mesh Potato 2.0}
-The fist generation of the Mesh Potato has sold over 2500 copies, and are deployed all over the world. In order to keep up with time, the constant technical development and demand from the users, a new version of the Mesh Potato was highly requested. The second generation became available to users August 2013. This device comes in a smaller box as shown in \fref{fig:MP02}, and is sold to half the price as the fist generation. One of the biggest differences is that the second generation has two Ethernet ports and is built on a new, and faster, chipset. As well as operating on new firmware.
-
-\begin{figure}[h!]
-  \centering
-      \includegraphics[width=0.5\textwidth]{mp2.PNG}
-  \caption [MP2]{\textbf{The second generation Mesh Potato, MP2}}
-  \label{fig:MP02}
-\end{figure}
-
-\subsubsection{Difference between MP01 and MP02?}
-
-
-
-\subsubsection{Mesh network}
-\begin{figure}[h!]
-  \centering
-      \includegraphics[width=0.5\textwidth]{network1}
-  \caption [MP2]{\textbf{simple network}}
-  \label{fig:network}
-\end{figure}
-
-An example of how to set up a simple network is shown in \fref{fig:network}. The network consists of two regular telephones connected to each their Mesh Potato. The MP devices has been assigned static IP addresses, these addresses are not part of the LAN address space. 
-The IP addresses are allocated in a predefines default address space 10.130.1.xxx. To administrate the MP devices one can use a workstation assigned a static address within the same address space as the MP devices, and attached with an Ethernet cable or WiFi to any MP in the network. Phone calls may be done between the Mesh Potatoes by dialling the last octet or the whole IP address. See tile user guide in Apendix for a more detailed description of how to set up the Mesh Potatoes and how different networks can be built. 
-
-
-
-
-
-\subsection{Ad Hoc Networks and Mesh Networks}
-
-\begin{figure}[h!]
+\begin{figure}[b]
   \centering
     \includegraphics[width=0.8\textwidth]{adhoc.png}
      \caption [Cellular network vs. MANET]{\textbf{Cellular network vs. MANET}. This figure illustrates the difference between a regular cellular network and a mobile ad hoc network \cite{adhoc2}.}
 \label{fig:adhoc}
 \end{figure}
 
-\subsubsection{MANETs} Mobile ad hoc networks (MANETs) are networks that does not rely on an underlying and fixed infrastructure (access points and routers), in other words infrastructureless. MANETs acts in a shared wireless media \cite{adhoc}. The structure of these networks change dynamically, and key factors for MANETs is self-configuration, self-organization, self-discovery, and self-healing \cite{wmn}. The members of the network are mobile and are free to join or leave the network at any time \cite{adhoc2}, and therefore these factors are important. MANETs are based on multi-hop forwarding. This means that each node acts not only as a host, but also as a router. The nodes themselves establishes and maintain routes, and forward packets to other nodes if necessary. This enables communication between nodes that are originally not within each other's send range \cite{adhoc2}. Because of these characteristics MANETs are suited for use in situations where there are no fixed underlying infrastructure. A MANET can operate as a stand-alone solution, but can also be attached to the Internet. This makes room for numerous of services. 
+Mobile ad hoc networks (MANETs) are networks that does not rely on an underlying and fixed infrastructure (access points and routers), in other words infrastructureless. MANETs acts in a shared wireless media \cite{adhoc}. The structure of these networks change dynamically, and key factors for MANETs is self-configuration, self-organization, self-discovery, and self-healing \cite{wmn}. The members of the network are mobile and are free to join or leave the network at any time \cite{adhoc2}, and therefore these factors are important. MANETs are based on multi-hop forwarding. This means that each node acts not only as a host, but also as a router. The nodes themselves establishes and maintain routes, and forward packets to other nodes if necessary. This enables communication between nodes that are originally not within each other's send range \cite{adhoc2}. Because of these characteristics MANETs are suited for use in situations where there are no fixed underlying infrastructure. A MANET can operate as a stand-alone solution, but can also be attached to the Internet. This makes room for numerous of services. 
 
-\begin{figure}[h!]
+\begin{figure}[b]
   \centering
     \includegraphics[width=0.8\textwidth]{wmn.png}
      \caption [Example of a Wireless Mesh Network]{\textbf{Example of a Wireless Mesh Network}. This figure illustrates the architecture of a typical WMN \cite{wmn}.}
 \label{fig:wmn}
 \end{figure}
 
-\subsubsection{Wireless Mesh Networks}
+\subsection{Wireless Mesh Networks}
 A wireless mesh network (WMN) is a type of MANET \cite{wmn}. A WMN has as objective to serve a larger number of users with high bandwidth access. As mentioned before, MANETs are infrastructureless and they have self-configuration, self-organizing, self-healing and self-discovering. WMNs share all these characteristics, except from the infrastructure part. WMNs, on the contrary to MANETs, are often a collection of routers called mesh routers (MRs). These MRs are usually stationary. The MRs can be employed for different use. One MR could for example be connected via cable to Internet, and then become a Internet gateway. Then this MR can provide Internet connectivity to the other MRs in the mesh network. A wireless mesh network consists of two parts \cite{wmn}; the backbone of the mesh (the MRs) and the clients of the mesh. An example of a WMN architecture is shown in \fref{fig:wmn}. 
 
 
-\subsubsection{Routing Protocols}
+\subsection{Routing Protocols}
 There exists many challenges when it comes to routing protocols in ad hoc networks and mesh networks. The routing protocols must be able to adapt quickly due to the topology changes. \fref{fig:adhocprotocols} shows the different groups of the ad hoc protocols that exist. The routing protocols must not cause excessive overhead. Under the category flat routing, there are two types of routing protocols; proactive and reactive. \textit{Proactive routing protocols} (e.g. OLSR) are table driven \citep{proactivereactive}. This means that every network node has a routing table for the forwarding of data. To obtain stability, each node broadcasts and modifies the routing table periodically. Proactive routing protocols are suitable when there are few nodes in the network. Because of the routing table that is periodically updated, the overhead exceeds the desired value when there are a high number of nodes in the network. In contrary to the proactive routing protocols, \textit{reactive routing protocols} (e.g. AODV) are on demand. Since they are on demand, the overhead is significantly lower. These protocols utilizes flooding. The network is flooded with the route request (RREQ) in order to set up the route. The reactive routing protocols does not have a up-to-date routing table like proactive routing protocols \cite{proactivereactive}. Routes are only set up to nodes they communicate with, and these routes are only kept alive while they are needed  \cite{adhoc2}. As shown in \fref{fig:adhocprotocols}, there are several different protocols under proactive and reactive. 
 
 
-\begin{figure}[h!]
+\begin{figure}[t]
   \centering
     \includegraphics[width=1\textwidth]{adhocprotocols.png}
-     \caption[Ad Hoc Routing Protocols]{Different groups of ad hoc routing protocols \cite{adhoc}.}
+     \caption[Ad Hoc routing protocols]{\textbf{Different groups of ad hoc routing protocols \cite{adhoc}.}}
 \label{fig:adhocprotocols}
 \end{figure}
 
 
-\paragraph{B.A.T.M.A.N}
+\subsection{B.A.T.M.A.N}
 Better Approach To Mobile Adhoc Networking (B.A.T.M.A.N) is the routing protocol utilized in the networks formed by the Mesh Potatoes. B.A.T.M.A.N is a proactive routing protocol for wireless ad hoc networks. This includes MANETs \cite{batman}. This protocol was developed as an alternative to OLSR (Optimized Link State Routing) \cite{batman2}. Like mentioned before, routing protocols must be able to adapt quickly to topology changes. B.A.T.M.A.N was made to be a more efficient routing protocol in this area, since it employs a new method for discovering routes. The nodes in the network broadcasts a OGM periodically, like shown in \fref{fig:batman}. A OGM is a Originator Message which contains: 
 
 \begin{itemize}
@@ -103,10 +52,10 @@ Better Approach To Mobile Adhoc Networking (B.A.T.M.A.N) is the routing protocol
 
 The address and the sequence number enables identification of a packet and duplicate detection. 
 
-\begin{figure}[h!]
+\begin{figure}[b]
   \centering
     \includegraphics[width=0.8\textwidth]{batman.png}
-     \caption[Originator Message in B.A.T.M.A.N]{Originator Message used in B.A.T.M.A.N \cite{batman2}.}
+     \caption[Originator Message in B.A.T.M.A.N]{\textbf{Originator Message used in B.A.T.M.A.N \cite{batman2}.}}
 \label{fig:batman} 
 \end{figure}
 
@@ -135,6 +84,55 @@ Simple Unified Dashboard (SPUD) for mesh networks is a tool for visualization ma
 
 \subsection{OpenWrt}
 OpenWrt is an embedded open-source operating system for routers distributed by Linux \cite{openwrt}. It is extensible and can easily be modified to suit any application, since it offers a file system with a package manager. OpenWrt provides (1) Free and open-source, (2) Easy and free access, and are (3) Community Driven \cite{openwrt}. This means that the source code is free and available to everyone, and that everyone has the opportunity to contribute to it. 
+
+\section{Mesh Potato}
+
+The whole concept around the Mesh Potato was developed in June 2008 during a workshop at the Shuttleworth Foundation. The main goal was to figure out how to develop an inexpensive system to provide rural and under-served areas with affordable telephone communication \cite{MParticle}. The workshop included, among others, participants like open hardware pioneer Dawid Rowe and Elektra, the developer of the B.A.T.M.A.N. mesh networking protocol \cite{MPworkshop}. The aim of the workshop was to develop a business model as well as a prototype for a Village Telco. Initially the idea was to use low cost VoIP headsets. At that time it was the most viable and convenient way to deliver telephone services to the customers. With a VoIP telephone services the nodes can not be more than 100 meters away from each other, requiring more nodes in order to cover the desirable area. Which again would drastically increase the start-up costs for a village. In order to keep the cost down, it was also important to keep the number of access points down. A mesh network have a larger range, and one suggestion was to use a small mesh device like an Open Mesh AP and connect a SIP phone to it. This solution would solve a lot of the problems regarding range, antenna and number of access points, but the idea was still an expensive option. The challenge was to create something that would be simple enough to be implemented and scaled by local entrepreneurs with limited technical skills. As well as keeping the cost down. The two key cost factors that emerged in the scale-up of a Village Telco were the cost of the customer's phone and the power supply. It was clear that the the power supply was the most important factor, and that they had to look at other, and cheaper options regardig the customers phones \cite{MPworkshop}. During the debating, Rael Lissoos took a Analogue Telephone Adapter (ATA) and an Open Mesh AP, held them together and said that we need these two devices in one. These small OpenMesh devices are able to run an adapted version of the B.A.T.M.A.N. protocol, called RO.B.IN (Routing Batman Inside). This point was the birth of the Mesh Potato, fully based on customized open hardware and open software design. The name comes from combining the words mesh, POTS (Plain Old Telephone) and ATA. "Patata" is the Spanish word for potato, and hence the name Mesh Potato. A mesh enabled WiFi device with the possibility to connect any inexpensive regular phone and IP device. \cite{MPorigin}
+
+\begin{figure}[b]
+  \centering
+      \includegraphics[width=0.5\textwidth]{MP01}
+  \caption [MP01]{\textbf{The first generation Mesh Potato, MP01.}}
+  \label{fig:MP01}
+\end{figure}
+
+The First generation of the Mesh Potato is shown in \fref{fig:MP01}. This device is designed to be used in rural areas. It can be deployed and run anywhere in the world relying only on a low, but stable, power supply. The Ethernet port, Foreign eXchange Station (FXS) ports and power are robust and designed in order to handle all weather conditions, poor power conditions, lightening and static electricity. In addition the Mesh Potato comes in a waterproof box for outdoor mounting \cite{background}.
+
+The Mesh Potato combines the features of a 802.11bg WiFi router with an Analog telephone Adaptor (ATA) \cite{MP}. The ATA converts the signal from a standard telephone, into the digital signal needed to connect to the internet and use the SIP protocol \cite{MParticle}. The device is based on the Atheros chipset that is used, among others, by OpenMesh, and would run OpenWRT and B.A.T.M.A.N. Each Mesh Potato provides a single fixed telephone line to the end user. The MPs are connected together via a mesh WiFi network, and configure themselves automatically to form a peer-to-peer network, greatly extending the range of the network over regular WiFi. Enabling phone calls to be made independent of landlines and telephone towers. Creating the basis for the "plug-and-play" solution. 
+
+As mentioned the Mesh Potato is open, based on open hardware as well as open software design. Everything is kept open in order for any third party to test, set standards, and come with feedback. Some of the key goals while developing was to minimize the binarly bolbs, a closed source binary only driver that has no publicly available source code \cite{binaryBolb}, closed software and make the hardware open. 
+
+The Mesh network can be connected via a backbone link to the rest of the world by using VoIP gateways. No cell phone towers, no land lines, and no big telcos required. A Village Telco is a community owned telephony, allowing a local entrepreneur to roll out the Village Telco system only needing a server and the wanted amount of Mesh Potatoes. The mesh network is self healing and self organizing, meaning if one node goes down, B.A.T.M.A.N. routes the calls through other available nodes in the network \cite{MPbyRowe}. In order to provide internet access a super node have to be placed in connection with an internet connection. The internet signal enters the server in the Village Telco, this could for example be an existing internet café, with a broadband, link or satellite connection. The signal is transmitted to the super node. The super node consists of three external access points, and is placed high over ground, giving a 360 degree coverage, with approximately 1 km range. The Internet signal is then carried through the network from one MP to another. 
+
+
+\subsubsection{Mesh Potato 2.0}
+The fist generation of the Mesh Potato has sold over 2500 copies, and are deployed all over the world. In order to keep up with time, the constant technical development and demand from the users, a new version of the Mesh Potato was highly requested. The second generation became available to users August 2013. This device comes in a smaller box as shown in \fref{fig:MP02}, and is sold to half the price as the fist generation. One of the biggest differences is that the second generation has two Ethernet ports and is built on a new, and faster, chipset. As well as operating on new firmware.
+
+\begin{figure}[h!]
+  \centering
+      \includegraphics[width=0.5\textwidth]{mp2.PNG}
+  \caption [MP2]{\textbf{The second generation Mesh Potato, MP2.}}
+  \label{fig:MP02}
+\end{figure}
+
+\subsubsection{Difference between MP01 and MP02?}
+
+
+
+\subsubsection{Example Mesh network}
+\begin{figure}[b]
+  \centering
+      \includegraphics[width=1\textwidth]{network1}
+  \caption [Example of a simple mesh network]{\textbf{Simple mesh network.} This figure illustrates a simple mesh network with the use of Mesh Potatoes.}
+  \label{fig:network}
+\end{figure}
+
+An example of how to set up a simple network is shown in \fref{fig:network}. The network consists of two regular telephones connected to each their Mesh Potato. The MP devices has been assigned static IP addresses, these addresses are not part of the LAN address space. 
+The IP addresses are allocated in a predefines default address space 10.130.1.xxx. To administrate the MP devices one can use a workstation assigned a static address within the same address space as the MP devices, and attached with an Ethernet cable or WiFi to any MP in the network. Phone calls may be done between the Mesh Potatoes by dialling the last octet or the whole IP address. See the user guide in Appendix for a more detailed description of how to set up the Mesh Potatoes and how different networks can be built. 
+
+
+
+
 
 
 \section{The Cost Structure and Revenue Model(s) of Village Telco Today}

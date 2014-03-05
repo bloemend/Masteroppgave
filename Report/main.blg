@@ -23,13 +23,10 @@ Warning--entry type for "spud" isn't style-file defined
 --line 88 of file references.bib
 Warning--entry type for "openwrt" isn't style-file defined
 --line 105 of file references.bib
-<<<<<<< HEAD
 Warning--entry type for "binaryBolb" isn't style-file defined
 --line 112 of file references.bib
-=======
 Warning--entry type for "robin" isn't style-file defined
---line 111 of file references.bib
->>>>>>> 0ffebae78a29ec1dbc06db554ff1531afc0f44cc
+--line 119 of file references.bib
 Warning--empty journal in adhoc2
 Warning--empty journal in batman
-(There were 12 warnings)
+(There were 13 warnings)
