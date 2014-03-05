@@ -18,21 +18,21 @@ J.~Dempsey, ``The mesh potato network,'' 2008.
   accessed 26.02.2014.
 
 \bibitem{MPworkshop}
-V.~Telco, ``Village telco workshop,'' 2008.
+{Village Telco}, ``Village telco workshop,'' 2008.
 \newblock \url{http://villagetelco.org/2008/07/village-telco-workshop/}, last
   accessed 24.02.2014.
 
 \bibitem{MPorigin}
-V.~Telco, ``The origin of the mesh potato,'' Last edited: 2013.
+{Village Telco}, ``The origin of the mesh potato,'' Last edited: 2013.
 \newblock \url{http://villagetelco.org/2008/06/the-origin-of-the-mesh-potato/},
   accessed 21.02.2014.
 
 \bibitem{background}
-V.~Telco, ``Background village telco,'' Last edited: 2013.
+{Village Telco}, ``Background village telco,'' Last edited: 2013.
 \newblock \url{http://wiki.villagetelco.org/Background}, accessed 20.02.2014.
 
 \bibitem{MP}
-V.~Telco, ``Mesh potato,'' 2013.
+{Village Telco}, ``Mesh potato,'' 2013.
 \newblock {http://store.villagetelco.com/mesh-potatoes/mesh-potato.html}, last
   accessed 20.02.2014.
 
@@ -62,14 +62,18 @@ A.~Neumann, C.~Aichele, M.~Lindner, and S.~Wunderlich, ``Better approach to
   \url{http://tools.ietf.org/html/draft-wunderlich-openmesh-manet-routing-00},
   accessed 21.02.2014.
 
+\bibitem{robin}
+{P2P foundation}, ``Robin.''
+\newblock \url{http://p2pfoundation.net/ROBIN}, accessed 05.03.2014.
+
 \bibitem{spud}
-V.~Telco, ``Spud – simple unified dashboard for mesh networks.''
+{Village Telco}, ``Spud – simple unified dashboard for mesh networks.''
 \newblock
   \url{http://villagetelco.org/2011/06/spud-simple-unified-dashboard-for-mesh-networks/},
   accessed 26.02.2014.
 
 \bibitem{openwrt}
-O.~Wiki, ``About openwrt.''
+{OpenWrt Wiki}, ``About openwrt.''
 \newblock \url{http://wiki.openwrt.org/about/start}, accessed 03.03.2014.
 
 \end{thebibliography}
