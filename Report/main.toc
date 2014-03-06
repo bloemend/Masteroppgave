@@ -16,7 +16,7 @@
 \contentsline {subsection}{\numberline {2.2.1}Mobile Ad Hoc Networks}{3}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Wireless Mesh Networks}{4}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Routing Protocols}{5}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}B.A.T.M.A.N}{5}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.4}B.A.T.M.A.N}{6}{subsection.2.2.4}
 \contentsline {subsubsection}{RO.B.IN}{7}{section*.4}
 \contentsline {subsubsection}{Simple Unified Dashboard for mesh networks}{7}{section*.5}
 \contentsline {subsection}{\numberline {2.2.5}OpenWrt}{7}{subsection.2.2.5}
