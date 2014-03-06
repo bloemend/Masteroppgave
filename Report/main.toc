@@ -26,7 +26,11 @@
 \contentsline {subsubsection}{Example Mesh network}{10}{section*.8}
 \contentsline {section}{\numberline {2.4}The Cost Structure and Revenue Model(s) of Village Telco Today}{11}{section.2.4}
 \contentsline {section}{\numberline {2.5}Comparison of Village Telco and Other Telcos}{11}{section.2.5}
-\contentsline {section}{\numberline {2.6}Refugee Camps}{11}{section.2.6}
-\contentsline {subsection}{\numberline {2.6.1}The Existing Communication Methods}{11}{subsection.2.6.1}
-\contentsline {chapter}{References}{13}{section*.10}
+\contentsline {chapter}{\chapternumberline {3}Refugee Camps}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}Refugee Camps}{13}{section.3.1}
+\contentsline {section}{\numberline {3.2}Dadaab Refugee Camp}{13}{section.3.2}
+\contentsline {section}{\numberline {3.3}Challenges}{13}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}General Challenges}{13}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Communication Challenges}{13}{subsection.3.3.2}
+\contentsline {chapter}{References}{15}{section*.10}
  \vspace {1em} \noindent \bfseries Appendices\par \vspace {-.5em} 

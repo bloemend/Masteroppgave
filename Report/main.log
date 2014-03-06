@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.16)  5 MAR 2014 14:48
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.16)  6 MAR 2014 09:55
 entering extended mode
 **main.tex
 ("C:\Users\Ida Malene\Masteroppgave\Report\main.tex"
@@ -1551,7 +1551,8 @@ Package glossaries Info: Writing glossary file main.acn on input line 22.
 ("C:\Users\Ida Malene\Masteroppgave\Report\abstract.aux")
 ("C:\Users\Ida Malene\Masteroppgave\Report\preface.aux")
 ("C:\Users\Ida Malene\Masteroppgave\Report\introduction.aux")
-("C:\Users\Ida Malene\Masteroppgave\Report\background.aux"))
+("C:\Users\Ida Malene\Masteroppgave\Report\background.aux")
+("C:\Users\Ida Malene\Masteroppgave\Report\backgroundrefugeecamps.aux"))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
@@ -1624,7 +1625,7 @@ LaTeX Info: Redefining \nameref on input line 24.
 \@outlinefile=\write7
 \c@lstlisting=\count311
 
-<./figs/ntnu-logo.pdf, id=91, 241.4922pt x 52.79724pt>
+<./figs/ntnu-logo.pdf, id=107, 241.4922pt x 52.79724pt>
 File: ./figs/ntnu-logo.pdf Graphic file (type pdf)
 
 <use ./figs/ntnu-logo.pdf>
@@ -1674,10 +1675,10 @@ roppgave/Report/figs/ntnu-logo.pdf>] [2
 
 
 ]
-("C:\Users\Ida Malene\Masteroppgave\Report\main.toc") [7] [8
+("C:\Users\Ida Malene\Masteroppgave\Report\main.toc") [7] [8]
+("C:\Users\Ida Malene\Masteroppgave\Report\main.lof") [9
 
-]
-("C:\Users\Ida Malene\Masteroppgave\Report\main.lof") [9] [10
+] [10
 
 ]
 ("C:\Users\Ida Malene\Masteroppgave\Report\main.lot") [11] [12
@@ -1704,7 +1705,7 @@ No file main.acr.
 
 
 ]
-<./figs/adhoc.png, id=223, 339.51843pt x 176.15813pt>
+<./figs/adhoc.png, id=243, 339.51843pt x 176.15813pt>
 File: ./figs/adhoc.png Graphic file (type png)
  <use ./figs/adhoc.png>
 Package pdftex.def Info: ./figs/adhoc.png used on input line 14.
@@ -1717,7 +1718,7 @@ Package pdftex.def Info: ./figs/adhoc.png used on input line 14.
                                                   \fi \fi 
 l.20 
       <C:/Users/Ida Malene/Masteroppgave/Report/figs/adhoc.png>]
-<./figs/wmn.png, id=238, 508.14844pt x 358.33875pt>
+<./figs/wmn.png, id=258, 508.14844pt x 358.33875pt>
 File: ./figs/wmn.png Graphic file (type png)
  <use ./figs/wmn.png>
 Package pdftex.def Info: ./figs/wmn.png used on input line 23.
@@ -1730,7 +1731,7 @@ Package pdftex.def Info: ./figs/wmn.png used on input line 23.
                                                   \fi \fi 
 l.30 
       <C:/Users/Ida Malene/Masteroppgave/Report/figs/wmn.png>]
-<./figs/adhocprotocols.png, id=256, 1014.79124pt x 360.59718pt>
+<./figs/adhocprotocols.png, id=276, 1014.79124pt x 360.59718pt>
 File: ./figs/adhocprotocols.png Graphic file (type png)
 
 <use ./figs/adhocprotocols.png>
@@ -1743,7 +1744,7 @@ Package pdftex.def Info: ./figs/adhocprotocols.png used on input line 38.
                                                   \fi \fi 
 l.46 
       <C:/Users/Ida Malene/Masteroppgave/Report/figs/adhocprotocols.png>]
-<./figs/batman.png, id=269, 273.02pt x 65.043pt>
+<./figs/batman.png, id=289, 273.02pt x 65.043pt>
 File: ./figs/batman.png Graphic file (type png)
  <use ./figs/batman.png>
 Package pdftex.def Info: ./figs/batman.png used on input line 57.
@@ -1756,7 +1757,7 @@ Package pdftex.def Info: ./figs/batman.png used on input line 57.
                                                   \fi \fi 
 l.75 
       <C:/Users/Ida Malene/Masteroppgave/Report/figs/batman.png>] [7]
-<./figs/MP01.jpg, id=302, 752.8125pt x 602.25pt>
+<./figs/MP01.jpg, id=322, 752.8125pt x 602.25pt>
 File: ./figs/MP01.jpg Graphic file (type jpg)
  <use ./figs/MP01.jpg>
 Package pdftex.def Info: ./figs/MP01.jpg used on input line 94.
@@ -1772,7 +1773,7 @@ Underfull \vbox (badness 3449) has occurred while \output is active []
 l.101 T
        he Mesh Potato combines the features of a 802.11bg WiFi router with a...
  <C:/Users/Ida Malene/Masteroppgave/Report/figs/MP01.jpg>]
-<./figs/mp2.PNG, id=315, 803.0pt x 438.63875pt>
+<./figs/mp2.PNG, id=335, 803.0pt x 438.63875pt>
 File: ./figs/mp2.PNG Graphic file (type png)
  <use ./figs/mp2.PNG>
 Package pdftex.def Info: ./figs/mp2.PNG used on input line 113.
@@ -1781,7 +1782,7 @@ Package pdftex.def Info: ./figs/mp2.PNG used on input line 113.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./figs/network1.jpg, id=316, 568.37344pt x 332.74312pt>
+<./figs/network1.jpg, id=336, 568.37344pt x 332.74312pt>
 File: ./figs/network1.jpg Graphic file (type jpg)
 
 <use ./figs/network1.jpg>
@@ -1815,7 +1816,12 @@ either increase the head height or redesign the header
 Overfull \vbox (12.0pt too high) has occurred while \output is active []
 
  [11]
-("C:\Users\Ida Malene\Masteroppgave\Report\main.bbl" [12
+("C:\Users\Ida Malene\Masteroppgave\Report\backgroundrefugeecamps.tex" [12
+
+
+
+])
+[13] ("C:\Users\Ida Malene\Masteroppgave\Report\main.bbl" [14
 
 
 ]
@@ -1838,14 +1844,14 @@ Underfull \hbox (badness 1248) in paragraph at lines 35--38
 agetelco.com/mesh-
  []
 
-[13])
+[15])
 
 Class memoir Warning: The material used in the headers is too large
 (24.0pt) for the given head height (12.0pt), it is recommended to
 either increase the head height or redesign the header
 (in both cases you will find help in the memoir manual). on input line 103.
 
-[14]
+[16]
 \tf@toc=\write8
 \tf@lof=\write9
 \tf@lot=\write10
@@ -1856,18 +1862,19 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
 ("C:\Users\Ida Malene\Masteroppgave\Report\abstract.aux")
 ("C:\Users\Ida Malene\Masteroppgave\Report\preface.aux")
 ("C:\Users\Ida Malene\Masteroppgave\Report\introduction.aux")
-("C:\Users\Ida Malene\Masteroppgave\Report\background.aux"))
+("C:\Users\Ida Malene\Masteroppgave\Report\background.aux")
+("C:\Users\Ida Malene\Masteroppgave\Report\backgroundrefugeecamps.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4BC88BCF9EFE5C1502D793EAFFA6BECC;1437.
+(rerunfilecheck)             Checksum: 66F5E55346A90FF19AD7EB327534E5BC;1675.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 103.
  ) 
 Here is how much of TeX's memory you used:
- 20825 strings out of 493921
- 301989 string characters out of 3147267
- 537516 words of memory out of 3000000
- 23485 multiletter control sequences out of 15000+200000
+ 20846 strings out of 493921
+ 302636 string characters out of 3147267
+ 538873 words of memory out of 3000000
+ 23493 multiletter control sequences out of 15000+200000
  81675 words of font info for 110 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  58i,13n,45p,2549b,592s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1879,9 +1886,9 @@ r10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program
 /fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/lm/lmss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pf
 b>
-Output written on main.pdf (32 pages, 1029156 bytes).
+Output written on main.pdf (34 pages, 1032684 bytes).
 PDF statistics:
- 418 PDF objects out of 1000 (max. 8388607)
- 84 named destinations out of 1000 (max. 500000)
- 19161 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 447 PDF objects out of 1000 (max. 8388607)
+ 90 named destinations out of 1000 (max. 500000)
+ 19193 words of extra memory for PDF output out of 20736 (max. 10000000)
 
