@@ -12,20 +12,6 @@
 \contentsline {section}{\numberline {1.4}Limitations}{1}{section.1.4}
 \contentsline {chapter}{\chapternumberline {2}Background}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}Village Telco}{3}{section.2.1}
-<<<<<<< HEAD
-\contentsline {section}{\numberline {2.2}Relevant Technologies}{3}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Mobile Ad Hoc Networks}{3}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Wireless Mesh Networks}{4}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Routing Protocols}{5}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}B.A.T.M.A.N}{6}{subsection.2.2.4}
-\contentsline {subsubsection}{RO.B.IN}{7}{section*.4}
-\contentsline {subsubsection}{Simple Unified Dashboard for mesh networks}{7}{section*.5}
-\contentsline {subsection}{\numberline {2.2.5}OpenWrt}{7}{subsection.2.2.5}
-\contentsline {section}{\numberline {2.3}Mesh Potato}{7}{section.2.3}
-\contentsline {subsubsection}{Mesh Potato 2.0}{9}{section*.6}
-\contentsline {subsubsection}{Difference between MP01 and MP02?}{11}{section*.7}
-\contentsline {subsubsection}{Example Mesh network}{11}{section*.8}
-=======
 \contentsline {section}{\numberline {2.2}Mesh Potato}{3}{section.2.2}
 \contentsline {subsubsection}{Mesh Potato 2.0}{5}{section*.4}
 \contentsline {subsubsection}{Difference between MP01 and MP02?}{6}{section*.5}
@@ -38,7 +24,6 @@
 \contentsline {subsection}{\numberline {2.3.5}B.A.T.M.A.N}{9}{subsection.2.3.5}
 \contentsline {subsubsection}{RO.B.IN}{10}{section*.7}
 \contentsline {subsubsection}{Simple Unified Dashboard for mesh networks}{11}{section*.8}
->>>>>>> f652281f8f4bd94f69b670f4406c841536be5327
 \contentsline {section}{\numberline {2.4}The Cost Structure and Revenue Model(s) of Village Telco Today}{11}{section.2.4}
 \contentsline {section}{\numberline {2.5}Comparison of Village Telco and other Telecommunication Companies}{11}{section.2.5}
 \contentsline {chapter}{\chapternumberline {3}Refugee Camps}{13}{chapter.3}

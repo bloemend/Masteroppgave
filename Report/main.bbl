@@ -1,16 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{adhoc}
-X.~Hong, K.~Xu, and M.~Gerla, ``Scalable routing protocols for mobile ad hoc
-  networks,'' {\em IEEE}, 2002.
-
-\bibitem{batman2}
-{Freie Universität Berlin}, ``Better approach to mobile ad hoc networking
-  (b.a.t.m.a.n.).''
-\newblock
-  \url{http://www.des-testbed.net/content/better-approach-mobile-ad-hoc-networking-batman},
-  accessed 24.02.2014.
-
 \bibitem{MParticle}
 J.~Dempsey, ``The mesh potato network,'' 2008.
 \newblock
@@ -44,9 +33,17 @@ Wikipedia, ``Binary bolb,'' Last modified December 2013.
 D.~Rowe, ``The mesh potato part 1,'' 2008.
 \newblock \url{http://www.rowetel.com/blog/?p=70}, accessed 26.02.2014.
 
+\bibitem{openwrt}
+{OpenWrt Wiki}, ``About openwrt.''
+\newblock \url{http://wiki.openwrt.org/about/start}, accessed 03.03.2014.
+
 \bibitem{adhoc2}
 J.~Hoebeke, I.~Moerman, B.~Dhoedt, and P.~Demeester, ``An overview of mobile ad
   hoc networks: Applications and challenges,'' 2004.
+
+\bibitem{adhoc}
+X.~Hong, K.~Xu, and M.~Gerla, ``Scalable routing protocols for mobile ad hoc
+  networks,'' {\em IEEE}, 2002.
 
 \bibitem{wmn}
 J.~Wang, B.~Xie, and D.~P. Agrawal, {\em Journey from Mobile Ad Hoc Networks to
@@ -66,6 +63,13 @@ A.~Neumann, C.~Aichele, M.~Lindner, and S.~Wunderlich, ``Better approach to
   \url{http://tools.ietf.org/html/draft-wunderlich-openmesh-manet-routing-00},
   accessed 21.02.2014.
 
+\bibitem{batman2}
+{Freie Universität Berlin}, ``Better approach to mobile ad hoc networking
+  (b.a.t.m.a.n.).''
+\newblock
+  \url{http://www.des-testbed.net/content/better-approach-mobile-ad-hoc-networking-batman},
+  accessed 24.02.2014.
+
 \bibitem{robin}
 {P2P foundation}, ``Robin.''
 \newblock \url{http://p2pfoundation.net/ROBIN}, accessed 05.03.2014.
@@ -76,8 +80,8 @@ A.~Neumann, C.~Aichele, M.~Lindner, and S.~Wunderlich, ``Better approach to
   \url{http://villagetelco.org/2011/06/spud-simple-unified-dashboard-for-mesh-networks/},
   accessed 26.02.2014.
 
-\bibitem{openwrt}
-{OpenWrt Wiki}, ``About openwrt.''
-\newblock \url{http://wiki.openwrt.org/about/start}, accessed 03.03.2014.
+\bibitem{womenRefugee}
+M.~Maasilta, ``Outsiders or active citizents? the role of oral amd mediated
+  ommunication in african refugee camps,'' ?
 
 \end{thebibliography}
