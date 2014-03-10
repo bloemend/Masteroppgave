@@ -22,8 +22,8 @@
 \contentsline {subsection}{\numberline {2.2.5}OpenWrt}{7}{subsection.2.2.5}
 \contentsline {section}{\numberline {2.3}Mesh Potato}{7}{section.2.3}
 \contentsline {subsubsection}{Mesh Potato 2.0}{9}{section*.6}
-\contentsline {subsubsection}{Difference between MP01 and MP02?}{10}{section*.7}
-\contentsline {subsubsection}{Example Mesh network}{10}{section*.8}
+\contentsline {subsubsection}{Difference between MP01 and MP02?}{11}{section*.7}
+\contentsline {subsubsection}{Example Mesh network}{11}{section*.8}
 \contentsline {section}{\numberline {2.4}The Cost Structure and Revenue Model(s) of Village Telco Today}{11}{section.2.4}
 \contentsline {section}{\numberline {2.5}Comparison of Village Telco and Other Telcos}{11}{section.2.5}
 \contentsline {chapter}{\chapternumberline {3}Refugee Camps}{13}{chapter.3}
