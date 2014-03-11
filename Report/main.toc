@@ -27,6 +27,7 @@
 \contentsline {section}{\numberline {2.5}Comparison of Village Telco and other Telecommunication Companies}{11}{section.2.5}
 \contentsline {chapter}{\chapternumberline {3}Refugee Camps}{13}{chapter.3}
 \contentsline {section}{\numberline {3.1}Refugee Camps}{13}{section.3.1}
+<<<<<<< HEAD
 \contentsline {paragraph}{Cell Phone}{13}{section*.8}
 \contentsline {section}{\numberline {3.2}Dadaab Refugee Camp}{14}{section.3.2}
 \contentsline {paragraph}{Al Shabaab}{14}{section*.9}
@@ -34,4 +35,12 @@
 \contentsline {subsection}{\numberline {3.3.1}General Challenges}{14}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Communication Challenges}{14}{subsection.3.3.2}
 \contentsline {chapter}{References}{15}{section*.11}
+=======
+\contentsline {section}{\numberline {3.2}Dadaab Refugee Camp}{13}{section.3.2}
+\contentsline {paragraph}{Means of Communication}{14}{section*.8}
+\contentsline {section}{\numberline {3.3}Challenges}{14}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}General Challenges}{14}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Communication Challenges}{14}{subsection.3.3.2}
+\contentsline {chapter}{References}{15}{section*.10}
+>>>>>>> 45c360eba191f61de2b4b141e87e1b482da4570d
  \vspace {1em} \noindent \bfseries Appendices\par \vspace {-.5em} 
