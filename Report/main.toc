@@ -33,5 +33,23 @@
 \contentsline {section}{\numberline {3.3}Challenges}{15}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}General Challenges}{15}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Communication Challenges}{15}{subsection.3.3.2}
-\contentsline {chapter}{References}{17}{section*.11}
+\contentsline {chapter}{\chapternumberline {4}Main Work}{17}{chapter.4}
+\contentsline {section}{\numberline {4.1}MultiBox}{17}{section.4.1}
+\contentsline {section}{\numberline {4.2}Up-Link}{18}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Satellite}{18}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Mobile Network}{18}{subsection.4.2.2}
+\contentsline {subsubsection}{UMTS - 3G}{18}{section*.10}
+\contentsline {subsubsection}{WiMax - 4G}{18}{section*.11}
+\contentsline {subsection}{\numberline {4.2.3}Landline}{18}{subsection.4.2.3}
+\contentsline {subsubsection}{Telephone Line}{18}{section*.12}
+\contentsline {subsubsection}{Internet Service Provider}{18}{section*.13}
+\contentsline {section}{\numberline {4.3}Different Scenarios Where a Quick Roll-out is Necessary}{18}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Natural Disasters}{18}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Blackouts}{18}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Temporary Refugee and IDP camps}{18}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Breakdown of Mobile Towers}{18}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Mountain Areas - Avalanches}{18}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.6}Festivals}{18}{subsection.4.3.6}
+\contentsline {subsection}{\numberline {4.3.7}Differences/relation between different scenarios}{18}{subsection.4.3.7}
+\contentsline {chapter}{References}{19}{section*.15}
  \vspace {1em} \noindent \bfseries Appendices\par \vspace {-.5em} 
