@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.16)  11 MAR 2014 15:14
-=======
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.16)  13 MAR 2014 16:01
->>>>>>> 7ab50cc3631a1a35146a0aa22a721af6b3a6a003
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.16)  14 MAR 2014 11:51
 entering extended mode
 **main.tex
 ("C:\Users\Ida Malene\Masteroppgave\Report\main.tex"
@@ -1630,7 +1626,7 @@ LaTeX Info: Redefining \nameref on input line 24.
 \@outlinefile=\write7
 \c@lstlisting=\count311
 
-<./figs/ntnu-logo.pdf, id=143, 241.4922pt x 52.79724pt>
+<./figs/ntnu-logo.pdf, id=159, 241.4922pt x 52.79724pt>
 File: ./figs/ntnu-logo.pdf Graphic file (type pdf)
 
 <use ./figs/ntnu-logo.pdf>
@@ -1680,26 +1676,12 @@ roppgave/Report/figs/ntnu-logo.pdf>] [2
 
 
 ]
-<<<<<<< HEAD
-(C:\Users\Esther\Masteroppgave\Report\main.toc) [7] [8
-
-]
-(C:\Users\Esther\Masteroppgave\Report\main.lof) [9] [10
-=======
 ("C:\Users\Ida Malene\Masteroppgave\Report\main.toc" [7]) [8]
 ("C:\Users\Ida Malene\Masteroppgave\Report\main.lof") [9
->>>>>>> 7ab50cc3631a1a35146a0aa22a721af6b3a6a003
 
 ] [10
 
 ]
-<<<<<<< HEAD
-(C:\Users\Esther\Masteroppgave\Report\introduction.tex) [1
-
-
-]
-(C:\Users\Esther\Masteroppgave\Report\background.tex [2
-=======
 ("C:\Users\Ida Malene\Masteroppgave\Report\main.lot") [11] [12
 
 ]
@@ -1708,7 +1690,6 @@ roppgave/Report/figs/ntnu-logo.pdf>] [2
 
 ]
 ("C:\Users\Ida Malene\Masteroppgave\Report\background.tex" [2
->>>>>>> 7ab50cc3631a1a35146a0aa22a721af6b3a6a003
 
 
 
@@ -1716,7 +1697,7 @@ roppgave/Report/figs/ntnu-logo.pdf>] [2
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-<./figs/MP01.jpg, id=276, 752.8125pt x 602.25pt>
+<./figs/MP01.jpg, id=296, 752.8125pt x 602.25pt>
 File: ./figs/MP01.jpg Graphic file (type jpg)
  <use ./figs/MP01.jpg>
 Package pdftex.def Info: ./figs/MP01.jpg used on input line 14.
@@ -1730,19 +1711,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.24 
-<<<<<<< HEAD
-      <C:/Users/Esther/Masteroppgave/Report/figs/MP01.jpg>]
-<./figs/mp2.PNG, id=242, 803.0pt x 438.63875pt>
-=======
       <C:/Users/Ida Malene/Masteroppgave/Report/figs/MP01.jpg>]
-<./figs/mp2.PNG, id=294, 803.0pt x 438.63875pt>
->>>>>>> 7ab50cc3631a1a35146a0aa22a721af6b3a6a003
+<./figs/mp2.PNG, id=314, 803.0pt x 438.63875pt>
 File: ./figs/mp2.PNG Graphic file (type png)
  <use ./figs/mp2.PNG>
 Package pdftex.def Info: ./figs/mp2.PNG used on input line 33.
 (pdftex.def)             Requested size: 182.0pt x 99.41899pt.
 
-<./figs/network1.jpg, id=296, 568.37344pt x 332.74312pt>
+<./figs/network1.jpg, id=316, 568.37344pt x 332.74312pt>
 File: ./figs/network1.jpg Graphic file (type jpg)
 
 <use ./figs/network1.jpg>
@@ -1764,19 +1740,14 @@ l.48 \end{figure}
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.59 
-<<<<<<< HEAD
-      <C:/Users/Esther/Masteroppgave/Report/figs/network1.jpg>]
-<./figs/adhoc.png, id=262, 339.51843pt x 176.15813pt>
-=======
       <C:/Users/Ida Malene/Masteroppgave/Report/figs/network1.jpg>]
-<./figs/adhoc.png, id=314, 339.51843pt x 176.15813pt>
->>>>>>> 7ab50cc3631a1a35146a0aa22a721af6b3a6a003
+<./figs/adhoc.png, id=334, 339.51843pt x 176.15813pt>
 File: ./figs/adhoc.png Graphic file (type png)
  <use ./figs/adhoc.png>
 Package pdftex.def Info: ./figs/adhoc.png used on input line 64.
 (pdftex.def)             Requested size: 291.20111pt x 151.0952pt.
 
-<./figs/wmn.png, id=321, 508.14844pt x 358.33875pt>
+<./figs/wmn.png, id=341, 508.14844pt x 358.33875pt>
 File: ./figs/wmn.png Graphic file (type png)
  <use ./figs/wmn.png>
 Package pdftex.def Info: ./figs/wmn.png used on input line 73.
@@ -1797,13 +1768,8 @@ eady used, duplicate ignored
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.84 
-<<<<<<< HEAD
-      <C:/Users/Esther/Masteroppgave/Report/figs/wmn.png>]
-<./figs/adhocprotocols.png, id=295, 1014.79124pt x 360.59718pt>
-=======
       <C:/Users/Ida Malene/Masteroppgave/Report/figs/wmn.png>]
-<./figs/adhocprotocols.png, id=347, 1014.79124pt x 360.59718pt>
->>>>>>> 7ab50cc3631a1a35146a0aa22a721af6b3a6a003
+<./figs/adhocprotocols.png, id=367, 1014.79124pt x 360.59718pt>
 File: ./figs/adhocprotocols.png Graphic file (type png)
 
 <use ./figs/adhocprotocols.png>
@@ -1815,13 +1781,8 @@ Package pdftex.def Info: ./figs/adhocprotocols.png used on input line 88.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.101 \item T
-<<<<<<< HEAD
-             TL (Time to live) <C:/Users/Esther/Masteroppgave/Report/figs/adhoc
-protocols.png>] <./figs/batman.png, id=309, 273.02pt x 65.043pt>
-=======
              TL (Time to live) <C:/Users/Ida Malene/Masteroppgave/Report/figs/a
-dhocprotocols.png>] <./figs/batman.png, id=361, 273.02pt x 65.043pt>
->>>>>>> 7ab50cc3631a1a35146a0aa22a721af6b3a6a003
+dhocprotocols.png>] <./figs/batman.png, id=381, 273.02pt x 65.043pt>
 File: ./figs/batman.png Graphic file (type png)
 
 <use ./figs/batman.png>
@@ -1833,11 +1794,7 @@ Package pdftex.def Info: ./figs/batman.png used on input line 108.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.129 
-<<<<<<< HEAD
-       <C:/Users/Esther/Masteroppgave/Report/figs/batman.png>])
-=======
        <C:/Users/Ida Malene/Masteroppgave/Report/figs/batman.png>])
->>>>>>> 7ab50cc3631a1a35146a0aa22a721af6b3a6a003
 
 Class memoir Warning: The material used in the headers is too large
 (24.0pt) for the given head height (12.0pt), it is recommended to
@@ -1852,15 +1809,10 @@ Overfull \vbox (12.0pt too high) has occurred while \output is active []
 
 
 
-<<<<<<< HEAD
-] [13]
-[14]) [15] (C:\Users\Esther\Masteroppgave\Report\main.bbl [16
-=======
 ]
 [13] [14]) [15] ("C:\Users\Ida Malene\Masteroppgave\Report\quickrollout.tex"
 [16
 
->>>>>>> 7ab50cc3631a1a35146a0aa22a721af6b3a6a003
 
 
 ]
@@ -1868,17 +1820,13 @@ Overfull \hbox (1.85797pt too wide) in paragraph at lines 12--29
 [][] 
  []
 
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [17pdfTeX warning (ext4): destination with the same identifier (name{table.4.1
-}) has been already used, duplicate ignored
+[17pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.87 \include{quickrollout}
-                           ] [18]
-("C:\Users\Ida Malene\Masteroppgave\Report\main.bbl"
+l.57 
+     ]) [18] ("C:\Users\Ida Malene\Masteroppgave\Report\main.bbl"
 bibitemlist
 
 Underfull \hbox (badness 1248) in paragraph at lines 24--27
@@ -1940,43 +1888,6 @@ This document will not have a glossary.
 \tf@toc=\write8
 \tf@lof=\write9
 \tf@lot=\write10
-<<<<<<< HEAD
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
- (C:\Users\Esther\Masteroppgave\Report\main.aux
-(C:\Users\Esther\Masteroppgave\Report\abstract.aux)
-(C:\Users\Esther\Masteroppgave\Report\preface.aux)
-(C:\Users\Esther\Masteroppgave\Report\introduction.aux)
-(C:\Users\Esther\Masteroppgave\Report\background.aux)
-(C:\Users\Esther\Masteroppgave\Report\backgroundrefugeecamps.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B1CAF0BD67F0C2B58B4DAAF3B9E462B0;1640.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 103.
- ) 
-Here is how much of TeX's memory you used:
- 20859 strings out of 493921
- 304417 string characters out of 3144873
- 539066 words of memory out of 3000000
- 23505 multiletter control sequences out of 15000+200000
- 81888 words of font info for 112 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 58i,12n,44p,2555b,596s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/
-fonts/type1/public/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
-public/lm/lmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr
-i10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on main.pdf (30 pages, 1042234 bytes).
-PDF statistics:
- 453 PDF objects out of 1000 (max. 8388607)
- 92 named destinations out of 1000 (max. 500000)
- 19185 words of extra memory for PDF output out of 20736 (max. 10000000)
-=======
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 104.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 104.
  ("C:\Users\Ida Malene\Masteroppgave\Report\main.aux"
@@ -1988,23 +1899,20 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 104.
 ("C:\Users\Ida Malene\Masteroppgave\Report\quickrollout.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 104.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 104.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 4CBFC18C143517458DBDC535EF005973;2648.
 
 
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 79CE1AA24B88BA4CE3CD93D7A8D8089C;2349
-(rerunfilecheck)             After:  C4BC2F3766C24DF7A623718305580321;2648.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 104.
  ) 
 Here is how much of TeX's memory you used:
- 20906 strings out of 493921
- 303760 string characters out of 3147267
- 541480 words of memory out of 3000000
- 23524 multiletter control sequences out of 15000+200000
- 81888 words of font info for 112 fonts, out of 3000000 for 9000
+ 20931 strings out of 493921
+ 304134 string characters out of 3147267
+ 542548 words of memory out of 3000000
+ 23541 multiletter control sequences out of 15000+200000
+ 82101 words of font info for 114 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  58i,12n,44p,2540b,596s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/M
@@ -2015,10 +1923,9 @@ r10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program
 /fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/lm/lmss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pf
 b>
-Output written on main.pdf (32 pages, 1054450 bytes).
+Output written on main.pdf (32 pages, 1062099 bytes).
 PDF statistics:
- 526 PDF objects out of 1000 (max. 8388607)
- 113 named destinations out of 1000 (max. 500000)
- 19265 words of extra memory for PDF output out of 20736 (max. 10000000)
->>>>>>> 7ab50cc3631a1a35146a0aa22a721af6b3a6a003
+ 557 PDF objects out of 1000 (max. 8388607)
+ 117 named destinations out of 1000 (max. 500000)
+ 19297 words of extra memory for PDF output out of 20736 (max. 10000000)
 

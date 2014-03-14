@@ -4,6 +4,7 @@ A level-1 auxiliary file: preface.aux
 A level-1 auxiliary file: introduction.aux
 A level-1 auxiliary file: background.aux
 A level-1 auxiliary file: backgroundrefugeecamps.aux
+A level-1 auxiliary file: quickrollout.aux
 The style file: ieeetr.bst
 Database file #1: references.bib
 Warning--entry type for "MP" isn't style-file defined
@@ -36,7 +37,14 @@ Warning--entry type for "nethope" isn't style-file defined
 --line 151 of file references.bib
 Warning--entry type for "dadaabinveneo" isn't style-file defined
 --line 158 of file references.bib
+Warning--entry type for "uplink" isn't style-file defined
+--line 164 of file references.bib
+Warning--entry type for "HR" isn't style-file defined
+--line 170 of file references.bib
+Warning--entry type for "cablevssatellite" isn't style-file defined
+--line 184 of file references.bib
 Warning--empty journal in adhoc2
 Warning--empty journal in batman
 Warning--empty journal in womenRefugee
-(There were 18 warnings)
+Warning--empty publisher in broadband
+(There were 22 warnings)
