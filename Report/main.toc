@@ -28,25 +28,20 @@
 \contentsline {chapter}{\chapternumberline {3}Refugee Camps}{13}{chapter.3}
 \contentsline {section}{\numberline {3.1}Refugee Camps}{13}{section.3.1}
 \contentsline {paragraph}{Cell Phone}{13}{section*.8}
-<<<<<<< HEAD
 \contentsline {section}{\numberline {3.2}Statistics}{14}{section.3.2}
-\contentsline {section}{\numberline {3.3}Dadaab Refugee Camp}{14}{section.3.3}
-\contentsline {paragraph}{Means of Communication}{14}{section*.9}
-\contentsline {section}{\numberline {3.4}Interview with Care}{15}{section.3.4}
-\contentsline {section}{\numberline {3.5}Interview with Norwegian Refugee Council}{15}{section.3.5}
-=======
-\contentsline {section}{\numberline {3.2}Interview with CARE - Dadaab Refugee Camp}{14}{section.3.2}
-\contentsline {section}{\numberline {3.3}Interview with Norwegian Refugee Council}{16}{section.3.3}
->>>>>>> 35e2704eabb3e812260565a109e993dc45420d05
+\contentsline {paragraph}{Refugee.}{14}{section*.9}
+\contentsline {paragraph}{Internally Displaced Person.}{14}{section*.10}
+\contentsline {section}{\numberline {3.3}Interview with CARE - Dadaab Refugee Camp}{14}{section.3.3}
+\contentsline {section}{\numberline {3.4}Interview with Norwegian Refugee Council}{16}{section.3.4}
 \contentsline {chapter}{\chapternumberline {4}Main Work}{19}{chapter.4}
 \contentsline {section}{\numberline {4.1}MultiBox}{19}{section.4.1}
 \contentsline {section}{\numberline {4.2}Up-Link}{19}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Landline}{19}{subsection.4.2.1}
-\contentsline {subsubsection}{Telephone Line}{20}{section*.9}
-\contentsline {subsubsection}{Internet Service Provider}{20}{section*.10}
+\contentsline {subsubsection}{Telephone Line}{20}{section*.11}
+\contentsline {subsubsection}{Internet Service Provider}{20}{section*.12}
 \contentsline {subsection}{\numberline {4.2.2}Mobile Network}{20}{subsection.4.2.2}
-\contentsline {subsubsection}{UMTS - 3G}{20}{section*.11}
-\contentsline {subsubsection}{4G}{20}{section*.12}
+\contentsline {subsubsection}{UMTS - 3G}{20}{section*.13}
+\contentsline {subsubsection}{4G}{20}{section*.14}
 \contentsline {subsection}{\numberline {4.2.3}Satellite}{20}{subsection.4.2.3}
 \contentsline {section}{\numberline {4.3}Different Scenarios Where a Quick Roll-out is Necessary}{20}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Natural Disasters}{20}{subsection.4.3.1}
@@ -59,12 +54,6 @@
 \contentsline {section}{\numberline {4.4}The Whole Process}{21}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}How are telephone numbers assigned?}{21}{subsection.4.4.1}
 \contentsline {subsection}{\numberline {4.4.2}Training of People}{21}{subsection.4.4.2}
-<<<<<<< HEAD
-\contentsline {chapter}{References}{23}{section*.15}
+\contentsline {chapter}{References}{23}{section*.16}
  \vspace {1em} \noindent \bfseries Appendices\par \vspace {-.5em} 
 \contentsline {appendix}{\chapternumberline {A}Interview with Care}{27}{appendix.A}
-=======
-\contentsline {chapter}{References}{23}{section*.14}
- \vspace {1em} \noindent \bfseries Appendices\par \vspace {-.5em} 
-\contentsline {appendix}{\chapternumberline {A}Interview with Care}{25}{appendix.A}
->>>>>>> 35e2704eabb3e812260565a109e993dc45420d05
