@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.16)  24 MAR 2014 17:00
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.16)  24 MAR 2014 17:07
 entering extended mode
 **main.tex
 ("C:\Users\Ida Malene\Masteroppgave\Report\main.tex"
@@ -1818,7 +1818,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15]
 [16]
-Overfull \hbox (3.44324pt too wide) in paragraph at lines 34--58
+Overfull \hbox (3.44324pt too wide) in paragraph at lines 34--57
 [][] 
  []
 
@@ -1827,7 +1827,7 @@ Overfull \hbox (3.44324pt too wide) in paragraph at lines 34--58
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.65 
+l.64 
      ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1890,15 +1890,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--85
  []
 
 
-Underfull \hbox (badness 2005) in paragraph at lines 97--101
-[]\T1/lmr/m/n/10 (+20) T. U. R. Agency, ``What is a refugee?.''  [][]$http : / 
-/ www . unrefugees . org /$
+Underfull \hbox (badness 10000) in paragraph at lines 103--106
+[]\T1/lmr/m/n/10 (+20) Refugees In-ter-na-tional, ``So-ma-lia.''  [][]$http : /
+ / refugeesinternational . org /$
  []
 
 
-Underfull \hbox (badness 5008) in paragraph at lines 97--101
-$\T1/lmr/m/n/10 (+20) site / c . lfIQKSOwFqG / b . 4950731 / k . A894 / What _ 
-is _ a _ refugee . htm$[][], ac-cessed
+Underfull \hbox (badness 10000) in paragraph at lines 108--112
+[]\T1/lmr/m/n/10 (+20) Refugees In-ter-na-tional, ``Iraq.''  [][]$http : / / ww
+w . refugeesinternational . org /$
  []
 
 
@@ -1979,7 +1979,7 @@ r10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program
 /fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/lm/lmss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pf
 b>
-Output written on main.pdf (45 pages, 1115723 bytes).
+Output written on main.pdf (45 pages, 1115731 bytes).
 PDF statistics:
  700 PDF objects out of 1000 (max. 8388607)
  158 named destinations out of 1000 (max. 500000)
