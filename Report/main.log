@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.16)  20 MAR 2014 17:16
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.16)  20 MAR 2014 17:21
 entering extended mode
 **main.tex
 ("C:\Users\Ida Malene\Masteroppgave\Report\main.tex"
@@ -1627,7 +1627,7 @@ LaTeX Info: Redefining \nameref on input line 24.
 \@outlinefile=\write7
 \c@lstlisting=\count311
 
-<./figs/ntnu-logo.pdf, id=175, 241.4922pt x 52.79724pt>
+<./figs/ntnu-logo.pdf, id=171, 241.4922pt x 52.79724pt>
 File: ./figs/ntnu-logo.pdf Graphic file (type pdf)
 
 <use ./figs/ntnu-logo.pdf>
@@ -1698,7 +1698,7 @@ roppgave/Report/figs/ntnu-logo.pdf>] [2
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-<./figs/MP01.jpg, id=316, 752.8125pt x 602.25pt>
+<./figs/MP01.jpg, id=311, 752.8125pt x 602.25pt>
 File: ./figs/MP01.jpg Graphic file (type jpg)
  <use ./figs/MP01.jpg>
 Package pdftex.def Info: ./figs/MP01.jpg used on input line 14.
@@ -1713,13 +1713,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
                                                   \fi \fi 
 l.24 
       <C:/Users/Ida Malene/Masteroppgave/Report/figs/MP01.jpg>]
-<./figs/mp2.PNG, id=334, 803.0pt x 438.63875pt>
+<./figs/mp2.PNG, id=329, 803.0pt x 438.63875pt>
 File: ./figs/mp2.PNG Graphic file (type png)
  <use ./figs/mp2.PNG>
 Package pdftex.def Info: ./figs/mp2.PNG used on input line 33.
 (pdftex.def)             Requested size: 182.0pt x 99.41899pt.
 
-<./figs/network1.jpg, id=336, 568.37344pt x 332.74312pt>
+<./figs/network1.jpg, id=331, 568.37344pt x 332.74312pt>
 File: ./figs/network1.jpg Graphic file (type jpg)
 
 <use ./figs/network1.jpg>
@@ -1742,13 +1742,13 @@ l.48 \end{figure}
                                                   \fi \fi 
 l.59 
       <C:/Users/Ida Malene/Masteroppgave/Report/figs/network1.jpg>]
-<./figs/adhoc.png, id=354, 339.51843pt x 176.15813pt>
+<./figs/adhoc.png, id=349, 339.51843pt x 176.15813pt>
 File: ./figs/adhoc.png Graphic file (type png)
  <use ./figs/adhoc.png>
 Package pdftex.def Info: ./figs/adhoc.png used on input line 64.
 (pdftex.def)             Requested size: 291.20111pt x 151.0952pt.
 
-<./figs/wmn.png, id=361, 508.14844pt x 358.33875pt>
+<./figs/wmn.png, id=356, 508.14844pt x 358.33875pt>
 File: ./figs/wmn.png Graphic file (type png)
  <use ./figs/wmn.png>
 Package pdftex.def Info: ./figs/wmn.png used on input line 73.
@@ -1770,7 +1770,7 @@ eady used, duplicate ignored
                                                   \fi \fi 
 l.84 
       <C:/Users/Ida Malene/Masteroppgave/Report/figs/wmn.png>]
-<./figs/adhocprotocols.png, id=387, 1014.79124pt x 360.59718pt>
+<./figs/adhocprotocols.png, id=382, 1014.79124pt x 360.59718pt>
 File: ./figs/adhocprotocols.png Graphic file (type png)
 
 <use ./figs/adhocprotocols.png>
@@ -1783,7 +1783,7 @@ Package pdftex.def Info: ./figs/adhocprotocols.png used on input line 88.
                                                   \fi \fi 
 l.101 \item T
              TL (Time to live) <C:/Users/Ida Malene/Masteroppgave/Report/figs/a
-dhocprotocols.png>] <./figs/batman.png, id=401, 273.02pt x 65.043pt>
+dhocprotocols.png>] <./figs/batman.png, id=396, 273.02pt x 65.043pt>
 File: ./figs/batman.png Graphic file (type png)
 
 <use ./figs/batman.png>
@@ -1927,41 +1927,29 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 104.
 ("C:\Users\Ida Malene\Masteroppgave\Report\appendixA.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 104.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 104.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 2FAFE7CD653F63BBC90CBE5DD19659C4;2958
-(rerunfilecheck)             After:  ACB51CC84EAA1EB4BDD16696064B8F80;2891.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: ACB51CC84EAA1EB4BDD16696064B8F80;2891.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 104.
  ) 
 Here is how much of TeX's memory you used:
- 21006 strings out of 493921
- 305312 string characters out of 3147267
+ 21004 strings out of 493921
+ 305288 string characters out of 3147267
  544998 words of memory out of 3000000
- 23567 multiletter control sequences out of 15000+200000
+ 23566 multiletter control sequences out of 15000+200000
  82527 words of font info for 118 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  58i,12n,44p,2540b,652s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{section.3.5} has been referenced but does not exi
-st, replaced by a fixed one
-
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr1
-0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/lm/lmss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on main.pdf (41 pages, 1097112 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
+r10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/lm/lmss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pf
+b>
+Output written on main.pdf (41 pages, 1096495 bytes).
 PDF statistics:
- 660 PDF objects out of 1000 (max. 8388607)
- 151 named destinations out of 1000 (max. 500000)
- 19329 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 654 PDF objects out of 1000 (max. 8388607)
+ 150 named destinations out of 1000 (max. 500000)
+ 19321 words of extra memory for PDF output out of 20736 (max. 10000000)
 
