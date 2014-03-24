@@ -6,54 +6,54 @@
 \contentsline {chapter}{List of Tables}{xi}{section*.2}
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}Problem Description}{1}{section.1.2}
-\contentsline {section}{\numberline {1.3}Methodology}{1}{section.1.3}
-\contentsline {section}{\numberline {1.4}Limitations}{1}{section.1.4}
-\contentsline {chapter}{\chapternumberline {2}Background}{3}{chapter.2}
-\contentsline {section}{\numberline {2.1}Village Telco}{3}{section.2.1}
-\contentsline {section}{\numberline {2.2}Mesh Potato}{3}{section.2.2}
-\contentsline {subsubsection}{Mesh Potato 2.0}{5}{section*.3}
-\contentsline {subsubsection}{Difference between MP01 and MP02?}{6}{section*.4}
-\contentsline {subsubsection}{Example Mesh network}{6}{section*.5}
-\contentsline {section}{\numberline {2.3}Relevant Technologies}{6}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}OpenWrt}{7}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Mobile Ad Hoc Networks}{7}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Wireless Mesh Networks}{8}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Routing Protocols}{8}{subsection.2.3.4}
-\contentsline {subsection}{\numberline {2.3.5}B.A.T.M.A.N}{9}{subsection.2.3.5}
-\contentsline {subsubsection}{RO.B.IN}{10}{section*.6}
-\contentsline {subsubsection}{Simple Unified Dashboard for mesh networks}{11}{section*.7}
-\contentsline {section}{\numberline {2.4}The Cost Structure and Revenue Model(s) of Village Telco Today}{11}{section.2.4}
-\contentsline {section}{\numberline {2.5}Comparison of Village Telco and other Telecommunication Companies}{11}{section.2.5}
-\contentsline {chapter}{\chapternumberline {3}Refugee Camps}{13}{chapter.3}
-\contentsline {section}{\numberline {3.1}Refugee Camps}{13}{section.3.1}
-\contentsline {paragraph}{Cell Phone}{13}{section*.8}
-\contentsline {section}{\numberline {3.2}Statistics}{14}{section.3.2}
-\contentsline {paragraph}{Refugee.}{14}{section*.9}
-\contentsline {paragraph}{Internally Displaced Person.}{14}{section*.10}
-\contentsline {section}{\numberline {3.3}Interview with CARE - Dadaab Refugee Camp}{14}{section.3.3}
-\contentsline {section}{\numberline {3.4}Interview with Norwegian Refugee Council}{16}{section.3.4}
-\contentsline {chapter}{\chapternumberline {4}Main Work}{19}{chapter.4}
-\contentsline {section}{\numberline {4.1}MultiBox}{19}{section.4.1}
-\contentsline {section}{\numberline {4.2}Up-Link}{19}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Landline}{19}{subsection.4.2.1}
-\contentsline {subsubsection}{Telephone Line}{20}{section*.11}
-\contentsline {subsubsection}{Internet Service Provider}{20}{section*.12}
-\contentsline {subsection}{\numberline {4.2.2}Mobile Network}{20}{subsection.4.2.2}
-\contentsline {subsubsection}{UMTS - 3G}{20}{section*.13}
-\contentsline {subsubsection}{4G}{20}{section*.14}
-\contentsline {subsection}{\numberline {4.2.3}Satellite}{20}{subsection.4.2.3}
-\contentsline {section}{\numberline {4.3}Different Scenarios Where a Quick Roll-out is Necessary}{20}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Natural Disasters}{20}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Blackouts}{21}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Temporary Refugee and IDP camps}{21}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Breakdown of Mobile Towers}{21}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}Mountain Areas - Avalanches}{21}{subsection.4.3.5}
-\contentsline {subsection}{\numberline {4.3.6}Festivals}{21}{subsection.4.3.6}
-\contentsline {subsection}{\numberline {4.3.7}Differences/relation between different scenarios}{21}{subsection.4.3.7}
-\contentsline {section}{\numberline {4.4}The Whole Process}{21}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}How are telephone numbers assigned?}{21}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Training of People}{21}{subsection.4.4.2}
-\contentsline {chapter}{References}{23}{section*.16}
+\contentsline {section}{\numberline {1.2}Problem Description}{2}{section.1.2}
+\contentsline {section}{\numberline {1.3}Methodology}{3}{section.1.3}
+\contentsline {section}{\numberline {1.4}Limitations}{3}{section.1.4}
+\contentsline {chapter}{\chapternumberline {2}Background}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}Village Telco}{5}{section.2.1}
+\contentsline {section}{\numberline {2.2}Mesh Potato}{5}{section.2.2}
+\contentsline {subsubsection}{Mesh Potato 2.0}{7}{section*.3}
+\contentsline {subsubsection}{Difference between MP01 and MP02?}{8}{section*.4}
+\contentsline {subsubsection}{Example Mesh network}{8}{section*.5}
+\contentsline {section}{\numberline {2.3}Relevant Technologies}{8}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}OpenWrt}{9}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Mobile Ad Hoc Networks}{9}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Wireless Mesh Networks}{10}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Routing Protocols}{10}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}B.A.T.M.A.N}{11}{subsection.2.3.5}
+\contentsline {subsubsection}{RO.B.IN}{12}{section*.6}
+\contentsline {subsubsection}{Simple Unified Dashboard for mesh networks}{13}{section*.7}
+\contentsline {section}{\numberline {2.4}The Cost Structure and Revenue Model(s) of Village Telco Today}{13}{section.2.4}
+\contentsline {section}{\numberline {2.5}Comparison of Village Telco and other Telecommunication Companies}{13}{section.2.5}
+\contentsline {chapter}{\chapternumberline {3}Refugee Camps}{15}{chapter.3}
+\contentsline {section}{\numberline {3.1}Refugee Camps}{16}{section.3.1}
+\contentsline {paragraph}{Cell Phone}{16}{section*.8}
+\contentsline {section}{\numberline {3.2}Statistics}{16}{section.3.2}
+\contentsline {paragraph}{Refugee.}{17}{section*.9}
+\contentsline {paragraph}{Internally Displaced Person.}{17}{section*.10}
+\contentsline {section}{\numberline {3.3}Interview with CARE - Dadaab Refugee Camp}{17}{section.3.3}
+\contentsline {section}{\numberline {3.4}Interview with Norwegian Refugee Council}{19}{section.3.4}
+\contentsline {chapter}{\chapternumberline {4}Main Work}{23}{chapter.4}
+\contentsline {section}{\numberline {4.1}MultiBox}{23}{section.4.1}
+\contentsline {section}{\numberline {4.2}Up-Link}{23}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Landline}{23}{subsection.4.2.1}
+\contentsline {subsubsection}{Telephone Line}{24}{section*.11}
+\contentsline {subsubsection}{Internet Service Provider}{24}{section*.12}
+\contentsline {subsection}{\numberline {4.2.2}Mobile Network}{24}{subsection.4.2.2}
+\contentsline {subsubsection}{UMTS - 3G}{24}{section*.13}
+\contentsline {subsubsection}{4G}{24}{section*.14}
+\contentsline {subsection}{\numberline {4.2.3}Satellite}{24}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}Different Scenarios Where a Quick Roll-out is Necessary}{24}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Natural Disasters}{24}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Blackouts}{25}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Temporary Refugee and IDP camps}{25}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Breakdown of Mobile Towers}{25}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Mountain Areas - Avalanches}{25}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.6}Festivals}{25}{subsection.4.3.6}
+\contentsline {subsection}{\numberline {4.3.7}Differences/relation between different scenarios}{25}{subsection.4.3.7}
+\contentsline {section}{\numberline {4.4}The Whole Process}{25}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}How are telephone numbers assigned?}{25}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Training of People}{25}{subsection.4.4.2}
+\contentsline {chapter}{References}{27}{section*.16}
  \vspace {1em} \noindent \bfseries Appendices\par \vspace {-.5em} 
-\contentsline {appendix}{\chapternumberline {A}Interview with Care}{27}{appendix.A}
+\contentsline {appendix}{\chapternumberline {A}Interview with Care}{31}{appendix.A}
