@@ -159,6 +159,19 @@ E.~S. Cohen, ed., {\em Broadband Internet: Access, Regulation and Policy},
   pp.~80--81.
 \newblock 2007.
 
+\bibitem{appleMesh}
+M.~Elgan, ``How an under-appreciated ios 7 feature will change the world,''
+  March 2014.
+\newblock
+  \url{http://www.cultofmac.com/271225/appreciated-ios-7-feature-will-change-world/},
+  accessed 25.03.2014.
+
+\bibitem{multipeer}
+Apple, ``About multipeer connectivity,'' September 2013.
+\newblock
+  \url{https://developer.apple.com/library/ios/documentation/MultipeerConnectivity/Reference/MultipeerConnectivityFramework/Introduction/Introduction.html},
+  accessed 25.03.2014.
+
 \bibitem{naturalDisaster}
 Dictionary.com, ``Natural disaster.''
 \newblock \url{http://dictionary.reference.com/browse/natural+disaster},

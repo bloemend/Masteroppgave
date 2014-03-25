@@ -60,8 +60,12 @@ Warning--entry type for "somalia" isn't style-file defined
 --line 242 of file references.bib
 Warning--entry type for "iraq" isn't style-file defined
 --line 248 of file references.bib
+Warning--entry type for "multipeer" isn't style-file defined
+--line 254 of file references.bib
+Warning--entry type for "appleMesh" isn't style-file defined
+--line 263 of file references.bib
 Warning--empty journal in adhoc2
 Warning--empty journal in batman
 Warning--empty journal in womenRefugee
 Warning--empty publisher in broadband
-(There were 30 warnings)
+(There were 32 warnings)
