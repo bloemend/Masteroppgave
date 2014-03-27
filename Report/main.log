@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.16)  26 MAR 2014 11:57
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.16)  27 MAR 2014 18:30
 entering extended mode
 **main.tex
 (C:\Users\Esther\Masteroppgave\Report\main.tex
@@ -1543,6 +1543,43 @@ LaTeX Info: Redefining \datenorsk on input line 63.
 \dt@a=\toks57
 \dt@b=\toks58
 ))
+
+Class memoir Warning: You are using the caption package with the memoir class. 
+To prepare we will now reset all captioning macros and configurations to kernel
+ defaults, and then let the caption package take over. Please remember to use t
+he caption package interfaces in order to configure your captions. .
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen204
+\captionmargin@=\dimen205
+\captionwidth=\dimen206
+\caption@tempdima=\dimen207
+\caption@indent=\dimen208
+\caption@parindent=\dimen209
+\caption@hangindent=\dimen210
+)
+\c@ContinuedFloat=\count304
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\ltcaption.sty"
+Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
+)
+Package caption Info: supertabular package is loaded.
+Package caption Info: wrapfig package is loaded.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
+Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
+\c@subfigure=\count305
+\c@subtable=\count306
+)
 (C:\Users\Esther\Masteroppgave\Report\glossary.tex)
 \glo@main@file=\write5
 Package glossaries Info: Writing glossary file main.glo on input line 22.
@@ -1581,16 +1618,16 @@ LaTeX Font Info:    ... okay on input line 24.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count304
-\scratchdimen=\dimen204
+\scratchcounter=\count307
+\scratchdimen=\dimen211
 \scratchbox=\box72
-\nofMPsegments=\count305
-\nofMParguments=\count306
+\nofMPsegments=\count308
+\nofMParguments=\count309
 \everyMPshowfont=\toks59
-\MPscratchCnt=\count307
-\MPscratchDim=\dimen205
-\MPnumerator=\count308
-\makeMPintoPDFobject=\count309
+\MPscratchCnt=\count310
+\MPscratchDim=\dimen212
+\MPnumerator=\count311
+\makeMPintoPDFobject=\count312
 \everyMPtoPDFconversion=\toks60
 )
 LaTeX Info: Redefining \microtypecontext on input line 24.
@@ -1616,7 +1653,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count310
+\c@section@level=\count313
 )
 Redoing nameref's sectioning
 Redoing nameref's label
@@ -1627,7 +1664,9 @@ LaTeX Info: Redefining \nameref on input line 24.
 (C:\Users\Esther\Masteroppgave\Report\main.out)
 (C:\Users\Esther\Masteroppgave\Report\main.out)
 \@outlinefile=\write7
-\c@lstlisting=\count311
+\c@lstlisting=\count314
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 
 <./figs/ntnu-logo.pdf, id=187, 241.4922pt x 52.79724pt>
 File: ./figs/ntnu-logo.pdf Graphic file (type pdf)
@@ -1702,57 +1741,36 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
-<./figs/MP01.jpg, id=346, 752.8125pt x 602.25pt>
+<./figs/MP01.jpg, id=348, 752.8125pt x 602.25pt>
 File: ./figs/MP01.jpg Graphic file (type jpg)
  <use ./figs/MP01.jpg>
 Package pdftex.def Info: ./figs/MP01.jpg used on input line 14.
 (pdftex.def)             Requested size: 182.0pt x 145.59975pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.24 
-      <C:/Users/Esther/Masteroppgave/Report/figs/MP01.jpg>]
-<./figs/mp2.PNG, id=363, 803.0pt x 438.63875pt>
+ [6 <C:/Users/Esther/Masteroppgave/Report/figs/MP01.jpg>]
+<./figs/mp2.PNG, id=365, 803.0pt x 438.63875pt>
 File: ./figs/mp2.PNG Graphic file (type png)
  <use ./figs/mp2.PNG>
 Package pdftex.def Info: ./figs/mp2.PNG used on input line 33.
 (pdftex.def)             Requested size: 182.0pt x 99.41899pt.
 
-<./figs/network1.jpg, id=365, 568.37344pt x 332.74312pt>
+<./figs/network1.jpg, id=367, 568.37344pt x 332.74312pt>
 File: ./figs/network1.jpg Graphic file (type jpg)
 
 <use ./figs/network1.jpg>
 Package pdftex.def Info: ./figs/network1.jpg used on input line 45.
 (pdftex.def)             Requested size: 364.0pt x 213.10718pt.
 
-Underfull \vbox (badness 2547) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.48 \end{figure}
-                  <C:/Users/Esther/Masteroppgave/Report/figs/mp2.PNG>] [8pdfTeX
- warning (ext4): destination with the same identifier (name{figure.2.3}) has be
-en already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.59 
-      <C:/Users/Esther/Masteroppgave/Report/figs/network1.jpg>]
-<./figs/adhoc.png, id=384, 339.51843pt x 176.15813pt>
+ [7 <C:/Users/Esther/Masteroppgave/Report/figs/mp2.PNG>] [8 <C:/Users/Esther/Ma
+steroppgave/Report/figs/network1.jpg>]
+<./figs/adhoc.png, id=386, 339.51843pt x 176.15813pt>
 File: ./figs/adhoc.png Graphic file (type png)
  <use ./figs/adhoc.png>
 Package pdftex.def Info: ./figs/adhoc.png used on input line 64.
 (pdftex.def)             Requested size: 291.20111pt x 151.0952pt.
 
-<./figs/wmn.png, id=391, 508.14844pt x 358.33875pt>
+<./figs/wmn.png, id=393, 508.14844pt x 358.33875pt>
 File: ./figs/wmn.png Graphic file (type png)
  <use ./figs/wmn.png>
 Package pdftex.def Info: ./figs/wmn.png used on input line 73.
@@ -1760,46 +1778,22 @@ Package pdftex.def Info: ./figs/wmn.png used on input line 73.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.81 
-      <C:/Users/Esther/Masteroppgave/Report/figs/adhoc.png>] [10pdfTeX warning 
-(ext4): destination with the same identifier (name{figure.2.5}) has been alread
-y used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.85 
-      <C:/Users/Esther/Masteroppgave/Report/figs/wmn.png>]
-<./figs/adhocprotocols.png, id=416, 1014.79124pt x 360.59718pt>
+ [9 <C:/Users/Esther/Masteroppgave/Report/figs/adhoc.png>] [10 <C:/Users/Esther
+/Masteroppgave/Report/figs/wmn.png>]
+<./figs/adhocprotocols.png, id=418, 1014.79124pt x 360.59718pt>
 File: ./figs/adhocprotocols.png Graphic file (type png)
 
 <use ./figs/adhocprotocols.png>
 Package pdftex.def Info: ./figs/adhocprotocols.png used on input line 89.
 (pdftex.def)             Requested size: 364.0pt x 129.34169pt.
- [11pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
-6}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.102 \item T
-             TL (Time to live) <C:/Users/Esther/Masteroppgave/Report/figs/adhoc
-protocols.png>] <./figs/batman.png, id=430, 273.02pt x 65.043pt>
+ [11 <C:/Users/Esther/Masteroppgave/Report/figs/adhocprotocols.png>] <./figs/ba
+tman.png, id=432, 273.02pt x 65.043pt>
 File: ./figs/batman.png Graphic file (type png)
 
 <use ./figs/batman.png>
 Package pdftex.def Info: ./figs/batman.png used on input line 109.
 (pdftex.def)             Requested size: 291.20111pt x 69.37895pt.
- [12pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
-7}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.130 
-       <C:/Users/Esther/Masteroppgave/Report/figs/batman.png>])
+ [12 <C:/Users/Esther/Masteroppgave/Report/figs/batman.png>])
 
 Class memoir Warning: The material used in the headers is too large
 (24.0pt) for the given head height (12.0pt), it is recommended to
@@ -1823,13 +1817,7 @@ Overfull \hbox (3.44324pt too wide) in paragraph at lines 34--57
 [][] 
  []
 
-[17pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}
-) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.64 
-     ]
+[17]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18]
@@ -1845,17 +1833,31 @@ Overfull \hbox (1.85797pt too wide) in paragraph at lines 15--32
 
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}) h
-as been already used, duplicate ignored
+] [24]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.51 
-     ] [24]
-Underfull \vbox (badness 1960) has occurred while \output is active []
+ [25]
+<./figs/loon2.PNG, id=562, 425.33907pt x 251.43938pt>
+File: ./figs/loon2.PNG Graphic file (type png)
+ <use ./figs/loon2.PNG>
+Package pdftex.def Info: ./figs/loon2.PNG used on input line 79.
+(pdftex.def)             Requested size: 156.51733pt x 92.52466pt.
 
- [25])
-[26] (C:\Users\Esther\Masteroppgave\Report\main.bbl
+<./figs/loon1.jpg, id=563, 821.0675pt x 501.875pt>
+File: ./figs/loon1.jpg Graphic file (type jpg)
+ <use ./figs/loon1.jpg>
+Package pdftex.def Info: ./figs/loon1.jpg used on input line 86.
+(pdftex.def)             Requested size: 151.05756pt x 92.33232pt.
+
+Underfull \vbox (badness 5711) has occurred while \output is active []
+
+ [26 <C:/Users/Esther/Masteroppgave/Report/figs/loon2.PNG> <C:/Users/Esther/Mas
+teroppgave/Report/figs/loon1.jpg>]
+
+Package natbib Warning: Citation `loonTU' on page 27 undefined on input line 10
+8.
+
+[27]) [28] (C:\Users\Esther\Masteroppgave\Report\main.bbl
 bibitemlist
 
 Underfull \hbox (badness 1917) in paragraph at lines 4--9
@@ -1875,7 +1877,7 @@ Underfull \hbox (badness 1248) in paragraph at lines 37--40
 agetelco.com/mesh-
  []
 
-[27
+[29
 
 
 ]
@@ -1926,46 +1928,49 @@ Underfull \hbox (badness 4967) in paragraph at lines 121--124
 care . org / emergencies /$
  []
 
-[28]
-Underfull \hbox (badness 10000) in paragraph at lines 168--173
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 174--179
 []\T1/lmr/m/n/10 (+20) M. El-gan, ``How an under-appreciated ios 7 fea-ture wil
 l change
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--173
+Underfull \hbox (badness 10000) in paragraph at lines 174--179
 \T1/lmr/m/n/10 (+20) the world,'' March 2014.  [][]$http : / / www . cultofmac 
 . com / 271225 /$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--179
+Underfull \hbox (badness 10000) in paragraph at lines 181--185
 []\T1/lmr/m/n/10 (+20) Apple, ``About mul-ti-peer con-nec-tiv-ity,'' Septem-ber
  2013.  [][]$https :$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--179
+Underfull \hbox (badness 10000) in paragraph at lines 181--185
 $\T1/lmr/m/n/10 (+20) / / developer . apple . com / library / ios / documentati
 on / MultipeerConnectivity /$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--179
+Underfull \hbox (badness 10000) in paragraph at lines 181--185
 $\T1/lmr/m/n/10 (+20) Reference / MultipeerConnectivityFramework / Introduction
  / Introduction . html$[][],
  []
 
-) [29] (C:\Users\Esther\Masteroppgave\Report\appendixA.tex [30
+) [31] (C:\Users\Esther\Masteroppgave\Report\appendixA.tex [32
 
 
-] [31] [32])
-[33]
+] [33] [34])
+[35]
 
 Class memoir Warning: The material used in the headers is too large
 (24.0pt) for the given head height (12.0pt), it is recommended to
 either increase the head height or redesign the header
 (in both cases you will find help in the memoir manual). on input line 105.
+
+
+Package natbib Warning: There were undefined citations.
 
 
 Package glossaries Warning: No \printglossary or \printglossaries found.
@@ -1987,32 +1992,29 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 105.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 105.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 105.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6E1EA9732B239DD3B7AD8412C99F4F5A;3206.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+(rerunfilecheck)             Checksum: 337243B4CFE1BF33E92E4BAFFE69CE7C;3215.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 105.
  ) 
 Here is how much of TeX's memory you used:
- 21043 strings out of 493921
- 307400 string characters out of 3144873
- 545306 words of memory out of 3000000
- 23591 multiletter control sequences out of 15000+200000
- 82527 words of font info for 118 fonts, out of 3000000 for 9000
+ 22142 strings out of 493921
+ 327732 string characters out of 3144873
+ 567205 words of memory out of 3000000
+ 24670 multiletter control sequences out of 15000+200000
+ 85523 words of font info for 119 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 58i,12n,44p,2540b,654s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 58i,12n,92p,2540b,654s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files (x86)/
 MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/
-fonts/type1/public/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
-public/lm/lmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr
-i10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on main.pdf (45 pages, 1123690 bytes).
+fonts/type1/public/lm/lmbx9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
+public/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lm
+r9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
+Output written on main.pdf (47 pages, 1371642 bytes).
 PDF statistics:
- 728 PDF objects out of 1000 (max. 8388607)
- 164 named destinations out of 1000 (max. 500000)
- 19353 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 760 PDF objects out of 1000 (max. 8388607)
+ 170 named destinations out of 1000 (max. 500000)
+ 19875 words of extra memory for PDF output out of 20736 (max. 10000000)
 

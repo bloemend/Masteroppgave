@@ -164,6 +164,12 @@ E.~S. Cohen, ed., {\em Broadband Internet: Access, Regulation and Policy},
   pp.~80--81.
 \newblock 2007.
 
+\bibitem{fireChat}
+FireChat, ``app store: Firechat.''
+\newblock
+  \url{https://itunes.apple.com/us/app/firechat/id719829352?mt=8&ign-mpt=uo%3D8},
+  accessed 27.03.2014.
+
 \bibitem{appleMesh}
 M.~Elgan, ``How an under-appreciated ios 7 feature will change the world,''
   March 2014.
@@ -176,6 +182,16 @@ Apple, ``About multipeer connectivity,'' September 2013.
 \newblock
   \url{https://developer.apple.com/library/ios/documentation/MultipeerConnectivity/Reference/MultipeerConnectivityFramework/Introduction/Introduction.html},
   accessed 25.03.2014.
+
+\bibitem{googleMesh}
+M.~Elgan, ``Why google is working on home mesh networking,'' March 2014.
+\newblock
+  \url{http://www.eweek.com/cloud/why-google-is-working-on-home-mesh-networking.html},
+  accessed 27.03.2014.
+
+\bibitem{loon}
+{Project Loon}, ``Projet loon: Balloon-powered internt for everyone.''
+\newblock \url{http://www.google.com/loon/}, accessed 27.03.2014.
 
 \bibitem{naturalDisaster}
 Dictionary.com, ``Natural disaster.''
