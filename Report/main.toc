@@ -35,28 +35,28 @@
 \contentsline {section}{\numberline {3.5}Life in Camps for Refugee Women}{21}{section.3.5}
 \contentsline {chapter}{\chapternumberline {4}Main Work}{23}{chapter.4}
 \contentsline {section}{\numberline {4.1}Set-up of the Mesh Potatoes}{23}{section.4.1}
-\contentsline {section}{\numberline {4.2}MultiBox}{23}{section.4.2}
+\contentsline {section}{\numberline {4.2}The Emergency Box}{23}{section.4.2}
 \contentsline {section}{\numberline {4.3}Up-Link}{23}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Landline}{24}{subsection.4.3.1}
-\contentsline {subsubsection}{Telephone Line}{24}{section*.10}
-\contentsline {subsubsection}{Internet Service Provider}{24}{section*.11}
-\contentsline {subsection}{\numberline {4.3.2}Mobile Network}{24}{subsection.4.3.2}
-\contentsline {subsubsection}{UMTS - 3G}{24}{section*.12}
-\contentsline {subsubsection}{4G}{24}{section*.13}
-\contentsline {subsection}{\numberline {4.3.3}Satellite}{24}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Apple's Mesh Network}{24}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}Internet Balloons}{25}{subsection.4.3.5}
-\contentsline {section}{\numberline {4.4}Different Scenarios Where a Quick Roll-out is Necessary}{25}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Natural Disasters}{25}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Blackouts}{25}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Temporary Refugee and IDP camps}{25}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}Breakdown of Mobile Towers}{26}{subsection.4.4.4}
-\contentsline {subsection}{\numberline {4.4.5}Mountain Areas - Avalanches}{26}{subsection.4.4.5}
-\contentsline {subsection}{\numberline {4.4.6}Festivals}{26}{subsection.4.4.6}
-\contentsline {subsection}{\numberline {4.4.7}Differences/relation between different scenarios}{26}{subsection.4.4.7}
-\contentsline {section}{\numberline {4.5}The Process of Quick Roll-out}{26}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}How are telephone numbers assigned?}{26}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Training of People}{26}{subsection.4.5.2}
-\contentsline {chapter}{References}{27}{section*.15}
+\contentsline {subsection}{\numberline {4.3.1}Internet via Telephone-line}{24}{subsection.4.3.1}
+\contentsline {paragraph}{Dial-up Internet connection}{24}{section*.10}
+\contentsline {paragraph}{ISDN}{24}{section*.11}
+\contentsline {paragraph}{DSL}{25}{section*.12}
+\contentsline {subsection}{\numberline {4.3.2}Mobile Network}{25}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Satellite}{25}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Summary Up-Links}{25}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Apple's Mesh Network}{25}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.6}Internet Balloons}{26}{subsection.4.3.6}
+\contentsline {section}{\numberline {4.4}Different Scenarios Where a Quick Roll-out is Necessary}{26}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Natural Disasters}{27}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Blackouts}{27}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Temporary Refugee and IDP camps}{27}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Breakdown of Mobile Towers}{27}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.4.5}Mountain Areas - Avalanches}{27}{subsection.4.4.5}
+\contentsline {subsection}{\numberline {4.4.6}Festivals}{27}{subsection.4.4.6}
+\contentsline {subsection}{\numberline {4.4.7}Differences/relation between different scenarios}{27}{subsection.4.4.7}
+\contentsline {section}{\numberline {4.5}The Process of Quick Roll-out}{27}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}How are telephone numbers assigned?}{27}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Training of People}{27}{subsection.4.5.2}
+\contentsline {chapter}{References}{29}{section*.14}
  \vspace {1em} \noindent \bfseries Appendices\par \vspace {-.5em} 
-\contentsline {appendix}{\chapternumberline {A}Interview with Care}{31}{appendix.A}
+\contentsline {appendix}{\chapternumberline {A}Interview with Care}{33}{appendix.A}
