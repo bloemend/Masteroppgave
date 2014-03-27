@@ -37,50 +37,26 @@
 \contentsline {section}{\numberline {4.1}Set-up of the Mesh Potatoes}{23}{section.4.1}
 \contentsline {section}{\numberline {4.2}The Emergency Box}{23}{section.4.2}
 \contentsline {section}{\numberline {4.3}Up-Link}{23}{section.4.3}
-<<<<<<< HEAD
-\contentsline {subsection}{\numberline {4.3.1}Landline}{24}{subsection.4.3.1}
-\contentsline {subsubsection}{Telephone Line}{24}{section*.19}
-\contentsline {subsubsection}{Internet Service Provider}{24}{section*.20}
-\contentsline {subsection}{\numberline {4.3.2}Mobile Network}{24}{subsection.4.3.2}
-\contentsline {subsubsection}{UMTS - 3G}{24}{section*.21}
-\contentsline {subsubsection}{4G}{24}{section*.22}
-\contentsline {subsection}{\numberline {4.3.3}Satellite}{24}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Apple's Mesh Network}{24}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}Internet Balloons}{26}{subsection.4.3.5}
-\contentsline {section}{\numberline {4.4}Different Scenarios Where a Quick Roll-out is Necessary}{27}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Natural Disasters}{28}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Blackouts}{28}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Temporary Refugee and IDP camps}{28}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}Breakdown of Mobile Towers}{28}{subsection.4.4.4}
-\contentsline {subsection}{\numberline {4.4.5}Mountain Areas - Avalanches}{28}{subsection.4.4.5}
-\contentsline {subsection}{\numberline {4.4.6}Festivals}{28}{subsection.4.4.6}
-\contentsline {subsection}{\numberline {4.4.7}Differences/relation between different scenarios}{28}{subsection.4.4.7}
-\contentsline {section}{\numberline {4.5}The Process of Quick Roll-out}{28}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}How are telephone numbers assigned?}{28}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Training of People}{28}{subsection.4.5.2}
-\contentsline {chapter}{References}{29}{section*.25}
-=======
 \contentsline {subsection}{\numberline {4.3.1}Internet via Telephone-line}{24}{subsection.4.3.1}
-\contentsline {paragraph}{Dial-up Internet connection}{24}{section*.10}
-\contentsline {paragraph}{ISDN}{24}{section*.11}
-\contentsline {paragraph}{DSL}{25}{section*.12}
-\contentsline {subsection}{\numberline {4.3.2}Mobile Network}{25}{subsection.4.3.2}
+\contentsline {paragraph}{Dial-up Internet connection}{24}{section*.19}
+\contentsline {paragraph}{ISDN}{24}{section*.20}
+\contentsline {paragraph}{DSL}{25}{section*.21}
+\contentsline {subsection}{\numberline {4.3.2}Mobile Network Technologies}{25}{subsection.4.3.2}
 \contentsline {subsection}{\numberline {4.3.3}Satellite}{25}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Summary Up-Links}{25}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}Apple's Mesh Network}{25}{subsection.4.3.5}
-\contentsline {subsection}{\numberline {4.3.6}Internet Balloons}{26}{subsection.4.3.6}
-\contentsline {section}{\numberline {4.4}Different Scenarios Where a Quick Roll-out is Necessary}{26}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Natural Disasters}{27}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Blackouts}{27}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Temporary Refugee and IDP camps}{27}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}Breakdown of Mobile Towers}{27}{subsection.4.4.4}
-\contentsline {subsection}{\numberline {4.4.5}Mountain Areas - Avalanches}{27}{subsection.4.4.5}
-\contentsline {subsection}{\numberline {4.4.6}Festivals}{27}{subsection.4.4.6}
-\contentsline {subsection}{\numberline {4.4.7}Differences/relation between different scenarios}{27}{subsection.4.4.7}
-\contentsline {section}{\numberline {4.5}The Process of Quick Roll-out}{27}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}How are telephone numbers assigned?}{27}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Training of People}{27}{subsection.4.5.2}
-\contentsline {chapter}{References}{29}{section*.14}
->>>>>>> 306e224cd968ac79bb19f7f400eb5f824c82dd06
+\contentsline {subsection}{\numberline {4.3.4}Summary Up-Links}{26}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Apple's Mesh Network}{26}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.6}Internet Balloons}{27}{subsection.4.3.6}
+\contentsline {section}{\numberline {4.4}Different Scenarios Where a Quick Roll-out is Necessary}{29}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Natural Disasters}{29}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Blackouts}{29}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Temporary Refugee and IDP camps}{29}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Breakdown of Mobile Towers}{29}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.4.5}Mountain Areas - Avalanches}{30}{subsection.4.4.5}
+\contentsline {subsection}{\numberline {4.4.6}Festivals}{30}{subsection.4.4.6}
+\contentsline {subsection}{\numberline {4.4.7}Differences/relation between different scenarios}{30}{subsection.4.4.7}
+\contentsline {section}{\numberline {4.5}The Process of Quick Roll-out}{30}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}How are telephone numbers assigned?}{30}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Training of People}{30}{subsection.4.5.2}
+\contentsline {chapter}{References}{31}{section*.25}
  \vspace {1em} \noindent \bfseries Appendices\par \vspace {-.5em} 
-\contentsline {appendix}{\chapternumberline {A}Interview with Care}{33}{appendix.A}
+\contentsline {appendix}{\chapternumberline {A}Interview with Care}{35}{appendix.A}
