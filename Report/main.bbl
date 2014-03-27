@@ -147,6 +147,12 @@ B.~Mitchell, ``What is an uplink(port)?.''
   \url{http://compnetworking.about.com/od/homenetworking/f/uplink-port.htm},
   accessed 14.03.2014.
 
+\bibitem{internet}
+D.~Unite, ``How to connect to internet.''
+\newblock
+  \url{http://digitalunite.com/guides/using-internet-0/connecting-internet/how-connect-internet},
+  accessed 27.03.2014.
+
 \bibitem{audestad}
 J.~A. Audestad, {\em Technologies and Systems for Access and Transport
   Networks}.
@@ -158,6 +164,11 @@ A.~Chianis, ``Cable vs. satellite — which internet connection serves your
 \newblock
   \url{http://www.businessbee.com/resources/news/technology-buzz/cable-vs-satellite-internet-connection-serves-business-best/},
   accessed 14.03.2014.
+
+\bibitem{differentuplinks}
+J.~J. Parsons and D.~Oja, {\em New Perspectives on Computer Concepts
+  2010:Comprehensive}, pp.~313--315.
+\newblock Course Technology, 2010.
 
 \bibitem{broadband}
 E.~S. Cohen, ed., {\em Broadband Internet: Access, Regulation and Policy},

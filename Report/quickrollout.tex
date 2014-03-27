@@ -6,6 +6,8 @@ Make a best practice for quick roll out, by the use of a MultiBox.
 \section{Set-up of the Mesh Potatoes}
 %Flashing process
 %How did we get Internet to the network?
+%Hvordan en MP kan koble seg til de ulike uplinkene?
+%3G via TP-links til mesh nettverket?
 
 \section{The Emergency Box}
 
@@ -26,7 +28,9 @@ Make a best practice for quick roll out, by the use of a MultiBox.
 	\hline
 	Junction box & \\
 	\hline
-	 & \\
+	Solar panel & \\
+	\hline
+	Solar panel regulator & \\
 	\hline
     \end{tabular}
    \end{table}
@@ -40,25 +44,69 @@ Make a best practice for quick roll out, by the use of a MultiBox.
 %Script?
 
 \section{Up-Link}
-Our main focus when deploying the emergency boxes, is to provide Internet to the mesh network. This is because it is crucial to have the possibility to communicate with the local community and the outside world during an emergency situation. In 2011, UN declared Internet access a Human Right \cite{HR}. This says something about the extent of the Internet, and the importance of connectivity. In order to provide Internet to the mesh network formed by the emergency boxes, at least on the the Mesh Potatoes must be connected to an access network via an uplink. An uplink connects a device or a LAN to a larger network \cite{uplink}. Which type of access network that is available depends of the location. Some places there might exist a stable landline, other places not. Then an option could be to use satellite or cellular networks. It is therefore important that the emergency box has high adaptability in order to fit different scenarios. In the following sections, we will look at some of the uplinks available, and how Internet access can be provided to the mesh network.  
+Our main focus when deploying the emergency boxes, is to provide Internet to the mesh network. This is because it is crucial to have the possibility to communicate with the local community and the outside world during an emergency situation. In 2011, UN declared Internet access a Human Right \cite{HR}. This says something about the extent of the Internet, and the importance of connectivity. In order to provide Internet to the mesh network formed by the emergency boxes, at least on the the Mesh Potatoes must be connected to an access network via an uplink. An uplink connects a device or a LAN to a larger network \cite{uplink}. Which type of access network that is available depends of the location. Some places there might exist a stable landline, other places not. Then an option could be to use satellite or cellular networks. It is therefore important that the emergency box has high adaptability in order to fit different scenarios. The availability of the different uplinks is not the only thing that vary. The up-link speed and the price also varies from place to place, but also varies between the types of uplinks. In the following sections, we will look at some of the uplinks available, and how Internet access can be provided to the mesh network.  
 
 %I hvilke tilfeller de passer best? 
 %Hva slags utstyr for hver up-link må til??
 
-\subsection{Landline}
-The most common way of getting Internet access is via a landline. This is usually in the form of twisted pairs (copper lines). These lines support broadband up to 10 Mbps, and are often in form of ADSL, or other digital subscriber line of type x (xDSL) technologies \citep{audestad}. 
+\subsection{Internet via Telephone-line}
+The most common way of getting Internet access is via a landline. The telephone lines are most often used for this, since they can be converted to broadband. In this way it can be used for phone calls and Internet simultaneously \cite{internet}. The line is usually in the form of twisted pairs (copper lines). These lines support broadband up to 10 Mbps, and are often in form of ADSL, or other digital subscriber line of type x (xDSL) technologies \citep{audestad}. Internet via telephone lines can be provided as a stand-alone solution, or it can be provided together with television or/and phone service. The latter option is usually cheaper. Internet through landlines have a high reliability \cite{cablevssatellite}. We will now shorty describe some technologies for getting Internet access via a telephone line; dial-up Internet connection, ISDN, and DSL. Although dial-up Internet connection is practically extinct in many countries, we will include it here due to the different application scenarios for the emergency box. 
 
-\subsubsection{Telephone Line}
-\subsubsection{Internet Service Provider}
+\paragraph{Dial-up Internet connection}
+Dial-up is an analogue technology that utilizes the telephone line. A telephone wall jack is used as a fixed point of connection, and the computer is connected to a voiceband modem. With this technology, the data is transmitted over the same frequencies used for phone calls. Hence, if you only have one telephone line, you cannot take a phone call and use Internet at the same time \cite{differentuplinks}. Along with the digital era, better internet technologies were introduced; ISDN and DSL. 
 
-\subsection{Mobile Network}
-\subsubsection{UMTS - 3G}
-\subsubsection{4G}
+\paragraph{ISDN}
+Integrated Services Digital Network (ISDN) is a fixed internet connection, which also utilizes the telephone lines. When using ISDN, as with dial-up, a telephone wall jack is used as a fixed point of connection. But ISDN utilizes a ISDN terminal adapter instead of voiceband modem. This ISDN terminal adapter sends out digital signals. The data speed varies between 64 Kbps - 129 Kbps. The speed of the data is symmetric, which means upstream and downstream data rates are the same. In contrary to dial-up, ISDN allows voice calls and transmission of data simultaneously. ISDN is faster than dial-up, but the speed is nothing compared to the speed obtained using DSL \cite{differentuplinks}. 
+
+\paragraph{DSL}
+Digital subscriber line (DSL) is, like the name insinuates, a digital high-speed technology for Internet access that allows simultaneous voice and data transfer. Like dial-up and ISDN, DSL also run over the telephone lines. With DSL the data is not converted between analogue and digital signals. Despite this, the signals are modulated in order to be transferred on non-voice frequencies. DSL is an always-on technology, and differ from the previous technologies mentioned in this way. Only a small part of the telephone line is used for voice signals. The DSL technology allows utilization of a unused frequency spectrum of an telephone line, hence making it possible to transmit data faster. When the voice and data signals arrive at the telephone company's local switching station, they are separated and routed differently; voice to regular telephone system and data to the ISP, and then the Internet. A connection must be within approximately 5 kilometres of a station in order for DSL to work. The speed depends on many factors. Data can be transported up to 6 Mbps (distance of approximately 2 kilometres). Relevant factors that have an impact on the speed is distance to the switching station and the quality of the telephone line. Like mentioned earlier, there are different types of DSLs. The most common is ADSL, where the A stands for asymmetric; the downstream speed is faster than the upstream speed \cite{differentuplinks}.
+
+\subsection{Mobile Network Technologies}
+It is getting more and more common to use cellular technologies for broadband. Through mobile network technologies, high-speed Internet access can be provided via portable devices. The only thing required to get Internet access from mobile networks is having a GSM or CDMA-based cellular service available. 
+
+Mobile networks provide wireless high-speed Internet access. Wherever there is GSM or CDMA-based cellular services available
+
+%What is mobile broadband?
+%Mobile broadband technology, also called wireless wide area network (WWAN) technology, provides wireless high-speed Internet access through portable devices.  With mobile broadband, you can connect to the Internet from any location where there is GSM or CDMA-based cellular service available for mobile Internet connectivity. With mobile connectivity, you can maintain your Internet connection even as you move from place to place.
+
+%Mobile broadband is available with most 2G, 2.5G, and 3G cellular and mobile networks.
+%http://windows.microsoft.com/en-us/windows7/what-is-mobile-broadband
+
+
+
+
+%3G offers a "always-on" 
+%Cellular networks normally provide broadband connections suitable for mobile access. The technologies in use today fall into two categories - 3G (third generation cell networks) and 4G (fourth generation).
+%Types of 3G broadband include: Enhanced Data GSM Environment (EDGE), EV-DO, and High-Speed Downlink Packet Access (HSPA). WiMax and LTE represent 4G broadband.
+%Beside phones, Internet and network access using these technologies is increasingly being incorporated into laptop computers, automobiles and public transportation.
+
+%Limitations of Mobile Broadband
+%Along with the obvious advantage of Internet access from anywhere, consider these common limitations of mobile broadband: monthly service plans can cost significantly more than for traditional broadband, sometimes including extra fees for larger volumes of data usage "high speed" can mean significantly slower than for traditional broadband, sometimes less than 1 Mbps depending on the service provider's network capability network outages occur when roaming, caused by limits of the service provider coverage area or obstructions from geography, and service may also be disrupted inside larger buildings due to interference
+%http://compnetworking.about.com/od/internetaccessbestuses/f/what-is-mobile-broadband.htm
 
 \subsection{Satellite}
 %ulovlig i feks india, hva skjer da? http://en.wikipedia.org/wiki/Satellite_phone
 
-Internet from satellites are offered by a satellite Internet provider \cite{cablevssatellite}. The satellite are orbiting the Earth, and get signals from a land based Internet connection. To get Internet access via satellite you need a satellite dish. The main advantage of using satellite is that it provides an universally available Internet access \cite{broadband}. Since it is universally available, it is fitted for use in rural regions where there exists no landlines or other options for connecting to the Internet. But like with everything else, there also exists disadvantages with using satellite-Internet. Since it is a shared medium, privacy concerns arise, and the speed are dependent of simultaneous use. Another disadvantage is that the connection can be affected by bad weather, unlike for a wired connection.
+Internet from satellites are offered by a satellite Internet provider \cite{cablevssatellite}. The satellite are orbiting the Earth, and get signals from a land based Internet connection. To get Internet access via satellite you need a satellite dish. The main advantage of using satellite is that it provides an universally available Internet access \cite{broadband}. Since it is universally available, it is fitted for use in rural regions where there exists no landlines or other options for connecting to the Internet. But like with everything else, there also exists disadvantages with using satellite-Internet. Since it is a shared medium, privacy concerns arise, and the speed are dependent of simultaneous use. Also the connection can be affected by bad weather, unlike for a wired connection, hence it is not as reliable as cable. 
+
+\subsection{Summary Up-Links}
+
+\begin{center}
+\begin{table}[!ht]
+\caption{\label{tab:uplinks}Advantages and disadvantages - Up-links \cite{}.}
+    \begin{tabular}{ | l | p{4cm} | p{5cm} |}
+    \hline
+    \textbf{Up-links} & \textbf{Advantages} & \textbf{Disadvantages} \\ 
+    \hline
+    Landline/xDSL & High reliability, cheap, & Low availability in rural areas \\ 
+    \hline
+     Cellular networks & High availability & Expensive\\
+    \hline
+    Satellite & High availability  & Not as reliable as cable, and generally more expensive than cable \\ 
+    \hline
+    \end{tabular}
+   \end{table}
+\end{center}
 
 \subsection{Apple's Mesh Network}
 In March 2014 a new iOS app was released, FireChat. This app enables the possibility to chat with people "off-the-grid" \cite{fireChat}. FireChat utilizes Apple's Multipeer Connectivity Framework introduced in iOS7 \cite{appleMesh}. The Multipeer Connectivity framework provides support for discovering services provided by nearby iOS devices using peer-to-peer Wi-Fi, infrastructure Wi-Fi networks and bluetooth to communicate with those services. This communication could either be message-based data, streaming data and resources such as files \cite{multipeer}. These technologies have a short range, but this range can be greatly extended by a chain of users that creates a mesh network, see section \ref{subsec:mesh} for more information about mesh networks. AirDrop is a product that have been out there for a little while and also utilizes mesh networks. The Main difference is that FireChat is fully decentralized and peer-to-peer. When there are multiple users in one area FireChat relay messages in the same way as Internet, from node to node, just in this case it is from phone to phone.  This, not only, enables two users to chat with each other without Internet connection, but also far beyond Wi-Fi and Bluetooth range from each other, using the chain of users (phones). For example if Bob is connected to Alice, and Alice is connected to Carol, Bob and Carol can send messages to each other. This chain can be indefinitely long. As long as no one device goes out of Wi-Fi range, all the devices can communicate with each other. 
