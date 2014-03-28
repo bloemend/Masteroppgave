@@ -148,7 +148,7 @@ B.~Mitchell, ``What is an uplink(port)?.''
   accessed 14.03.2014.
 
 \bibitem{internet}
-D.~Unite, ``How to connect to internet.''
+{Digital Unite}, ``How to connect to internet.''
 \newblock
   \url{http://digitalunite.com/guides/using-internet-0/connecting-internet/how-connect-internet},
   accessed 27.03.2014.
@@ -169,6 +169,30 @@ A.~Chianis, ``Cable vs. satellite — which internet connection serves your
 J.~J. Parsons and D.~Oja, {\em New Perspectives on Computer Concepts
   2010:Comprehensive}, pp.~313--315.
 \newblock Course Technology, 2010.
+
+\bibitem{itu2013}
+{International Telecommunication Union}, ``The world in 2013: Ict facts and
+  figures.''
+\newblock
+  \url{http://www.itu.int/en/ITU-D/Statistics/Documents/facts/ICTFactsFigures2013-e.pdf},
+  accessed 28.03.2014.
+
+\bibitem{itu2011}
+{International Telecommunication Union}, ``The world in 2011: Ict facts and
+  figures.''
+\newblock
+  \url{http://www.itu.int/ITU-D/ict/facts/2011/material/ICTFactsFigures2011.pdf},
+  accessed 28.03.2014.
+
+\bibitem{mobilebroadband}
+B.~Mithcell, ``What is mobile broadband?.''
+\newblock
+  \url{http://compnetworking.about.com/od/internetaccessbestuses/f/what-is-mobile-broadband.htm},
+  accessed 28.03.2014.
+
+\bibitem{3gvs4g}
+Diffen, ``3g vs 4g.''
+\newblock \url{http://www.diffen.com/difference/3G_vs_4G}, accessed 28.03.2014.
 
 \bibitem{broadband}
 E.~S. Cohen, ed., {\em Broadband Internet: Access, Regulation and Policy},
@@ -203,6 +227,13 @@ M.~Elgan, ``Why google is working on home mesh networking,'' March 2014.
 \bibitem{loon}
 {Project Loon}, ``Projet loon: Balloon-powered internt for everyone.''
 \newblock \url{http://www.google.com/loon/}, accessed 27.03.2014.
+
+\bibitem{loonTU}
+R.~Ramsdal, ``Google fikk ja til å sende internett-ballonger over norge,''
+  March 2014.
+\newblock
+  \url{http://www.tu.no/it/2014/03/22/google-fikk-ja-til-a-sende-internett-ballonger-over-norge},
+  accessed 23.03.2014.
 
 \bibitem{naturalDisaster}
 Dictionary.com, ``Natural disaster.''

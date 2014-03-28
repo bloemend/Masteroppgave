@@ -50,7 +50,7 @@ Our main focus when deploying the emergency boxes, is to provide Internet to the
 %Hva slags utstyr for hver up-link må til??
 
 \subsection{Internet via Telephone-line}
-The most common way of getting Internet access is via a landline. The telephone lines are most often used for this, since they can be converted to broadband. In this way it can be used for phone calls and Internet simultaneously \cite{internet}. The line is usually in the form of twisted pairs (copper lines). These lines support broadband up to 10 Mbps, and are often in form of ADSL, or other digital subscriber line of type x (xDSL) technologies \citep{audestad}. Internet via telephone lines can be provided as a stand-alone solution, or it can be provided together with television or/and phone service. The latter option is usually cheaper. Internet through landlines have a high reliability \cite{cablevssatellite}. We will now shorty describe some technologies for getting Internet access via a telephone line; dial-up Internet connection, ISDN, and DSL. Although dial-up Internet connection is practically extinct in many countries, we will include it here due to the different application scenarios for the emergency box. 
+The most common way of getting Internet access is via a landline. The telephone lines are most often used for this, since they can be converted to broadband. In this way it can be used for phone calls and Internet simultaneously \cite{internet}. The line is usually in the form of twisted pairs (copper lines). These lines support broadband up to 10 Mbps, and are often in form of ADSL, or other digital subscriber line of type x (xDSL) technologies \citep{audestad}. Internet via telephone lines can be provided as a stand-alone solution, or it can be provided together with television or/and phone service. The latter option is usually cheaper. Internet through landlines have a high reliability \cite{cablevssatellite}. We will now shorty describe some technologies for getting Internet access via a telephone line; dial-up Internet connection, ISDN, and DSL. Although dial-up Internet connection is practically extinct in developed countries, we will include it here due to the different application scenarios for the emergency box. 
 
 \paragraph{Dial-up Internet connection}
 Dial-up is an analogue technology that utilizes the telephone line. A telephone wall jack is used as a fixed point of connection, and the computer is connected to a voiceband modem. With this technology, the data is transmitted over the same frequencies used for phone calls. Hence, if you only have one telephone line, you cannot take a phone call and use Internet at the same time \cite{differentuplinks}. Along with the digital era, better internet technologies were introduced; ISDN and DSL. 
@@ -61,48 +61,39 @@ Integrated Services Digital Network (ISDN) is a fixed internet connection, which
 \paragraph{DSL}
 Digital subscriber line (DSL) is, like the name insinuates, a digital high-speed technology for Internet access that allows simultaneous voice and data transfer. Like dial-up and ISDN, DSL also run over the telephone lines. With DSL the data is not converted between analogue and digital signals. Despite this, the signals are modulated in order to be transferred on non-voice frequencies. DSL is an always-on technology, and differ from the previous technologies mentioned in this way. Only a small part of the telephone line is used for voice signals. The DSL technology allows utilization of a unused frequency spectrum of an telephone line, hence making it possible to transmit data faster. When the voice and data signals arrive at the telephone company's local switching station, they are separated and routed differently; voice to regular telephone system and data to the ISP, and then the Internet. A connection must be within approximately 5 kilometres of a station in order for DSL to work. The speed depends on many factors. Data can be transported up to 6 Mbps (distance of approximately 2 kilometres). Relevant factors that have an impact on the speed is distance to the switching station and the quality of the telephone line. Like mentioned earlier, there are different types of DSLs. The most common is ADSL, where the A stands for asymmetric; the downstream speed is faster than the upstream speed \cite{differentuplinks}.
 
-\subsection{Mobile Network Technologies}
-It is getting more and more common to use cellular technologies for broadband. Through mobile network technologies, high-speed Internet access can be provided via portable devices. The only thing required to get Internet access from mobile networks is having a GSM or CDMA-based cellular service available. 
+\subsection{Cellular Network Technologies}
 
-Mobile networks provide wireless high-speed Internet access. Wherever there is GSM or CDMA-based cellular services available
+\begin{figure}[b]
+  \centering
+      \includegraphics[width=1\textwidth]{mobilesubscriptions.png}
+  \caption [Number of mobile-cellular subscriptions]{\textbf{Number of mobile-cellular subscriptions} The figure shows that the growth of mobile-cellular subscriptions have increased drastically during the last decade, and show that there are almost as many as there are people in the world \cite{itu2013}.}
+  \label{fig:subscribers}
+\end{figure}
 
-%What is mobile broadband?
-%Mobile broadband technology, also called wireless wide area network (WWAN) technology, provides wireless high-speed Internet access through portable devices.  With mobile broadband, you can connect to the Internet from any location where there is GSM or CDMA-based cellular service available for mobile Internet connectivity. With mobile connectivity, you can maintain your Internet connection even as you move from place to place.
+%ITU2011-artikkel
+It is getting more and more common to use cellular technologies for broadband. Around 2011 number of mobile-broadband subscriptions grew to twice as many as the number of fixed-broadband subscriptions. In developed countries it is common to have a fixed-broadband connection, and use a mobile-broadband network in addition to the fixed. In developing countries on the other hand, it is not a given that there is access to a fixed-broadband connection. Then mobile-broadband can be the only method of access available. In 2011, 90 \% of the world's population had 2G coverage, and 45 \% had 3G coverage \cite{itu2011}. By 2013, the number of mobile-cellular subscriptions had reached a high lever, and were approaching the number of people in the world, like shown in \fref{fig:subscribers}. From 2011 to 2013, the number of mobile-broadband  subscriptions more than doubled in developing countries \cite{itu2013}. 
 
-%Mobile broadband is available with most 2G, 2.5G, and 3G cellular and mobile networks.
-%http://windows.microsoft.com/en-us/windows7/what-is-mobile-broadband
+Through mobile network technologies, high-speed Internet access can be provided via a portable devices. In order to get a mobile broadband, there must be a cellular network (GSM, CDMA) service available. The key technologies when talking about mobile broadband is 3G and 4G (respectively third and fourth generation wireless networks) \cite{mobilebroadband}. With 3G the average speed 0.5 to 1.5 Mbps, and with 4G the average speed 2 to 12 Mbps. These vary, due to different versions of each technology, underlying service etc.. And like with everything else, the actual and realistic speed differ from the peak speed \cite{3gvs4g}. 
 
-
-
-
-%3G offers a "always-on" 
-%Cellular networks normally provide broadband connections suitable for mobile access. The technologies in use today fall into two categories - 3G (third generation cell networks) and 4G (fourth generation).
-%Types of 3G broadband include: Enhanced Data GSM Environment (EDGE), EV-DO, and High-Speed Downlink Packet Access (HSPA). WiMax and LTE represent 4G broadband.
-%Beside phones, Internet and network access using these technologies is increasingly being incorporated into laptop computers, automobiles and public transportation.
-
-%Limitations of Mobile Broadband
-%Along with the obvious advantage of Internet access from anywhere, consider these common limitations of mobile broadband: monthly service plans can cost significantly more than for traditional broadband, sometimes including extra fees for larger volumes of data usage "high speed" can mean significantly slower than for traditional broadband, sometimes less than 1 Mbps depending on the service provider's network capability network outages occur when roaming, caused by limits of the service provider coverage area or obstructions from geography, and service may also be disrupted inside larger buildings due to interference
-%http://compnetworking.about.com/od/internetaccessbestuses/f/what-is-mobile-broadband.htm
 
 \subsection{Satellite}
 %ulovlig i feks india, hva skjer da? http://en.wikipedia.org/wiki/Satellite_phone
-
 Internet from satellites are offered by a satellite Internet provider \cite{cablevssatellite}. The satellite are orbiting the Earth, and get signals from a land based Internet connection. To get Internet access via satellite you need a satellite dish. The main advantage of using satellite is that it provides an universally available Internet access \cite{broadband}. Since it is universally available, it is fitted for use in rural regions where there exists no landlines or other options for connecting to the Internet. But like with everything else, there also exists disadvantages with using satellite-Internet. Since it is a shared medium, privacy concerns arise, and the speed are dependent of simultaneous use. Also the connection can be affected by bad weather, unlike for a wired connection, hence it is not as reliable as cable. 
 
 \subsection{Summary Up-Links}
 
 \begin{center}
 \begin{table}[!ht]
-\caption{\label{tab:uplinks}Advantages and disadvantages - Up-links \cite{}.}
+\caption{\label{tab:uplinks}Advantages and disadvantages - Up-links \cite{}. MÅ FINNE EN GOD KILDE HER SOM SAMMENLIGNER LITT}
     \begin{tabular}{ | l | p{4cm} | p{5cm} |}
     \hline
     \textbf{Up-links} & \textbf{Advantages} & \textbf{Disadvantages} \\ 
     \hline
-    Landline/xDSL & High reliability, cheap, & Low availability in rural areas \\ 
+    Landline/xDSL & High reliability, cheap. & Low availability in rural areas \\ 
     \hline
      Cellular networks & High availability & Expensive\\
     \hline
-    Satellite & High availability  & Not as reliable as cable, and generally more expensive than cable \\ 
+    Satellite & High availability  & Not as reliable as landline, and generally more expensive \\ 
     \hline
     \end{tabular}
    \end{table}
