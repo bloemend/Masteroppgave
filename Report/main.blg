@@ -64,25 +64,26 @@ Warning--entry type for "multipeer" isn't style-file defined
 --line 254 of file references.bib
 Warning--entry type for "appleMesh" isn't style-file defined
 --line 263 of file references.bib
-<<<<<<< HEAD
 Warning--entry type for "googleMesh" isn't style-file defined
 --line 279 of file references.bib
 Warning--entry type for "fireChat" isn't style-file defined
 --line 288 of file references.bib
 Warning--entry type for "loon" isn't style-file defined
 --line 294 of file references.bib
-=======
+Warning--entry type for "loonTU" isn't style-file defined
+--line 300 of file references.bib
 Warning--entry type for "internet" isn't style-file defined
---line 279 of file references.bib
+--line 309 of file references.bib
+Warning--entry type for "loonYouTube" isn't style-file defined
+--line 323 of file references.bib
+Warning--entry type for "loonNorsk" isn't style-file defined
+--line 330 of file references.bib
+Warning--entry type for "hurricaneSandy" isn't style-file defined
+--line 339 of file references.bib
 Warning--I didn't find a database entry for ""
->>>>>>> 306e224cd968ac79bb19f7f400eb5f824c82dd06
 Warning--empty journal in adhoc2
 Warning--empty journal in batman
 Warning--empty journal in womenRefugee
 Warning--empty chapter and pages in audestad
 Warning--empty publisher in broadband
-<<<<<<< HEAD
-(There were 36 warnings)
-=======
-(There were 35 warnings)
->>>>>>> 306e224cd968ac79bb19f7f400eb5f824c82dd06
+(There were 42 warnings)
