@@ -74,6 +74,7 @@ Warning--entry type for "loonTU" isn't style-file defined
 --line 300 of file references.bib
 Warning--entry type for "internet" isn't style-file defined
 --line 309 of file references.bib
+<<<<<<< HEAD
 Warning--entry type for "itu2011" isn't style-file defined
 --line 323 of file references.bib
 Warning--entry type for "itu2013" isn't style-file defined
@@ -82,10 +83,22 @@ Warning--entry type for "mobilebroadband" isn't style-file defined
 --line 335 of file references.bib
 Warning--entry type for "3gvs4g" isn't style-file defined
 --line 341 of file references.bib
+=======
+Warning--entry type for "loonYouTube" isn't style-file defined
+--line 323 of file references.bib
+Warning--entry type for "loonNorsk" isn't style-file defined
+--line 330 of file references.bib
+Warning--entry type for "hurricaneSandy" isn't style-file defined
+--line 339 of file references.bib
+>>>>>>> 7f681f708e886ccaa51a20e55fc7b536b24ec41d
 Warning--I didn't find a database entry for ""
 Warning--empty journal in adhoc2
 Warning--empty journal in batman
 Warning--empty journal in womenRefugee
 Warning--empty chapter and pages in audestad
 Warning--empty publisher in broadband
+<<<<<<< HEAD
 (There were 43 warnings)
+=======
+(There were 42 warnings)
+>>>>>>> 7f681f708e886ccaa51a20e55fc7b536b24ec41d
