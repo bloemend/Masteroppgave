@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.16)  31 MAR 2014 10:41
+=======
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.16)  31 MAR 2014 14:55
+>>>>>>> fb3974f68ac10420d4ddb193d7c2501182f25d96
 entering extended mode
 **main.tex
 (C:\Users\Esther\Masteroppgave\Report\main.tex
@@ -1723,10 +1727,21 @@ gave/Report/figs/ntnu-logo.pdf>] [2
 ] [10
 
 ]
+<<<<<<< HEAD
 (C:\Users\Esther\Masteroppgave\Report\main.lot) [11] [12
 
 ]
 (C:\Users\Esther\Masteroppgave\Report\introduction.tex
+=======
+("C:\Users\Ida Malene\Masteroppgave\Report\main.lot"
+
+Package natbib Warning: Citation `comparisonuplinks' on page xi undefined on in
+put line 11.
+
+) [11] [12
+
+] ("C:\Users\Ida Malene\Masteroppgave\Report\introduction.tex"
+>>>>>>> fb3974f68ac10420d4ddb193d7c2501182f25d96
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1
@@ -1741,19 +1756,24 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
-<./figs/MP01.jpg, id=358, 752.8125pt x 602.25pt>
+<./figs/MP01.jpg, id=357, 752.8125pt x 602.25pt>
 File: ./figs/MP01.jpg Graphic file (type jpg)
  <use ./figs/MP01.jpg>
 Package pdftex.def Info: ./figs/MP01.jpg used on input line 14.
 (pdftex.def)             Requested size: 182.0pt x 145.59975pt.
+<<<<<<< HEAD
  [6 <C:/Users/Esther/Masteroppgave/Report/figs/MP01.jpg>]
 <./figs/mp2.PNG, id=375, 803.0pt x 438.63875pt>
+=======
+ [6 <C:/Users/Ida Malene/Masteroppgave/Report/figs/MP01.jpg>]
+<./figs/mp2.PNG, id=374, 803.0pt x 438.63875pt>
+>>>>>>> fb3974f68ac10420d4ddb193d7c2501182f25d96
 File: ./figs/mp2.PNG Graphic file (type png)
  <use ./figs/mp2.PNG>
 Package pdftex.def Info: ./figs/mp2.PNG used on input line 33.
 (pdftex.def)             Requested size: 182.0pt x 99.41899pt.
 
-<./figs/network1.jpg, id=377, 568.37344pt x 332.74312pt>
+<./figs/network1.jpg, id=376, 568.37344pt x 332.74312pt>
 File: ./figs/network1.jpg Graphic file (type jpg)
 
 <use ./figs/network1.jpg>
@@ -1762,15 +1782,21 @@ Package pdftex.def Info: ./figs/network1.jpg used on input line 45.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+<<<<<<< HEAD
  [7 <C:/Users/Esther/Masteroppgave/Report/figs/mp2.PNG>] [8 <C:/Users/Esther/Ma
 steroppgave/Report/figs/network1.jpg>]
 <./figs/adhoc.png, id=396, 339.51843pt x 176.15813pt>
+=======
+ [7 <C:/Users/Ida Malene/Masteroppgave/Report/figs/mp2.PNG>] [8 <C:/Users/Ida M
+alene/Masteroppgave/Report/figs/network1.jpg>]
+<./figs/adhoc.png, id=395, 339.51843pt x 176.15813pt>
+>>>>>>> fb3974f68ac10420d4ddb193d7c2501182f25d96
 File: ./figs/adhoc.png Graphic file (type png)
  <use ./figs/adhoc.png>
 Package pdftex.def Info: ./figs/adhoc.png used on input line 64.
 (pdftex.def)             Requested size: 291.20111pt x 151.0952pt.
 
-<./figs/wmn.png, id=403, 508.14844pt x 358.33875pt>
+<./figs/wmn.png, id=402, 508.14844pt x 358.33875pt>
 File: ./figs/wmn.png Graphic file (type png)
  <use ./figs/wmn.png>
 Package pdftex.def Info: ./figs/wmn.png used on input line 73.
@@ -1778,16 +1804,27 @@ Package pdftex.def Info: ./figs/wmn.png used on input line 73.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+<<<<<<< HEAD
  [9 <C:/Users/Esther/Masteroppgave/Report/figs/adhoc.png>] [10 <C:/Users/Esther
 /Masteroppgave/Report/figs/wmn.png>]
 <./figs/adhocprotocols.png, id=428, 1014.79124pt x 360.59718pt>
+=======
+ [9 <C:/Users/Ida Malene/Masteroppgave/Report/figs/adhoc.png>] [10 <C:/Users/Id
+a Malene/Masteroppgave/Report/figs/wmn.png>]
+<./figs/adhocprotocols.png, id=427, 1014.79124pt x 360.59718pt>
+>>>>>>> fb3974f68ac10420d4ddb193d7c2501182f25d96
 File: ./figs/adhocprotocols.png Graphic file (type png)
 
 <use ./figs/adhocprotocols.png>
 Package pdftex.def Info: ./figs/adhocprotocols.png used on input line 89.
 (pdftex.def)             Requested size: 364.0pt x 129.34169pt.
+<<<<<<< HEAD
  [11 <C:/Users/Esther/Masteroppgave/Report/figs/adhocprotocols.png>] <./figs/ba
 tman.png, id=442, 273.02pt x 65.043pt>
+=======
+ [11 <C:/Users/Ida Malene/Masteroppgave/Report/figs/adhocprotocols.png>] <./fig
+s/batman.png, id=441, 273.02pt x 65.043pt>
+>>>>>>> fb3974f68ac10420d4ddb193d7c2501182f25d96
 File: ./figs/batman.png Graphic file (type png)
 
 <use ./figs/batman.png>
@@ -1833,31 +1870,61 @@ Overfull \hbox (9.02473pt too wide) in paragraph at lines 17--36
 
 
 
-] [24] <./figs/mobilesubscriptions.png, id=559, 466.74374pt x 207.77625pt>
+] [24] <./figs/mobilesubscriptions.png, id=558, 466.74374pt x 207.77625pt>
 File: ./figs/mobilesubscriptions.png Graphic file (type png)
 
 <use ./figs/mobilesubscriptions.png>
 Package pdftex.def Info: ./figs/mobilesubscriptions.png used on input line 68.
 (pdftex.def)             Requested size: 364.0pt x 162.04578pt.
+<<<<<<< HEAD
  [25 <C:/Users/Esther/Masteroppgave/Report/figs/mobilesubscriptions.png>]
+=======
+ [25 <C:/Users/Ida Malene/Masteroppgave/Report/figs/mobilesubscriptions.png>]
+
+Package natbib Warning: Citation `comparisonuplinks' on page 26 undefined on in
+put line 87.
+
+
+Package natbib Warning: Citation `comparisonuplinks' on page 26 undefined on in
+put line 87.
+
+
+Underfull \hbox (badness 4328) in paragraph at lines 96--97
+[]|\T1/lmr/m/n/10 (+20) Unreliable, ex-pen-sive, slower
+ []
+
+
+>>>>>>> fb3974f68ac10420d4ddb193d7c2501182f25d96
 Overfull \hbox (6.17464pt too wide) in paragraph at lines 88--99
 [][] 
  []
 
-[26] [27] <./figs/loon2.PNG, id=598, 425.33907pt x 251.43938pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[26]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
+<./figs/loon2.PNG, id=597, 425.33907pt x 251.43938pt>
 File: ./figs/loon2.PNG Graphic file (type png)
-
-<use ./figs/loon2.PNG>
-Package pdftex.def Info: ./figs/loon2.PNG used on input line 118.
+ <use ./figs/loon2.PNG>
+Package pdftex.def Info: ./figs/loon2.PNG used on input line 119.
 (pdftex.def)             Requested size: 156.51733pt x 92.52466pt.
- <./figs/loon1.jpg, id=599, 821.0675pt x 501.875pt>
-File: ./figs/loon1.jpg Graphic file (type jpg)
 
-<use ./figs/loon1.jpg>
-Package pdftex.def Info: ./figs/loon1.jpg used on input line 125.
+<./figs/loon1.jpg, id=598, 821.0675pt x 501.875pt>
+File: ./figs/loon1.jpg Graphic file (type jpg)
+ <use ./figs/loon1.jpg>
+Package pdftex.def Info: ./figs/loon1.jpg used on input line 126.
 (pdftex.def)             Requested size: 151.05756pt x 92.33232pt.
+<<<<<<< HEAD
  [28 <C:/Users/Esther/Masteroppgave/Report/figs/loon2.PNG> <C:/Users/Esther/Mas
 teroppgave/Report/figs/loon1.jpg>]
+=======
+
+[28 <C:/Users/Ida Malene/Masteroppgave/Report/figs/loon2.PNG> <C:/Users/Ida Mal
+ene/Masteroppgave/Report/figs/loon1.jpg>]
+>>>>>>> fb3974f68ac10420d4ddb193d7c2501182f25d96
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29]
@@ -2033,6 +2100,9 @@ either increase the head height or redesign the header
 (in both cases you will find help in the memoir manual). on input line 105.
 
 
+Package natbib Warning: There were undefined citations.
+
+
 Package glossaries Warning: No \printglossary or \printglossaries found.
 This document will not have a glossary.
 
@@ -2056,6 +2126,7 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 105.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  22196 strings out of 493921
  328697 string characters out of 3144873
  569711 words of memory out of 3000000
@@ -2073,8 +2144,26 @@ Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Fil
 es (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb><C:/Program Files (x86)/Mi
 KTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
 Output written on main.pdf (51 pages, 1416034 bytes).
+=======
+ 22197 strings out of 493921
+ 327128 string characters out of 3147267
+ 569644 words of memory out of 3000000
+ 24707 multiletter control sequences out of 15000+200000
+ 85523 words of font info for 119 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 58i,12n,92p,2540b,710s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
+bx9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
+Output written on main.pdf (51 pages, 1416822 bytes).
+>>>>>>> fb3974f68ac10420d4ddb193d7c2501182f25d96
 PDF statistics:
- 837 PDF objects out of 1000 (max. 8388607)
+ 836 PDF objects out of 1000 (max. 8388607)
  187 named destinations out of 1000 (max. 500000)
  19888 words of extra memory for PDF output out of 20736 (max. 10000000)
 
