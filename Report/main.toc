@@ -44,7 +44,7 @@
 \contentsline {subsection}{\numberline {4.3.2}Cellular Network Technologies}{25}{subsection.4.3.2}
 \contentsline {subsection}{\numberline {4.3.3}Satellite}{26}{subsection.4.3.3}
 \contentsline {subsection}{\numberline {4.3.4}Summary Up-Links}{26}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}Apple's Mesh Network}{27}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.5}Apple's Mesh Network}{26}{subsection.4.3.5}
 \contentsline {subsection}{\numberline {4.3.6}Internet Balloons}{28}{subsection.4.3.6}
 \contentsline {section}{\numberline {4.4}Different Scenarios Where a Quick Roll-out is Necessary}{30}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}Natural Disasters}{30}{subsection.4.4.1}

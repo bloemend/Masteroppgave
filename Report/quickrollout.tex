@@ -73,7 +73,7 @@ Digital subscriber line (DSL) is, like the name insinuates, a digital high-speed
 %ITU2011-artikkel
 It is getting more and more common to use cellular technologies for broadband. Around 2011 number of mobile-broadband subscriptions grew to twice as many as the number of fixed-broadband subscriptions. In developed countries it is common to have a fixed-broadband connection, and use a mobile-broadband network in addition to the fixed. In developing countries on the other hand, it is not a given that there is access to a fixed-broadband connection. Then mobile-broadband can be the only method of access available. In 2011, 90 \% of the world's population had 2G coverage, and 45 \% had 3G coverage \cite{itu2011}. By 2013, the number of mobile-cellular subscriptions had reached a high lever, and were approaching the number of people in the world, like shown in \fref{fig:subscribers}. From 2011 to 2013, the number of mobile-broadband  subscriptions more than doubled in developing countries \cite{itu2013}. 
 
-Through mobile network technologies, high-speed Internet access can be provided via a portable devices. In order to get a mobile broadband, there must be a cellular network (GSM, CDMA) service available. The key technologies when talking about mobile broadband is 3G and 4G (respectively third and fourth generation wireless networks) \cite{mobilebroadband}. With 3G the average speed 0.5 to 1.5 Mbps, and with 4G the average speed 2 to 12 Mbps. These vary, due to different versions of each technology, underlying service etc.. And like with everything else, the actual and realistic speed differ from the peak speed \cite{3gvs4g}. 
+Through mobile network technologies, high-speed Internet access can be provided via a portable devices. In order to get a mobile broadband, there must be a cellular network (GSM, CDMA) service available. The key technologies when talking about mobile broadband is 3G and 4G (respectively third and fourth generation wireless networks) \cite{mobilebroadband}. With 3G the average speed is 0.5 to 1.5 Mbps, and with 4G the average speed is 2 to 12 Mbps. These vary, due to different versions of each technology, underlying service etc.. And like with everything else, the actual and realistic speed differ from the peak speed \cite{3gvs4g}. 
 
 
 \subsection{Satellite}
@@ -83,21 +83,22 @@ Internet from satellites are offered by a satellite Internet provider \cite{cabl
 \subsection{Summary Up-Links}
 
 \begin{center}
-\begin{table}[!ht]
-\caption{\label{tab:uplinks}Advantages and disadvantages - Up-links \cite{}. MÅ FINNE EN GOD KILDE HER SOM SAMMENLIGNER LITT}
+\begin{table}[!h]
+\caption{\label{tab:uplinks}Advantages and disadvantages - Up-links \cite{comparisonuplinks}.}
     \begin{tabular}{ | l | p{4cm} | p{5cm} |}
     \hline
     \textbf{Up-links} & \textbf{Advantages} & \textbf{Disadvantages} \\ 
     \hline
-    Landline/xDSL & High reliability, cheap. & Low availability in rural areas \\ 
+    Landline/xDSL & High reliability, cost effective, good speed. & Low availability in rural areas. \\ 
     \hline
-     Cellular networks & High availability & Expensive\\
+     Cellular networks & High availability, fitted for "on the move"-use. & Expensive, slower than xDSL.\\
     \hline
-    Satellite & High availability  & Not as reliable as landline, and generally more expensive \\ 
+    Satellite & High availability.  & Unreliable, expensive, slower than landline.\\ 
     \hline
     \end{tabular}
    \end{table}
 \end{center}
+
 
 \subsection{Apple's Mesh Network}
 In March 2014 a new iOS app was released, FireChat. This app enables the possibility to chat with people "off-the-grid" \cite{fireChat}. FireChat utilizes Apple's Multipeer Connectivity Framework introduced in iOS7 \cite{appleMesh}. The Multipeer Connectivity framework provides support for discovering services provided by nearby iOS devices using peer-to-peer Wi-Fi, infrastructure Wi-Fi networks and bluetooth to communicate with those services. This communication could either be message-based data, streaming data and resources such as files \cite{multipeer}. These technologies have a short range, but this range can be greatly extended by a chain of users that creates a mesh network, see section \ref{subsec:mesh} for more information about mesh networks. AirDrop is a product that have been out there for a little while and also utilizes mesh networks. The Main difference is that FireChat is fully decentralized and peer-to-peer. When there are multiple users in one area FireChat relay messages in the same way as Internet, from node to node, just in this case it is from phone to phone.  This, not only, enables two users to chat with each other without Internet connection, but also far beyond Wi-Fi and Bluetooth range from each other, using the chain of users (phones). For example if Bob is connected to Alice, and Alice is connected to Carol, Bob and Carol can send messages to each other. This chain can be indefinitely long. As long as no one device goes out of Wi-Fi range, all the devices can communicate with each other. 
@@ -162,19 +163,25 @@ A Natural disaster id defines as; \textit{any event or force of nature that has 
 
 
 
-\subsection{Blackouts}
+
 
 \subsection{Temporary Refugee and IDP camps}
 Not all refugee and IDP camps are as well established, like the ones in Dadaab. Many camps are temporary, and are therefore in more need of a temporary communication system. 
 
+\subsection{Festivals}
+Image you are at a music festival with your friends in a foreign country. There are thousands of people, and much activity. In a scenario like this there are many reasons why an Internet connection would be beneficial. You could loose your friends, have to inform your friends about something urgent, inform the staff if an emergency situation occur and so on. Since it is very expensive to send text messages/make phone calls or use mobile networks when you are abroad, it could be an idea to use Mesh Potatoes to provide the people at the festival with Internet access. This could be set up by the organizers in advance. Although this adds an extra cost to the organizers, the people attending the festival can save a lot of money by refraining from using the expensive services available on their cell phones. The organizers could add an extra fee to prize of the festival pass, and it would probably still be beneficial for the people at the festival. 
+
 \subsection{Breakdown of Mobile Towers}
+
 
 
 The 10th of June 2011 one of Telenor had problems with one of its servers in Oslo. This problem caused a down time of 18 hours and affected 3 000 000 Telenor users \cite{listeNedetid}. Not only was this the biggest problem Telenor have had since they opened their mobile network in 1993, but also the longest downtime and highest number of affected users recorded in Norway. In addition to this it all happened in a period with severe flooding in big parts of the eastern Norway, and made it difficult to reach emergency numbers. The fact that the problems occurred during the flooding just made the situation much worse. \cite{TelenorNede}
 
 \subsection{Mountain Areas - Avalanches}
 
-\subsection{Festivals}
+\subsection{Blackouts}
+
+
 
 \subsection{Differences/relation between different scenarios}
 %What kind of adjustments are needed between the different scenarios?
