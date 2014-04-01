@@ -13,6 +13,11 @@ A.~Sedghi, ``Unhcr 2012 refugee statistics: full data,'' June 2013.
   \url{http://www.theguardian.com/news/datablog/2013/jun/19/refugees-unhcr-statistics-data},
   accessed 20.03.2014.
 
+\bibitem{comparisonuplinks}
+S.~Cope, ``Internet connection and access methods,'' 2011.
+\newblock \url{http://www.steves-internet-guide.com/connect-methods/}, accessed
+  31.03.2014.
+
 \bibitem{MParticle}
 J.~Dempsey, ``The mesh potato network,'' 2008.
 \newblock
@@ -251,12 +256,42 @@ Dictionary.com, ``Natural disaster.''
 \newblock \url{http://dictionary.reference.com/browse/natural+disaster},
   accessed 19.03.2014.
 
+\bibitem{disasterComm}
+S.~Kelly, ``What is the best shtf/disaster communication?.''
+\newblock
+  \url{http://graywolfsurvival.com/2716/ham-radio-best-shtfdisaster-communication/},
+  accessed 01.04.2014.
+
+\bibitem{WikiSandy}
+Wikipedia, ``Orkanen sandy.''
+\newblock \url{http://no.wikipedia.org/wiki/Orkanen_Sandy}, accessed
+  31.03.2014.
+
 \bibitem{hurricaneSandy}
 V.~Insinna, ``Natural disasters uncover ongoing emergency communications
   problems,'' June 2013.
 \newblock
   \url{http://www.nationaldefensemagazine.org/archive/2013/January/Pages/NaturalDisastersUncoverOngoingEmergencyCommunicationsProblems.aspx},
   accessed 28.03.2014.
+
+\bibitem{wikiHaiyan}
+Wikipedia, ``Typhoon haiyan.''
+\newblock \url{http://en.wikipedia.org/wiki/Typhoon_Haiyan}, accessed
+  01.04.2014.
+
+\bibitem{disasterResponse}
+M.~Tran, ``Typhoon haiyan disaster response: how the relief effort worked,''
+  February 2014.
+\newblock
+  \url{http://www.theguardian.com/global-development/poverty-matters/2014/feb/07/typhoon-haiyan-disaster-response-philippines-relief-effort},
+  accessed 01.04.2014.
+
+\bibitem{UNcluster}
+{United Nations}, ``Thow are disaster relief efforts organized? the cluster
+  approach.''
+\newblock
+  \url{http://business.un.org/en/assets/39c87a78-fec9-402e-a434-2c355f24e4f4.pdf},
+  accessed 01.04.2014.
 
 \bibitem{listeNedetid}
 Wikipedia, ``Liste over nedetid i mobilnettet i norge.''
