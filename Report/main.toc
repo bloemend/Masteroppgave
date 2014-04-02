@@ -36,6 +36,7 @@
 \contentsline {chapter}{\chapternumberline {4}Main Work}{23}{chapter.4}
 \contentsline {section}{\numberline {4.1}Set-up of the Mesh Potatoes}{23}{section.4.1}
 \contentsline {section}{\numberline {4.2}The Emergency Box}{23}{section.4.2}
+<<<<<<< HEAD
 \contentsline {paragraph}{With Mesh Potato v1.0}{23}{section*.19}
 \contentsline {paragraph}{With Mesh Potato v2.0}{23}{section*.20}
 \contentsline {section}{\numberline {4.3}Up-Link}{23}{section.4.3}
@@ -60,5 +61,34 @@
 \contentsline {subsection}{\numberline {4.5.1}How are telephone numbers assigned?}{33}{subsection.4.5.1}
 \contentsline {subsection}{\numberline {4.5.2}Training of People}{33}{subsection.4.5.2}
 \contentsline {chapter}{References}{35}{section*.30}
+=======
+\contentsline {subsection}{\numberline {4.2.1}Previous/similar work}{23}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Our box}{23}{subsection.4.2.2}
+\contentsline {paragraph}{Charging with solar panel.}{23}{section*.19}
+\contentsline {paragraph}{With Mesh Potato v1.0}{25}{section*.20}
+\contentsline {paragraph}{With Mesh Potato v2.0}{25}{section*.21}
+\contentsline {section}{\numberline {4.3}Up-Link}{25}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Internet via Telephone-line}{26}{subsection.4.3.1}
+\contentsline {paragraph}{Dial-up Internet connection}{26}{section*.22}
+\contentsline {paragraph}{ISDN}{26}{section*.23}
+\contentsline {paragraph}{DSL}{26}{section*.24}
+\contentsline {subsection}{\numberline {4.3.2}Cellular Network Technologies}{27}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Satellite}{28}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Summary Up-Links}{28}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Apple's Mesh Network}{28}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.6}Internet Balloons}{30}{subsection.4.3.6}
+\contentsline {section}{\numberline {4.4}Different Scenarios Where a Quick Roll-out is Necessary}{32}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Natural Disasters}{32}{subsection.4.4.1}
+\contentsline {paragraph}{Hurrican Sandy}{32}{section*.28}
+\contentsline {paragraph}{Philippines}{33}{section*.29}
+\contentsline {subsection}{\numberline {4.4.2}Temporary Refugee and IDP camps}{33}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Festivals}{33}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Breakdown of Mobile Towers}{33}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.4.5}Differences/relation between different scenarios}{34}{subsection.4.4.5}
+\contentsline {section}{\numberline {4.5}The Process of Quick Roll-out}{34}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}How are telephone numbers assigned?}{34}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Training of People}{34}{subsection.4.5.2}
+\contentsline {chapter}{References}{35}{section*.31}
+>>>>>>> 0537e9b05952e77bbf633161487556dfb2e1f7cd
  \vspace {1em} \noindent \bfseries Appendices\par \vspace {-.5em} 
 \contentsline {appendix}{\chapternumberline {A}Interview with Care}{39}{appendix.A}

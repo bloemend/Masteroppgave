@@ -4,6 +4,7 @@
 Make a best practice for quick roll out, by the use of a MultiBox. 
 
 \section{Set-up of the Mesh Potatoes}
+Her skal vi skrive om flashing prosessen, hvordan få internett til nettverket, hvordan 
 %Flashing process
 %How did we get Internet to the network?
 %Hvordan en MP kan koble seg til de ulike uplinkene?
@@ -11,8 +12,14 @@ Make a best practice for quick roll out, by the use of a MultiBox.
 
 \section{The Emergency Box}
 
+\subsection{Previous/similar work}
+Something similar has been done before by Keith Williamson, a volunteer in the Village Telco community. His idea of utilizing the Mesh Potatoes in emergency situations started with his interest in amateur radios for use in emergency situations. He sat together a "go box" by using a waterproof Pelican 1200 case.  This case contained a bracket holding the Mesh Potato, a rechargeable Li-Ion or Li-Poly battery, telephone handset, and to connect it all together and get a on/off switch, a junction box was included. 
+
+\subsection{Our box}
+We want to make an emergency box that has high adaptability, so it can be utilized in several different scenarios. The components of our emergency box is described in \tref{tab:components}. All the calculations done in this section is based on the equipment described in \tref{tab:components}.
+
 \begin{center}
-\begin{table}[!ht]
+\begin{table}[!hb]
 \caption{\label{tab:components}The components of MultiBox}
     \begin{tabular}{ | l | p{9cm} |}
     \hline
@@ -36,16 +43,30 @@ Make a best practice for quick roll out, by the use of a MultiBox.
    \end{table}
 \end{center}
 
+\paragraph{Charging with solar panel.}
+How long it will take for the solar panel to charge the battery from fully discharged to fully charged depends on how much sun there is, but with the peak value of the solar panel (10 W) it takes: 
 
+The solar panel capacity is:
+$$Amp = \frac{Watt}{Volt} = \frac{10 W}{17 V} = 0.59 Ampere$$
+
+If the battery is completely discharged it will take: 
+
+$$Amp\times Hours = AmpHours \Rightarrow Hours =\frac{AmpHours}{Amp} = \frac{5 Ah}{0.59 A} = 8.47 Hours$$
+
+to fully charge it. 
 
 \paragraph{With Mesh Potato v1.0}
-With the components described in \tref{tab:components} number of hours the MP1 can last with fully charged battery is: 
+With the components described in \tref{tab:components} the number of hours the MP1 can last with fully charged battery is: 
 
-$$Amp = \frac{Watt}{Volt} = \frac{2.5 W}{12 V} = 0.208$$
+$$Amp = \frac{Watt}{Volt} = \frac{2.5 W}{12 V} = 0.208 Ampere$$
 $$Amp\times Hours = AmpHours \Rightarrow Hours = \frac{AmpHours}{Amp} = \frac{5 Ah}{0.208 A} = 24 Hours$$
 
-
 \paragraph{With Mesh Potato v2.0}
+With the components described in \tref{tab:components} the number of hours the MP2 can last with fully charged battery is: 
+
+$$Amp = \frac{Watt}{Volt} = \frac{? W}{12 V} = ? Ampere$$
+$$Amp\times Hours = AmpHours \Rightarrow Hours = \frac{AmpHours}{Amp} = \frac{? Ah}{? A} = ? Hours$$
+
 %Hvordan er den annerledes fra Keith sin?
 %How is the box set up?
 %How is it made?
