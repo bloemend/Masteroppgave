@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.16)  2 APR 2014 16:11
-=======
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.16)  2 APR 2014 16:16
->>>>>>> 0537e9b05952e77bbf633161487556dfb2e1f7cd
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.16)  2 APR 2014 17:23
 entering extended mode
 **main.tex
 ("C:\Users\Ida Malene\Masteroppgave\Report\main.tex"
@@ -1588,16 +1584,6 @@ Package glossaries Info: Writing glossary file main.glo on input line 24.
 \glo@acronym@file=\write6
 Package glossaries Info: Writing glossary file main.acn on input line 24.
 
-<<<<<<< HEAD
-(C:\Users\Esther\Masteroppgave\Report\main.aux
-(C:\Users\Esther\Masteroppgave\Report\abstract.aux)
-(C:\Users\Esther\Masteroppgave\Report\preface.aux)
-(C:\Users\Esther\Masteroppgave\Report\introduction.aux)
-(C:\Users\Esther\Masteroppgave\Report\background.aux)
-(C:\Users\Esther\Masteroppgave\Report\backgroundrefugeecamps.aux)
-(C:\Users\Esther\Masteroppgave\Report\quickrollout.aux)
-(C:\Users\Esther\Masteroppgave\Report\appendixA.aux))
-=======
 ("C:\Users\Ida Malene\Masteroppgave\Report\main.aux"
 ("C:\Users\Ida Malene\Masteroppgave\Report\abstract.aux")
 ("C:\Users\Ida Malene\Masteroppgave\Report\preface.aux")
@@ -1606,7 +1592,6 @@ Package glossaries Info: Writing glossary file main.acn on input line 24.
 ("C:\Users\Ida Malene\Masteroppgave\Report\backgroundrefugeecamps.aux")
 ("C:\Users\Ida Malene\Masteroppgave\Report\quickrollout.aux")
 ("C:\Users\Ida Malene\Masteroppgave\Report\appendixA.aux"))
->>>>>>> 0537e9b05952e77bbf633161487556dfb2e1f7cd
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
 LaTeX Font Info:    ... okay on input line 26.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
@@ -1674,31 +1659,21 @@ LaTeX Info: Redefining \nameref on input line 26.
 LaTeX Info: Redefining \ref on input line 26.
 LaTeX Info: Redefining \pageref on input line 26.
 LaTeX Info: Redefining \nameref on input line 26.
-<<<<<<< HEAD
-(C:\Users\Esther\Masteroppgave\Report\main.out)
-(C:\Users\Esther\Masteroppgave\Report\main.out)
-=======
 ("C:\Users\Ida Malene\Masteroppgave\Report\main.out")
 ("C:\Users\Ida Malene\Masteroppgave\Report\main.out")
->>>>>>> 0537e9b05952e77bbf633161487556dfb2e1f7cd
 \@outlinefile=\write7
 \c@lstlisting=\count314
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
-<./figs/ntnu-logo.pdf, id=191, 241.4922pt x 52.79724pt>
+<./figs/ntnu-logo.pdf, id=187, 241.4922pt x 52.79724pt>
 File: ./figs/ntnu-logo.pdf Graphic file (type pdf)
 
 <use ./figs/ntnu-logo.pdf>
 Package pdftex.def Info: ./figs/ntnu-logo.pdf used on input line 33.
 (pdftex.def)             Requested size: 170.71652pt x 37.32436pt.
 LaTeX Font Info:    Try loading font information for T1+lmss on input line 33.
-<<<<<<< HEAD
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
-=======
  ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
->>>>>>> 0537e9b05952e77bbf633161487556dfb2e1f7cd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic settings for font family
@@ -1718,11 +1693,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8.04991> on input line 33.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5.74997> on input line 33.
-<<<<<<< HEAD
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\mt-msa.cfg"
-=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-msa.cfg"
->>>>>>> 0537e9b05952e77bbf633161487556dfb2e1f7cd
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-msb.cfg"
@@ -1769,32 +1740,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
-<<<<<<< HEAD
-<./figs/MP01.jpg, id=349, 752.8125pt x 602.25pt>
-=======
-<./figs/MP01.jpg, id=359, 752.8125pt x 602.25pt>
->>>>>>> 0537e9b05952e77bbf633161487556dfb2e1f7cd
+<./figs/MP01.jpg, id=354, 752.8125pt x 602.25pt>
 File: ./figs/MP01.jpg Graphic file (type jpg)
  <use ./figs/MP01.jpg>
 Package pdftex.def Info: ./figs/MP01.jpg used on input line 14.
 (pdftex.def)             Requested size: 182.0pt x 145.59975pt.
-<<<<<<< HEAD
- [6 <C:/Users/Esther/Masteroppgave/Report/figs/MP01.jpg>]
-<./figs/mp2.PNG, id=366, 803.0pt x 438.63875pt>
-=======
  [6 <C:/Users/Ida Malene/Masteroppgave/Report/figs/MP01.jpg>]
-<./figs/mp2.PNG, id=376, 803.0pt x 438.63875pt>
->>>>>>> 0537e9b05952e77bbf633161487556dfb2e1f7cd
+<./figs/mp2.PNG, id=371, 803.0pt x 438.63875pt>
 File: ./figs/mp2.PNG Graphic file (type png)
  <use ./figs/mp2.PNG>
 Package pdftex.def Info: ./figs/mp2.PNG used on input line 33.
 (pdftex.def)             Requested size: 182.0pt x 99.41899pt.
 
-<<<<<<< HEAD
-<./figs/network1.jpg, id=368, 568.37344pt x 332.74312pt>
-=======
-<./figs/network1.jpg, id=378, 568.37344pt x 332.74312pt>
->>>>>>> 0537e9b05952e77bbf633161487556dfb2e1f7cd
+<./figs/network1.jpg, id=373, 568.37344pt x 332.74312pt>
 File: ./figs/network1.jpg Graphic file (type jpg)
 
 <use ./figs/network1.jpg>
@@ -1803,25 +1761,15 @@ Package pdftex.def Info: ./figs/network1.jpg used on input line 45.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<<<<<<< HEAD
- [7 <C:/Users/Esther/Masteroppgave/Report/figs/mp2.PNG>] [8 <C:/Users/Esther/Ma
-steroppgave/Report/figs/network1.jpg>]
-<./figs/adhoc.png, id=387, 339.51843pt x 176.15813pt>
-=======
  [7 <C:/Users/Ida Malene/Masteroppgave/Report/figs/mp2.PNG>] [8 <C:/Users/Ida M
 alene/Masteroppgave/Report/figs/network1.jpg>]
-<./figs/adhoc.png, id=397, 339.51843pt x 176.15813pt>
->>>>>>> 0537e9b05952e77bbf633161487556dfb2e1f7cd
+<./figs/adhoc.png, id=392, 339.51843pt x 176.15813pt>
 File: ./figs/adhoc.png Graphic file (type png)
  <use ./figs/adhoc.png>
 Package pdftex.def Info: ./figs/adhoc.png used on input line 64.
 (pdftex.def)             Requested size: 291.20111pt x 151.0952pt.
 
-<<<<<<< HEAD
-<./figs/wmn.png, id=394, 508.14844pt x 358.33875pt>
-=======
-<./figs/wmn.png, id=404, 508.14844pt x 358.33875pt>
->>>>>>> 0537e9b05952e77bbf633161487556dfb2e1f7cd
+<./figs/wmn.png, id=399, 508.14844pt x 358.33875pt>
 File: ./figs/wmn.png Graphic file (type png)
  <use ./figs/wmn.png>
 Package pdftex.def Info: ./figs/wmn.png used on input line 73.
@@ -1829,27 +1777,16 @@ Package pdftex.def Info: ./figs/wmn.png used on input line 73.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<<<<<<< HEAD
- [9 <C:/Users/Esther/Masteroppgave/Report/figs/adhoc.png>] [10 <C:/Users/Esther
-/Masteroppgave/Report/figs/wmn.png>]
-<./figs/adhocprotocols.png, id=419, 1014.79124pt x 360.59718pt>
-=======
  [9 <C:/Users/Ida Malene/Masteroppgave/Report/figs/adhoc.png>] [10 <C:/Users/Id
 a Malene/Masteroppgave/Report/figs/wmn.png>]
-<./figs/adhocprotocols.png, id=429, 1014.79124pt x 360.59718pt>
->>>>>>> 0537e9b05952e77bbf633161487556dfb2e1f7cd
+<./figs/adhocprotocols.png, id=424, 1014.79124pt x 360.59718pt>
 File: ./figs/adhocprotocols.png Graphic file (type png)
 
 <use ./figs/adhocprotocols.png>
 Package pdftex.def Info: ./figs/adhocprotocols.png used on input line 89.
 (pdftex.def)             Requested size: 364.0pt x 129.34169pt.
-<<<<<<< HEAD
- [11 <C:/Users/Esther/Masteroppgave/Report/figs/adhocprotocols.png>] <./figs/ba
-tman.png, id=433, 273.02pt x 65.043pt>
-=======
  [11 <C:/Users/Ida Malene/Masteroppgave/Report/figs/adhocprotocols.png>] <./fig
-s/batman.png, id=443, 273.02pt x 65.043pt>
->>>>>>> 0537e9b05952e77bbf633161487556dfb2e1f7cd
+s/batman.png, id=438, 273.02pt x 65.043pt>
 File: ./figs/batman.png Graphic file (type png)
 
 <use ./figs/batman.png>
@@ -1886,92 +1823,70 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19]
-<<<<<<< HEAD
-[20] [21]) [22] (C:\Users\Esther\Masteroppgave\Report\quickrollout.tex
-Overfull \hbox (1.85797pt too wide) in paragraph at lines 17--36
-=======
 [20] [21]) [22] ("C:\Users\Ida Malene\Masteroppgave\Report\quickrollout.tex"
-Overfull \hbox (1.85797pt too wide) in paragraph at lines 23--42
->>>>>>> 0537e9b05952e77bbf633161487556dfb2e1f7cd
-[][] 
+Overfull \hbox (12.849pt too wide) in paragraph at lines 24--25
+[]\T1/lmr/bx/n/10 Previous/similar work[] \T1/lmr/m/n/10 (-20) Some-thing sim-i
+-lar has been done be-fore by Keith Williamson,
  []
 
-[23
+
+Underfull \vbox (badness 1117) has occurred while \output is active []
+
+ [23
 
 
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (1.85797pt too wide) in paragraph at lines 43--62
+[][] 
+ []
 
- [24]
-<<<<<<< HEAD
-[25] <./figs/mobilesubscriptions.png, id=562, 466.74374pt x 207.77625pt>
-=======
-[25] [26] <./figs/mobilesubscriptions.png, id=580, 466.74374pt x 207.77625pt>
->>>>>>> 0537e9b05952e77bbf633161487556dfb2e1f7cd
+[24] [25] [26]
+<./figs/mobilesubscriptions.png, id=575, 466.74374pt x 207.77625pt>
 File: ./figs/mobilesubscriptions.png Graphic file (type png)
 
 <use ./figs/mobilesubscriptions.png>
-Package pdftex.def Info: ./figs/mobilesubscriptions.png used on input line 99.
+Package pdftex.def Info: ./figs/mobilesubscriptions.png used on input line 123.
+
 (pdftex.def)             Requested size: 364.0pt x 162.04578pt.
-<<<<<<< HEAD
- [26 <C:/Users/Esther/Masteroppgave/Report/figs/mobilesubscriptions.png>]
-Underfull \hbox (badness 4328) in paragraph at lines 107--108
-=======
- [27 <C:/Users/Ida Malene/Masteroppgave/Report/figs/mobilesubscriptions.png>]
-Underfull \hbox (badness 4328) in paragraph at lines 127--128
->>>>>>> 0537e9b05952e77bbf633161487556dfb2e1f7cd
+
+Underfull \vbox (badness 6691) has occurred while \output is active []
+
+ [27]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28 <C:/Users/Ida Malene/Masteroppgave/Report/figs/mobilesubscriptions.png>]
+Underfull \hbox (badness 4328) in paragraph at lines 157--158
 []|\T1/lmr/m/n/10 (+20) Unreliable, ex-pen-sive, slower
  []
 
 
-Overfull \hbox (6.17464pt too wide) in paragraph at lines 119--130
+Overfull \hbox (6.17464pt too wide) in paragraph at lines 149--160
 [][] 
  []
 
-[28]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-<<<<<<< HEAD
- [28]
-<./figs/loon2.PNG, id=601, 425.33907pt x 251.43938pt>
-=======
- [29]
-<./figs/loon2.PNG, id=620, 425.33907pt x 251.43938pt>
->>>>>>> 0537e9b05952e77bbf633161487556dfb2e1f7cd
+[29] [30] <./figs/loon2.PNG, id=624, 425.33907pt x 251.43938pt>
 File: ./figs/loon2.PNG Graphic file (type png)
- <use ./figs/loon2.PNG>
-Package pdftex.def Info: ./figs/loon2.PNG used on input line 150.
+
+<use ./figs/loon2.PNG>
+Package pdftex.def Info: ./figs/loon2.PNG used on input line 184.
 (pdftex.def)             Requested size: 156.51733pt x 92.52466pt.
-
-<./figs/loon1.jpg, id=621, 821.0675pt x 501.875pt>
+ <./figs/loon1.jpg, id=625, 821.0675pt x 501.875pt>
 File: ./figs/loon1.jpg Graphic file (type jpg)
- <use ./figs/loon1.jpg>
-Package pdftex.def Info: ./figs/loon1.jpg used on input line 157.
+
+<use ./figs/loon1.jpg>
+Package pdftex.def Info: ./figs/loon1.jpg used on input line 191.
 (pdftex.def)             Requested size: 151.05756pt x 92.33232pt.
-
-<<<<<<< HEAD
-Underfull \vbox (badness 1708) has occurred while \output is active []
-
- [29 <C:/Users/Esther/Masteroppgave/Report/figs/loon2.PNG> <C:/Users/Esther/Mas
-teroppgave/Report/figs/loon1.jpg>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [30]
-[31] [32]) [33] (C:\Users\Esther\Masteroppgave\Report\main.bbl [34
-
-
-]
-=======
-Underfull \vbox (badness 5711) has occurred while \output is active []
-
- [30 <C:/Users/Ida Malene/Masteroppgave/Report/figs/loon2.PNG> <C:/Users/Ida Ma
+ [31 <C:/Users/Ida Malene/Masteroppgave/Report/figs/loon2.PNG> <C:/Users/Ida Ma
 lene/Masteroppgave/Report/figs/loon1.jpg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31]
-[32] [33]) [34] ("C:\Users\Ida Malene\Masteroppgave\Report\main.bbl"
->>>>>>> 0537e9b05952e77bbf633161487556dfb2e1f7cd
+ [32]
+[33]
+Underfull \vbox (badness 5726) has occurred while \output is active []
+
+ [34]
+[35]) [36] ("C:\Users\Ida Malene\Masteroppgave\Report\main.bbl"
 bibitemlist
 
 Underfull \hbox (badness 1917) in paragraph at lines 4--9
@@ -1991,14 +1906,10 @@ Underfull \hbox (badness 1248) in paragraph at lines 42--45
 agetelco.com/mesh-
  []
 
-<<<<<<< HEAD
-[35]
-=======
-[35
+[37
 
 
 ]
->>>>>>> 0537e9b05952e77bbf633161487556dfb2e1f7cd
 Underfull \hbox (badness 10000) in paragraph at lines 85--90
 []\T1/lmr/m/n/10 (+20) Freie Uni-ver-sität Berlin, ``Bet-ter ap-proach to mo-bi
 le ad hoc
@@ -2046,108 +1957,101 @@ Underfull \hbox (badness 4967) in paragraph at lines 126--129
 care . org / emergencies /$
  []
 
-[36]
-Underfull \hbox (badness 1242) in paragraph at lines 179--184
+[38]
+Underfull \hbox (badness 1242) in paragraph at lines 185--190
 []\T1/lmr/m/n/10 (+20) International Telecom-mu-ni-ca-tion Union, ``The world i
 n 2013: Ict facts
  []
 
 
-Underfull \hbox (badness 4713) in paragraph at lines 179--184
+Underfull \hbox (badness 4713) in paragraph at lines 185--190
 \T1/lmr/m/n/10 (+20) and fig-ures.''  [][]$http : / / www . itu . int / en / IT
 U-[]D / Statistics / Documents / facts /$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--219
+Underfull \hbox (badness 10000) in paragraph at lines 220--225
 []\T1/lmr/m/n/10 (+20) M. El-gan, ``How an under-appreciated ios 7 fea-ture wil
 l change
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--219
+Underfull \hbox (badness 10000) in paragraph at lines 220--225
 \T1/lmr/m/n/10 (+20) the world,'' March 2014.  [][]$http : / / www . cultofmac 
 . com / 271225 /$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--225
+Underfull \hbox (badness 10000) in paragraph at lines 227--231
 []\T1/lmr/m/n/10 (+20) Apple, ``About mul-ti-peer con-nec-tiv-ity,'' Septem-ber
  2013.  [][]$https :$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--225
+Underfull \hbox (badness 10000) in paragraph at lines 227--231
 $\T1/lmr/m/n/10 (+20) / / developer . apple . com / library / ios / documentati
 on / MultipeerConnectivity /$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--225
+Underfull \hbox (badness 10000) in paragraph at lines 227--231
 $\T1/lmr/m/n/10 (+20) Reference / MultipeerConnectivityFramework / Introduction
  / Introduction . html$[][],
  []
 
-[37]
-Underfull \hbox (badness 10000) in paragraph at lines 237--242
+[39]
+Underfull \hbox (badness 10000) in paragraph at lines 243--248
 []\T1/lmr/m/n/10 (+20) R. Rams-dal, ``Google fikk ja til å sende internett-ball
 onger
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--242
+Underfull \hbox (badness 10000) in paragraph at lines 243--248
 \T1/lmr/m/n/10 (+20) over norge,'' March 2014.  [][]$http : / / www . tu . no /
  it / 2014 / 03 / 22 /$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--253
+Underfull \hbox (badness 10000) in paragraph at lines 254--259
 []\T1/lmr/m/n/10 (+20) A. B. SMED-SRUD, ``Disse bal-lon-gene skal gi in-ter-net
 t til
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--253
+Underfull \hbox (badness 10000) in paragraph at lines 254--259
 \T1/lmr/m/n/10 (+20) hele ver-den,'' June 2013.  [][]$http : / / www . hardware
  . no / artikler /$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--276
+Underfull \hbox (badness 10000) in paragraph at lines 277--282
 []\T1/lmr/m/n/10 (+20) V. In-sinna, ``Nat-u-ral dis-as-ters un-cover on-go-ing 
 emer-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--276
+Underfull \hbox (badness 10000) in paragraph at lines 277--282
 \T1/lmr/m/n/10 (+20) gency com-mu-ni-ca-tions prob-lems,'' June 2013.  [][]$htt
 p : / /$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--276
+Underfull \hbox (badness 10000) in paragraph at lines 277--282
 $\T1/lmr/m/n/10 (+20) www . nationaldefensemagazine . org / archive / 2013 / Ja
 nuary / Pages /$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--276
+Underfull \hbox (badness 10000) in paragraph at lines 277--282
 $\T1/lmr/m/n/10 (+20) NaturalDisastersUncoverOngoingEmergencyCommunicationsProb
 lems . aspx$[][],
  []
 
-<<<<<<< HEAD
-) [38] (C:\Users\Esther\Masteroppgave\Report\appendixA.tex [39
+) [40] ("C:\Users\Ida Malene\Masteroppgave\Report\appendixA.tex" [41
 
 
-] [40]) [41]
-=======
-) [38] ("C:\Users\Ida Malene\Masteroppgave\Report\appendixA.tex" [39
-
-
-] [40])
-[41]
->>>>>>> 0537e9b05952e77bbf633161487556dfb2e1f7cd
+] [42])
+[43]
 
 Class memoir Warning: The material used in the headers is too large
 (24.0pt) for the given head height (12.0pt), it is recommended to
@@ -2163,48 +2067,6 @@ This document will not have a glossary.
 \tf@lot=\write10
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 107.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 107.
-<<<<<<< HEAD
-(C:\Users\Esther\Masteroppgave\Report\main.aux
-(C:\Users\Esther\Masteroppgave\Report\abstract.aux)
-(C:\Users\Esther\Masteroppgave\Report\preface.aux)
-(C:\Users\Esther\Masteroppgave\Report\introduction.aux)
-(C:\Users\Esther\Masteroppgave\Report\background.aux)
-(C:\Users\Esther\Masteroppgave\Report\backgroundrefugeecamps.aux)
-(C:\Users\Esther\Masteroppgave\Report\quickrollout.aux)
-(C:\Users\Esther\Masteroppgave\Report\appendixA.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 107.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 107.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A39DB459F7E36A649E6155278CB5C1D0;3174.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 107.
- ) 
-Here is how much of TeX's memory you used:
- 22221 strings out of 493921
- 329142 string characters out of 3144873
- 569740 words of memory out of 3000000
- 24722 multiletter control sequences out of 15000+200000
- 85523 words of font info for 119 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 58i,13n,92p,2540b,714s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/
-MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/MiKTeX 2.9/font
-s/enc/dvips/lm/lm-mathit.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
-lic/lm/lmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx
-12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx9.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
-type1/public/lm/lmri10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
-c/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss17
-.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on main.pdf (53 pages, 1438990 bytes).
-PDF statistics:
- 875 PDF objects out of 1000 (max. 8388607)
- 196 named destinations out of 1000 (max. 500000)
- 19872 words of extra memory for PDF output out of 20736 (max. 10000000)
-=======
 ("C:\Users\Ida Malene\Masteroppgave\Report\main.aux"
 ("C:\Users\Ida Malene\Masteroppgave\Report\abstract.aux")
 ("C:\Users\Ida Malene\Masteroppgave\Report\preface.aux")
@@ -2216,17 +2078,21 @@ PDF statistics:
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 107.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 107.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 74541B7112512E01DE21AF61B5E1184B;3312.
+(rerunfilecheck)             Checksum: A4ED1F1F9A308B739E24006CBD3FAD14;3263.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 107.
  ) 
 Here is how much of TeX's memory you used:
- 22226 strings out of 493921
- 327633 string characters out of 3147267
+ 22234 strings out of 493921
+ 327685 string characters out of 3147267
  569740 words of memory out of 3000000
- 24724 multiletter control sequences out of 15000+200000
+ 24723 multiletter control sequences out of 15000+200000
  85523 words of font info for 119 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 58i,13n,92p,2540b,714s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 58i,13n,92p,2540b,710s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
 iKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
 nc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit
@@ -2239,10 +2105,9 @@ eX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss1
 7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on main.pdf (53 pages, 1442660 bytes).
+Output written on main.pdf (55 pages, 1449632 bytes).
 PDF statistics:
- 890 PDF objects out of 1000 (max. 8388607)
- 199 named destinations out of 1000 (max. 500000)
- 19888 words of extra memory for PDF output out of 20736 (max. 10000000)
->>>>>>> 0537e9b05952e77bbf633161487556dfb2e1f7cd
+ 904 PDF objects out of 1000 (max. 8388607)
+ 208 named destinations out of 1000 (max. 500000)
+ 19880 words of extra memory for PDF output out of 20736 (max. 10000000)
 
