@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.16)  2 APR 2014 17:23
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.16)  8 APR 2014 12:58
 entering extended mode
 **main.tex
 ("C:\Users\Ida Malene\Masteroppgave\Report\main.tex"
@@ -1846,7 +1846,7 @@ Overfull \hbox (1.85797pt too wide) in paragraph at lines 43--62
 File: ./figs/mobilesubscriptions.png Graphic file (type png)
 
 <use ./figs/mobilesubscriptions.png>
-Package pdftex.def Info: ./figs/mobilesubscriptions.png used on input line 123.
+Package pdftex.def Info: ./figs/mobilesubscriptions.png used on input line 120.
 
 (pdftex.def)             Requested size: 364.0pt x 162.04578pt.
 
@@ -1856,12 +1856,12 @@ Underfull \vbox (badness 6691) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [28 <C:/Users/Ida Malene/Masteroppgave/Report/figs/mobilesubscriptions.png>]
-Underfull \hbox (badness 4328) in paragraph at lines 157--158
+Underfull \hbox (badness 4328) in paragraph at lines 154--155
 []|\T1/lmr/m/n/10 (+20) Unreliable, ex-pen-sive, slower
  []
 
 
-Overfull \hbox (6.17464pt too wide) in paragraph at lines 149--160
+Overfull \hbox (6.17464pt too wide) in paragraph at lines 146--157
 [][] 
  []
 
@@ -1869,24 +1869,33 @@ Overfull \hbox (6.17464pt too wide) in paragraph at lines 149--160
 File: ./figs/loon2.PNG Graphic file (type png)
 
 <use ./figs/loon2.PNG>
-Package pdftex.def Info: ./figs/loon2.PNG used on input line 184.
+Package pdftex.def Info: ./figs/loon2.PNG used on input line 181.
 (pdftex.def)             Requested size: 156.51733pt x 92.52466pt.
  <./figs/loon1.jpg, id=625, 821.0675pt x 501.875pt>
 File: ./figs/loon1.jpg Graphic file (type jpg)
 
 <use ./figs/loon1.jpg>
-Package pdftex.def Info: ./figs/loon1.jpg used on input line 191.
+Package pdftex.def Info: ./figs/loon1.jpg used on input line 188.
 (pdftex.def)             Requested size: 151.05756pt x 92.33232pt.
  [31 <C:/Users/Ida Malene/Masteroppgave/Report/figs/loon2.PNG> <C:/Users/Ida Ma
 lene/Masteroppgave/Report/figs/loon1.jpg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [32]
-[33]
-Underfull \vbox (badness 5726) has occurred while \output is active []
+[33] [34]) [35] [36] ("C:\Users\Ida Malene\Masteroppgave\Report\discussion.tex"
+) [37
 
- [34]
-[35]) [36] ("C:\Users\Ida Malene\Masteroppgave\Report\main.bbl"
+
+
+] ("C:\Users\Ida Malene\Masteroppgave\Report\conclusion.tex" [38
+
+
+
+])
+[39] ("C:\Users\Ida Malene\Masteroppgave\Report\main.bbl" [40
+
+
+]
 bibitemlist
 
 Underfull \hbox (badness 1917) in paragraph at lines 4--9
@@ -1906,10 +1915,7 @@ Underfull \hbox (badness 1248) in paragraph at lines 42--45
 agetelco.com/mesh-
  []
 
-[37
-
-
-]
+[41]
 Underfull \hbox (badness 10000) in paragraph at lines 85--90
 []\T1/lmr/m/n/10 (+20) Freie Uni-ver-sität Berlin, ``Bet-ter ap-proach to mo-bi
 le ad hoc
@@ -1957,7 +1963,7 @@ Underfull \hbox (badness 4967) in paragraph at lines 126--129
 care . org / emergencies /$
  []
 
-[38]
+[42]
 Underfull \hbox (badness 1242) in paragraph at lines 185--190
 []\T1/lmr/m/n/10 (+20) International Telecom-mu-ni-ca-tion Union, ``The world i
 n 2013: Ict facts
@@ -1999,7 +2005,7 @@ $\T1/lmr/m/n/10 (+20) Reference / MultipeerConnectivityFramework / Introduction
  / Introduction . html$[][],
  []
 
-[39]
+[43]
 Underfull \hbox (badness 10000) in paragraph at lines 243--248
 []\T1/lmr/m/n/10 (+20) R. Rams-dal, ``Google fikk ja til å sende internett-ball
 onger
@@ -2047,16 +2053,16 @@ $\T1/lmr/m/n/10 (+20) NaturalDisastersUncoverOngoingEmergencyCommunicationsProb
 lems . aspx$[][],
  []
 
-) [40] ("C:\Users\Ida Malene\Masteroppgave\Report\appendixA.tex" [41
+) [44] ("C:\Users\Ida Malene\Masteroppgave\Report\appendixA.tex" [45
 
 
-] [42])
-[43]
+] [46])
+[47]
 
 Class memoir Warning: The material used in the headers is too large
 (24.0pt) for the given head height (12.0pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 107.
+(in both cases you will find help in the memoir manual). on input line 109.
 
 
 Package glossaries Warning: No \printglossary or \printglossaries found.
@@ -2065,8 +2071,8 @@ This document will not have a glossary.
 \tf@toc=\write8
 \tf@lof=\write9
 \tf@lot=\write10
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 107.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 107.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 109.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 109.
 ("C:\Users\Ida Malene\Masteroppgave\Report\main.aux"
 ("C:\Users\Ida Malene\Masteroppgave\Report\abstract.aux")
 ("C:\Users\Ida Malene\Masteroppgave\Report\preface.aux")
@@ -2074,25 +2080,33 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 107.
 ("C:\Users\Ida Malene\Masteroppgave\Report\background.aux")
 ("C:\Users\Ida Malene\Masteroppgave\Report\backgroundrefugeecamps.aux")
 ("C:\Users\Ida Malene\Masteroppgave\Report\quickrollout.aux")
+("C:\Users\Ida Malene\Masteroppgave\Report\discussion.aux")
+("C:\Users\Ida Malene\Masteroppgave\Report\conclusion.aux")
 ("C:\Users\Ida Malene\Masteroppgave\Report\appendixA.aux"))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 107.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 107.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A4ED1F1F9A308B739E24006CBD3FAD14;3263.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 109.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 109.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: A4ED1F1F9A308B739E24006CBD3FAD14;3263
+(rerunfilecheck)             After:  52F68215E39989837886450E241AD774;3357.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 107.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 109.
  ) 
 Here is how much of TeX's memory you used:
- 22234 strings out of 493921
- 327685 string characters out of 3147267
+ 22256 strings out of 493921
+ 328303 string characters out of 3147267
  569740 words of memory out of 3000000
- 24723 multiletter control sequences out of 15000+200000
+ 24729 multiletter control sequences out of 15000+200000
  85523 words of font info for 119 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 58i,13n,92p,2540b,710s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 58i,13n,92p,2540b,708s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
 iKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
 nc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit
@@ -2105,9 +2119,9 @@ eX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss1
 7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on main.pdf (55 pages, 1449632 bytes).
+Output written on main.pdf (59 pages, 1453288 bytes).
 PDF statistics:
- 904 PDF objects out of 1000 (max. 8388607)
- 208 named destinations out of 1000 (max. 500000)
+ 923 PDF objects out of 1000 (max. 8388607)
+ 214 named destinations out of 1000 (max. 500000)
  19880 words of extra memory for PDF output out of 20736 (max. 10000000)
 
