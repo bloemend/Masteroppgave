@@ -9,11 +9,93 @@ Make a best practice for quick roll out, by the use of a MultiBox.
 
 
 \section{Set-up of the Mesh Potatoes}
+The set-up of the Mesh Potato is a process including installing firmware, allocating IP-addresses, providing Internet to the network and so on. The firmware used for the Mesh Potatoes is called Small Enterprise/Campus Network (SECN) Firmware \cite{ChoosingFirmware}. A flashing process is applied in order to install/update the firmware on the Mesh Potato. See the SECN User Guide in Appendix \ref{chp:appendixB} for a more detailed description of how to set up the Mesh Potatoes and how different networks can be built. 
+
+\subsection{Installing Firmware on Mesh Potato 1.0}
+
+The flashing process is the process of updating or changing the firmware (SECN) on the Mesh Potato. We updated the firmware by using the potato-flash application \cite{flashing}. This is a specialised software application for the Mesh Potato. Potato-flash can be used regardless of previously installed firmware on the Mesh Potato \cite{InstallingSecnFirmware}. 
+
+\begin{enumerate}
+\item Downloaded the 64 bit potato-flash utility from \url{http://download.villagetelco.org/utilities/potato-flash/potato-flash-64bit/} to the folder \textbf{/etc/local/bin}.
+\item Made the potato-flash file executable by writing \textbf{cmod +x /usr/local/bin/potato-flash-x64} in the Linux terminal.
+\item Downloaded the rootfs (openwrt-secn1_1-GA01-MP01-root.suashfs) file and the kernel (openwrt-secn1_1-GA01-MP01-vmlinux.lzma) file from \url{http://download.villagetelco.org/firmware/secn/stable/mp/SECN-1.1/} to a folder we called mp\_firmware on our local directory.
+\item Opened the terminal and wrote the following commands: 
+\end{enumerate}
+
+
+\begin{framed}
+\noindent \textbf{Root environment:} 
+\begin{lstlisting}[language=bash]
+  $ sudo su
+\end{lstlisting}
+
+\noindent \textbf{Turn of network manager:}
+\begin{lstlisting}[language=bash]
+  $ service network-manager stop
+\end{lstlisting}
+
+\noindent \textbf{Bring the interface connected to the MP up:}
+\begin{lstlisting}[language=bash]
+  $ ip link set eth0 up
+\end{lstlisting}
+
+\noindent \textbf{Go into the directory containing the .squashfs and .lzma files:}
+\begin{lstlisting}[language=bash]
+  $ cd <the directory containting the .squashfs and 
+  .lzma files>
+\end{lstlisting}
+
+\noindent \textbf{Assign IP-address to the interface:}
+\begin{lstlisting}[language=bash]
+  $ ifconfig eth0 1.1.1.1
+\end{lstlisting}
+
+Before running the potato-flash utility we made sure that the Mesh Potato was unplugged from the power and that the Mesh Potato was connected to your PC via an Ethernet cable. 
+
+\noindent \textbf{Executing the potato-flash utility:}
+\begin{lstlisting}[language=bash]
+  $ potato-flash-x64 openwrt-secn1_1-GA01-MP01-root.suashfs 
+   openwrt-secn1_1-GA01-MP01-vmlinux.lzma
+\end{lstlisting}
+\end{framed}
+
+Briefly after the potato-flash had been executed, dots stared appearing on the screen, like shown in \fref{fig:flashing}. When these dots started appearing, we plugged the power supply back into the Mesh Potato. 
+
+\begin{figure}[t]
+  \centering
+      \includegraphics[width=1\textwidth]{flashing}
+  \caption [Flashing the Mesh Potato]{\textbf{Flashing the Mesh Potato.} This figure shows the flashing process from when we first flashed our Mesh Potato 1.0}
+  \label{fig:flashing}
+\end{figure}
+
+
+\subsection{Installing Firmware on Mesh Potato 2.0}
 *Her skal vi skrive om flashing prosessen, hvordan få internett til nettverket, hvordan  en MP kan koble seg til de ulike uplinkene, 3G via TP-links til mesh nettverket (?). 
 %Flashing process
 %How did we get Internet to the network?
 %Hvordan en MP kan koble seg til de ulike uplinkene?
 %3G via TP-links til mesh nettverket?
+
+\subsection{Example Mesh network}
+We first started experimenting with the Mesh Potatoes by setting up a small network consisting of two MPs connected to each their plain old telephone, and a computer running Ubuntu Linux. This simple network is shown in \fref{fig:network}. Each of the MPs were assigned a static IP address, these addresses were not part of the LAN address space. The IP addresses are allocated in a predefined default address space 10.130.1.xxx. To administrate the MP devices we used a workstation linked together with one of the MPs in the network by using a Ethernet cable (can also be connected via Wi-Fi). We assigned the workstation a static address within the same address space as the MP devices. We were able to make phone calls between the Mesh Potatoes by dialling the last octet or the whole IP address.
+
+\begin{figure}[b]
+  \centering
+      \includegraphics[width=1\textwidth]{network1}
+  \caption [Example of a simple mesh network]{\textbf{Simple mesh network.} This figure illustrates a simple mesh network with the use of Mesh Potatoes.}
+  \label{fig:network}
+\end{figure}
+
+\subsection{The SECN Web Interface}
+Village Telco provides a SECN web interface for configuration and management of individual MPs. This web interface can be accessed by entering the IP address of the MP in a browser. In order to be able to do this, the PC must be on the same subnet (exact same prefix) as the MP.  
+
+
+
+
+
+
+
+
 
 \section{The Emergency Box}
 We want to make an emergency box that has high adaptability, so it can be utilized in several different scenarios. 

@@ -14,63 +14,67 @@
 \contentsline {section}{\numberline {2.2}Mesh Potato}{5}{section.2.2}
 \contentsline {subsubsection}{Mesh Potato 2.0}{7}{section*.4}
 \contentsline {subsubsection}{Difference between MP01 and MP02?}{8}{section*.6}
-\contentsline {subsubsection}{Example Mesh network}{8}{section*.7}
 \contentsline {section}{\numberline {2.3}Relevant Technologies}{8}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}OpenWrt}{9}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Mobile Ad Hoc Networks}{9}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Wireless Mesh Networks}{10}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.1}OpenWrt}{8}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Mobile Ad Hoc Networks}{8}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Wireless Mesh Networks}{9}{subsection.2.3.3}
 \contentsline {subsection}{\numberline {2.3.4}Routing Protocols}{10}{subsection.2.3.4}
-\contentsline {subsection}{\numberline {2.3.5}B.A.T.M.A.N}{11}{subsection.2.3.5}
-\contentsline {subsubsection}{RO.B.IN}{12}{section*.13}
-\contentsline {subsubsection}{Simple Unified Dashboard for mesh networks}{13}{section*.14}
-\contentsline {section}{\numberline {2.4}The Cost Structure and Revenue Model(s) of Village Telco Today}{13}{section.2.4}
-\contentsline {section}{\numberline {2.5}Comparison of Village Telco and other Telecommunication Companies}{13}{section.2.5}
-\contentsline {chapter}{\chapternumberline {3}Refugees and IDPs}{15}{chapter.3}
-\contentsline {section}{\numberline {3.1}Definitions}{16}{section.3.1}
-\contentsline {paragraph}{Refugee.}{16}{section*.15}
-\contentsline {paragraph}{Internally Displaced Person.}{16}{section*.16}
-\contentsline {section}{\numberline {3.2}Statistics}{16}{section.3.2}
-\contentsline {section}{\numberline {3.3}Interview with CARE - Dadaab Refugee Camp}{17}{section.3.3}
-\contentsline {section}{\numberline {3.4}Interview with Norwegian Refugee Council}{20}{section.3.4}
-\contentsline {section}{\numberline {3.5}Life in Camps for Refugee Women}{21}{section.3.5}
-\contentsline {chapter}{\chapternumberline {4}Main Work}{23}{chapter.4}
-\contentsline {section}{\numberline {4.1}Set-up of the Mesh Potatoes}{23}{section.4.1}
-\contentsline {section}{\numberline {4.2}The Emergency Box}{23}{section.4.2}
-\contentsline {paragraph}{Previous/similar work}{23}{section*.18}
+\contentsline {subsection}{\numberline {2.3.5}B.A.T.M.A.N}{10}{subsection.2.3.5}
+\contentsline {subsubsection}{RO.B.IN}{12}{section*.11}
+\contentsline {subsubsection}{Simple Unified Dashboard for mesh networks}{12}{section*.12}
+\contentsline {section}{\numberline {2.4}The Cost Structure and Revenue Model(s) of Village Telco Today}{12}{section.2.4}
+\contentsline {section}{\numberline {2.5}Comparison of Village Telco and other Telecommunication Companies}{12}{section.2.5}
+\contentsline {chapter}{\chapternumberline {3}Refugees and IDPs}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}Definitions}{14}{section.3.1}
+\contentsline {paragraph}{Refugee.}{14}{section*.13}
+\contentsline {paragraph}{Internally Displaced Person.}{14}{section*.14}
+\contentsline {section}{\numberline {3.2}Statistics}{14}{section.3.2}
+\contentsline {section}{\numberline {3.3}Interview with CARE - Dadaab Refugee Camp}{15}{section.3.3}
+\contentsline {section}{\numberline {3.4}Interview with Norwegian Refugee Council}{18}{section.3.4}
+\contentsline {section}{\numberline {3.5}Life in Camps for Refugee Women}{19}{section.3.5}
+\contentsline {chapter}{\chapternumberline {4}Main Work}{21}{chapter.4}
+\contentsline {section}{\numberline {4.1}Set-up of the Mesh Potatoes}{21}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Installing Firmware on Mesh Potato 1.0}{21}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Installing Firmware on Mesh Potato 2.0}{23}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Example Mesh network}{23}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}The SECN Web Interface}{23}{subsection.4.1.4}
+\contentsline {section}{\numberline {4.2}The Emergency Box}{24}{section.4.2}
+\contentsline {paragraph}{Previous/similar work}{24}{section*.18}
 \contentsline {subsection}{\numberline {4.2.1}The Different Components}{24}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}Battery and Charging Calculations}{24}{subsection.4.2.2}
 \contentsline {paragraph}{Charging with solar panel.}{24}{section*.20}
-\contentsline {paragraph}{With Mesh Potato v1.0}{24}{section*.21}
-\contentsline {paragraph}{With Mesh Potato v2.0}{25}{section*.22}
+\contentsline {paragraph}{With Mesh Potato v1.0}{26}{section*.21}
+\contentsline {paragraph}{With Mesh Potato v2.0}{26}{section*.22}
 \contentsline {subsection}{\numberline {4.2.3}The Process of Quick Roll-Out}{26}{subsection.4.2.3}
 \contentsline {section}{\numberline {4.3}Up-Link}{26}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Internet via Telephone-line}{26}{subsection.4.3.1}
-\contentsline {paragraph}{Dial-up Internet connection}{26}{section*.23}
+\contentsline {subsection}{\numberline {4.3.1}Internet via Telephone-line}{27}{subsection.4.3.1}
+\contentsline {paragraph}{Dial-up Internet connection}{27}{section*.23}
 \contentsline {paragraph}{ISDN}{27}{section*.24}
 \contentsline {paragraph}{DSL}{27}{section*.25}
-\contentsline {subsubsection}{Quickly Connect the Emergency Box to This Uplink}{27}{section*.26}
+\contentsline {subsubsection}{Quickly Connect the Emergency Box to This Uplink}{28}{section*.26}
 \contentsline {subsection}{\numberline {4.3.2}Cellular Network Technologies}{28}{subsection.4.3.2}
 \contentsline {subsubsection}{Quickly Connect the Emergency Box to This Uplink}{29}{section*.28}
 \contentsline {subsection}{\numberline {4.3.3}Satellite}{29}{subsection.4.3.3}
 \contentsline {subsubsection}{Quickly Connect the Emergency Box to This Uplink}{29}{section*.29}
 \contentsline {subsection}{\numberline {4.3.4}Summary Up-Links}{29}{subsection.4.3.4}
-\contentsline {section}{\numberline {4.4}Future Internet Access Methods}{29}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Apple's Mesh Network}{30}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Internet Balloons}{31}{subsection.4.4.2}
-\contentsline {section}{\numberline {4.5}Different Scenarios Where a Quick Roll-out is Necessary}{33}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Natural Disasters}{33}{subsection.4.5.1}
+\contentsline {section}{\numberline {4.4}Future Internet Access Methods}{30}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Google's Internet Balloons}{30}{subsection.4.4.1}
+\contentsline {section}{\numberline {4.5}Apple's Mesh Network}{32}{section.4.5}
+\contentsline {section}{\numberline {4.6}Different Scenarios Where a Quick Roll-out is Necessary}{33}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Natural Disasters}{34}{subsection.4.6.1}
 \contentsline {paragraph}{Hurrican Sandy}{34}{section*.32}
-\contentsline {paragraph}{Philippines}{34}{section*.33}
-\contentsline {paragraph}{Utilizing the emergency box.}{34}{section*.34}
-\contentsline {subsection}{\numberline {4.5.2}Temporary Refugee and IDP camps}{35}{subsection.4.5.2}
+\contentsline {paragraph}{Philippines}{35}{section*.33}
+\contentsline {paragraph}{Utilizing the emergency box.}{35}{section*.34}
+\contentsline {subsection}{\numberline {4.6.2}Temporary Refugee and IDP camps}{35}{subsection.4.6.2}
 \contentsline {paragraph}{Utilizing the emergency box.}{35}{section*.35}
-\contentsline {subsection}{\numberline {4.5.3}Festivals}{35}{subsection.4.5.3}
-\contentsline {paragraph}{Utilizing the emergency box.}{35}{section*.36}
-\contentsline {subsection}{\numberline {4.5.4}Breakdown of Mobile Towers}{35}{subsection.4.5.4}
-\contentsline {paragraph}{Utilizing the emergency box.}{35}{section*.37}
-\contentsline {subsection}{\numberline {4.5.5}Differences/relation between different scenarios}{36}{subsection.4.5.5}
+\contentsline {subsection}{\numberline {4.6.3}Festivals}{35}{subsection.4.6.3}
+\contentsline {paragraph}{Utilizing the emergency box.}{36}{section*.36}
+\contentsline {subsection}{\numberline {4.6.4}Breakdown of Mobile Towers}{36}{subsection.4.6.4}
+\contentsline {paragraph}{Utilizing the emergency box.}{36}{section*.37}
+\contentsline {subsection}{\numberline {4.6.5}Differences/relation between different scenarios}{36}{subsection.4.6.5}
 \contentsline {chapter}{\chapternumberline {5}Discussion}{37}{chapter.5}
 \contentsline {chapter}{\chapternumberline {6}Conclusion}{39}{chapter.6}
 \contentsline {chapter}{References}{41}{section*.39}
  \vspace {1em} \noindent \bfseries Appendices\par \vspace {-.5em} 
 \contentsline {appendix}{\chapternumberline {A}Interview with Care}{45}{appendix.A}
+\contentsline {appendix}{\chapternumberline {B}SECN-1.1 User Guide}{49}{appendix.B}

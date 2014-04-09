@@ -5,6 +5,8 @@ A level-1 auxiliary file: introduction.aux
 A level-1 auxiliary file: background.aux
 A level-1 auxiliary file: backgroundrefugeecamps.aux
 A level-1 auxiliary file: quickrollout.aux
+A level-1 auxiliary file: discussion.aux
+A level-1 auxiliary file: conclusion.aux
 The style file: ieeetr.bst
 A level-1 auxiliary file: appendixA.aux
 Database file #1: references.bib
@@ -100,9 +102,11 @@ Warning--entry type for "disasterResponse" isn't style-file defined
 --line 396 of file references.bib
 Warning--entry type for "keith" isn't style-file defined
 --line 411 of file references.bib
+Warning--entry type for "flashing" isn't style-file defined
+--line 417 of file references.bib
 Warning--empty journal in adhoc2
 Warning--empty journal in batman
 Warning--empty journal in womenRefugee
 Warning--empty chapter and pages in audestad
 Warning--empty publisher in broadband
-(There were 51 warnings)
+(There were 52 warnings)

@@ -140,8 +140,13 @@ Inveneo, ``Dadaabconnect.''
 M.~Maasilta, ``Outsiders or active citizents? the role of oral amd mediated
   ommunication in african refugee camps,'' ?
 
+\bibitem{flashing}
+{Village Telco}, ``Flash your mesh potato.''
+\newblock \url{http://villagetelco.org/get-started/flash-your-mesh-potato/},
+  accessed 09.04.2014.
+
 \bibitem{keith}
-{Keith Williamson}, ``Guest post: Adapting mesh potatoes for emergency work.''
+K.~Williamson, ``Guest post: Adapting mesh potatoes for emergency work.''
 \newblock
   \url{http://villagetelco.org/2011/11/guest-post-adapting-mps-for-emergency-work/},
   accessed 02.04.2014.
@@ -210,6 +215,28 @@ E.~S. Cohen, ed., {\em Broadband Internet: Access, Regulation and Policy},
   pp.~80--81.
 \newblock 2007.
 
+\bibitem{loon}
+{Project Loon}, ``Projet loon: Balloon-powered internt for everyone.''
+\newblock \url{http://www.google.com/loon/}, accessed 27.03.2014.
+
+\bibitem{loonTU}
+R.~Ramsdal, ``Google fikk ja til å sende internett-ballonger over norge,''
+  March 2014.
+\newblock
+  \url{http://www.tu.no/it/2014/03/22/google-fikk-ja-til-a-sende-internett-ballonger-over-norge},
+  accessed 23.03.2014.
+
+\bibitem{loonYouTube}
+{Project Loon}, ``Project loon,'' 2013-2014.
+\newblock \url{http://www.youtube.com/user/ProjectLoon}, accessed 28.03.2014.
+
+\bibitem{loonNorsk}
+A.~B. SMEDSRUD, ``Disse ballongene skal gi internett til hele verden,'' June
+  2013.
+\newblock
+  \url{http://www.hardware.no/artikler/disse-ballongene-skal-gi-internett-til-hele-verden/134539},
+  accessed 28.03.2014.
+
 \bibitem{fireChat}
 FireChat, ``app store: Firechat.''
 \newblock
@@ -234,28 +261,6 @@ M.~Elgan, ``Why google is working on home mesh networking,'' March 2014.
 \newblock
   \url{http://www.eweek.com/cloud/why-google-is-working-on-home-mesh-networking.html},
   accessed 27.03.2014.
-
-\bibitem{loon}
-{Project Loon}, ``Projet loon: Balloon-powered internt for everyone.''
-\newblock \url{http://www.google.com/loon/}, accessed 27.03.2014.
-
-\bibitem{loonTU}
-R.~Ramsdal, ``Google fikk ja til å sende internett-ballonger over norge,''
-  March 2014.
-\newblock
-  \url{http://www.tu.no/it/2014/03/22/google-fikk-ja-til-a-sende-internett-ballonger-over-norge},
-  accessed 23.03.2014.
-
-\bibitem{loonYouTube}
-{Project Loon}, ``Project loon,'' 2013-2014.
-\newblock \url{http://www.youtube.com/user/ProjectLoon}, accessed 28.03.2014.
-
-\bibitem{loonNorsk}
-A.~B. SMEDSRUD, ``Disse ballongene skal gi internett til hele verden,'' June
-  2013.
-\newblock
-  \url{http://www.hardware.no/artikler/disse-ballongene-skal-gi-internett-til-hele-verden/134539},
-  accessed 28.03.2014.
 
 \bibitem{naturalDisaster}
 Dictionary.com, ``Natural disaster.''
