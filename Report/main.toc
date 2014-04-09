@@ -55,22 +55,22 @@
 \contentsline {subsubsection}{Quickly Connect the Emergency Box to This Uplink}{29}{section*.29}
 \contentsline {subsection}{\numberline {4.3.4}Summary Up-Links}{29}{subsection.4.3.4}
 \contentsline {section}{\numberline {4.4}Future Internet Access Methods}{29}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Apple's Mesh Network}{30}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Internet Balloons}{31}{subsection.4.4.2}
-\contentsline {section}{\numberline {4.5}Different Scenarios Where a Quick Roll-out is Necessary}{33}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Natural Disasters}{33}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.4.1}Google's Internet Balloons}{30}{subsection.4.4.1}
+\contentsline {section}{\numberline {4.5}Apple's Mesh Network}{32}{section.4.5}
+\contentsline {section}{\numberline {4.6}Different Scenarios Where a Quick Roll-out is Necessary}{33}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Natural Disasters}{34}{subsection.4.6.1}
 \contentsline {paragraph}{Hurrican Sandy}{34}{section*.32}
-\contentsline {paragraph}{Philippines}{34}{section*.33}
-\contentsline {paragraph}{Utilizing the emergency box.}{34}{section*.34}
-\contentsline {subsection}{\numberline {4.5.2}Temporary Refugee and IDP camps}{35}{subsection.4.5.2}
-\contentsline {paragraph}{Utilizing the emergency box.}{35}{section*.35}
-\contentsline {subsection}{\numberline {4.5.3}Festivals}{35}{subsection.4.5.3}
-\contentsline {paragraph}{Utilizing the emergency box.}{35}{section*.36}
-\contentsline {subsection}{\numberline {4.5.4}Breakdown of Mobile Towers}{35}{subsection.4.5.4}
-\contentsline {paragraph}{Utilizing the emergency box.}{35}{section*.37}
-\contentsline {subsection}{\numberline {4.5.5}Differences/relation between different scenarios}{36}{subsection.4.5.5}
+\contentsline {paragraph}{Philippines}{35}{section*.33}
+\contentsline {paragraph}{Utilizing the emergency box.}{35}{section*.34}
+\contentsline {subsection}{\numberline {4.6.2}Temporary Refugee and IDP camps}{35}{subsection.4.6.2}
+\contentsline {paragraph}{Utilizing the emergency box.}{36}{section*.35}
+\contentsline {subsection}{\numberline {4.6.3}Festivals}{36}{subsection.4.6.3}
+\contentsline {paragraph}{Utilizing the emergency box.}{36}{section*.36}
+\contentsline {subsection}{\numberline {4.6.4}Breakdown of Mobile Towers}{36}{subsection.4.6.4}
+\contentsline {paragraph}{Utilizing the emergency box.}{36}{section*.37}
+\contentsline {subsection}{\numberline {4.6.5}Differences/relation between different scenarios}{36}{subsection.4.6.5}
 \contentsline {chapter}{\chapternumberline {5}Discussion}{37}{chapter.5}
 \contentsline {chapter}{\chapternumberline {6}Conclusion}{39}{chapter.6}
 \contentsline {chapter}{References}{41}{section*.39}
  \vspace {1em} \noindent \bfseries Appendices\par \vspace {-.5em} 
-\contentsline {appendix}{\chapternumberline {A}Interview with Care}{45}{appendix.A}
+\contentsline {appendix}{\chapternumberline {A}Interview with Care}{47}{appendix.A}

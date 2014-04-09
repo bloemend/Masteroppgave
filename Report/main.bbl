@@ -210,6 +210,33 @@ E.~S. Cohen, ed., {\em Broadband Internet: Access, Regulation and Policy},
   pp.~80--81.
 \newblock 2007.
 
+\bibitem{loon}
+{Project Loon}, ``Projet loon: Balloon-powered internt for everyone.''
+\newblock \url{http://www.google.com/loon/}, accessed 27.03.2014.
+
+\bibitem{loonTU}
+R.~Ramsdal, ``Google fikk ja til å sende internett-ballonger over norge,''
+  March 2014.
+\newblock
+  \url{http://www.tu.no/it/2014/03/22/google-fikk-ja-til-a-sende-internett-ballonger-over-norge},
+  accessed 23.03.2014.
+
+\bibitem{loonYouTube}
+{Project Loon}, ``Project loon,'' 2013-2014.
+\newblock \url{http://www.youtube.com/user/ProjectLoon}, accessed 28.03.2014.
+
+\bibitem{loonNorsk}
+A.~B. SMEDSRUD, ``Disse ballongene skal gi internett til hele verden,'' June
+  2013.
+\newblock
+  \url{http://www.hardware.no/artikler/disse-ballongene-skal-gi-internett-til-hele-verden/134539},
+  accessed 28.03.2014.
+
+\bibitem{iridium}
+Wikipedia, ``Iridium satellite constellation.''
+\newblock \url{http://en.wikipedia.org/wiki/Iridium_satellite_constellation},
+  accessed 09.04.2014.
+
 \bibitem{fireChat}
 FireChat, ``app store: Firechat.''
 \newblock
@@ -235,28 +262,6 @@ M.~Elgan, ``Why google is working on home mesh networking,'' March 2014.
   \url{http://www.eweek.com/cloud/why-google-is-working-on-home-mesh-networking.html},
   accessed 27.03.2014.
 
-\bibitem{loon}
-{Project Loon}, ``Projet loon: Balloon-powered internt for everyone.''
-\newblock \url{http://www.google.com/loon/}, accessed 27.03.2014.
-
-\bibitem{loonTU}
-R.~Ramsdal, ``Google fikk ja til å sende internett-ballonger over norge,''
-  March 2014.
-\newblock
-  \url{http://www.tu.no/it/2014/03/22/google-fikk-ja-til-a-sende-internett-ballonger-over-norge},
-  accessed 23.03.2014.
-
-\bibitem{loonYouTube}
-{Project Loon}, ``Project loon,'' 2013-2014.
-\newblock \url{http://www.youtube.com/user/ProjectLoon}, accessed 28.03.2014.
-
-\bibitem{loonNorsk}
-A.~B. SMEDSRUD, ``Disse ballongene skal gi internett til hele verden,'' June
-  2013.
-\newblock
-  \url{http://www.hardware.no/artikler/disse-ballongene-skal-gi-internett-til-hele-verden/134539},
-  accessed 28.03.2014.
-
 \bibitem{naturalDisaster}
 Dictionary.com, ``Natural disaster.''
 \newblock \url{http://dictionary.reference.com/browse/natural+disaster},
@@ -267,6 +272,16 @@ S.~Kelly, ``What is the best shtf/disaster communication?.''
 \newblock
   \url{http://graywolfsurvival.com/2716/ham-radio-best-shtfdisaster-communication/},
   accessed 01.04.2014.
+
+\bibitem{DevelopingWorld}
+D.~Smithfield, ``Haiti’s uphill battle: Developing countries struggle with
+  natural disasters,'' October 2013.
+\newblock
+  \url{http://www.refugeesinternational.org/blog/haiti%E2%80%99s-uphill-battle-developing-countries-struggle-natural-disasters},
+  accessed 09.04.2014.
+
+\bibitem{360}
+Aurecon, ``$360\,^{\circ}$ natural disaster,'' 2011.
 
 \bibitem{WikiSandy}
 Wikipedia, ``Orkanen sandy.''
