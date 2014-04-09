@@ -6,15 +6,22 @@
 \addvspace {10pt}
 \contentsline {figure}{\numberline {2.1}{\ignorespaces MP01}}{6}{figure.caption.3}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces MP2}}{7}{figure.caption.5}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Example of a simple mesh network}}{8}{figure.caption.8}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Cellular network vs. MANET}}{9}{figure.caption.9}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Example of a Wireless Mesh Network}}{10}{figure.caption.10}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Ad Hoc routing protocols}}{11}{figure.caption.11}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Originator Message in B.A.T.M.A.N}}{12}{figure.caption.12}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Cellular network vs. MANET}}{8}{figure.caption.7}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Example of a Wireless Mesh Network}}{9}{figure.caption.8}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Ad Hoc routing protocols}}{10}{figure.caption.9}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Originator Message in B.A.T.M.A.N}}{11}{figure.caption.10}
 \addvspace {10pt}
 \addvspace {10pt}
+<<<<<<< HEAD
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Number of mobile-cellular subscriptions}}{28}{figure.caption.27}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Project Loon: Balloon-powered internet for everyone.\relax }}{30}{figure.caption.31}
+=======
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Flashing the Mesh Potato}}{22}{figure.caption.16}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Example of a simple mesh network}}{23}{figure.caption.17}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Number of mobile-cellular subscriptions}}{28}{figure.caption.27}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Project Loon: Balloon-powered internet for everyone.\relax }}{30}{figure.caption.31}
+\addvspace {10pt}
+>>>>>>> 4e0ee2ec429965cdb191033a34e744a73ceb5074
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
