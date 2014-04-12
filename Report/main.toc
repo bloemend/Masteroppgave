@@ -72,9 +72,10 @@
 \contentsline {subsection}{\numberline {4.6.4}Breakdown of Mobile Towers}{36}{subsection.4.6.4}
 \contentsline {paragraph}{Utilizing the emergency box.}{37}{section*.37}
 \contentsline {subsection}{\numberline {4.6.5}Differences/relation between different scenarios}{37}{subsection.4.6.5}
-\contentsline {chapter}{\chapternumberline {5}Discussion}{39}{chapter.5}
-\contentsline {chapter}{\chapternumberline {6}Conclusion}{41}{chapter.6}
-\contentsline {chapter}{References}{43}{section*.39}
+\contentsline {section}{\numberline {4.7}Manual for Getting Internet via Ethernet Cable}{37}{section.4.7}
+\contentsline {chapter}{\chapternumberline {5}Discussion}{41}{chapter.5}
+\contentsline {chapter}{\chapternumberline {6}Conclusion}{43}{chapter.6}
+\contentsline {chapter}{References}{45}{section*.39}
  \vspace {1em} \noindent \bfseries Appendices\par \vspace {-.5em} 
-\contentsline {appendix}{\chapternumberline {A}Interview with Care}{49}{appendix.A}
-\contentsline {appendix}{\chapternumberline {B}SECN-1.1 User Guide}{53}{appendix.B}
+\contentsline {appendix}{\chapternumberline {A}Interview with Care}{51}{appendix.A}
+\contentsline {appendix}{\chapternumberline {B}SECN-1.1 User Guide}{55}{appendix.B}
