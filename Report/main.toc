@@ -39,43 +39,45 @@
 \contentsline {subsection}{\numberline {4.1.3}Example Mesh network}{23}{subsection.4.1.3}
 \contentsline {subsection}{\numberline {4.1.4}The SECN Web Interface}{23}{subsection.4.1.4}
 \contentsline {section}{\numberline {4.2}The Emergency Box}{24}{section.4.2}
-\contentsline {paragraph}{Previous/similar work}{24}{section*.18}
-\contentsline {subsection}{\numberline {4.2.1}The Different Components}{24}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Battery and Charging Calculations}{24}{subsection.4.2.2}
-\contentsline {paragraph}{Charging with solar panel.}{24}{section*.20}
-\contentsline {paragraph}{With Mesh Potato v1.0}{26}{section*.21}
-\contentsline {paragraph}{With Mesh Potato v2.0}{26}{section*.22}
-\contentsline {subsection}{\numberline {4.2.3}The Process of Quick Roll-Out}{26}{subsection.4.2.3}
-\contentsline {section}{\numberline {4.3}Up-Link}{26}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Internet via Telephone-line}{27}{subsection.4.3.1}
-\contentsline {paragraph}{Dial-up Internet connection}{27}{section*.23}
-\contentsline {paragraph}{ISDN}{27}{section*.24}
-\contentsline {paragraph}{DSL}{27}{section*.25}
-\contentsline {subsubsection}{Quickly Connect the Emergency Box to This Uplink}{28}{section*.26}
-\contentsline {subsection}{\numberline {4.3.2}Cellular Network Technologies}{28}{subsection.4.3.2}
-\contentsline {subsubsection}{Quickly Connect the Emergency Box to This Uplink}{29}{section*.28}
-\contentsline {subsection}{\numberline {4.3.3}Satellite}{29}{subsection.4.3.3}
-\contentsline {subsubsection}{Quickly Connect the Emergency Box to This Uplink}{29}{section*.29}
-\contentsline {subsection}{\numberline {4.3.4}Summary Up-Links}{29}{subsection.4.3.4}
-\contentsline {section}{\numberline {4.4}Future Internet Access Methods}{30}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Google's Internet Balloons}{30}{subsection.4.4.1}
-\contentsline {section}{\numberline {4.5}Apple's Mesh Network}{32}{section.4.5}
-\contentsline {section}{\numberline {4.6}Different Scenarios Where a Quick Roll-out is Necessary}{34}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}Natural Disasters}{34}{subsection.4.6.1}
-\contentsline {paragraph}{Hurrican Sandy}{35}{section*.32}
-\contentsline {paragraph}{Philippines}{35}{section*.33}
-\contentsline {paragraph}{Utilizing the emergency box.}{36}{section*.34}
-\contentsline {subsection}{\numberline {4.6.2}Temporary Refugee and IDP camps}{36}{subsection.4.6.2}
-\contentsline {paragraph}{Utilizing the emergency box.}{36}{section*.35}
-\contentsline {subsection}{\numberline {4.6.3}Festivals}{36}{subsection.4.6.3}
-\contentsline {paragraph}{Utilizing the emergency box.}{36}{section*.36}
-\contentsline {subsection}{\numberline {4.6.4}Breakdown of Mobile Towers}{36}{subsection.4.6.4}
-\contentsline {paragraph}{Utilizing the emergency box.}{37}{section*.37}
-\contentsline {subsection}{\numberline {4.6.5}Differences/relation between different scenarios}{37}{subsection.4.6.5}
-\contentsline {section}{\numberline {4.7}Manual for Getting Internet via Ethernet Cable}{37}{section.4.7}
-\contentsline {chapter}{\chapternumberline {5}Discussion}{41}{chapter.5}
-\contentsline {chapter}{\chapternumberline {6}Conclusion}{43}{chapter.6}
-\contentsline {chapter}{References}{45}{section*.39}
+\contentsline {subsubsection}{Previous/similar work}{24}{section*.19}
+\contentsline {subsection}{\numberline {4.2.1}The Different Components}{25}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Creating the Multibox}{25}{subsection.4.2.2}
+\contentsline {paragraph}{Possible improvements }{27}{section*.21}
+\contentsline {subsection}{\numberline {4.2.3}Battery and Charging Calculations}{27}{subsection.4.2.3}
+\contentsline {paragraph}{Charging with solar panel.}{27}{section*.22}
+\contentsline {paragraph}{With Mesh Potato v1.0}{28}{section*.23}
+\contentsline {paragraph}{With Mesh Potato v2.0}{28}{section*.24}
+\contentsline {subsection}{\numberline {4.2.4}The Process of Quick Roll-Out}{28}{subsection.4.2.4}
+\contentsline {section}{\numberline {4.3}Up-Link}{28}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Internet via Telephone-line}{29}{subsection.4.3.1}
+\contentsline {paragraph}{Dial-up Internet connection}{29}{section*.25}
+\contentsline {paragraph}{ISDN}{29}{section*.26}
+\contentsline {paragraph}{DSL}{29}{section*.27}
+\contentsline {subsubsection}{Quickly Connect the Emergency Box to This Uplink}{30}{section*.28}
+\contentsline {subsection}{\numberline {4.3.2}Cellular Network Technologies}{30}{subsection.4.3.2}
+\contentsline {subsubsection}{Quickly Connect the Emergency Box to This Uplink}{31}{section*.30}
+\contentsline {subsection}{\numberline {4.3.3}Satellite}{31}{subsection.4.3.3}
+\contentsline {subsubsection}{Quickly Connect the Emergency Box to This Uplink}{31}{section*.31}
+\contentsline {subsection}{\numberline {4.3.4}Summary Up-Links}{31}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.4}Future Internet Access Methods}{32}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Google's Internet Balloons}{32}{subsection.4.4.1}
+\contentsline {section}{\numberline {4.5}Apple's Mesh Network}{34}{section.4.5}
+\contentsline {section}{\numberline {4.6}Different Scenarios Where a Quick Roll-out is Necessary}{36}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Natural Disasters}{36}{subsection.4.6.1}
+\contentsline {paragraph}{Hurrican Sandy}{37}{section*.34}
+\contentsline {paragraph}{Philippines}{37}{section*.35}
+\contentsline {paragraph}{Utilizing the emergency box.}{38}{section*.36}
+\contentsline {subsection}{\numberline {4.6.2}Temporary Refugee and IDP camps}{38}{subsection.4.6.2}
+\contentsline {paragraph}{Utilizing the emergency box.}{38}{section*.37}
+\contentsline {subsection}{\numberline {4.6.3}Festivals}{38}{subsection.4.6.3}
+\contentsline {paragraph}{Utilizing the emergency box.}{38}{section*.38}
+\contentsline {subsection}{\numberline {4.6.4}Breakdown of Mobile Towers}{39}{subsection.4.6.4}
+\contentsline {paragraph}{Utilizing the emergency box.}{39}{section*.39}
+\contentsline {subsection}{\numberline {4.6.5}Differences/relation between different scenarios}{39}{subsection.4.6.5}
+\contentsline {section}{\numberline {4.7}Manual for Getting Internet via Ethernet Cable}{39}{section.4.7}
+\contentsline {chapter}{\chapternumberline {5}Discussion}{43}{chapter.5}
+\contentsline {chapter}{\chapternumberline {6}Conclusion}{45}{chapter.6}
+\contentsline {chapter}{References}{47}{section*.41}
  \vspace {1em} \noindent \bfseries Appendices\par \vspace {-.5em} 
-\contentsline {appendix}{\chapternumberline {A}Interview with Care}{51}{appendix.A}
-\contentsline {appendix}{\chapternumberline {B}SECN-1.1 User Guide}{55}{appendix.B}
+\contentsline {appendix}{\chapternumberline {A}Interview with Care}{53}{appendix.A}
+\contentsline {appendix}{\chapternumberline {B}SECN-1.1 User Guide}{57}{appendix.B}

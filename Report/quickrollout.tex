@@ -13,18 +13,21 @@ The set-up of the Mesh Potato is a process including installing firmware, alloca
 
 \subsection{Installing Firmware on Mesh Potato 1.0}
 
-The flashing process is the process of updating or changing the firmware (SECN) on the Mesh Potato. We updated the firmware by using the potato-flash application \cite{flashing}. This is a specialised software application for the Mesh Potato. Potato-flash can be used regardless of previously installed firmware on the Mesh Potato \cite{InstallingSecnFirmware}. 
+Flashing is the process of updating or changing the firmware (SECN) on the Mesh Potato. We updated the firmware by using the potato-flash application \cite{flashing}. This is a specialised software application for the Mesh Potato. Potato-flash can be used regardless of previously installed firmware on the Mesh Potato \cite{InstallingSecnFirmware}. 
 
 \begin{enumerate}
 \item Downloaded the 64 bit potato-flash utility from \url{http://download.villagetelco.org/utilities/potato-flash/potato-flash-64bit/} to the folder \textbf{/etc/local/bin}.
-\item Made the potato-flash file executable by writing \textbf{cmod +x /usr/local/bin/potato-flash-x64} in the Linux terminal.
-\item Downloaded the rootfs (openwrt-secn1_1-GA01-MP01-root.suashfs) file and the kernel (openwrt-secn1_1-GA01-MP01-vmlinux.lzma) file from \url{http://download.villagetelco.org/firmware/secn/stable/mp/SECN-1.1/} to a folder we called mp\_firmware on our local directory.
+\item Made the potato-flash file executable by writing the following command in the Linux terminal.
+\begin{lstlisting}[language=bash]
+  $ cmod +x /usr/local/bin/potato-flash-x64
+\end{lstlisting}
+\item Downloaded the rootfs file (\texttt{openwrt-secn1_1-GA01-MP01-root.suashfs}) and the kernel file (\texttt{openwrt-secn1_1-GA01-MP01-vmlinux.lzma})  from \url{http://download.villagetelco.org/firmware/secn/stable/mp/SECN-1.1/} to a folder we called mp\_firmware on our local directory.
 \item Opened the terminal and wrote the following commands: 
 \end{enumerate}
 
 
 \begin{framed}
-\noindent \textbf{Root environment:} 
+\noindent \textbf{Enter root environment:} 
 \begin{lstlisting}[language=bash]
   $ sudo su
 \end{lstlisting}
@@ -50,7 +53,7 @@ The flashing process is the process of updating or changing the firmware (SECN) 
   $ ifconfig eth0 1.1.1.1
 \end{lstlisting}
 
-Before running the potato-flash utility we made sure that the Mesh Potato was unplugged from the power and that the Mesh Potato was connected to your PC via an Ethernet cable. 
+Before running the potato-flash utility we made sure that the power was unplugged, and that the Mesh Potato was connected to our PC via an Ethernet cable. 
 
 \noindent \textbf{Executing the potato-flash utility:}
 \begin{lstlisting}[language=bash]
@@ -59,11 +62,11 @@ Before running the potato-flash utility we made sure that the Mesh Potato was un
 \end{lstlisting}
 \end{framed}
 
-Briefly after the potato-flash had been executed, dots stared appearing on the screen, like shown in \fref{fig:flashing}. When these dots started appearing, we plugged the power supply back into the Mesh Potato. 
+Briefly after the potato-flash had been executed, dots stared appearing on the screen, like shown in \fref{fig:flashing}. When these dots started appearing, we plugged the power supply back into the Mesh Potato, and the process of upgrading the firmware started. 
 
 \begin{figure}[t]
   \centering
-      \includegraphics[width=1\textwidth]{flashing}
+      \includegraphics[width=1\textwidth]{potatoFlash.png}
   \caption [Flashing the Mesh Potato]{\textbf{Flashing the Mesh Potato.} This figure shows the flashing process from when we first flashed our Mesh Potato 1.0}
   \label{fig:flashing}
 \end{figure}
@@ -77,9 +80,9 @@ Briefly after the potato-flash had been executed, dots stared appearing on the s
 %3G via TP-links til mesh nettverket?
 
 \subsection{Example Mesh network}
-We first started experimenting with the Mesh Potatoes by setting up a small network consisting of two MPs connected to each their plain old telephone, and a computer running Ubuntu Linux. This simple network is shown in \fref{fig:network}. Each of the MPs were assigned a static IP address, these addresses were not part of the LAN address space. The IP addresses are allocated in a predefined default address space 10.130.1.xxx. To administrate the MP devices we used a workstation linked together with one of the MPs in the network by using a Ethernet cable (can also be connected via Wi-Fi). We assigned the workstation a static address within the same address space as the MP devices. We were able to make phone calls between the Mesh Potatoes by dialling the last octet or the whole IP address.
+We first started experimenting with the Mesh Potatoes by setting up a small network consisting of two MPs each connected to a plain old telephone, and a computer running Ubuntu Linux. This simple network is shown in \fref{fig:network}. Each of the MPs were assigned a static IP address, these addresses were not part of the LAN address space. The IP addresses are allocated in a predefined default address space 10.130.1.xxx. To administrate the MP devices we used a workstation linked together with one of the MPs in the network by using a Ethernet cable (can also be connected via Wi-Fi). We assigned the workstation a static address within the same address space as the MP devices. We were able to make phone calls between the Mesh Potatoes by dialling the last octet or the whole IP address.
 
-\begin{figure}[b]
+\begin{figure}[t]
   \centering
       \includegraphics[width=1\textwidth]{network1}
   \caption [Example of a simple mesh network]{\textbf{Simple mesh network.} This figure illustrates a simple mesh network with the use of Mesh Potatoes.}
@@ -87,23 +90,22 @@ We first started experimenting with the Mesh Potatoes by setting up a small netw
 \end{figure}
 
 \subsection{The SECN Web Interface}
-Village Telco provides a SECN web interface for configuration and management of individual MPs. This web interface can be accessed by entering the IP address of the MP in a browser. In order to be able to do this, the PC must be on the same subnet (exact same prefix) as the MP.  
+Village Telco provides a SECN web interface for configuration and management of individual MPs. This web interface can be accessed by entering the IP address of the MP in a browser, this interface is shown in \fref{fig:webinterface} In order to be able to do this, the PC must be on the same subnet (exact same prefix) as the MP.  
 
-
-
-
-
-
+\begin{figure}[t]
+  \centering
+      \includegraphics[width=1\textwidth]{webinterface.png}
+  \caption [Web interface]{\textbf{Web interface} Displays the web interface to the Mesh Potato.}
+  \label{fig:webinterface}
+\end{figure}
 
 
 
 \section{The Emergency Box}
-We want to make an emergency box that has high adaptability, so it can be utilized in several different scenarios. 
-
-*Mer utfyllende introduksjon til nødboksen  
-
-\paragraph{Previous/similar work}
-Something similar has been done before by Keith Williamson, a volunteer in the Village Telco community. His idea of utilizing the Mesh Potatoes in emergency situations started with his interest in amateur radios for use in emergency situations. He sat together a "go box" by using a waterproof Pelican 1200 case.  This case contained a bracket holding the Mesh Potato, a rechargeable Li-Ion or Li-Poly battery, telephone handset, and to connect it all together and get a on/off switch, a junction box was included \cite{keith}. 
+The Mesh potatoes and Village Telcos were created to get voice and data connection to areas where they are non existent or too expensive for the average person. As of now the Mesh Potatoes have been set up to create small or bigger networks in villages in big parts of the world. We want to expand the solutions, and look at its mobility, its usage on the go. We want to make a box that has high adaptability, enabling it to easily be used in several different scenarios, under different conditions and by different people. The box have to be so easy that there are no room for misunderstanding or mistakes. It should be a ready-to-go box ready for any situations.  
+ 
+\subsubsection{Previous/similar work}
+Something similar has been done before by Keith Williamson, a volunteer in the Village Telco community. His idea of utilizing the Mesh Potatoes in emergency situations started with his interest in amateur radios, and the use of radios in emergency situations. He put together a "go box" by using a waterproof Pelican 1200 case. This case contained a bracket holding the Mesh Potato, a rechargeable Li-Ion or Li-Poly battery, telephone handset, and to connect it all together and get a on/off switch, a junction box was included \cite{keith}. 
 
 *Se om vi finner minst et eksempel til på noe lignende som er gjort før. 
 
@@ -120,7 +122,7 @@ Something similar has been done before by Keith Williamson, a volunteer in the V
 The components of our emergency box is described in \tref{tab:components}. 
 
 \begin{center}
-\begin{table}[!hb]
+\begin{table}[t]
 \caption{\label{tab:components}The components of MultiBox}
     \begin{tabular}{ | l | p{9cm} |}
     \hline
@@ -143,6 +145,24 @@ The components of our emergency box is described in \tref{tab:components}.
     \end{tabular}
    \end{table}
 \end{center}
+
+\subsection{Creating the Multibox}
+The main part that binds all the components together is the solar regulator. This is used in order to not overcharge the battery. The solar regulator was initially built for an other type of solar panel tan the one we chose to use. This, for example, means that the concomitant plugs could not be used. These plugs were cut of and we soldered on our own wires. The solar regulator is connected to all three main components, the solar panel, the battery and the Mesh Potato. 
+
+First we cut of the plugs on the solar regulator and soldered on new wires. Then we cut of part of the power cord to the MP and soldered onto one of the wires. The second wire from the solar regulator was connected to solar panel. Before doing this we measures how much voltage was in the solar panel and it this voltage was affected by light. This test was done just by holding the solar panel up to a bright lamp. When both the solar panel and the MP was connected to the regulator, the only thing remaining was the battery. The battery was fully charged and showed a voltage of a little over 13 V. We unpligged the MP and connected the battery. After the battery was attached we powered up the MP, and it worked. 
+
+This is a very easy setup, and have room for many improvements. As a strated the most important aspect is that is works. 
+
+
+\paragraph{Possible improvements }
+As mentions this setup is fairly easy and simple, but leaves room for improvements. For a starter there should be a on and of switch to not use battery capacity when not in use. This switch should be on the wire between the battery and the regulator. Unless we use a tool to check the voltage there are no way for us to know how much of the battery that has been used. This could be very useful when in a situation where communication is vital and the hours of lifetime should be thought about. 
+The battery we are utalizing is a gel battery, they are less explosive that the lithium batteries, and are allowed to take on planes, but on the contrary they are heavy. If the aim was to make a case that is as portable as possible a lighter battery would be necessary. 
+
+The MP2 is a lot smaller than the fist generation, and a powerful solar panel dores not take that much space so there is no need for a suitcase of the size we have purchased. A smaller care that is lighter and easier to handle would make the solution even more portable. 
+
+
+
+* How make it suitable to connect to different up-links, how to the configuration process as easy as possible. 
 
 \subsection{Battery and Charging Calculations}
 All the calculations done in this section is based on the equipment described in \tref{tab:components}.
