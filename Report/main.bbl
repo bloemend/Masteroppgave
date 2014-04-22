@@ -140,9 +140,21 @@ Inveneo, ``Dadaabconnect.''
 M.~Maasilta, ``Outsiders or active citizents? the role of oral amd mediated
   ommunication in african refugee camps,'' ?
 
+\bibitem{ChoosingFirmware}
+{Village Telco}, ``Choosing a firmware for the mp.''
+\newblock
+  \url{http://villagetelco.org/get-started/choosing-a-firmware-for-the-mp/},
+  accessed 09.04.2014.
+
 \bibitem{flashing}
 {Village Telco}, ``Flash your mesh potato.''
 \newblock \url{http://villagetelco.org/get-started/flash-your-mesh-potato/},
+  accessed 09.04.2014.
+
+\bibitem{InstallingSecnFirmware}
+{Village Telco}, ``Installing vt secn firmware.''
+\newblock
+  \url{http://wiki.villagetelco.org/Installing_VT_SECN_Firmware#Using_Potato_Flash_software},
   accessed 09.04.2014.
 
 \bibitem{keith}
@@ -237,14 +249,11 @@ A.~B. SMEDSRUD, ``Disse ballongene skal gi internett til hele verden,'' June
   \url{http://www.hardware.no/artikler/disse-ballongene-skal-gi-internett-til-hele-verden/134539},
   accessed 28.03.2014.
 
-<<<<<<< HEAD
 \bibitem{iridium}
 Wikipedia, ``Iridium satellite constellation.''
 \newblock \url{http://en.wikipedia.org/wiki/Iridium_satellite_constellation},
   accessed 09.04.2014.
 
-=======
->>>>>>> 4e0ee2ec429965cdb191033a34e744a73ceb5074
 \bibitem{fireChat}
 FireChat, ``app store: Firechat.''
 \newblock
@@ -290,6 +299,9 @@ D.~Smithfield, ``Haiti’s uphill battle: Developing countries struggle with
 
 \bibitem{360}
 Aurecon, ``$360\,^{\circ}$ natural disaster,'' 2011.
+\newblock
+  \url{http://issuu.com/aurecon/docs/aurecon_360_issue3?mode=embed&layout=http%3A//skin.issuu.com/v/light/layout.xml&showFlipBtn=true},
+  accessed 09.04.2014.
 
 \bibitem{WikiSandy}
 Wikipedia, ``Orkanen sandy.''
