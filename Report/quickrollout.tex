@@ -92,7 +92,7 @@ We first started experimenting with the Mesh Potatoes by setting up a small netw
 \subsection{The SECN Web Interface}
 Village Telco provides a SECN web interface for configuration and management of individual MPs. This web interface can be accessed by entering the IP address of the MP in a browser, this interface is shown in \fref{fig:webinterface} In order to be able to do this, the PC must be on the same subnet (exact same prefix) as the MP.  
 
-The web interface allows the user to do alterations in the MP in an easy and userfriendly interface. A newly flashed MP does not have the root password set, and when entering the web interface the user will not be asked to enter a password for authentication. This is a feature recommended to set up.  The web interface allows the user to alter some key parameters. Among these are Network configurations, WiFi Access Point, VoIP/SIP Configurations, Password and Web Server Security. 
+The web interface allows the user to do alterations in the MP. A newly flashed MP does not have the root password set, and when entering the web interface the user will not be asked to enter a password for authentication. This is a feature recommended to set up.  The web interface allows the user to alter some key parameters. Among these are changing the IP address of the device, set up the WiFi Access Point, VoIP/SIP Configurations, Password and Web Server Security. The web interface also allows the user to to do changes to more advanced settings and monitoring. To get a detailed description of the web interface see the user guide in Appendix \ref{chp:appendixA}.  
 
 \begin{figure}[t]
   \centering
@@ -217,6 +217,10 @@ Digital subscriber line (DSL) is, like the name indicates, a digital high-speed 
 \subsubsection{Quickly Connect the Emergency Box to This Uplink}
 *Forklare hvordan man raskest mulig kobler nødboksen til akkurat denne type uplink.
 
+In order to connect the Mesh Potato network to Internet via a land-line, at least one MP have to be in reach for a Internet signal. Preferably The MP should be connected with an Ethernet cable, but could also be done wireless.  First the Mesh Potatoes have to be configured following the steps below. After completing the steps one can plug the Ethernet cable in in one MP and the internet is spread to the the other MPs in reach. It could be smart to change the name and the password for the different MPs. This is easily done by opening the web interface for each MP. 
+
+When connection to a wireless access point the configuration differs a little bit.
+
 \subsection{Cellular Network Technologies}
 
 \begin{figure}[b]
@@ -233,6 +237,7 @@ Through mobile network technologies, high-speed Internet access can be provided 
 
 \subsubsection{Quickly Connect the Emergency Box to This Uplink}
 *Forklare hvordan man raskest mulig kobler nødboksen til akkurat denne type uplink.
+
 
 
 \subsection{Satellite}
