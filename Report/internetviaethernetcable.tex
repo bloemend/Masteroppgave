@@ -1,4 +1,4 @@
-\section{Manual for Getting Internet via Ethernet Cable}
+\subsubsection{Quickly Connect a Mesh Potato to the Internet via Ethernet Cable}
 
 In order to perform this set up, a PC with Linux Ubuntu and wireless Internet and a Mesh Potato 2.0 is required. The last octet of the IP address for the MP is the unique number for each MP. In the following example we use 21, but this number must be different for each MP in a network. 
 
@@ -36,38 +36,42 @@ You will get prompt for password.
 \item When in root shell, write: 
 \noindent
 \begin{lstlisting}[language=bash]
-  $ iptables --table nat --append POSTROUTING --out-interface eth1 -j MASQUERADE
+  $ iptables --table nat --append POSTROUTING --out-interface
+   eth1 -j MASQUERADE
   $ iptables --append FORWARD --in-interface eth0 -j ACCEPT
   $ echo 1 > /proc/sys/net/ipv4/ip_forward
 \end{lstlisting}
 \item Open a editor on you PC (for example gedit). Paste the following text into a new file: 
 \begin{framed}
-\noindent
-\begin{lstlisting}[language=bash]
+\begin{verbatim}
 #!/bin/bash
 ARGS=2
 if [ "$(id -u)" != "0" ]; then
     echo ""
-    echo "Sorry, this script must be run as root."
-    echo "Try sudo $0 name_of_wireless_interface name_of_ethernet_interface"
+    echo "    Sorry, this script must be run as root."
+    echo "    Try sudo $0 name_of_wireless_interface
+     name_of_ethernet_interface"
     echo ""
     exit
 fi
 if [ $# -ne "$ARGS" ]; then 
     echo ""
-    echo "This script sets up IP masquerading from your ethernet port to your wifi Internet connection."
-    echo "usage: $0 name_of_wireless_interface name_of_ethernet_interface"
-    echo "e.g. $0 wlan0 eth0"
+    echo "    This script sets up IP masquerading from your 
+    ethernet port to your wifi Internet connection."
+    echo "    usage: $0 name_of_wireless_interface
+     name_of_ethernet_interface"
+    echo "    e.g. $0 wlan0 eth0"
     echo ""
     exit
 fi
 wifi=$1
 eth=$2
 
-/sbin/iptables --table nat --append POSTROUTING --out-interface $wifi -j MASQUERADE
+/sbin/iptables --table nat --append POSTROUTING
+ --out-interface $wifi -j MASQUERADE
 /sbin/iptables --append FORWARD --in-interface $eth -j ACCEPT
 /bin/echo 1 > /proc/sys/net/ipv4/ip_forward
-\end{lstlisting}
+\end{verbatim}
 \end{framed}
 
 Save this file as "mp_masquerade.sh" in the directory /usr/local/bin. Make the file executable by entering the following in the terminal:
