@@ -113,9 +113,13 @@ Warning--entry type for "InstallingSecnFirmware" isn't style-file defined
 --line 446 of file references.bib
 Warning--entry type for "ChoosingFirmware" isn't style-file defined
 --line 452 of file references.bib
+Warning--entry type for "telnet" isn't style-file defined
+--line 458 of file references.bib
+Warning--entry type for "ssh" isn't style-file defined
+--line 464 of file references.bib
 Warning--empty journal in adhoc2
 Warning--empty journal in batman
 Warning--empty journal in womenRefugee
 Warning--empty chapter and pages in audestad
 Warning--empty publisher in broadband
-(There were 56 warnings)
+(There were 58 warnings)

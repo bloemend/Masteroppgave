@@ -1,12 +1,9 @@
 \chapter{Main Work}
 \label{chp:quickrollout} 
 
-Make a best practice for quick roll out, by the use of a MultiBox. 
+The main purpose of our study was that we wanted to create an easy way to utilize the Mesh Potatoes in emergency situations and other situations where there are need for cheap and instant communication. Our main focus has been on providing Internet access to the network, and the aspect of quick roll-out of the network. Internet access may be vital to have in emergency situations, or just convenient in other situations. The process of setting up a mesh network providing Internet should be done quickly, since time is a crucial factor to consider in emergency situations. In this chapter we will describe parts of the set-up techniques for the Mesh Potatoes. Further on we will present our Emergency Box, which is a box including a Mesh Potato, telephone, solar panel, battery and a charging regulator. We will describe how we made this box, and similar work that have been conducted previously on the area. When it comes to the quick roll-out, specific approaches for making a best practice for quick roll-out will be presented. We will present the different types of up-links available to provide the mesh network with Internet access, and give a manual for how connecting the network to the different up-links. In addition to his we will look at the different scenarios of use for the Emergency Box, and how the box best can be utilized in the different scenarios. 
 
 *Få fram at vi har samlet informasjon på et sted. Må ikke ta kreds for noe vi ikke har gjort. 
-*Alt som står på norsk er kommentarer på hva mer som skal være med.
-
-*Her skal det være en mer utfyllende innledning til kapittelet. Hva kap. inneholder.
 
 
 \section{Set-up of the Mesh Potatoes}
@@ -128,20 +125,18 @@ The components of our emergency box is described in \tref{tab:components}.
 
 \begin{center}
 \begin{table}[t]
-\caption{\label{tab:components}The components of MultiBox}
+\caption{\label{tab:components}The components of Emergency Box}
     \begin{tabular}{ | l | p{9cm} |}
     \hline
     \textbf{Component} & \textbf{Description and purpose} \\ 
     \hline
-    Mesh Potato &  \\ 
+    Access point for Internet &  Mesh Potato v2.0\\ 
     \hline
     Suitcase/box &  A suitcase made of high quality plastic coated with aluminium foil. Strengthened edges and corners of aluminium and steel. It has a soft-padded interior, than can be split into different rooms. Two snap locks with keys, and a solid handle for carrying. Dimensions: 455x330x152 (width, depth, height). Weight: 2,6 kg. \\ 
     \hline
     Power supply & A gel battery (12 V and 5 Ah). No need for maintenance. The battery acid is bound in a viscous gel. This prevents leakage, even when the battery is mounted horizontally. Long lifetime and safe to handle. The battery is fully closed, and do not need refill of battery water. No hydrogen gas or other gas might leak. When the battery is charging no gas or acid vapor is emitted, hence the battery can be placed in narrow or enclosed spaces. The battery withstands multiple discharges. The gel battery is ideal for seasonal or occasional use, since it have a slow self-discharge tempo, and a good ability to recover after deep discharging. Dimensions: 114x69x109. Weight: 2,16 kg. \\
     \hline
     Plain old telephone & \\
-	\hline
-	Junction box & \\
 	\hline
 	Solar panel & Solar panel from Multicomp with item number: MC-SP10-GCS. Power rating: 10 W. Power Voltage Max: 17 V. Dimensions: 357x280x18\\
 	\hline
@@ -151,7 +146,7 @@ The components of our emergency box is described in \tref{tab:components}.
    \end{table}
 \end{center}
 
-\subsection{Creating the Multibox}
+\subsection{Creating the Emergency Box}
 The main part that binds all the components together is the solar regulator. This is used in order to not overcharge the battery. The solar regulator was initially built for another type of solar panel than the one we chose to use. This, for example, means that the concomitant plugs could not be used. These plugs were cut of and we soldered on our own wires. The solar regulator is connected to all three main components, the solar panel, the battery and the Mesh Potato. 
 
 First we cut of the plugs on the solar regulator and soldered on new wires. Then we cut of part of the MP's power cord and soldered this onto one of the wires. The second wire from the solar regulator was connected to the solar panel. Before doing this we measured how much voltage was in the solar panel and if this voltage was affected by light. This test was done just by holding the solar panel up to a bright lamp. When both the solar panel and the MP's power cord was connected to the regulator, the only thing remaining was the battery. The battery was fully charged and showed a voltage of a little over 13 V. We unplugged the MP and connected the battery. After the battery was attached we powered up the MP, and it worked. 
@@ -209,6 +204,15 @@ $$Amp = \frac{Watt}{Volt} = \frac{? W}{12 V} = ? Ampere$$
 $$Amp\times Hours = AmpHours \Rightarrow Hours = \frac{AmpHours}{Amp} = \frac{? Ah}{? A} = ? Hours$$
 
 \subsection{The Process of Quick Roll-Out}
+As mentioned, one of our focus areas is the process of quick roll-out. There are many aspects that can be included in order to speed up the roll-out process, and we will now present some of our ideas to meet this requirement.
+
+\paragraph{Script}
+We had an idea of making a script that can be included in the emergency box on for example an USB-stick. There would have to be a different script for each up-link type. This script would include
+\begin{itemize}
+\item Upgrading of firmware/flashing process.
+\item Connecting to Internet for a specific up-link type. 
+\end{itemize}
+
 *Forklare spesifikke ting som er tatt i betrakning for å gjøre utrullingen raskest mulig. Feks scripting, manual etc. 
 
 *Hvordan utdele telefonnummer raskt, opplæring av folk, 
