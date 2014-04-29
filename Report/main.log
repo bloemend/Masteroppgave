@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.16)  29 APR 2014 10:17
+=======
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.16)  29 APR 2014 14:35
+>>>>>>> 7b26ecfbdc7ad42606a279b175199f0af6b5c5e6
 entering extended mode
 **main.tex
 (C:\Users\Esther\Masteroppgave\Report\main.tex
@@ -2773,12 +2777,18 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 115.
  ) 
 Here is how much of TeX's memory you used:
  23107 strings out of 493921
+<<<<<<< HEAD
  341611 string characters out of 3144873
  578285 words of memory out of 3000000
+=======
+ 340031 string characters out of 3147267
+ 578275 words of memory out of 3000000
+>>>>>>> 7b26ecfbdc7ad42606a279b175199f0af6b5c5e6
  25419 multiletter control sequences out of 15000+200000
  85582 words of font info for 118 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  58i,18n,101p,2588b,1306s stack positions out of 5000i,500n,10000p,200000b,50000s
+<<<<<<< HEAD
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files (x86)/
 MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/MiKTeX 2.9/font
@@ -2795,6 +2805,23 @@ Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Fil
 es (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Program Files (x86)/MiK
 TeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
 Output written on main.pdf (109 pages, 2983460 bytes).
+=======
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Fil
+es/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
+nc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit
+.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/lm/lmbx9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss1
+7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/lm/lmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/lm/lmtt10.pfb>
+Output written on main.pdf (109 pages, 2983767 bytes).
+>>>>>>> 7b26ecfbdc7ad42606a279b175199f0af6b5c5e6
 PDF statistics:
  1467 PDF objects out of 1728 (max. 8388607)
  343 named destinations out of 1000 (max. 500000)
