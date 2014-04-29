@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.16)  28 APR 2014 11:06
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.16)  29 APR 2014 14:35
 entering extended mode
 **main.tex
 ("C:\Users\Ida Malene\Masteroppgave\Report\main.tex"
@@ -2769,17 +2769,13 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 115.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 115.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 44645D46581E3DCF3102C2B844D766F3;3923.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 115.
  ) 
 Here is how much of TeX's memory you used:
- 23108 strings out of 493921
- 340041 string characters out of 3147267
- 578287 words of memory out of 3000000
- 25420 multiletter control sequences out of 15000+200000
+ 23107 strings out of 493921
+ 340031 string characters out of 3147267
+ 578275 words of memory out of 3000000
+ 25419 multiletter control sequences out of 15000+200000
  85582 words of font info for 118 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  58i,18n,101p,2588b,1306s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2797,7 +2793,7 @@ eX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 am Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/lm/lmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
 lic/lm/lmtt10.pfb>
-Output written on main.pdf (109 pages, 2983565 bytes).
+Output written on main.pdf (109 pages, 2983767 bytes).
 PDF statistics:
  1467 PDF objects out of 1728 (max. 8388607)
  343 named destinations out of 1000 (max. 500000)
