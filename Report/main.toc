@@ -55,15 +55,15 @@
 \contentsline {subsection}{\numberline {4.2.4}The Process of Quick Roll-Out}{30}{subsection.4.2.4}
 \contentsline {paragraph}{Script}{30}{section*.29}
 \contentsline {section}{\numberline {4.3}Up-Link}{30}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Internet via Telephone-line}{30}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.1}Internet via Telephone-line}{31}{subsection.4.3.1}
 \contentsline {subsubsection}{Dial-up Internet connection}{31}{section*.30}
 \contentsline {subsubsection}{ISDN}{31}{section*.31}
 \contentsline {subsubsection}{DSL}{31}{section*.32}
 \contentsline {subsubsection}{Quickly Connect a Mesh Potato to the Internet via Ethernet Cable}{32}{section*.33}
-\contentsline {subsection}{\numberline {4.3.2}Cellular Network Technologies}{34}{subsection.4.3.2}
-\contentsline {subsubsection}{Quickly Connect the Emergency Box to This Uplink}{35}{section*.35}
+\contentsline {subsection}{\numberline {4.3.2}Cellular Network Technologies}{35}{subsection.4.3.2}
+\contentsline {subsubsection}{Quickly Connect the Emergency Box to Cellular Network}{36}{section*.35}
 \contentsline {subsection}{\numberline {4.3.3}Satellite}{36}{subsection.4.3.3}
-\contentsline {subsubsection}{Quickly Connect the Emergency Box to This Uplink}{36}{section*.36}
+\contentsline {subsubsection}{Quickly Connect the Emergency Box to Satellite}{36}{section*.36}
 \contentsline {subsection}{\numberline {4.3.4}Summary Up-Links}{36}{subsection.4.3.4}
 \contentsline {section}{\numberline {4.4}Future Internet Access Methods}{36}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}Google's Internet Balloons}{37}{subsection.4.4.1}
@@ -73,13 +73,13 @@
 \contentsline {paragraph}{Hurrican Sandy}{41}{section*.39}
 \contentsline {paragraph}{Philippines}{42}{section*.40}
 \contentsline {paragraph}{Utilizing the emergency box.}{42}{section*.41}
-\contentsline {subsection}{\numberline {4.6.2}Temporary Refugee and IDP camps}{42}{subsection.4.6.2}
-\contentsline {paragraph}{Utilizing the emergency box.}{42}{section*.42}
+\contentsline {subsection}{\numberline {4.6.2}Temporary Refugee and IDP camps}{43}{subsection.4.6.2}
+\contentsline {paragraph}{Utilizing the emergency box.}{43}{section*.42}
 \contentsline {subsection}{\numberline {4.6.3}Festivals}{43}{subsection.4.6.3}
 \contentsline {paragraph}{Utilizing the emergency box.}{43}{section*.43}
 \contentsline {subsection}{\numberline {4.6.4}Breakdown of Mobile Towers}{43}{subsection.4.6.4}
 \contentsline {paragraph}{Utilizing the emergency box.}{43}{section*.44}
-\contentsline {subsection}{\numberline {4.6.5}Differences/relation between different scenarios}{43}{subsection.4.6.5}
+\contentsline {subsection}{\numberline {4.6.5}Differences/relation between different scenarios}{44}{subsection.4.6.5}
 \contentsline {chapter}{\chapternumberline {5}Discussion}{45}{chapter.5}
 \contentsline {chapter}{\chapternumberline {6}Conclusion}{47}{chapter.6}
 \contentsline {chapter}{References}{49}{section*.46}
