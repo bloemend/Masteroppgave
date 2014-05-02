@@ -1,94 +1,36 @@
-\subsubsection{Quickly Connect a Mesh Potato to the Internet via Ethernet Cable}
+\subsubsection{Quickly Connect a MP01 to the Internet via Ethernet Cable}
 
-
-In order to perform this set up, a PC with Linux Ubuntu and wireless Internet and a Mesh Potato 2.0 is required. The last octet of the IP address for the MP is the unique number for each MP. In the following example we use 21, but this number must be different for each MP in a network. 
+These instructions requires that the MP01 is new or factory reset, so that no former configurations will affect the following set-up. 
 
 \begin{enumerate}
-\item Connect the MP to the PC running Linux Ubuntu with a Ethernet cable. The Ethernet cable must be put into the LAN-port on the MP. 
-\item Open Linux terminal and install telnet by entering the following commands: 
-\noindent
-\begin{lstlisting}[language=bash]
-  $ sudo apt-get install telnetd
-  $ sudo /etc/init.d/openbsd-inetd restart 
-\end{lstlisting}
+\item Make sure that the Mesh Potato is connected to a PC running Linux with an Ethernet cable. 
 \item The default IP address of the MPs are 10.130.1.20, so in order to access the MP, the PC must be on the same subnet. To do this write in the terminal: 
 \noindent
 \begin{lstlisting}[language=bash]
   $ ifconfig eth0 up 10.130.1.120 netmask 255.255.255.0
 \end{lstlisting}
-\item Open a browser on your PC and write in "10.130.1.20". The SECN Web Interface should now appear. This assures you that you have contact with the MP.
-\item In the interface, change the IP address of the MP to: 192.168.1.21. Press save, and then reboot in the interface. Wait for the system to reboot. 
-\item Now that the IP address of the MP is changed from a local IP address, you also have to change the IP address of the ethernet port on your PC. Do this by writing this in the terminal:
-\noindent
-\begin{lstlisting}[language=bash]
-  $ ifconfig eth0 up 192.168.1.2
-\end{lstlisting}
-\item Now that the PC and the MP are on the same subnet, you can telnet onto the MP by writing: 
-\noindent
-\begin{lstlisting}[language=bash]
-  $ telnet 192.168.1.21
-\end{lstlisting}
-\item Open root shell in terminal by writing: 
+\item Enter the SECN web interface by typing the IP address (10.130.1.20) of the MP01 in a browser. 
+\item Change the IP address under "Network" to 192.168.1.x (Where x is a number between 21 and 99. If it is the first MP that is set-up it is normal to choose 21). Press "Save and Reboot" in the interface. Wait for the MP to reboot. 
+\item Open Linux terminal and type in the following command: 
 \noindent
 \begin{lstlisting}[language=bash]
   $ sudo su
+  $ ifconfig eth0 172.31.255.253 netmask 255.255.255.252 
 \end{lstlisting}
-You will get prompt for password. 
-\item When in root shell, write: 
+\item Telnet into the MP01:
 \noindent
 \begin{lstlisting}[language=bash]
-  $ iptables --table nat --append POSTROUTING --out-interface
-   eth1 -j MASQUERADE
-  $ iptables --append FORWARD --in-interface eth0 -j ACCEPT
-  $ echo 1 > /proc/sys/net/ipv4/ip_forward
+  $ telnet 172.31.255.254 
 \end{lstlisting}
-\item Open a editor on you PC (for example gedit). Paste the following text into a new file: 
-\begin{framed}
-\begin{verbatim}
-#!/bin/bash
-ARGS=2
-if [ "$(id -u)" != "0" ]; then
-    echo ""
-    echo "    Sorry, this script must be run as root."
-    echo "    Try sudo $0 name_of_wireless_interface
-     name_of_ethernet_interface"
-    echo ""
-    exit
-fi
-if [ $# -ne "$ARGS" ]; then 
-    echo ""
-    echo "    This script sets up IP masquerading from your 
-    ethernet port to your wifi Internet connection."
-    echo "    usage: $0 name_of_wireless_interface
-     name_of_ethernet_interface"
-    echo "    e.g. $0 wlan0 eth0"
-    echo ""
-    exit
-fi
-wifi=$1
-eth=$2
-
-/sbin/iptables --table nat --append POSTROUTING
- --out-interface $wifi -j MASQUERADE
-/sbin/iptables --append FORWARD --in-interface $eth -j ACCEPT
-/bin/echo 1 > /proc/sys/net/ipv4/ip_forward
-\end{verbatim}
-\end{framed}
-
-Save this file as "mp_masquerade.sh" in the directory /usr/local/bin. Make the file executable by entering the following in the terminal:
+You have now entered the root environment of the MP01. 
+\item Execute udhcpc: 
+*Skrive hva denne kommandoen gjør
 \noindent
 \begin{lstlisting}[language=bash]
-  $ sudo chmod +x /usr/local/bin/mp_masquerade.sh
+  $ udhcpc -i eth0 
 \end{lstlisting}
-\item Telnet into the MP and write:
-\noindent
-\begin{lstlisting}[language=bash]
-  $ telnet 192.168.1.21
-  $ route 
-  $ route del default
-  $ route add default gateway 192.168.1.2
-\end{lstlisting}
-\item Now you should be able to ping IPs on the Internet from the MP. Test this by writing "ping <IP address of a Internet page>". 
-\item Next step is to get DNS working on the MP. In order to do this you must locate the file /etc/resolv.conf on your PC, and open in. You Copy the IP address stated in the nameserver line. Then open the SECN Web Interface, and locate the DNS field under Network under the tab Advanced. Paste the IP address into this field. Save and reboot from the interface. 
-\item After all this, take out the Ethernet cable from the PC and put it in the wall. WALLA, you have Wi-Fi. Go nuts!
+You will get a message stating that the udhcpc process has started. This is followed by several messages stating "Sending discover...". When this appears unplug the Ethernet cable connected to the PC, and connect it with an Ethernet cable to cabled Internet (wall). 
+*Finne ut hva internett i veggen heter på engelsk.
+\item Internet will now be available for the mesh network. The SSID and password for the network can be found and altered in the interface. 
 \end{enumerate}
+
