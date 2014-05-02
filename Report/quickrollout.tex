@@ -5,6 +5,7 @@ The main purpose of our study was to create an easy way to utilize the Mesh Pota
 
 A big part of our work is gathering of information, and make it more understandable for the common user. The existing user guides tend to be advanced and not adapted to the common user, and therefore we found it necessary to make the descriptions easier. The set-up procedures we explain in this chapter can also be found elsewhere. 
 
+*Få litt mer flyt i det avsnittet her
 
 \section{Set-up of the Mesh Potatoes}
 The set-up of the Mesh Potato is a process consisting of, among other activities, installing firmware, allocating IP-addresses and providing Internet to the network. The firmware used for the Mesh Potatoes is called Small Enterprise/Campus Network (SECN) Firmware \cite{ChoosingFirmware}. A flashing process is applied in order to install/update the firmware on the Mesh Potato. See the SECN User Guide in Appendix \ref{chp:appendixB} for a more detailed description of how to set up the Mesh Potatoes and how different networks can be built. 
@@ -202,7 +203,7 @@ $$Amp\times Hours = AmpHours \Rightarrow Hours = \frac{AmpHours}{Amp} = \frac{? 
 As mentioned, one of our areas of focus is the process of quick roll-out. There are many aspects that can be included in order to speed up the roll-out process and make it as easy as possible. We will now present some of our ideas to meet this requirement.
 
 \paragraph{Script}
-A script is a list of commands that can be executed without user interaction, to automate a process. In order to connect the mesh network to internet a list of commands have to be executed. One idea to speed up the process of setting up the network was to create a script to automate this process. One way to do this could be by creating a self executable script that could be included in the emergency box on for example on an USB-stick. There would have to be a different script, and different USBs, for each up-link type. These scripts would include
+A script is a list of commands that can be executed without user interaction,in other words, to automate a process. In order to connect the mesh network to internet a list of commands have to be executed. One idea to speed up the process of setting up the network was to create a script to automate this process. One way to do this could be by creating a self executable script that could be included in the emergency box on for example on an USB-stick. There would have to be a different script, and different USBs, for each up-link type. These scripts would include
 \begin{itemize}
 \item Upgrading of firmware/flashing process.
 \item Connecting to Internet for a specific up-link type. 
@@ -211,7 +212,6 @@ A script is a list of commands that can be executed without user interaction, to
 *Forklare spesifikke ting som er tatt i betrakning for å gjøre utrullingen raskest mulig. Feks scripting, manual etc. 
 
 *Hvordan utdele telefonnummer raskt, opplæring av folk, 
-
 
 \section{Up-Link}
 Our main focus when deploying the emergency boxes, is to provide Internet to the mesh network. This because it is crucial to have the possibility to communicate with the local community and the outside world during an emergency situation. In 2011, UN declared Internet access a human right \cite{HR}. This says something about the extent of the Internet, and the importance of connectivity. In order to provide Internet to the mesh network formed by the emergency boxes, at least on the Mesh Potatoes must be connected to an access network via an uplink. An uplink connects a device or a LAN to a larger network \cite{uplink}. Which type of access network that is available depends of the location. Some places there might exist a stable landline, other places not. Then an option could be to use satellite or cellular networks. It is therefore important that the emergency box has high adaptability in order to fit different scenarios. The availability of the different uplinks is not the only thing that vary. The up-link speed and the price also varies from place to place, and between the types of uplinks. In the following sections, we will look at some of the uplinks available, and how Internet access can be provided to the mesh network.  
