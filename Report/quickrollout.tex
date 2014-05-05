@@ -7,23 +7,30 @@ A big part of our work is gathering of information, and make it more understanda
 
 *Få litt mer flyt i det avsnittet her
 
-\section{Set-up of the Mesh Potatoes}
-The set-up of the Mesh Potato is a process consisting of, among other activities, installing firmware, allocating IP-addresses and providing Internet to the network. The firmware used for the Mesh Potatoes is called Small Enterprise/Campus Network (SECN) Firmware \cite{ChoosingFirmware}. A flashing process is applied in order to install/update the firmware on the Mesh Potato. See the SECN User Guide in Appendix \ref{chp:appendixB} for a more detailed description of how to set up the Mesh Potatoes and how different networks can be built. 
-
-\subsection{Example Mesh network}
-We first started experimenting with the Mesh Potatoes by setting up a small network consisting of two MPs each connected to a plain old telephone, and a computer running Ubuntu Linux. This simple network is shown in \fref{fig:network}. Each of the MPs were assigned a static IP address, these addresses were not part of the LAN address space. The IP addresses are allocated in a predefined default address space 10.130.1.xxx. To administrate the MP devices we used a workstation linked together with one of the MPs in the network by using a Ethernet cable (can also be connected via Wi-Fi). We assigned the workstation a static address within the same address space as the MP devices. We were able to make phone calls between the Mesh Potatoes by dialling the last octet or the whole IP address.
-
-\begin{figure}[t]
-  \centering
-      \includegraphics[width=1\textwidth]{network1}
-  \caption [Example of a simple mesh network]{\textbf{Simple mesh network.} This figure illustrates a simple mesh network with the use of Mesh Potatoes.}
-  \label{fig:network}
-\end{figure}
+\section{Set-up of the Mesh Potato}
+The set-up of the Mesh Potato is a process consisting of, among other activities, installing firmware, allocating IP-addresses and providing Internet to the network. The firmware used for the Mesh Potatoes is called Small Enterprise/Campus Network (SECN) Firmware \cite{ChoosingFirmware}. A flashing process is applied in order to install/update the firmware on the Mesh Potato. See the SECN User Guide for respectively MP01 and MP02 in Appendix \ref{chp:appendixB} and \ref{chp:appendixC} for a more detailed description of how to set up the Mesh Potatoes and how different networks can be built. 
 
 
-\subsection{Installing Firmware on Mesh Potato 1.0}
+\subsection{Configuring the Mesh Potato}
+\label{subsec:configuring}
+Configuring a Mesh Potato is the process of allocating an unique IP-address to the MP. Each of the MPs were assigned a static IP address, these addresses were not part of the LAN address space. The IP addresses are allocated in a predefined default address space 10.130.1.20. In order to change this IP address, the MP has to be connected via an Ethernet cable to a PC running Linux. The PC must be on the same subnet as the MP, in order to establish contact. When the PC is on the same subnet, the MPs web interface can be accessed via a browser. In the web interface, the IP of the MP can easily be changed. This description works for both versions of the MP. One difference is that you can change the IP on MP01 by using interactive voice response (IVR) commands (see page 28 in Appendix \ref{chp:appendixB}). A second version of the MP02 is in development. This version has a telephone jack port (FXS daughterboard), which allows for IVR. 
 
-Flashing is the process of updating or changing the firmware (SECN) on the Mesh Potato. We updated the firmware by using the potato-flash application \cite{flashing}. This is a specialised software application for the Mesh Potato. Potato-flash can be used regardless of previously installed firmware on the Mesh Potato \cite{InstallingSecnFirmware}. 
+\begin{enumerate}
+\item Set the PC to have the same subnet, by writing the following command in the terminal:
+\noindent
+\begin{lstlisting}[language=bash]
+  $ ifconfig eth0 10.130.1.120 netmask 255.255.255.0
+\end{lstlisting}
+\item Open a browser and type in "10.130.1.20". The web interface will then appear. 
+\item In the web interface, under network, change the IP address field to "192.168.1.x", where x is the unique number for the specific MP. This number should be between 21-99. In order to set the change, a save and reboot must be done from the interface. 
+\end{enumerate}
+
+\subsection{Upgrading the Mesh Potato}
+\label{subsec:upgrading}
+The firmware of the Mesh Potatoes are under constant development. It is therefore advisable that the MP is running the latest version of the firmware. The process of upgrading the firmware is different from MP01 and MP02. The different methods are described below. 
+
+\subsubsection{Installing Firmware on Mesh Potato 1.0}
+Flashing is the process of updating or changing the firmware (SECN) on the MP01. The most common way to perform the flashing process is by using the potato-flash application \cite{flashing}. This is a specialised software application for the Mesh Potato. Potato-flash can be used regardless of previously installed firmware on the Mesh Potato \cite{InstallingSecnFirmware}. 
 
 \begin{enumerate}
 \item Downloaded the 64 bit potato-flash utility from \url{http://download.villagetelco.org/utilities/potato-flash/potato-flash-64bit/} to the folder \textbf{/etc/local/bin}.
@@ -82,14 +89,14 @@ Briefly after the potato-flash had been executed, dots stared appearing on the s
 \end{figure}
 
 
-\subsection{Installing Firmware on Mesh Potato v2.0}
-Like mentioned above, the process of installing or upgrading the firmware on the MP is called flashing. This process is simplified with the MP2. With the MP1, command shell must be utilized in order do this. In contrary, with the MP2, firmware upgrade can be done from the SECN web interface (more information about the interface can be found in section \ref{subsec:interface}). Extra functionality has been added to the interface from MP1 to MP2. Under "Advanced" in the interface an extra tab called "Firmware" is added, and there the firmware upgrade can be executed. 
+\subsubsection{Installing Firmware on Mesh Potato v2.0}
+The process of upgrading the MP's firmware is simplified with the MP2. With the MP1, command shell must be utilized in order do this. In contrary, with the MP2, firmware upgrade can be done from the SECN web interface (more information about the interface can be found in section \ref{subsec:interface}). Extra functionality has been added to the interface from MP1 to MP2. Under "Advanced" in the interface an extra tab called "Firmware" is added, and there the firmware upgrade can be executed. 
 
 \subsection{The SECN Web Interface for Configuration}
 \label{subsec:interface}
 Village Telco provides a SECN web interface for configuration and management of individual MPs. This web interface can be accessed by entering the IP address of the MP in a browser, this interface is shown in \fref{fig:webinterface} In order to be able to do this, the PC must be on the same subnet (exact same prefix) as the MP.  
 
-The web interface allows the user to do alterations in the MP. A newly flashed MP does not have the root password set, and when entering the web interface the user will not be asked to enter a password for authentication. This is a feature recommended to set up.  The web interface allows the user to alter some key parameters. Among these are changing the IP address of the device, set up the WiFi Access Point, VoIP/SIP Configurations, Password and Web Server Security. The web interface also allows the user to do changes to more advanced settings and monitoring. To get a detailed description of the web interface see the user guide in Appendix \ref{chp:appendixA}. In addition to this, like mentioned above, the interface has been extended and improved from MP1 to MP2. More actions can be conducted via the interface with MP2. 
+The web interface allows the user to do alterations in the MP. The web interface allows the user to alter some key parameters. Among these are changing the IP address of the device, set up the WiFi Access Point, VoIP/SIP Configurations, Password and Web Server Security. The web interface also allows the user to do changes to more advanced settings and monitoring. To get a detailed description of the web interface see the user guide in Appendix \ref{chp:appendixA}. In addition to this, like mentioned above, the interface has been extended and improved from MP1 to MP2. More actions can be conducted via the interface with MP2. 
 
 \begin{figure}[t]
   \centering
@@ -100,12 +107,16 @@ The web interface allows the user to do alterations in the MP. A newly flashed M
 
 
 \section{The Emergency Box}
-The Mesh Potatoes and Village Telcos were created to get voice and data connection to areas where they are non existent or too expensive for the average person. As of now the Mesh Potatoes have been set up to create small or bigger networks in villages all over the world. We want to expand this solution by looking at its mobility and its usage on the go. We want to make a box that has high adaptability, enabling it to easily be used in several different scenarios, under different conditions and by different people all requiring different needs. The box have to be so easy that there are no room for misunderstanding or mistakes. It should be a ready-to-go box ready for any situations.  
+The Mesh Potatoes and Village Telcos were created to get voice and data connection to areas where they are non existent or too expensive for the average person. As of now the Mesh Potatoes have been set up to create small or bigger networks in villages all over the world. We want to expand this solution by looking at its mobility and its usage on the go. We want to make a box that has high adaptability, enabling it to easily be used in several different scenarios, under different conditions and by different people all with different needs. The box have to be so easy that there are no room for misunderstanding or mistakes. It should be a to-go box ready for any situations.  
  
-\subsubsection{Previous/similar work}
+\subsection{Previous/similar work}
 \paragraph{Go Box.} Something similar has been done before by Keith Williamson, a volunteer in the Village Telco community. His idea of utilizing the Mesh Potatoes in emergency situations started with his interest in amateur radios, and the use of radios in emergency situations. He put together a "go box" by using a waterproof Pelican 1200 case. This case contained a bracket holding the Mesh Potato, a rechargeable Li-Ion or Li-Poly battery, telephone handset and junction box to provide an on/off switch \cite{keith}. Our Emergency Box differ in some ways from the Go Box made by Williamson. 
 
-*Se om vi finner minst et eksempel til på noe lignende som er gjort før. 
+\paragraph{AfrikaBurn}
+AfrikaBurn is a "Burning Man" festival in Tankwa Town in the Karoo (South Africa) that is held once a year \cite{whatisafrikaburn}. This is a festival with focus on art and freedom of expression. Instead of using money, the festival attendants are inspired to trade different types of goods with each other. A Village Telco has been established at this festival a few years now. Free-standing phone boots with Mesh Potatoes powered by solar panels has been set up at the festival area.  \cite{africaburnforavillagetelco,africaburnsagainforavillagetelco}. 
+
+*Skrive mer om utstyret de brukte.
+
 
 *Hvordan er vår boks annerledes fra Keith sin, hvordan er den satt opp, hvordan er den laget, hvordan fungerer den, forklare ulike komponentene, forklare endringer som gjøres underveis grunnet testing (flere versjoner), ting som gjøres for at den kan rulles ut raskt (feks script). 
 %Hvordan er den annerledes fra Keith sin?
@@ -116,7 +127,7 @@ The Mesh Potatoes and Village Telcos were created to get voice and data connecti
 %Explain evt. changes
 %Script?
 
-\subsection{The Different Components}
+\subsection{Key Components}
 The components of our emergency box is described in \tref{tab:components}. 
 
 \begin{center}
@@ -143,23 +154,16 @@ The components of our emergency box is described in \tref{tab:components}.
 \end{center}
 
 \subsection{Creating the Emergency Box}
-The main part that binds all the components together is the solar regulator. This is used in order to not overcharge the battery. The solar regulator was initially built for another type of solar panel than the one we chose to use. This, for example, means that the concomitant plugs could not be used. These plugs were cut of and we soldered on our own wires. The solar regulator is connected to all three main components, the solar panel, the battery and the Mesh Potato. 
+This section describes how we created the emergency box from scratch. 
+
+\paragraph{Conjoining the components of the emergency box.}
+The part that binds all the components together is the solar regulator. This is used in order to not overcharge the battery. The solar regulator was initially built for another type of solar panel than the one we chose to use. This, for example, means that the concomitant plugs could not be used. These plugs were cut of and we soldered on our own wires. The solar regulator is connected to all three main components, the solar panel, the battery and the Mesh Potato. 
 
 First we cut of the plugs on the solar regulator and soldered on new wires. Then we cut of part of the MP's power cord and soldered this onto one of the wires. The second wire from the solar regulator was connected to the solar panel. Before doing this we measured how much voltage was in the solar panel and if this voltage was affected by light. This test was done just by holding the solar panel up to a bright lamp. When both the solar panel and the MP's power cord was connected to the regulator, the only thing remaining was the battery. The battery was fully charged and showed a voltage of a little over 13 V. We unplugged the MP and connected the battery. After the battery was attached we powered up the MP, and it worked. 
 
-This is a very easy set-up, and the solution have room for many improvements. 
+\paragraph{Configuring and upgrading the emergency box.}
+When the emergency box is delivered the Mesh Potato is already set-up and configured with an IP-address, and running the latest version of the firmware. These processes are described in sections \ref{subsec:configuring} and \ref{subsec:upgrading}.
 
-
-\paragraph{Possible improvements }
-As mentioned this set-up is fairly easy and simple, but leaves room for improvements. For a starter there should be an on/off switch to not use unnecessary battery capacity. This on/off switch would be placed between the battery and the regulator. Unless a measuring instrument is available to check the voltage, there is no way to know the remaining battery time. This might be very useful in situations where communication is vital and the hours of battery lifetime should be taken into account.
-
-The battery we used is a gel battery. They are less explosive than the lithium batteries, and are better suited to be placed into enclosed spaces that may get somewhat hot. The downside of the gel batteries is their heavy weight. Since our aim is to make a case that is portable, a lighter battery would be preferable. 
-
-The MP2 is a lot smaller than the first generation, and a powerful solar panel does not take that much space, so there is no need for a suitcase of the size we have purchased. A smaller case that is lighter and easier to handle would make the solution even more portable. 
-
-Our main focus was to get something that worked and that was safe, and we took aesthetics and appearance little into consideration. This is therefore also an area that can be improved. 
-
-* How make it suitable to connect to different up-links, how to the configuration process as easy as possible. 
 
 \subsection{Battery and Charging Calculations}
 All the calculations done in this section is based on the components described in \tref{tab:components}. 
@@ -199,31 +203,39 @@ With the components described in \tref{tab:components} the number of hours the M
 $$Amp = \frac{Watt}{Volt} = \frac{? W}{12 V} = ? Ampere$$
 $$Amp\times Hours = AmpHours \Rightarrow Hours = \frac{AmpHours}{Amp} = \frac{? Ah}{? A} = ? Hours$$
 
-\subsection{The Process of Quick Roll-Out}
+
+\subsection{Possible improvements }
+As mentioned this set-up is fairly easy and simple, but leaves room for improvements. For a starter there should be an on/off switch to not use unnecessary battery capacity. This on/off switch would be placed between the battery and the regulator. Unless a measuring instrument is available to check the voltage, there is no way to know the remaining battery time. This might be very useful in situations where communication is vital and the hours of battery lifetime should be taken into account.
+
+The battery we used is a gel battery. They are less explosive than the lithium batteries, and are better suited to be placed into enclosed spaces that may get somewhat hot. The downside of the gel batteries is their heavy weight. Since our aim is to make a case that is portable, a lighter battery would be preferable. 
+
+The MP2 is a lot smaller than the first generation, and a powerful solar panel does not take that much space, so there is no need for a suitcase of the size we have purchased. A smaller case that is lighter and easier to handle would make the solution even more portable. 
+
+Our main focus was to get something that worked and that was safe, and we took aesthetics and appearance little into consideration. This is therefore also an area that can be improved. 
+
+* How make it suitable to connect to different up-links, how to the configuration process as easy as possible. 
+
+\section{The Process of Quick Roll-Out}
 As mentioned, one of our areas of focus is the process of quick roll-out. There are many aspects that can be included in order to speed up the roll-out process and make it as easy as possible. We will now present some of our ideas to meet this requirement.
 
 \paragraph{Script}
-A script is a list of commands that can be executed without user interaction,in other words, to automate a process. In order to connect the mesh network to internet a list of commands have to be executed. One idea to speed up the process of setting up the network was to create a script to automate this process. One way to do this could be by creating a self executable script that could be included in the emergency box on for example on an USB-stick. There would have to be a different script, and different USBs, for each up-link type. These scripts would include
-\begin{itemize}
-\item Upgrading of firmware/flashing process.
-\item Connecting to Internet for a specific up-link type. 
-\end{itemize}
+A script is a list of commands that can be executed without user interaction, in other words, to automate a process. In order to connect the mesh network to Internet a list of commands have to be executed. One idea to speed up the process of setting up the network was to create a script to automate this process. One way to do this could be by creating a self-executable script that could be included in the emergency box on for example on an USB-stick. There would have to be a different script, and different USBs, for each up-link type. 
 
 *Forklare spesifikke ting som er tatt i betrakning for å gjøre utrullingen raskest mulig. Feks scripting, manual etc. 
 
-*Hvordan utdele telefonnummer raskt, opplæring av folk, 
+*Hvordan utdele telefonnummer raskt, opplæring av folk. VIKTIG. Hver boks bør ha nummer skrevet på seg allerede, og ferdig satt opp med ip-adresse. 
 
 \section{Up-Link}
 Our main focus when deploying the emergency boxes, is to provide Internet to the mesh network. This because it is crucial to have the possibility to communicate with the local community and the outside world during an emergency situation. In 2011, UN declared Internet access a human right \cite{HR}. This says something about the extent of the Internet, and the importance of connectivity. In order to provide Internet to the mesh network formed by the emergency boxes, at least on the Mesh Potatoes must be connected to an access network via an uplink. An uplink connects a device or a LAN to a larger network \cite{uplink}. Which type of access network that is available depends of the location. Some places there might exist a stable landline, other places not. Then an option could be to use satellite or cellular networks. It is therefore important that the emergency box has high adaptability in order to fit different scenarios. The availability of the different uplinks is not the only thing that vary. The up-link speed and the price also varies from place to place, and between the types of uplinks. In the following sections, we will look at some of the uplinks available, and how Internet access can be provided to the mesh network.  
 
 \subsection{Internet via Telephone-line}
-The most common way of getting Internet access is via a landline. The telephone lines are most often used for this, since they can be converted to broadband. In this way it can be used for phone calls and Internet simultaneously \cite{internet}. The line is usually in the form of twisted pairs (copper lines). These lines support broadband up to 10 Mbps, and are often in form of ADSL, or other digital subscriber line of type x (xDSL) technologies \citep{audestad}. Internet via telephone lines can be provided as a stand-alone solution, or it can be provided together with television or/and phone service. The latter option is usually cheaper. Internet through landlines have a high reliability \cite{cablevssatellite}. We will now shorty describe some technologies for getting Internet access via a telephone line; dial-up Internet connection, ISDN, and DSL. Although dial-up Internet connection is practically extinct in developed countries, we will include it here due to the different application scenarios for the emergency box. 
+The most common way of getting Internet access is via a landline. The telephone lines are most often used for this, since they can be converted to broadband. In this way it can be used for phone calls and Internet simultaneously \cite{internet}. The line is usually in the form of twisted pairs (copper lines). These lines support broadband up to 10 Mbps, and are often in form of ADSL, or other digital subscriber line of type x (xDSL) technologies \citep{audestad}. Internet via telephone lines can be provided as a stand-alone solution, or it can be provided together with television or/and phone service. The latter option is usually cheaper. Internet through landlines have a high reliability \cite{cablevssatellite} in comparison to satellite and cellular network. We will now shorty describe some technologies for getting Internet access via a telephone line; dial-up Internet connection, ISDN, and DSL. Although dial-up Internet connection is practically extinct in developed countries, we will include it here due to the different application scenarios for the emergency box. 
 
 \subsubsection{Dial-up Internet connection}
-Dial-up is an analogue technology that utilizes the telephone line. A telephone wall jack is used as a fixed point of connection, and the computer is connected to a voiceband modem. With this technology, the data is transmitted over the same frequencies used for phone calls. Hence, if you only have one telephone line, you cannot take a phone call and use Internet at the same time \cite{differentuplinks}. Along with the digital era, better internet technologies were introduced; ISDN and DSL. 
+Dial-up is an analogue technology that utilizes the telephone line. A telephone wall jack is used as a fixed point of connection, and the computer is connected to a voiceband modem. With this technology, the data is transmitted over the same frequencies used for phone calls. Hence, if you only have one telephone line, you cannot take a phone call and use Internet at the same time \cite{differentuplinks}. The absolute maximum speed is 56 kbps. Along with the digital era, better internet technologies were introduced; ISDN and DSL. 
 
 \subsubsection{ISDN}
-Integrated Services Digital Network (ISDN) is a fixed internet connection, which also utilizes the telephone lines. When using ISDN, as with dial-up, a telephone wall jack is used as a fixed point of connection. But ISDN utilizes a ISDN terminal adapter instead of voiceband modem. This ISDN terminal adapter sends out digital signals. The data speed varies between 64 Kbps - 129 Kbps. The speed of the data is symmetric, which means upstream and downstream data rates are the same. In contrary to dial-up, ISDN allows voice calls and transmission of data simultaneously. ISDN is faster than dial-up, but the speed is nothing compared to the speed obtained using DSL \cite{differentuplinks}. 
+Integrated Services Digital Network (ISDN) is a fixed internet connection, which also utilizes the telephone lines. When using ISDN, as with dial-up, a telephone wall jack is used as a fixed point of connection. But ISDN utilizes a ISDN terminal adapter instead of voiceband modem. This ISDN terminal adapter sends out digital signals. The data speed varies between 64 kbps - 129 kbps. The speed of the data is symmetric, which means upstream and downstream data rates are the same. In contrary to dial-up, ISDN allows voice calls and transmission of data simultaneously. ISDN is faster than dial-up, but the speed is nothing compared to the speed obtained using DSL \cite{differentuplinks}. 
 
 \subsubsection{DSL}
 Digital subscriber line (DSL) is, like the name indicates, a digital high-speed technology for Internet access that allows simultaneous voice and data transfer. Like dial-up and ISDN, DSL also run over the telephone lines. With DSL the data is not converted between analogue and digital signals. Despite this, the signals are modulated in order to be transferred on non-voice frequencies. DSL is an always-on technology, and in this way differ from the previous technologies mentioned. Only a small part of the telephone line is used for voice signals. The DSL technology allows utilization of a unused frequency spectrum of a telephone line, hence making it possible to transmit data faster. When the voice and data signals arrive at the telephone company's local switching station, they are separated and routed differently; voice to regular telephone system and data to the ISP, and then the Internet. A connection must be within approximately 5 kilometres of a station in order for DSL to work. The speed depends on many factors. Data can be transported up to 6 Mbps (distance of approximately 2 kilometres). Relevant factors that have an impact on the speed is distance to the switching station, and the quality of the telephone line. Like mentioned earlier, there are different types of DSLs. The most common is ADSL, where the A stands for asymmetric; the downstream speed is faster than the upstream speed \cite{differentuplinks}.
@@ -261,6 +273,7 @@ Internet from satellites are offered by a satellite Internet provider \cite{cabl
 
 \subsubsection{Quickly Connect the Emergency Box to Satellite}
 *Forklare hvordan man raskest mulig kobler nødboksen til akkurat denne type uplink.
+*Normalt er det ethernet ut på disse satelittmodemene
 
 \subsection{Summary Up-Links}
 
@@ -322,18 +335,18 @@ When it comes to lifetime, the goal is that the balloons stay alive for 100 days
 
 Both on the way up and down the air traffic control in the specific country have to be contacted since the balloons go through airspace. Project loon requested permission to land on Norwegian soil according to Teknisk Ukeblad, a Norwegian science magazine. This permission was approved \cite{loonTU}.
 
-The area of usage is enormous, it is everything. Situations where the Internet infrastructure has not been built out, either because it is too expensive or just not possible. Emergency situations, natural disaster and other situations where the cellphone-towers are down. We can also see the political aspect of it. With these balloons the Chinese people can finally have access to a free and uncensored Internet. Project Loon is still a project in development with extensive testing taking place. The project are taking into use what everybody have in common, namely the sky, to reach out to all the areas where access has not been possible. It is expensive to have enough balloons in the sky in order to have good enough coverage. Also the speed is not really high. And even though a specialized antenna is required to get access, this is breakthrough in order to get the whole world connected \cite{loonYouTube, loonNorsk}.
+The area of usage is enormous. Situations where the Internet infrastructure has not been built out, either because it is too expensive or just not possible. Emergency situations, natural disaster and other situations where the cellphone-towers are down. Project Loon is still a project in development with extensive testing taking place. The project are taking into use what everybody have in common, namely the sky, to reach out to all the areas where access has not been possible. It is expensive to have enough balloons in the sky in order to have good enough coverage. Also the speed is not really high. And even though a specialized antenna is required to get access, this is breakthrough in order to get the whole world connected \cite{loonYouTube, loonNorsk}.
 
 Although this solution is not an option for distributing Internet as of today, it could be a good option in the near future. The solution is affordable and well compatible with our emergency box solution.
 
-Iridium satellite consultation is a large group of satellites providing data and and voice services to specialized satellite phones. The consultation exists of 66 active satellites in orbit. Iridium ase considered low-orbit satellites and are situated at a hight of 781 km. The Iridium network is unique in the fact that it covers the whole earth, including oceans, airways and poles. The low orbit satellite differs from the balloons in the way that the satellites travel almost 40 times higher above earth and that they stay in a fixed position over the earth \cite{iridium}. To be able to utilize the satellite one would need both a specialized satellite phone as well as a satellite dish in order to receive signal. With the balloons there are only need for an antenna to receive the signal. But then again the balloons does not offer a voice service. The balloons are intended as a cheaper, easier and simpler solution to the satellites.                                         
+Iridium satellite consultation is a large group of satellites providing data and and voice services to specialized satellite phones. The consultation exists of 66 active satellites in orbit. Iridium are considered to be low-orbit satellites and are situated at a hight of 781 km. The Iridium network is unique in the fact that it covers the whole earth, including oceans, airways and poles. The low orbit satellite differs from the balloons in the way that the satellites travel almost 40 times higher above earth and that they stay in a fixed position over the earth \cite{iridium}. To be able to utilize the satellite one would need a specialized satellite phone or a satellite dish in order to receive signal. With the balloons there are only need for an antenna to receive the signal. But then again the balloons does not offer a voice service. The balloons are intended as a cheaper, easier and simpler solution to the satellites.                                         
 
 \section{Apple's Mesh Network}
-In March 2014 a new iOS app was released, FireChat. This app enables the possibility to chat with people "off-the-grid" \cite{fireChat}. FireChat utilizes Apple's Multipeer Connectivity Framework introduced in iOS7 \cite{appleMesh}. Applications that communicates through this framework creates a mesh network similar to the one created by the Mesh Potatoes. 
+In March 2014 a new iOS app was released, FireChat. FireChat utilizes Apple's Multipeer Connectivity Framework introduced in iOS7 \cite{appleMesh}. This app enables the possibility to chat with people "off-the-grid" \cite{fireChat}. Applications that communicates through this framework creates a mesh network similar to the one created by the Mesh Potatoes. 
 
 The Multipeer Connectivity framework provides support for discovering services provided by nearby iOS devices using peer-to-peer Wi-Fi, infrastructure Wi-Fi networks and bluetooth to communicate with those services. This communication could either be message-based data, streaming data and resources such as files \cite{multipeer}. These technologies have a short range, but this range can be greatly extended by a chain of users that creates a mesh network, see section \ref{subsec:mesh} for more information about mesh networks. AirDrop is a product that have been on the market for a while and also utilizes mesh networks. The main difference is that FireChat is fully decentralized and peer-to-peer. When there are multiple users in one area FireChat relay messages in the same way as Internet, from node to node, just in this case it is from phone to phone.  This, not only, enables two users to chat with each other without Internet connection, but also far beyond Wi-Fi and Bluetooth range from each other, using the chain of users (phones). For example if Bob is connected to Alice, and Alice is connected to Carol, Bob and Carol can send messages to each other. This chain can be indefinitely long. As long as no one device goes out of Wi-Fi range, all the devices can communicate with each other. 
 
-This new framework will mainstream wireless mesh networking. Internet can now become available in places where it earlier was non existent. This could for example be a hotel basement, cave or rural areas where there are no cellphone towers, or disaster situations where Wi-Fi or mobile broadband  is no longer available. There are many benefits with the use of mesh networks. Mesh networks does not require a centralized infrastructure, there are no need for all the devices to be connected to a access point (as a router). Another benefit is that the mesh network is really easy to set up - everybody just uses the app FireChat (or similar applications like AirDrop), the network is created and everybody is connected. Simple as that! 
+This new framework will mainstream wireless mesh networking. This could open for a future way of spreading Internet access. This could for example be a hotel basement, cave or rural areas where there are no cellphone towers, or disaster situations where Wi-Fi or mobile broadband  is no longer available. There are many benefits with the use of mesh networks. Mesh networks does not require a centralized infrastructure, there are no need for all the devices to be connected to Internet (as a router). Another benefit is that the mesh network is really easy to set up - everybody just uses the app FireChat (or similar applications like AirDrop), the network is created and everybody is connected. Simple as that! 
 
 The possibilities for this feature are enormous. Both in the creation of applications but also the area of usage. In a lot of countries Internet and mobile broadband connection is extremely expensive, people might afford a used cellphone but not the cost to connect. With this new feature, Internet connectivity can be spread through the mesh network needing only one node (phone) to have internet access. This way of spreading connectivity can open the possibility for people in rural, poorer areas like slums and small villages to stay connected. But not only the poor and rural areas can benefit from this new mesh-networking feature. Young people that does not have a phone can use an iPad or similar to talk to their friends. Or teens with restricted cell contracts can still connect with their friends, just with the help of the neighbours kids phone. Since FireChat enables communication without the use of internet it can be a useful tool to communicate privately and also to send sensitive data.
  
@@ -342,21 +355,21 @@ It is not only Apple that is seizing the enormous potential in main-streaming me
 \section{Different Scenarios Where a Quick Roll-out is Necessary}
 %What are the specific need for the different scenarios? What adjustments are necessary?
 
-Everyday there are situations all over the world that in some way affects the modern communications systems, or causes a need for one. These situations can range in everything from big natural disasters like the tsunami in Japan or the volcano outbreak in the Philippines, where either parts of the communication system is not functioning or there is a desperate need for one. To temporary refugee camps and IDP camps, and situations where a mobile tower is down, or blackouts. Also more festive situations can have use of the quick roll-out system. Imagine a big group gathered at a festival in another country. It is expensive to call or use mobile data, to be able to use cheap internet via the mesh Potatoes would save the users for a lot of money. 
+Everyday there are situations all over the world that in some way affects the modern communications systems, or causes a need for one.  These situations can range from big natural disasters, like the tsunami in Japan, to temporary refugee camps and IDP camps. Also more festive situations can have use of the quick roll-out system, for example music festivals. 
 
 \subsection{Natural Disasters}
 %Asia og Sør-Amerika
 %Philippines - contact Kenneth Bjerkelund to find out their needs for internet etc. makingchange.no. 
 A Natural disaster is defined as; \textit{any event or force of nature that has catastrophic consequences, such as avalanche, earthquake, flood, forest fire, hurricane, lightning, tornado, tsunami, and volcanic eruption} \cite{naturalDisaster}.
 
-All over the world there a relief organizations ready to go help out when a natural disaster would occur. These groups of people have the equipment, knowledge, experience and funding to help an area in desperate need. But how would that help it they do not know where they might be needed? Or if they hear a bout the disaster and the fist respond team are on place, how do they report back about the situation? How do they communicate with each other to work more effectively and help the ones in desperate need? There is no doubt that the need for a simple, fast and reliable communication system in necessary. 
+All over the world relief organizations are ready to help if an unexpected situation occur. These groups of people have the equipment, knowledge, experience and funding to help people in desperate need. Where are they needed? Or if they hear about the disaster and the first respond team are on place, how do they report back about the situation? How do they communicate with each other to work more effectively and help the ones in desperate need? There is no doubt that there is a need for a simple, fast, and reliable communication system.
 
-When a natural disaster hits, one never knows the extent. Which makes it very difficult to predict how the communication systems would be affected. This unpredictability makes it important to always have a backup plan to the backup plan. 
+When a natural disaster hits it is hard to know the extent of it, which  again makes it difficult to predict how the communication systems would be affected. This unpredictability makes it important to always have a backup plan to the backup plan. 
 %kanskje flere eksempler her?
 
 History shows that cellphone service is not a reliable service during an emergency situation. During 9/11 the system became heavily overloaded, and when hurricane Katrina hit, 70\% of the cell phone towers where knocked down. One might think that if they live in a big metropolitan that they would be safer, but this is not necessarily the case \cite{disasterComm}. These are situations in the western world. 
 
-When looking at the eastern, and often less developed world, that are even more vulnerable to natural disasters, the situations are different. According to \cite{DevelopingWorld, 360} developing countries are in an larger extent affected by natural disasters than the developed world. The reason for this can be explained by the economic status of the country. Both in how the country is prepared for the disaster and in how fast they can rebuild and recuperate after a natural disaster. Developing countries often lack the infrastructure needed to quickly and efficiently provide aids to the ones affected. According to Baxter \cite{360} , a natural disaster could set back a developing country many years in development.  
+When looking at the less developed world, which is often more vulnerable to natural disasters, the situations are different. According to \cite{DevelopingWorld, 360} developing countries are in an larger extent affected by natural disasters than the developed world. The reason for this can be explained by the economic status of the country. Both in how the country is prepared for the disaster and in how fast they can rebuild and recuperate after a natural disaster. Developing countries often lack the infrastructure needed to quickly and efficiently provide aids to the ones affected. According to Baxter \cite{360}, a natural disaster could set back a developing country many years in development.  
 
 \paragraph{Hurrican Sandy}
 Hurricane Sandy hit big parts of the Caribbean, as well as the southeast parts of the Unites States at the end of October 2012 \cite{WikiSandy}. As many as 25 percent of the citizens in the affected areas lost cell phone coverage, and even more lost electricity. Emergency communication is a challenge in natural disasters, and often leave the public with out a way to call the the emergency number, but also makes it difficult for first responders (as fire fighters, police, etc) to communicate.  Satellite is sometimes used but is an expensive solution and they have more fixed restrictions, plus the fact that the equipment needed, phones and dishes, are expensive. No single communication system is fault free, and there always have to a backup to the backup. Satellite was used but the phones are expensive and the lines can be oversaturated if others parties are trying to connect to the network at the same time. A small aperture terminal (VSAT) trailer was also used to act like a satellite ground station. Finding a good spot for the trailer can be tricky, it requires clear view to the sky and can not be placed too close to a large building. The Red Cross launched an emergency preparedness application for smartphones. The application had a peak in downloads right before the hurricane hit, but when the commercial wireless network failed, they had to back to the old way of spreading information. Distributing paper files, going from house to house to check up on peoples welfare, give information word-by-mouth and using bullhorn \cite{hurricaneSandy}.

@@ -1,16 +1,15 @@
-\subsubsection{Quickly Connect a MP01 to the Internet via Ethernet Cable}
+\subsubsection{Quickly Connect a MP01 to the Internet from Cabled Internet}
 
-These instructions requires that the MP01 is new or factory reset, so that no former configurations will affect the following set-up. 
+These instructions assumes that the MP01 is pre-configured with an IP-address (192.168.1.x). 
 
 \begin{enumerate}
 \item Make sure that the Mesh Potato is connected to a PC running Linux with an Ethernet cable. 
-\item The default IP address of the MPs are 10.130.1.20, so in order to access the MP, the PC must be on the same subnet. To do this write in the terminal: 
+\item The IP address of the MP is pre-configured to 192.168.1.x (where x is unique for each MP), where the x is written on the MP. In order to access the MP, the PC must be on the same subnet. To do this write in the terminal: 
 \noindent
 \begin{lstlisting}[language=bash]
-  $ ifconfig eth0 up 10.130.1.120 netmask 255.255.255.0
+  $ ifconfig eth0 up 192.128.1.120
 \end{lstlisting}
-\item Enter the SECN web interface by typing the IP address (10.130.1.20) of the MP01 in a browser. 
-\item Change the IP address under "Network" to 192.168.1.x (Where x is a number between 21 and 99. If it is the first MP that is set-up it is normal to choose 21). Press "Save and Reboot" in the interface. Wait for the MP to reboot. 
+\item Enter the SECN web interface by typing the IP address (192.168.1.x) of the MP01 in a browser. This is an assurance that there is contact with the MP. 
 \item Open Linux terminal and type in the following command: 
 \noindent
 \begin{lstlisting}[language=bash]
@@ -29,7 +28,7 @@ You have now entered the root environment of the MP01.
 \begin{lstlisting}[language=bash]
   $ udhcpc -i eth0 
 \end{lstlisting}
-You will get a message stating that the udhcpc process has started. This is followed by several messages stating "Sending discover...". When this appears unplug the Ethernet cable connected to the PC, and connect it with an Ethernet cable to cabled Internet (wall). 
+You will get a message stating that the udhcpc process has started. This is followed by several messages stating "Sending discover...". When this appears unplug the Ethernet cable connected to the PC, and connect the MP with an Ethernet cable to cabled Internet (wall). 
 *Finne ut hva internett i veggen heter på engelsk.
 \item Internet will now be available for the mesh network. The SSID and password for the network can be found and altered in the interface. 
 \end{enumerate}

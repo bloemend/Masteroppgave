@@ -55,6 +55,16 @@ D.~Rowe, ``The mesh potato part 1,'' 2008.
 {OpenWrt Wiki}, ``About openwrt.''
 \newblock \url{http://wiki.openwrt.org/about/start}, accessed 03.03.2014.
 
+\bibitem{telnet}
+{Indiana University}, ``What is telnet?.''
+\newblock \url{http://kb.iu.edu/data/aayd.html}, accessed 25.04.2014.
+
+\bibitem{SSH}
+{Indiana University}, ``What is telnet/ssh?.''
+\newblock
+  \url{https://service.futurequest.net/index.php?/Knowledgebase/Article/View/31},
+  accessed 25.04.2014.
+
 \bibitem{adhoc2}
 J.~Hoebeke, I.~Moerman, B.~Dhoedt, and P.~Demeester, ``An overview of mobile ad
   hoc networks: Applications and challenges,'' 2004.
@@ -88,25 +98,11 @@ A.~Neumann, C.~Aichele, M.~Lindner, and S.~Wunderlich, ``Better approach to
   \url{http://www.des-testbed.net/content/better-approach-mobile-ad-hoc-networking-batman},
   accessed 24.02.2014.
 
-\bibitem{robin}
-{P2P foundation}, ``Robin.''
-\newblock \url{http://p2pfoundation.net/ROBIN}, accessed 05.03.2014.
-
 \bibitem{spud}
 {Village Telco}, ``Spud – simple unified dashboard for mesh networks.''
 \newblock
   \url{http://villagetelco.org/2011/06/spud-simple-unified-dashboard-for-mesh-networks/},
   accessed 26.02.2014.
-
-\bibitem{telnet}
-{Indiana University}, ``What is telnet?.''
-\newblock \url{http://kb.iu.edu/data/aayd.html}, accessed 25.04.2014.
-
-\bibitem{SSH}
-{Indiana University}, ``What is telnet/ssh?.''
-\newblock
-  \url{https://service.futurequest.net/index.php?/Knowledgebase/Article/View/31},
-  accessed 25.04.2014.
 
 \bibitem{refugeeDef}
 {The UN Refugee Agency}, ``What is a refugee?.''
@@ -172,6 +168,17 @@ K.~Williamson, ``Guest post: Adapting mesh potatoes for emergency work.''
 \newblock
   \url{http://villagetelco.org/2011/11/guest-post-adapting-mps-for-emergency-work/},
   accessed 02.04.2014.
+
+\bibitem{whatisafrikaburn}
+{AfrikaBurn}, ``What is afrikaburn?.''
+\newblock \url{http://www.afrikaburn.com/about/what-is-afrikaburn}, accessed
+  05.05.2014.
+
+\bibitem{africaburnforavillagetelco}
+S.~Song, ``Africa burns for a village telco.''
+\newblock
+  \url{http://manypossibilities.net/2010/05/africa-burns-for-a-village-telco/},
+  accessed 05.05.2014.
 
 \bibitem{HR}
 D.~Kravets, ``U.n. report declares internet access a human right.''
@@ -264,18 +271,18 @@ Wikipedia, ``Iridium satellite constellation.''
 \newblock \url{http://en.wikipedia.org/wiki/Iridium_satellite_constellation},
   accessed 09.04.2014.
 
-\bibitem{fireChat}
-FireChat, ``app store: Firechat.''
-\newblock
-  \url{https://itunes.apple.com/us/app/firechat/id719829352?mt=8&ign-mpt=uo%3D8},
-  accessed 27.03.2014.
-
 \bibitem{appleMesh}
 M.~Elgan, ``How an under-appreciated ios 7 feature will change the world,''
   March 2014.
 \newblock
   \url{http://www.cultofmac.com/271225/appreciated-ios-7-feature-will-change-world/},
   accessed 25.03.2014.
+
+\bibitem{fireChat}
+FireChat, ``app store: Firechat.''
+\newblock
+  \url{https://itunes.apple.com/us/app/firechat/id719829352?mt=8&ign-mpt=uo%3D8},
+  accessed 27.03.2014.
 
 \bibitem{multipeer}
 Apple, ``About multipeer connectivity,'' September 2013.

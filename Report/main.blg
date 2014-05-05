@@ -31,8 +31,6 @@ Warning--entry type for "openwrt" isn't style-file defined
 --line 105 of file references.bib
 Warning--entry type for "binaryBolb" isn't style-file defined
 --line 118 of file references.bib
-Warning--entry type for "robin" isn't style-file defined
---line 125 of file references.bib
 Warning--entry type for "dadaab" isn't style-file defined
 --line 138 of file references.bib
 Warning--entry type for "dadaabcare" isn't style-file defined
@@ -117,9 +115,13 @@ Warning--entry type for "telnet" isn't style-file defined
 --line 458 of file references.bib
 Warning--entry type for "ssh" isn't style-file defined
 --line 464 of file references.bib
+Warning--entry type for "whatisafrikaburn" isn't style-file defined
+--line 471 of file references.bib
+Warning--entry type for "africaburnforavillagetelco" isn't style-file defined
+--line 477 of file references.bib
 Warning--empty journal in adhoc2
 Warning--empty journal in batman
 Warning--empty journal in womenRefugee
 Warning--empty chapter and pages in audestad
 Warning--empty publisher in broadband
-(There were 58 warnings)
+(There were 59 warnings)
