@@ -10,7 +10,7 @@
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Problem Description}{2}{section.1.2}
-\contentsline {paragraph}{Research questions}{3}{section*.6}
+\contentsline {paragraph}{Research questions}{2}{section*.6}
 \contentsline {section}{\numberline {1.3}Methodology}{3}{section.1.3}
 \contentsline {section}{\numberline {1.4}Limitations}{3}{section.1.4}
 \contentsline {chapter}{\chapternumberline {2}Background}{5}{chapter.2}
@@ -49,45 +49,40 @@
 \contentsline {paragraph}{AfrikaBurn}{26}{section*.24}
 \contentsline {subsection}{\numberline {4.2.2}Key Components}{26}{subsection.4.2.2}
 \contentsline {subsection}{\numberline {4.2.3}Creating the Emergency Box}{26}{subsection.4.2.3}
-\contentsline {paragraph}{Conjoining the components of the emergency box.}{26}{section*.26}
-\contentsline {paragraph}{Configuring and upgrading the emergency box.}{28}{section*.27}
+\contentsline {paragraph}{Conjoining the components of the emergency box.}{26}{section*.27}
+\contentsline {paragraph}{Configuring and upgrading the emergency box.}{27}{section*.28}
 \contentsline {subsection}{\numberline {4.2.4}Battery and Charging Calculations}{28}{subsection.4.2.4}
-\contentsline {paragraph}{Charging with solar panel.}{28}{section*.28}
-\contentsline {paragraph}{With Mesh Potato v1.0}{29}{section*.29}
-\contentsline {paragraph}{With Mesh Potato v2.0}{29}{section*.30}
-\contentsline {subsection}{\numberline {4.2.5}Possible improvements }{29}{subsection.4.2.5}
+\contentsline {paragraph}{Charging with solar panel.}{28}{section*.29}
+\contentsline {paragraph}{With Mesh Potato v1.0}{29}{section*.30}
+\contentsline {paragraph}{With Mesh Potato v2.0}{29}{section*.31}
+\contentsline {subsection}{\numberline {4.2.5}Possible improvements }{30}{subsection.4.2.5}
 \contentsline {section}{\numberline {4.3}The Process of Quick Roll-Out}{30}{section.4.3}
-\contentsline {paragraph}{Script}{30}{section*.31}
-\contentsline {section}{\numberline {4.4}Up-Link}{30}{section.4.4}
+\contentsline {paragraph}{Script}{30}{section*.32}
+\contentsline {section}{\numberline {4.4}Up-Link}{31}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}Internet via Telephone-line}{31}{subsection.4.4.1}
-\contentsline {subsubsection}{Dial-up Internet connection}{31}{section*.32}
-\contentsline {subsubsection}{ISDN}{31}{section*.33}
-\contentsline {subsubsection}{DSL}{32}{section*.34}
-\contentsline {subsubsection}{Quickly Connect a MP01 to the Internet from Cabled Internet}{32}{section*.35}
-\contentsline {subsubsection}{Quickly Connect a Mesh Potato to the Internet via a PC}{33}{section*.36}
-\contentsline {subsection}{\numberline {4.4.2}Cellular Network Technologies}{36}{subsection.4.4.2}
-\contentsline {subsubsection}{Quickly Connect the Emergency Box to Cellular Network}{37}{section*.38}
+\contentsline {subsubsection}{Dial-up Internet connection}{31}{section*.33}
+\contentsline {subsubsection}{ISDN}{32}{section*.34}
+\contentsline {subsubsection}{DSL}{32}{section*.35}
+\contentsline {subsubsection}{Quickly Connect a MP01 to the Internet from Cabled Internet}{32}{section*.36}
+\contentsline {subsubsection}{Quickly Connect a Mesh Potato to the Internet via a PC}{33}{section*.37}
+\contentsline {subsection}{\numberline {4.4.2}Cellular Network Technologies}{37}{subsection.4.4.2}
+\contentsline {subsubsection}{Quickly Connect the Emergency Box to Cellular Network}{37}{section*.39}
 \contentsline {subsection}{\numberline {4.4.3}Satellite}{37}{subsection.4.4.3}
-\contentsline {subsubsection}{Quickly Connect the Emergency Box to Satellite}{37}{section*.39}
-\contentsline {subsection}{\numberline {4.4.4}Summary Up-Links}{37}{subsection.4.4.4}
+\contentsline {subsubsection}{Quickly Connect the Emergency Box to Satellite}{37}{section*.40}
+\contentsline {subsection}{\numberline {4.4.4}Summary Up-Links}{38}{subsection.4.4.4}
 \contentsline {section}{\numberline {4.5}Future Internet Access Methods}{38}{section.4.5}
 \contentsline {subsection}{\numberline {4.5.1}Google's Internet Balloons}{38}{subsection.4.5.1}
-\contentsline {section}{\numberline {4.6}Apple's Mesh Network}{40}{section.4.6}
-\contentsline {section}{\numberline {4.7}Different Scenarios Where a Quick Roll-out is Necessary}{41}{section.4.7}
+\contentsline {section}{\numberline {4.6}Apple's Mesh Network}{41}{section.4.6}
+\contentsline {section}{\numberline {4.7}Different Scenarios Where a Quick Roll-out is Necessary}{42}{section.4.7}
 \contentsline {subsection}{\numberline {4.7.1}Natural Disasters}{42}{subsection.4.7.1}
-\contentsline {paragraph}{Hurrican Sandy}{42}{section*.42}
-\contentsline {paragraph}{Philippines}{43}{section*.43}
-\contentsline {paragraph}{Utilizing the emergency box.}{43}{section*.44}
-\contentsline {subsection}{\numberline {4.7.2}Temporary Refugee and IDP camps}{43}{subsection.4.7.2}
-\contentsline {paragraph}{Utilizing the emergency box.}{44}{section*.45}
+\contentsline {paragraph}{Hurrican Sandy}{43}{section*.43}
+\contentsline {paragraph}{Philippines}{44}{section*.44}
+\contentsline {subsection}{\numberline {4.7.2}Temporary Refugee and IDP camps}{44}{subsection.4.7.2}
 \contentsline {subsection}{\numberline {4.7.3}Festivals}{44}{subsection.4.7.3}
-\contentsline {paragraph}{Utilizing the emergency box.}{44}{section*.46}
-\contentsline {subsection}{\numberline {4.7.4}Breakdown of Mobile Towers}{44}{subsection.4.7.4}
-\contentsline {paragraph}{Utilizing the emergency box.}{44}{section*.47}
-\contentsline {subsection}{\numberline {4.7.5}Differences/relation between different scenarios}{44}{subsection.4.7.5}
-\contentsline {chapter}{\chapternumberline {5}Discussion}{45}{chapter.5}
-\contentsline {chapter}{\chapternumberline {6}Conclusion}{47}{chapter.6}
-\contentsline {chapter}{References}{49}{section*.49}
+\contentsline {subsection}{\numberline {4.7.4}Breakdown of Mobile Towers}{45}{subsection.4.7.4}
+\contentsline {chapter}{\chapternumberline {5}Discussion}{47}{chapter.5}
+\contentsline {chapter}{\chapternumberline {6}Conclusion}{49}{chapter.6}
+\contentsline {chapter}{References}{51}{section*.46}
  \vspace {1em} \noindent \bfseries Appendices\par \vspace {-.5em} 
-\contentsline {appendix}{\chapternumberline {A}Interview with Care}{55}{appendix.A}
-\contentsline {appendix}{\chapternumberline {B}SECN-1.1 User Guide}{59}{appendix.B}
+\contentsline {appendix}{\chapternumberline {A}Interview with Care}{57}{appendix.A}
+\contentsline {appendix}{\chapternumberline {B}SECN-1.1 User Guide}{61}{appendix.B}

@@ -1,9 +1,9 @@
 \chapter{Main Work}
 \label{chp:quickrollout} 
 
-The main purpose of our study was to create an easy way to utilize the Mesh Potatoes in emergency situations and other situations where there are need for cheap and instant communication. Our main focus has been on providing Internet access to the network, and the aspect of quick roll-out of the network. Internet access may be a vital way of communication in emergency situations, or just convenient in other situations. The process of setting up a mesh network providing Internet should be quick, since time is a crucial factor to consider in emergency situations. In this chapter we will describe parts of the set-up techniques for the Mesh Potatoes. Further on we will present our Emergency Box, which is a box including a Mesh Potato, telephone, solar panel, battery and a charging regulator. A box ready to go in any situations. We will describe how we made this box, and similar work that have been conducted previously on the area. When it comes to the quick roll-out, specific approaches for making a best practice for quick roll-out will be presented. We will present the different types of up-links available to provide the mesh network with Internet access, and give a manual for how connecting the network to the different up-links. In addition to his we will look at the different scenarios of use for the Emergency Box, and how the box best can be utilized in the different scenarios. 
+The main purpose of our study was to create an easy way to utilize the Mesh Potatoes in emergency situations and other situations where there are need for cheap and instant communication. Our main focus has been on providing Internet access to the mesh network, and the aspect of quick roll-out of the network. Internet access may be a vital way of communication in emergency situations, or just convenient in other situations. The process of setting up a mesh network providing Internet should be done quickly, since time is a crucial factor to consider in emergency situations. In this chapter we will describe parts of the set-up techniques for the Mesh Potatoes. Further on we will present our Emergency Box, which is a box including a Mesh Potato, telephone, solar panel, battery and a charging regulator. A box ready to go in any situations. We will describe how we made this box, and similar work that have been conducted previously on the area. When it comes to the quick roll-out, specific approaches for making a best practice for quick roll-out will be presented. We will present the different types of up-links available to provide the mesh network with Internet access, and give a manual for how connecting the network to the different up-links. At last we will describe some situations where the need for a quick roll-out of a communication system may be needed. 
 
-A big part of our work is gathering of information, and make it more understandable for the common user. The existing user guides tend to be advanced and not adapted to the common user, and therefore we found it necessary to make the descriptions easier. The set-up procedures we explain in this chapter can also be found elsewhere. 
+A big part of our work is gathering of information, and make it more understandable for the common user. The existing user guides tend to be advanced and not adapted to people with little background knowledge on the area. Therefore we found it necessary to make the descriptions easier and more user friendly. The set-up procedures we explain in this chapter can also be found elsewhere. 
 
 *Få litt mer flyt i det avsnittet her
 
@@ -115,23 +115,11 @@ The Mesh Potatoes and Village Telcos were created to get voice and data connecti
 \paragraph{AfrikaBurn}
 AfrikaBurn is a "Burning Man" festival in Tankwa Town in the Karoo (South Africa) that is held once a year \cite{whatisafrikaburn}. This is a festival with focus on art and freedom of expression. Instead of using money, the festival attendants are inspired to trade different types of goods with each other. A Village Telco has been established at this festival a few years now. Free-standing phone boots with Mesh Potatoes powered by solar panels has been set up at the festival area.  \cite{africaburnforavillagetelco,africaburnsagainforavillagetelco}. 
 
-*Skrive mer om utstyret de brukte.
-
-
-*Hvordan er vår boks annerledes fra Keith sin, hvordan er den satt opp, hvordan er den laget, hvordan fungerer den, forklare ulike komponentene, forklare endringer som gjøres underveis grunnet testing (flere versjoner), ting som gjøres for at den kan rulles ut raskt (feks script). 
-%Hvordan er den annerledes fra Keith sin?
-%How is the box set up?
-%How is it made?
-%How does it work?
-%Explain the different components
-%Explain evt. changes
-%Script?
-
 \subsection{Key Components}
-The components of our emergency box is described in \tref{tab:components}. 
+The key components of our emergency box is described in \tref{tab:components}. 
 
 \begin{center}
-\begin{table}[t]
+\begin{table}[h!]
 \caption{\label{tab:components}The components of Emergency Box}
     \begin{tabular}{ | l | p{9cm} |}
     \hline
@@ -156,10 +144,18 @@ The components of our emergency box is described in \tref{tab:components}.
 \subsection{Creating the Emergency Box}
 This section describes how we created the emergency box from scratch. 
 
+\begin{figure}[t]
+  \centering
+      \includegraphics[width=0.9\textwidth]{emergencybox.jpg}
+  \caption [The composition of the emergency box]{\textbf{\textbf{The composition of the emergency box.}} This figure shows how the key components in the emergency box is conjoined together.}
+  \label{fig:emergencybox}
+\end{figure}
+
 \paragraph{Conjoining the components of the emergency box.}
 The part that binds all the components together is the solar regulator. This is used in order to not overcharge the battery. The solar regulator was initially built for another type of solar panel than the one we chose to use. This, for example, means that the concomitant plugs could not be used. These plugs were cut of and we soldered on our own wires. The solar regulator is connected to all three main components, the solar panel, the battery and the Mesh Potato. 
 
-First we cut of the plugs on the solar regulator and soldered on new wires. Then we cut of part of the MP's power cord and soldered this onto one of the wires. The second wire from the solar regulator was connected to the solar panel. Before doing this we measured how much voltage was in the solar panel and if this voltage was affected by light. This test was done just by holding the solar panel up to a bright lamp. When both the solar panel and the MP's power cord was connected to the regulator, the only thing remaining was the battery. The battery was fully charged and showed a voltage of a little over 13 V. We unplugged the MP and connected the battery. After the battery was attached we powered up the MP, and it worked. 
+First we cut of the plugs on the solar regulator and soldered on new wires. Then we cut of part of the MP's power cord and soldered this onto one of the wires. The second wire from the solar regulator was connected to the solar panel. Before doing this we measured how much voltage was in the solar panel and if this voltage was affected by light. This test was done just by holding the solar panel up to a bright lamp. When both the solar panel and the MP's power cord was connected to the regulator, the only thing remaining was the battery. The battery was fully charged and showed a voltage of a little over 13 V. We unplugged the MP and connected the battery. After the battery was attached we powered up the MP, and it worked. How the components where set-up is shown in \fref{fig:emergencybox}. 
+
 
 \paragraph{Configuring and upgrading the emergency box.}
 When the emergency box is delivered the Mesh Potato is already set-up and configured with an IP-address, and running the latest version of the firmware. These processes are described in sections \ref{subsec:configuring} and \ref{subsec:upgrading}.
@@ -353,68 +349,39 @@ The possibilities for this feature are enormous. Both in the creation of applica
 It is not only Apple that is seizing the enormous potential in main-streaming mesh networking. Google has also expressed that they are working on a home mesh network \cite{googleMesh}. FireChat and AirDrop is just the beginning. We believe more extensive and mind blowing applications are to come. 
  
 \section{Different Scenarios Where a Quick Roll-out is Necessary}
-%What are the specific need for the different scenarios? What adjustments are necessary?
-
-Everyday there are situations all over the world that in some way affects the modern communications systems, or causes a need for one.  These situations can range from big natural disasters, like the tsunami in Japan, to temporary refugee camps and IDP camps. Also more festive situations can have use of the quick roll-out system, for example music festivals. 
+Everyday there are situations all over the world that in some way affects the modern communications systems, or causes a need for one.  These situations can range from big natural disasters, like the tsunami in Japan, to temporary refugee camps and IDP camps. Also more festive situations can have use of the quick roll-out communication system, for example music festivals. 
 
 \subsection{Natural Disasters}
-%Asia og Sør-Amerika
-%Philippines - contact Kenneth Bjerkelund to find out their needs for internet etc. makingchange.no. 
 A Natural disaster is defined as; \textit{any event or force of nature that has catastrophic consequences, such as avalanche, earthquake, flood, forest fire, hurricane, lightning, tornado, tsunami, and volcanic eruption} \cite{naturalDisaster}.
 
 All over the world relief organizations are ready to help if an unexpected situation occur. These groups of people have the equipment, knowledge, experience and funding to help people in desperate need. Where are they needed? Or if they hear about the disaster and the first respond team are on place, how do they report back about the situation? How do they communicate with each other to work more effectively and help the ones in desperate need? There is no doubt that there is a need for a simple, fast, and reliable communication system.
 
-When a natural disaster hits it is hard to know the extent of it, which  again makes it difficult to predict how the communication systems would be affected. This unpredictability makes it important to always have a backup plan to the backup plan. 
-%kanskje flere eksempler her?
-
-History shows that cellphone service is not a reliable service during an emergency situation. During 9/11 the system became heavily overloaded, and when hurricane Katrina hit, 70\% of the cell phone towers where knocked down. One might think that if they live in a big metropolitan that they would be safer, but this is not necessarily the case \cite{disasterComm}. These are situations in the western world. 
+When a natural disaster hits it is hard to know the extent of it, which  again makes it difficult to predict how the communication systems would be affected. This unpredictability makes it important to always have a back-up plan to the back-up plan. History shows that cellphone service is not a reliable service during an emergency situation. During 9/11 the system became heavily overloaded, and when hurricane Katrina hit, 70\% of the cell phone towers where knocked down. One might think that if they live in a big metropolitan that they would be safer, but this is not necessarily the case \cite{disasterComm}. In addition, these examples are from the western world. The western communication systems tend to be more robust initially, compared to the ones in developing countries. 
 
 When looking at the less developed world, which is often more vulnerable to natural disasters, the situations are different. According to \cite{DevelopingWorld, 360} developing countries are in an larger extent affected by natural disasters than the developed world. The reason for this can be explained by the economic status of the country. Both in how the country is prepared for the disaster and in how fast they can rebuild and recuperate after a natural disaster. Developing countries often lack the infrastructure needed to quickly and efficiently provide aids to the ones affected. According to Baxter \cite{360}, a natural disaster could set back a developing country many years in development.  
 
+People are extremely dependent on communication systems when natural disasters occur. It is crucial to have the possibility to inform others of their current situation and what is needed. Time can be everything in situations like these, it can be life or death. Time can be spared if the ability to communicate without having to do it face-to-face is offered. Doing a quick roll-out of emergency boxes could be a good solution in situations like these. 
+
+Following comes two examples, respectively from a developed country, and a underdeveloped country. The examples shows how the situation was handled, and what kind of back up communication systems that where used. 
+
 \paragraph{Hurrican Sandy}
-Hurricane Sandy hit big parts of the Caribbean, as well as the southeast parts of the Unites States at the end of October 2012 \cite{WikiSandy}. As many as 25 percent of the citizens in the affected areas lost cell phone coverage, and even more lost electricity. Emergency communication is a challenge in natural disasters, and often leave the public with out a way to call the the emergency number, but also makes it difficult for first responders (as fire fighters, police, etc) to communicate.  Satellite is sometimes used but is an expensive solution and they have more fixed restrictions, plus the fact that the equipment needed, phones and dishes, are expensive. No single communication system is fault free, and there always have to a backup to the backup. Satellite was used but the phones are expensive and the lines can be oversaturated if others parties are trying to connect to the network at the same time. A small aperture terminal (VSAT) trailer was also used to act like a satellite ground station. Finding a good spot for the trailer can be tricky, it requires clear view to the sky and can not be placed too close to a large building. The Red Cross launched an emergency preparedness application for smartphones. The application had a peak in downloads right before the hurricane hit, but when the commercial wireless network failed, they had to back to the old way of spreading information. Distributing paper files, going from house to house to check up on peoples welfare, give information word-by-mouth and using bullhorn \cite{hurricaneSandy}.
+Hurricane Sandy hit big parts of the Caribbean, as well as the south-east parts of the Unites States at the end of October 2012 \cite{WikiSandy}. As many as 25\% of the citizens in the affected areas lost cell phone coverage, and even more lost electricity. Emergency communication is a challenge in natural disasters, and often leave the public with out a way to call the the emergency number, but also makes it difficult for first responders (as fire fighters, police, etc) to communicate.  Satellite is sometimes used but is an expensive solution and they have more fixed restrictions, plus the fact that the equipment needed, phones and dishes, are expensive. No single communication system is fault free, and there always have to a backup to the backup. Satellite was used but the phones are expensive and the lines can be oversaturated if others parties are trying to connect to the network at the same time. A small aperture terminal (VSAT) trailer was also used to act like a satellite ground station. Finding a good spot for the trailer can be tricky, it requires clear view to the sky and can not be placed too close to a large building. The Red Cross launched an emergency preparedness application for smart phones. The application had a peak in downloads right before the hurricane hit, but when the commercial wireless network failed, they had to go back to the old way of spreading information. Distributing paper files, going from house to house to check up on peoples welfare, give information word-by-mouth and using bullhorn \cite{hurricaneSandy}.
 
 \paragraph{Philippines}
+*Skrive mer her
 
-*Skal fylles ut mer her
+November 8 2013 the typhoon Haiyan, a powerful tropical cyclone, struck and destroyed parts of south-east Asia, in particular the Philippines. Haiyan is the strongest hurricane in wind speed ever recorded. The hurricane had the highest number for casualties, killing at least 6,268 people in the country alone \cite{wikiHaiyan}. International humanitarians and the government at the Philippines was warned about the storm in advance, but nobody could anticipate its viciousness. Some of the first teams on the spot was the communication experts, in order to coordinate, and make sure information was spread as desired.    \cite{disasterResponse} 
 
-November 8 2013 the typhoon Haiyan, a powerful tropical cyclone, struck and devastated parts of southeast Asia, in particular the Philippines. Haiyan is the strongest hurricane in wind speed ever recorded. The hurricane have the highest number for casualties, killing at least 6,268 people in the country alone \cite{wikiHaiyan}. International humanitarians and the government at the Philippines was warned about the storm in advance, but nobody could anticipate its viciousness. Some of the first teams on the spot was the communication experts, in order to coordinate, and make sure information was spread as desired.    \cite{disasterResponse} 
-
-Clusters are groups of UN and non-UN humanitarian organisations that specialise in emergency repons in areas such as water and sanitation, health, shelter, logistics, food security and agriculture. The cluster approach was applied for the first time after the 2005 earthquake in Pakistan \cite{disasterResponse}.
-
-
-\paragraph{Utilizing the emergency box.}
-*detaljert forklaring på hvordan nødboksen kan settes opp for bruk i denne type scenario. 
-
-Imagine your self in a situation where all the Internet is out of function and the cell phone coverage is limited. In order to reach out for help people have to walk on top of hills in order to get service. 
-In this situatio
+Clusters are groups of UN and non-UN humanitarian organisations that specialise in emergency response in areas such as water and sanitation, health, shelter, logistics, food security and agriculture. The cluster approach was applied for the first time after the 2005 earthquake in Pakistan \cite{disasterResponse}.
 
 
 \subsection{Temporary Refugee and IDP camps}
 We got a better understanding of refugee and IDP camps after conducting interviews with different relief organizations (for interview with respectively CARE and Norwegian Refugee Council see section \ref{sec:interviewcare} and section \ref{sec:interviewnrc}). 
 Not all refugee and IDP camps are as well established, like the ones in Dadaab. Many camps are short-term, and are therefore in more need of a temporary communication system. In this case, setting up Mesh Potatoes in the camp to provide the refugees/IDPs with Internet access is an option. 
 
-\paragraph{Utilizing the emergency box.}
-*detaljert forklaring på hvordan nødboksen kan settes opp for bruk i denne type scenario. 
-
 \subsection{Festivals}
-Image you are at a music festival with your friends in a foreign country. There are thousands of people, and much activity. In a scenario like this there are many reasons why an Internet connection would be beneficial. You could loose your friends, have to inform your friends about something urgent, inform the staff if an emergency situation occur and so on. 
-
-\paragraph{Utilizing the emergency box.}
-Since it is very expensive to send text messages/make phone calls or use mobile networks when you are abroad, it could be an idea to use Mesh Potatoes to provide the people at the festival with Internet access. This could be set up by the organizers in advance. Although this adds an extra cost to the organizers, the people attending the festival can save a lot of money by refraining from using the expensive services available on their cell phones. The organizers could add an extra fee to prize of the festival pass, and it would probably still be beneficial for the people at the festival. 
+Image you are at a music festival with your friends in a foreign country. There are thousands of people, and much activity. In a scenario like this there are many reasons why an Internet connection would be beneficial. You could loose your friends, have to inform your friends about something urgent, inform the staff if an emergency situation occur and so on. Since it is very expensive to send text messages/make phone calls or use mobile networks when you are abroad, it could be an idea to use Mesh Potatoes to provide the people at the festival with Internet access. This could be set up by the organizers in advance. Although this adds an extra cost to the organizers, the people attending the festival can save a lot of money by refraining from using the expensive services available on their cell phones. The organizers could add an extra fee to prize of the festival pass, and it would probably still be beneficial for the people at the festival. 
 
 \subsection{Breakdown of Mobile Towers}
 
 The 10th of June 2011 one of Telenor had problems with one of its servers in Oslo. This problem caused a down time of 18 hours and affected 3 000 000 Telenor users \cite{listeNedetid}. Not only was this the biggest problem Telenor have had since they opened their mobile network in 1993, but also the longest downtime and highest number of affected users recorded in Norway. In addition to this it all happened in a period with severe flooding in big parts of the eastern Norway, and made it difficult to reach emergency numbers. The fact that the problems occurred during the flooding just made the situation much worse \cite{TelenorNede}.
-
-\paragraph{Utilizing the emergency box.}
-*detaljert forklaring på hvordan nødboksen kan settes opp for bruk i denne type scenario. 
-
-
-\subsection{Differences/relation between different scenarios}
-*Sammenligning mellom scenarioer og oppsett. 
-*Enkel "overføring" mellom scenarioer. Endringer som trengs. 
-
-
-%What kind of adjustments are needed between the different scenarios?
-
