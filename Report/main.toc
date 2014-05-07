@@ -46,7 +46,7 @@
 \contentsline {section}{\numberline {4.2}The Emergency Box}{25}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Previous/similar work}{26}{subsection.4.2.1}
 \contentsline {paragraph}{Go Box.}{26}{section*.23}
-\contentsline {paragraph}{AfrikaBurn}{26}{section*.24}
+\contentsline {paragraph}{AfrikaBurn.}{26}{section*.24}
 \contentsline {subsection}{\numberline {4.2.2}Key Components}{26}{subsection.4.2.2}
 \contentsline {subsection}{\numberline {4.2.3}Creating the Emergency Box}{26}{subsection.4.2.3}
 \contentsline {paragraph}{Conjoining the components of the emergency box.}{26}{section*.27}
@@ -57,7 +57,7 @@
 \contentsline {paragraph}{With Mesh Potato v2.0}{30}{section*.31}
 \contentsline {subsection}{\numberline {4.2.5}Possible improvements }{30}{subsection.4.2.5}
 \contentsline {section}{\numberline {4.3}The Process of Quick Roll-Out}{30}{section.4.3}
-\contentsline {paragraph}{Script}{30}{section*.32}
+\contentsline {paragraph}{Script}{31}{section*.32}
 \contentsline {subsubsection}{With the MP02}{31}{section*.33}
 \contentsline {paragraph}{Distributing Numbers}{31}{section*.34}
 \contentsline {section}{\numberline {4.4}Up-Link}{32}{section.4.4}
@@ -66,11 +66,11 @@
 \contentsline {subsubsection}{ISDN}{33}{section*.36}
 \contentsline {subsubsection}{DSL}{33}{section*.37}
 \contentsline {subsubsection}{Quickly Connect a MP01 to the Internet from Cabled Internet}{34}{section*.38}
-\contentsline {subsubsection}{Quickly Connect a Mesh Potato to the Internet via a PC}{34}{section*.39}
-\contentsline {subsection}{\numberline {4.4.2}Cellular Network Technologies}{38}{subsection.4.4.2}
+\contentsline {subsubsection}{Quickly Connect a Mesh Potato to the Internet via a PC}{35}{section*.39}
+\contentsline {subsection}{\numberline {4.4.2}Cellular Network Technologies}{37}{subsection.4.4.2}
 \contentsline {subsubsection}{Quickly Connect the Emergency Box to Cellular Network}{38}{section*.41}
 \contentsline {subsection}{\numberline {4.4.3}Satellite}{38}{subsection.4.4.3}
-\contentsline {subsubsection}{Quickly Connect the Emergency Box to Satellite}{38}{section*.42}
+\contentsline {subsubsection}{Quickly Connect the Emergency Box to Satellite}{39}{section*.42}
 \contentsline {subsection}{\numberline {4.4.4}Summary Up-Links}{39}{subsection.4.4.4}
 \contentsline {section}{\numberline {4.5}Future Internet Access Methods}{39}{section.4.5}
 \contentsline {subsection}{\numberline {4.5.1}Google's Internet Balloons}{39}{subsection.4.5.1}

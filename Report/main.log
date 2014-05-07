@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.16)  6 MAY 2014 16:26
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.16)  7 MAY 2014 15:41
 entering extended mode
 **main.tex
 ("C:\Users\Ida Malene\Masteroppgave\Report\main.tex"
@@ -1880,13 +1880,13 @@ File: ./figs/emergencybox.jpg Graphic file (type jpg)
 Package pdftex.def Info: ./figs/emergencybox.jpg used on input line 149.
 (pdftex.def)             Requested size: 327.59778pt x 224.30612pt.
  [26]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1383) has occurred while \output is active []
 
  [27]
 [28 <C:/Users/Ida Malene/Masteroppgave/Report/figs/emergencybox.jpg>] [29]
-[30] [31] [32]
-("C:\Users\Ida Malene\Masteroppgave\Report\internetviaethernetcable.tex"
-[33]) ("C:\Users\Ida Malene\Masteroppgave\Report\internetviapc.tex" [34]
+[30] [31] [32] [33]
+("C:\Users\Ida Malene\Masteroppgave\Report\internetviaethernetcable.tex")
+("C:\Users\Ida Malene\Masteroppgave\Report\internetviapc.tex" [34]
 Overfull \hbox (27.00375pt too wide) in paragraph at lines 39--40
 [][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -1896,17 +1896,15 @@ Overfull \hbox (15.00363pt too wide) in paragraph at lines 41--42
 [][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[35] [36]) <./figs/mobilesubscriptions.png, id=787, 466.74374pt x 207.77625pt>
+[35] [36]) <./figs/mobilesubscriptions.png, id=781, 466.74374pt x 207.77625pt>
 File: ./figs/mobilesubscriptions.png Graphic file (type png)
 
 <use ./figs/mobilesubscriptions.png>
 Package pdftex.def Info: ./figs/mobilesubscriptions.png used on input line 263.
 
 (pdftex.def)             Requested size: 364.0pt x 162.04578pt.
-
-Underfull \vbox (badness 4096) has occurred while \output is active []
-
- [37 <C:/Users/Ida Malene/Masteroppgave/Report/figs/mobilesubscriptions.png>]
+ [37] [38 <C:/Users/Ida Malene/Masteroppgave/Report/figs/mobilesubscriptions.pn
+g>]
 Underfull \hbox (badness 4328) in paragraph at lines 299--300
 []|\T1/lmr/m/n/10 (+20) Unreliable, ex-pen-sive, slower
  []
@@ -1916,37 +1914,35 @@ Overfull \hbox (6.17464pt too wide) in paragraph at lines 291--302
 [][] 
  []
 
-[38] <./figs/loon2.PNG, id=821, 425.33907pt x 251.43938pt>
+<./figs/loon2.PNG, id=819, 425.33907pt x 251.43938pt>
 File: ./figs/loon2.PNG Graphic file (type png)
-
-<use ./figs/loon2.PNG>
+ <use ./figs/loon2.PNG>
 Package pdftex.def Info: ./figs/loon2.PNG used on input line 316.
 (pdftex.def)             Requested size: 156.51733pt x 92.52466pt.
- <./figs/loon1.jpg, id=822, 821.0675pt x 501.875pt>
-File: ./figs/loon1.jpg Graphic file (type jpg)
 
-<use ./figs/loon1.jpg>
+<./figs/loon1.jpg, id=820, 821.0675pt x 501.875pt>
+File: ./figs/loon1.jpg Graphic file (type jpg)
+ <use ./figs/loon1.jpg>
 Package pdftex.def Info: ./figs/loon1.jpg used on input line 323.
 (pdftex.def)             Requested size: 151.05756pt x 92.33232pt.
- [39] [40 <C:/Users/Ida Malene/Masteroppgave/Report/figs/loon2.PNG> <C:/Users/I
-da Malene/Masteroppgave/Report/figs/loon1.jpg>]
+
+[39] [40 <C:/Users/Ida Malene/Masteroppgave/Report/figs/loon2.PNG> <C:/Users/Id
+a Malene/Masteroppgave/Report/figs/loon1.jpg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [41]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [42]
-[43] [44]) [45] [46] ("C:\Users\Ida Malene\Masteroppgave\Report\discussion.tex"
-) [47
+[42] [43] [44] [45]) [46]
+("C:\Users\Ida Malene\Masteroppgave\Report\discussion.tex") [47
 
 
 
-] ("C:\Users\Ida Malene\Masteroppgave\Report\conclusion.tex" [48
+]
+("C:\Users\Ida Malene\Masteroppgave\Report\conclusion.tex" [48
 
 
 
-])
-[49] ("C:\Users\Ida Malene\Masteroppgave\Report\main.bbl" [50
+]) [49]
+("C:\Users\Ida Malene\Masteroppgave\Report\main.bbl" [50
 
 
 ]
@@ -2128,7 +2124,7 @@ lems . aspx$[][],
 
 
 ]
-<./figs/SECN.pdf, id=1089, 597.23125pt x 845.1575pt>
+<./figs/SECN.pdf, id=1086, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
  <use ./figs/SECN.pdf>
 Package pdftex.def Info: ./figs/SECN.pdf used on input line 4.
@@ -2139,7 +2135,7 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/SECN.pdf used on input line 4.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
  [61]
-<./figs/SECN.pdf, id=1097, page=1, 597.23125pt x 845.1575pt>
+<./figs/SECN.pdf, id=1094, page=1, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 1>
@@ -2164,7 +2160,7 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/SECN.pdf, page1 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
  [62 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
-, id=1164, page=2, 597.23125pt x 845.1575pt>
+, id=1161, page=2, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 2>
@@ -2180,7 +2176,7 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/SECN.pdf, page2 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
  [63 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
-, id=1170, page=3, 597.23125pt x 845.1575pt>
+, id=1167, page=3, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 3>
@@ -2196,7 +2192,7 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/SECN.pdf, page3 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
  [64 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
-, id=1176, page=4, 597.23125pt x 845.1575pt>
+, id=1173, page=4, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 4>
@@ -2212,7 +2208,7 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/SECN.pdf, page4 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
  [65 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
-, id=1182, page=5, 597.23125pt x 845.1575pt>
+, id=1179, page=5, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 5>
@@ -2228,7 +2224,7 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/SECN.pdf, page5 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
  [66 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
-, id=1188, page=6, 597.23125pt x 845.1575pt>
+, id=1185, page=6, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 6>
@@ -2244,7 +2240,7 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/SECN.pdf, page6 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
  [67 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
-, id=1195, page=7, 597.23125pt x 845.1575pt>
+, id=1192, page=7, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 7>
@@ -2260,7 +2256,7 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/SECN.pdf, page7 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
  [68 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
-, id=1201, page=8, 597.23125pt x 845.1575pt>
+, id=1198, page=8, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 8>
@@ -2276,7 +2272,7 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/SECN.pdf, page8 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
  [69 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
-, id=1207, page=9, 597.23125pt x 845.1575pt>
+, id=1204, page=9, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 9>
@@ -2292,7 +2288,7 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/SECN.pdf, page9 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
  [70 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
-, id=1213, page=10, 597.23125pt x 845.1575pt>
+, id=1210, page=10, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 10>
@@ -2308,7 +2304,7 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/SECN.pdf, page10 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
  [71 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
-, id=1219, page=11, 597.23125pt x 845.1575pt>
+, id=1216, page=11, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 11>
@@ -2324,7 +2320,7 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/SECN.pdf, page11 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
  [72 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
-, id=1225, page=12, 597.23125pt x 845.1575pt>
+, id=1222, page=12, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 12>
@@ -2340,7 +2336,7 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/SECN.pdf, page12 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
  [73 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
-, id=1232, page=13, 597.23125pt x 845.1575pt>
+, id=1229, page=13, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 13>
@@ -2356,7 +2352,7 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/SECN.pdf, page13 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
  [74 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
-, id=1238, page=14, 597.23125pt x 845.1575pt>
+, id=1235, page=14, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 14>
@@ -2372,7 +2368,7 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/SECN.pdf, page14 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
  [75 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
-, id=1244, page=15, 597.23125pt x 845.1575pt>
+, id=1241, page=15, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 15>
@@ -2388,7 +2384,7 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/SECN.pdf, page15 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
  [76 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
-, id=1250, page=16, 597.23125pt x 845.1575pt>
+, id=1247, page=16, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 16>
@@ -2404,7 +2400,7 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/SECN.pdf, page16 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
  [77 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
-, id=1256, page=17, 597.23125pt x 845.1575pt>
+, id=1253, page=17, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 17>
@@ -2420,7 +2416,7 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/SECN.pdf, page17 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
  [78 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
-, id=1262, page=18, 597.23125pt x 845.1575pt>
+, id=1259, page=18, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 18>
@@ -2436,7 +2432,7 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/SECN.pdf, page18 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
  [79 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
-, id=1269, page=19, 597.23125pt x 845.1575pt>
+, id=1266, page=19, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 19>
@@ -2452,7 +2448,7 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/SECN.pdf, page19 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
  [80 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
-, id=1275, page=20, 597.23125pt x 845.1575pt>
+, id=1272, page=20, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 20>
@@ -2468,7 +2464,7 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/SECN.pdf, page20 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
  [81 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
-, id=1281, page=21, 597.23125pt x 845.1575pt>
+, id=1278, page=21, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 21>
@@ -2484,7 +2480,7 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/SECN.pdf, page21 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
  [82 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
-, id=1287, page=22, 597.23125pt x 845.1575pt>
+, id=1284, page=22, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 22>
@@ -2500,7 +2496,7 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/SECN.pdf, page22 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
  [83 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
-, id=1293, page=23, 597.23125pt x 845.1575pt>
+, id=1290, page=23, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 23>
@@ -2516,7 +2512,7 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/SECN.pdf, page23 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
  [84 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
-, id=1299, page=24, 597.23125pt x 845.1575pt>
+, id=1296, page=24, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 24>
@@ -2532,7 +2528,7 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/SECN.pdf, page24 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
  [85 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
-, id=1306, page=25, 597.23125pt x 845.1575pt>
+, id=1303, page=25, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 25>
@@ -2548,7 +2544,7 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/SECN.pdf, page25 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
  [86 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
-, id=1312, page=26, 597.23125pt x 845.1575pt>
+, id=1309, page=26, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 26>
@@ -2564,7 +2560,7 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/SECN.pdf, page26 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
  [87 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
-, id=1318, page=27, 597.23125pt x 845.1575pt>
+, id=1315, page=27, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 27>
@@ -2580,7 +2576,7 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/SECN.pdf, page27 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
  [88 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
-, id=1324, page=28, 597.23125pt x 845.1575pt>
+, id=1321, page=28, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 28>
@@ -2596,7 +2592,7 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/SECN.pdf, page28 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
  [89 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
-, id=1330, page=29, 597.23125pt x 845.1575pt>
+, id=1327, page=29, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 29>
@@ -2612,7 +2608,7 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/SECN.pdf, page29 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
  [90 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
-, id=1336, page=30, 597.23125pt x 845.1575pt>
+, id=1333, page=30, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 30>
@@ -2628,7 +2624,7 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/SECN.pdf, page30 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
  [91 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
-, id=1343, page=31, 597.23125pt x 845.1575pt>
+, id=1340, page=31, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 31>
@@ -2644,7 +2640,7 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/SECN.pdf, page31 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
  [92 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
-, id=1349, page=32, 597.23125pt x 845.1575pt>
+, id=1346, page=32, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 32>
@@ -2660,7 +2656,7 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/SECN.pdf, page32 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
  [93 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
-, id=1355, page=33, 597.23125pt x 845.1575pt>
+, id=1352, page=33, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 33>
@@ -2676,7 +2672,7 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/SECN.pdf, page33 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
  [94 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
-, id=1361, page=34, 597.23125pt x 845.1575pt>
+, id=1358, page=34, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 34>
@@ -2692,7 +2688,7 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/SECN.pdf, page34 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
  [95 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
-, id=1367, page=35, 597.23125pt x 845.1575pt>
+, id=1364, page=35, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 35>
@@ -2708,7 +2704,7 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/SECN.pdf, page35 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
  [96 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
-, id=1373, page=36, 597.23125pt x 845.1575pt>
+, id=1370, page=36, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 36>
@@ -2724,7 +2720,7 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/SECN.pdf, page36 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
  [97 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
-, id=1380, page=37, 597.23125pt x 845.1575pt>
+, id=1377, page=37, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 37>
@@ -2740,7 +2736,7 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figs/SECN.pdf, page37 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
  [98 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
-, id=1386, page=38, 597.23125pt x 845.1575pt>
+, id=1383, page=38, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 38>
@@ -2778,57 +2774,39 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 115.
 ("C:\Users\Ida Malene\Masteroppgave\Report\appendixB.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 115.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 115.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: F8C8C21A9A7D8CCDBD86698F2D8D132D;3854.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 5AADED140597B7465FFBE1331C3C74E1;3854
-(rerunfilecheck)             After:  F8C8C21A9A7D8CCDBD86698F2D8D132D;3854.
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 115.
  ) 
 Here is how much of TeX's memory you used:
- 23157 strings out of 493921
- 341003 string characters out of 3147267
- 580820 words of memory out of 3000000
+ 23154 strings out of 493921
+ 340953 string characters out of 3147267
+ 579820 words of memory out of 3000000
  25434 multiletter control sequences out of 15000+200000
  85712 words of font info for 119 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  58i,18n,101p,2615b,1289s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{table.caption.41} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.42} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.38} has been referenced but does not
- exist, replaced by a fixed one
-
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files
-/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc
-/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.e
-nc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/lm/lmbx9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/l
-m/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss17.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/lm/lmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/lm/lmtt10.pfb>
-Output written on main.pdf (111 pages, 3003596 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Fil
+es/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
+nc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit
+.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/lm/lmbx9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss1
+7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/lm/lmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/lm/lmtt10.pfb>
+Output written on main.pdf (111 pages, 3003975 bytes).
 PDF statistics:
- 1521 PDF objects out of 1728 (max. 8388607)
- 373 named destinations out of 1000 (max. 500000)
+ 1517 PDF objects out of 1728 (max. 8388607)
+ 370 named destinations out of 1000 (max. 500000)
  20679 words of extra memory for PDF output out of 20736 (max. 10000000)
 
