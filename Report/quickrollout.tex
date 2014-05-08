@@ -217,7 +217,7 @@ Our main focus was to get something that worked and that was safe, and we did no
 \section{The Process of Quick Roll-Out}
 As mentioned, one of our areas of focus is the process of quick roll-out. There are many aspects that can be included in order to speed up the roll-out process and make it as easy as possible. We will now present some of our ideas to meet this requirement.
 
-\paragraph{Script}
+\subsection{Script}
 A script is a list of commands that can be executed without user interaction, in other words, to automate a process. In order to connect the mesh network to Internet a list of commands have to be executed. One idea to speed up the process of setting up the network was to create a script to automate this process. One way to do this could be by creating a self-executable script that could be included in the emergency box on for example on an USB-stick. There would have to be a different script, and different USBs, for each up-link type. 
 
 *Forklare spesifikke ting som er tatt i betrakning for å gjøre utrullingen raskest mulig. Feks scripting, manual etc. 
@@ -225,17 +225,37 @@ A script is a list of commands that can be executed without user interaction, in
 *Hvordan utdele telefonnummer raskt, opplæring av folk. VIKTIG. Hver boks bør ha nummer skrevet på seg allerede, og ferdig satt opp med ip-adresse. 
 
 
-\subsubsection{With the MP02}
+\subsection{With the MP02}
 The MP02 Basic does not have the option to connect to a phone. Hence the issue with telephone number distribution is irrelevant. Later in 2014 Village Telco will release a new version of the MP2, MP2-Phone. MP2-Phone will be identical to MP02 Basic, just with an FXS daughterboard. With this new version the issue of number distribution appears. 
 
 The emergency box could be delivered with several MPs, where each MP is marked with the pre-configured IP address. Since it is not possible to connect a phone to the MP there is no issue of number distribution. The box could for example contain 5 MPs, where one would be connected to an up-link, while the other ones would be strategically placed in order to spread the Internet access further. 
 
-\paragraph{Distributing Numbers}
+\subsubsection{Distributing Numbers}
 When a Village Telco is set up today, telephone numbers are distributed by updating a spreadsheet with name and number to the users. These spreadsheets are printed out and delivered to everyone. This is a system that might seem cumbersome, but serves its purpose. If new nodes are added to the network or any changes are made, new sheets have to be printed out and delivered to everyone. This way of spreading telephone numbers might be more difficult with the go-box. 
 
 One option is to continue with the number distribution approach in use today. The suitcase could contain 5 MPs, all MPs are marked with its unique IP address. There will be attached a list with the IP addresses of the other Mesh Potatoes in the suitcase. When setting up the network the names can easily be filled in on each Mesh Potato. This will then be the telephone list.  
 
 An other approach would be to integrate the distribution of phone number in the web interface. A new feature could be implemented in the interface. This feature would discover the other MPs in range, also in range through other MPs. All MPs would be displayed with name of the SSID, IP address, where the last octet is the telephone number and the name of residence or user. This name could be edited by the master user or by the user themselves. Each MP in the suitcase are pre-configured and set up, they are also set up with security and a password to enter the web interface. So in order for a user to enter the web interface they have to enter the password to get access. Once inside they can see other MPs in range and also put in their name for the other MPs to see. The password and security is set up so that no other than the main user of the MP can change the name. 
+
+
+\subsection{Get Started - How to Use the Box}
+* gi en kortfattet forklaring på hva som finens i boksen og hvordan den funker og kan brukes, bør inneholde levetid osv.
+\input{gettingstarted}
+
+\subsection{How Connect the MP to Cabled Internet}
+\input{internetviaethernetcable}
+
+\subsection{How Connect the MP to Internet via PC}
+\input{internetviapc}
+
+\subsection{How Connect the MP to Cellular Network}
+The following manual will describe how a user can use the emergency box to connect to a cellular network, like 3G and 4G. As well as how to use a cell phone as an access point. 
+
+\input{internetviacellular}
+
+\subsection{How Connect the MP to Satellite}
+\input{internetviasatellite}
+
 
 \section{Up-Link}
 Our main focus when deploying the emergency boxes, is to provide Internet to the mesh network. This because it is crucial to have the possibility to communicate with the local community and the outside world during an emergency situation. In 2011, UN declared Internet access a human right \cite{HR}. This says something about the extent of the Internet, and the importance of connectivity. In order to provide Internet to the mesh network formed by the emergency boxes, at least on the Mesh Potatoes must be connected to an access network via an uplink. An uplink connects a device or a LAN to a larger network \cite{uplink}. Which type of access network that is available depends of the location. Some places there might exist a stable landline, other places not. Then an option could be to use satellite or cellular networks. It is therefore important that the emergency box has high adaptability in order to fit different scenarios. The availability of the different uplinks is not the only thing that vary. The up-link speed and the price also varies from place to place, and between the types of uplinks. In the following sections, we will look at some of the uplinks available, and how Internet access can be provided to the mesh network.  
@@ -251,10 +271,6 @@ Integrated Services Digital Network (ISDN) is a fixed internet connection, which
 
 \subsubsection{DSL}
 Digital subscriber line (DSL) is, like the name indicates, a digital high-speed technology for Internet access that allows simultaneous voice and data transfer. Like dial-up and ISDN, DSL also run over the telephone lines. With DSL the data is not converted between analogue and digital signals. Despite this, the signals are modulated in order to be transferred on non-voice frequencies. DSL is an always-on technology, and in this way differ from the previous technologies mentioned. Only a small part of the telephone line is used for voice signals. The DSL technology allows utilization of a unused frequency spectrum of a telephone line, hence making it possible to transmit data faster. When the voice and data signals arrive at the telephone company's local switching station, they are separated and routed differently; voice to regular telephone system and data to the ISP, and then the Internet. A connection must be within approximately 5 kilometres of a station in order for DSL to work. The speed depends on many factors. Data can be transported up to 6 Mbps (distance of approximately 2 kilometres). Relevant factors that have an impact on the speed is distance to the switching station, and the quality of the telephone line. Like mentioned earlier, there are different types of DSLs. The most common is ADSL, where the A stands for asymmetric; the downstream speed is faster than the upstream speed \cite{differentuplinks}.
-
-\input{internetviaethernetcable}
-
-\input{internetviapc}
 
 In order to connect the Mesh Potato network to Internet via a land-line, at least one MP have to be in reach for a Internet signal. Preferably The MP should be connected with an Ethernet cable, but could also be done wireless.  First the Mesh Potatoes have to be configured following the steps below. After completing the steps one can plug the Ethernet cable in in one MP and the internet is spread to the the other MPs in reach. It could be smart to change the name and the password for the different MPs. This is easily done by opening the web interface for each MP. 
 

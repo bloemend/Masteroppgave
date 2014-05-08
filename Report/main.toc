@@ -58,34 +58,37 @@
 \contentsline {paragraph}{With Mesh Potato v2.0}{30}{section*.32}
 \contentsline {subsection}{\numberline {4.2.5}Possible Improvements}{30}{subsection.4.2.5}
 \contentsline {section}{\numberline {4.3}The Process of Quick Roll-Out}{31}{section.4.3}
-\contentsline {paragraph}{Script}{31}{section*.33}
-\contentsline {subsubsection}{With the MP02}{31}{section*.34}
-\contentsline {paragraph}{Distributing Numbers}{31}{section*.35}
-\contentsline {section}{\numberline {4.4}Up-Link}{32}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Internet via Telephone-line}{33}{subsection.4.4.1}
-\contentsline {subsubsection}{Dial-up Internet connection}{33}{section*.36}
-\contentsline {subsubsection}{ISDN}{33}{section*.37}
-\contentsline {subsubsection}{DSL}{33}{section*.38}
-\contentsline {subsubsection}{Quickly Connect a MP01 to the Internet from Cabled Internet}{34}{section*.39}
-\contentsline {subsubsection}{Quickly Connect a Mesh Potato to the Internet via a PC}{35}{section*.40}
+\contentsline {subsection}{\numberline {4.3.1}Script}{31}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}With the MP02}{31}{subsection.4.3.2}
+\contentsline {subsubsection}{Distributing Numbers}{32}{section*.33}
+\contentsline {subsection}{\numberline {4.3.3}Get Started - How to Use the Box}{32}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}How Connect the MP to Cabled Internet}{32}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}How Connect the MP to Internet via PC}{33}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.6}How Connect the MP to 3G, using a mobilde phone as access point}{36}{subsection.4.3.6}
+\contentsline {subsection}{\numberline {4.3.7}How Connect the MP to Satellite}{36}{subsection.4.3.7}
+\contentsline {section}{\numberline {4.4}Up-Link}{36}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Internet via Telephone-line}{36}{subsection.4.4.1}
+\contentsline {subsubsection}{Dial-up Internet connection}{37}{section*.34}
+\contentsline {subsubsection}{ISDN}{37}{section*.35}
+\contentsline {subsubsection}{DSL}{37}{section*.36}
 \contentsline {subsection}{\numberline {4.4.2}Cellular Network Technologies}{38}{subsection.4.4.2}
-\contentsline {subsubsection}{Quickly Connect the Emergency Box to Cellular Network}{39}{section*.42}
+\contentsline {subsubsection}{Quickly Connect the Emergency Box to Cellular Network}{39}{section*.38}
 \contentsline {subsection}{\numberline {4.4.3}Satellite}{39}{subsection.4.4.3}
-\contentsline {subsubsection}{Quickly Connect the Emergency Box to Satellite}{39}{section*.43}
+\contentsline {subsubsection}{Quickly Connect the Emergency Box to Satellite}{39}{section*.39}
 \contentsline {subsection}{\numberline {4.4.4}Summary Up-Links}{39}{subsection.4.4.4}
 \contentsline {section}{\numberline {4.5}Future Internet Access Methods}{40}{section.4.5}
 \contentsline {subsection}{\numberline {4.5.1}Google's Internet Balloons}{40}{subsection.4.5.1}
 \contentsline {section}{\numberline {4.6}Apple's Mesh Network}{42}{section.4.6}
 \contentsline {section}{\numberline {4.7}Different Scenarios Where a Quick Roll-out is Necessary}{43}{section.4.7}
 \contentsline {subsection}{\numberline {4.7.1}Natural Disasters}{44}{subsection.4.7.1}
-\contentsline {paragraph}{Hurrican Sandy}{45}{section*.46}
-\contentsline {paragraph}{Philippines}{45}{section*.47}
+\contentsline {paragraph}{Hurrican Sandy}{45}{section*.42}
+\contentsline {paragraph}{Philippines}{45}{section*.43}
 \contentsline {subsection}{\numberline {4.7.2}Temporary Refugee and IDP camps}{46}{subsection.4.7.2}
 \contentsline {subsection}{\numberline {4.7.3}Festivals}{46}{subsection.4.7.3}
 \contentsline {subsection}{\numberline {4.7.4}Breakdown of Mobile Towers}{46}{subsection.4.7.4}
 \contentsline {chapter}{\chapternumberline {5}Discussion}{47}{chapter.5}
 \contentsline {chapter}{\chapternumberline {6}Conclusion}{49}{chapter.6}
-\contentsline {chapter}{References}{51}{section*.49}
+\contentsline {chapter}{References}{51}{section*.45}
  \vspace {1em} \noindent \bfseries Appendices\par \vspace {-.5em} 
 \contentsline {appendix}{\chapternumberline {A}Interview with Care}{57}{appendix.A}
 \contentsline {appendix}{\chapternumberline {B}SECN-1.1 User Guide}{61}{appendix.B}
