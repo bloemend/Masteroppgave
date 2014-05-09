@@ -90,7 +90,7 @@ Briefly after the potato-flash had been executed, dots stared appearing on the s
 
 
 \subsubsection{Installing Firmware on Mesh Potato v2.0}
-The process of upgrading the MP's firmware is simplified with the MP2. With the MP1, command shell must be utilized in order do this. In contrary, with the MP2, firmware upgrade can be done from the SECN web interface (more information about the interface can be found in section \ref{subsec:interface}). Extra functionality has been added to the interface from MP1 to MP2. Under "Advanced" in the interface an extra tab called "Firmware" is added, and there the firmware upgrade can be executed. 
+The process of upgrading the MP's firmware is simplified with the MP2. With the MP1, command shell must be utilized in order do this. In contrary, with the MP2, firmware upgrade can be done from the SECN web interface (more information about the interface can be found in section \ref{subsec:interface}). Extra functionality has been added to the interface from MP1 to MP2. Under "Advanced" in the interface an extra tab called "Firmware" is added, and there the firmware upgrade can be executed. When this button is pressed, a new windows pops up where you have to add the firmware file. The firmware for MP02 can be found here: \url{http://download.villagetelco.org/firmware/secn/unstable/mp02/SECN-2.0/SECN-2.0-RC4/}.
 
 \subsection{The SECN Web Interface}
 \label{subsec:interface}
@@ -183,25 +183,33 @@ to fully charge it.
 
 This calculation does not take into consideration that the solar panel may have to charge the battery while the MP is running. The effect from the solar panel to the battery will then decrease. 
 
+\paragraph{Charge while MP01 is running.}
 The capacity from the solar panel will then be: 
 $$Amp = \frac{Watt}{Volt} = \frac{10-2.5 W}{17 V} = 0.44 Ampere$$
 
 The time it will take to fully charge the battery from fully discharged condition will then be: 
 $$Amp\times Hours = AmpHours \Rightarrow Hours =\frac{AmpHours}{Amp} = \frac{5 Ah\times 1.2}{0.44A} = 13.6 Hours$$
 
+\paragraph{Charge while MP02 is running.}
+The capacity from the solar panel will then be: 
+$$Amp = \frac{Watt}{Volt} = \frac{10-0.75 W}{17 V} = 0.54 Ampere$$
+
+The time it will take to fully charge the battery from fully discharged condition will then be: 
+$$Amp\times Hours = AmpHours \Rightarrow Hours =\frac{AmpHours}{Amp} = \frac{5 Ah\times 1.2}{0.54A} = 11.1 Hours$$
+
 Number of sun hours per day in for example South Africa in December is approximately 14. In June number of sun hours is approximately 10.5. And off course, it can be cloudy, so these numbers are best case. This means that it is possible to fully charge the battery in the course of a day, but it may not always be the case. The following calculations shows how long the battery can provide the Mesh Potato with power from fully charged condition without the solar panel charging it at the same time. 
 
-\paragraph{With Mesh Potato v1.0}
-With the components described in \tref{tab:components} the number of hours the MP1 can last with fully charged battery is: 
+\paragraph{On fully charged battery - MP01}
+This calculation takes into account that the solar panel is disconnected from the battery. With the components described in \tref{tab:components} the number of hours the MP1 can last with fully charged battery is: 
 
 $$Amp = \frac{Watt}{Volt} = \frac{2.5 W}{12 V} = 0.208 Ampere$$
 $$Amp\times Hours = AmpHours \Rightarrow Hours = \frac{AmpHours}{Amp} = \frac{5 Ah}{0.208 A} = 24 Hours$$
 
-\paragraph{With Mesh Potato v2.0}
-With the components described in \tref{tab:components} the number of hours the MP2 can last with fully charged battery is: 
+\paragraph{On fully charged battery - MP02}
+This calculation takes into account that the solar panel is disconnected from the battery. With the components described in \tref{tab:components} the number of hours the MP2 can last with fully charged battery is: 
 
-$$Amp = \frac{Watt}{Volt} = \frac{? W}{12 V} = ? Ampere$$
-$$Amp\times Hours = AmpHours \Rightarrow Hours = \frac{AmpHours}{Amp} = \frac{? Ah}{? A} = ? Hours$$
+$$Amp = \frac{Watt}{Volt} = \frac{0.75 W}{12 V} = 0.06 Ampere$$
+$$Amp\times Hours = AmpHours \Rightarrow Hours = \frac{AmpHours}{Amp} = \frac{5 Ah}{0.06 A} = 83 Hours$$
 
 
 \subsection{Possible Improvements}
