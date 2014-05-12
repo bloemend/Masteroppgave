@@ -10,6 +10,7 @@ A level-1 auxiliary file: conclusion.aux
 The style file: ieeetr.bst
 A level-1 auxiliary file: appendixA.aux
 A level-1 auxiliary file: appendixB.aux
+A level-1 auxiliary file: appendixC.aux
 Database file #1: references.bib
 Warning--entry type for "MP" isn't style-file defined
 --line 1 of file references.bib
@@ -121,9 +122,13 @@ Warning--entry type for "africaburnforavillagetelco" isn't style-file defined
 --line 477 of file references.bib
 Warning--entry type for "africaburnsagainforavillagetelco" isn't style-file defined
 --line 483 of file references.bib
+Warning--entry type for "philippines" isn't style-file defined
+--line 489 of file references.bib
+Warning--entry type for "philippinesradio" isn't style-file defined
+--line 495 of file references.bib
 Warning--empty journal in adhoc2
 Warning--empty journal in batman
 Warning--empty journal in womenRefugee
 Warning--empty chapter and pages in audestad
 Warning--empty publisher in broadband
-(There were 60 warnings)
+(There were 62 warnings)

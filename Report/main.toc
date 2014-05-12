@@ -67,9 +67,9 @@
 \contentsline {subsection}{\numberline {4.3.5}How Connect the MP to Internet via PC Getting Wireless Internet from Landline or Cellular Network}{34}{subsection.4.3.5}
 \contentsline {subsection}{\numberline {4.3.6}How Connect the MP to Cellular Network}{35}{subsection.4.3.6}
 \contentsline {subsection}{\numberline {4.3.7}How Connect the MP to Satellite}{35}{subsection.4.3.7}
-\contentsline {section}{\numberline {4.4}Up-Link}{35}{section.4.4}
+\contentsline {section}{\numberline {4.4}Up-Link}{36}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}Internet via Telephone-line}{36}{subsection.4.4.1}
-\contentsline {subsubsection}{Dial-up Internet connection}{36}{section*.35}
+\contentsline {subsubsection}{Dial-up Internet connection}{37}{section*.35}
 \contentsline {subsubsection}{ISDN}{37}{section*.36}
 \contentsline {subsubsection}{DSL}{37}{section*.37}
 \contentsline {subsection}{\numberline {4.4.2}Cellular Network Technologies}{38}{subsection.4.4.2}
