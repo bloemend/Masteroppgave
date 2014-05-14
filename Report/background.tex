@@ -35,8 +35,6 @@ The first generation of the Mesh Potato has sold over 2500 copies, and is deploy
   \label{fig:MP02}
 \end{figure}
 
-\subsubsection{Difference between MP01 and MP02?}
-
 
 \section{Relevant Technologies}
 In this section we will go through some of the most relevant technologies used to develop and run the Mesh Potatoes. In order to understand how the Mesh Potato works, it is important to have a certain knowledge about the underlying technology. 
@@ -123,7 +121,118 @@ When a node receives an OGM it will decrease the TTL, and then forward it to the
 \subsubsection{Simple Unified Dashboard for mesh networks}
 Simple Unified Dashboard (SPUD) for mesh networks is a tool for visualization made for B.A.T.M.A.N mesh networks, and for the users of the networks \cite{spud}. The Simple Unified Dashboard is, like the name indicates, a dashboard based on PHP which is designed to be simple. It communicates with the B.A.T.M.A.N visualization server. The dashboard makes it possible to monitor the link status of the networks, by displaying real time wireless link status. Other features are client management and customization. The software is written in CakePHP and for visualization SPUD uses Google Maps API 1.3 \cite{spud}.
 
+\section{Up-Links}
+Our main focus when deploying the emergency box, is to provide Internet to the mesh network. This because it is crucial to have the possibility to communicate with the local community and the outside world during an emergency situation. In 2011, UN declared Internet access a human right \cite{HR}. This says something about the extent of the Internet, and the importance of connectivity. In order to provide Internet to the mesh network formed by the emergency boxes, at least on the Mesh Potatoes must be connected to an access network via an uplink. An uplink connects a device or a LAN to a larger network \cite{uplink}. Which type of access network that is available depends of the location. Some places there might exist a stable landline, other places not. Then an option could be to use satellite or cellular networks. It is therefore important that the emergency box has high adaptability in order to fit different scenarios. The availability of the different uplinks is not the only thing that vary. The up-link speed and the price also varies from place to place, and between the types of uplinks. In the following sections, we will look at some of the uplinks available, and how Internet access can be provided to the mesh network.  
 
+\subsection{Internet via Telephone-line}
+The most common way of getting Internet access is via a landline. The telephone lines are most often used for this, since they can be converted to broadband. In this way it can be used for phone calls and Internet simultaneously \cite{internet}. The line is usually in the form of twisted pairs (copper lines). These lines support broadband up to 10 Mbps, and are often in form of ADSL, or other digital subscriber line of type x (xDSL) technologies \citep{audestad}. Internet via telephone lines can be provided as a stand-alone solution, or it can be provided together with television or/and phone service. The latter option is usually cheaper. Internet through landlines have a high reliability \cite{cablevssatellite} in comparison to satellite and cellular network. We will now shorty describe some technologies for getting Internet access via a telephone line; dial-up Internet connection, ISDN, and DSL. Although dial-up Internet connection is practically extinct in developed countries, we will include it here due to the different application scenarios for the emergency box. 
+
+\subsubsection{Dial-up Internet connection}
+Dial-up is an analogue technology that utilizes the telephone line. A telephone wall jack is used as a fixed point of connection, and the computer is connected to a voiceband modem. With this technology, the data is transmitted over the same frequencies used for phone calls. Hence, if you only have one telephone line, you cannot take a phone call and use Internet at the same time \cite{differentuplinks}. The absolute maximum speed is 56 kbps. Along with the digital era, better internet technologies were introduced; ISDN and DSL. 
+
+\subsubsection{ISDN}
+Integrated Services Digital Network (ISDN) is a fixed internet connection, which also utilizes the telephone lines. When using ISDN, as with dial-up, a telephone wall jack is used as a fixed point of connection. But ISDN utilizes a ISDN terminal adapter instead of voiceband modem. This ISDN terminal adapter sends out digital signals. The data speed varies between 64 kbps - 129 kbps. The speed of the data is symmetric, which means upstream and downstream data rates are the same. In contrary to dial-up, ISDN allows voice calls and transmission of data simultaneously. ISDN is faster than dial-up, but the speed is nothing compared to the speed obtained using DSL \cite{differentuplinks}. 
+
+\subsubsection{DSL}
+Digital subscriber line (DSL) is, like the name indicates, a digital high-speed technology for Internet access that allows simultaneous voice and data transfer. Like dial-up and ISDN, DSL also run over the telephone lines. With DSL the data is not converted between analogue and digital signals. Despite this, the signals are modulated in order to be transferred on non-voice frequencies. DSL is an always-on technology, and in this way differ from the previous technologies mentioned. Only a small part of the telephone line is used for voice signals. The DSL technology allows utilization of a unused frequency spectrum of a telephone line, hence making it possible to transmit data faster. When the voice and data signals arrive at the telephone company's local switching station, they are separated and routed differently; voice to regular telephone system and data to the ISP, and then the Internet. A connection must be within approximately 5 kilometres of a station in order for DSL to work. The speed depends on many factors. Data can be transported up to 6 Mbps (distance of approximately 2 kilometres). Relevant factors that have an impact on the speed is distance to the switching station, and the quality of the telephone line. Like mentioned earlier, there are different types of DSLs. The most common is ADSL, where the A stands for asymmetric; the downstream speed is faster than the upstream speed \cite{differentuplinks}.
+
+
+
+\subsection{Cellular Network Technologies}
+
+\begin{figure}[b]
+  \centering
+      \includegraphics[width=1\textwidth]{mobilesubscriptions.png}
+  \caption [Number of mobile-cellular subscriptions]{\textbf{Number of mobile-cellular subscriptions} The figure shows that the growth of mobile-cellular subscriptions have increased drastically during the last decade, and show that there are almost as many as there are people in the world \cite{itu2013}.}
+  \label{fig:subscribers}
+\end{figure}
+
+%ITU2011-artikkel
+It is getting more and more common to use cellular technologies for broadband. Around 2011 the number of mobile-broadband subscriptions grew to twice as many as the number of fixed-broadband subscriptions. In developed countries it is common to have a fixed-broadband connection, and use a mobile-broadband network in addition to the fixed. In developing countries on the other hand, it is not a given that there is access to a fixed-broadband connection. Then mobile-broadband can be the only method of access available. In 2011, 90 \% of the world's population had 2G coverage, and 45 \% had 3G coverage \cite{itu2011}. By 2013, the number of mobile-cellular subscriptions had reached a high level, and were approaching the number of people in the world, like shown in \fref{fig:subscribers}. From 2011 to 2013, the number of mobile-broadband  subscriptions more than doubled in developing countries \cite{itu2013}. 
+
+Through mobile network technologies, high-speed Internet access can be provided via portable devices. In order to get mobile broadband, there must be a cellular network (GSM, CDMA) service available. The key technologies when talking about mobile broadband is 3G and 4G (respectively third and fourth generation wireless networks) \cite{mobilebroadband}. With 3G the average speed is 0.5 to 1.5 Mbps, and with 4G the average speed is 2 to 12 Mbps. These vary, due to different versions of each technology, underlying service etc. Like with everything else, the actual and realistic speed differ from the peak speed \cite{3gvs4g}. 
+
+
+\subsection{Satellite}
+%ulovlig i feks india, hva skjer da? http://en.wikipedia.org/wiki/Satellite_phone
+Internet from satellites are offered by a satellite Internet provider \cite{cablevssatellite}. The satellite are orbiting the Earth, and get signals from a land based Internet connection. To get Internet broadband via satellite you need a satellite dish. The main advantage of using satellite is that it provides an universally available Internet access \cite{broadband}. Since it is universally available, it is fitted for use in rural regions where there exists no landlines or other options for connecting to the Internet. There also exists disadvantages with using satellite-Internet. Since it is a shared medium, privacy concerns arise, and the speed are dependent of simultaneous use. Also the connection can be affected by bad weather, unlike for a wired connection, hence it is not as reliable as cable. 
+
+
+\subsection{Summary Up-Links}
+
+\begin{center}
+\begin{table}[!h]
+\caption{\label{tab:uplinks}Advantages and disadvantages - Up-links \cite{comparisonuplinks}.}
+    \begin{tabular}{ | l | p{4cm} | p{5cm} |}
+    \hline
+    \textbf{Up-links} & \textbf{Advantages} & \textbf{Disadvantages} \\ 
+    \hline
+    Landline/xDSL & High reliability, cost effective, good speed. & Low availability in rural areas. \\ 
+    \hline
+     Cellular networks & High availability, fitted for "on the move"-use. & Expensive, slower than xDSL.\\
+    \hline
+    Satellite & High availability.  & Unreliable, expensive, slower than landline.\\ 
+    \hline
+    \end{tabular}
+   \end{table}
+\end{center}
+
+
+\section{Future Internet Access Methods}
+Different methods of distributing Internet is always under development. The previous up-links described is well established, but in many parts of the world not fully developed or not affordable to the average person. The large technology companies, like Google, are experimenting with different ways of distributing Internet. 
+
+\subsection{Google's Internet Balloons}
+The majority of the world today is not connected to the Internet. Two thirds of the worlds population does not have access. Project Loon, a Google project, is a network of high altitude balloons travelling in the stratosphere, and through this network be able to give Internet to the Entire world. Cost effective, reliable and inexpensive internet connection to everybody. The project started in June 2013 as a experiment in New Zealand \cite{loon}. 
+
+\begin{figure}
+        \centering
+        \begin{subfigure}[t]{0.43\textwidth}
+                \includegraphics[width=\textwidth]{loon2.PNG}
+                \caption[The Balloons are situated in the stratosphere]{\textbf{The Balloons are situated in the stratosphere.}} 
+                \label{fig:loonStratosphere}
+        \end{subfigure}%
+        ~ %add desired spacing between images, e. g. ~, \quad, \qquad etc.
+          %(or a blank line to force the subfigure onto a new line)
+        \begin{subfigure}[t]{0.415\textwidth}
+                \includegraphics[width=\textwidth]{loon1.jpg}
+               \caption[Connecting to the Internet]							{\textbf{Connecting to the Internet}} 
+                \label{fig:loonConnect}
+        \end{subfigure}
+        ~ %add desired spacing between images, e. g. ~, \quad, \qquad etc.
+          %(or a blank line to force the subfigure onto a new line)
+        \caption{Project Loon: Balloon-powered internet for everyone.}\label{fig:loon}
+\end{figure}
+
+The balloons are 15 meter in diameter. They travel about 20 km up in the air, in the stratosphere, twice as high as airplanes and weather, this is shown in \fref{fig:loonStratosphere}. At this altitude there are many layers of wind, each varies in direction and speed. By regulating which wind the balloons are flying in it is possible to control their position, and steer them in the desired direction. \fref{fig:loonConnect} show that  people can connect to the Internet shared by the balloons by having a special antenna attached to their house. From this antenna the signal bounces to one balloon which again bounces through the other balloons and down to the Local Internet Provider on earth. This creates a network in the sky. 
+
+In order to control the altitude of the balloon, it is a specially designed control system. The system is managed remotely from the ground. By either pumping air in, or letting air out of the balloon, one can decide in what layer of air the balloon should be in. Letting air in and out is not the only way to decide whether the balloon should go up or down, but it is the only way to do so in huge scale. A GPS is attached to each balloon in order to keep track of precise positions and see how the winds are changing. There are enormous amounts of data collected, and some of this information is given to meteorologists. The balloons are flying at the same speed as the wind.  
+
+The balloons contains specially designed antennas and radio systems. This in order to receive signals from Project Loon only, and to achieve high bandwidth over long distances. Satellites stay at the same place and at the same altitude. This means that the satellite dish can be mounted in the right direction. This is not the case with the balloons, they are in constant movement and they also vary in attitude. A fixed pointing dish would therefore not work. The antenna needs more sensitivity to an angle than it does straight up, which results in a uniform signal strength. 
+
+Since the balloons are in constant movement, it is important to make sure that there always is a balloon available and one ready to move in when one move out so that the connectivity always are available. If not this project would not be of much use. Every balloon contains information about all the other balloons in order to spread out nicely. Think of it as a flock of birds, they always look at the one next to them and space out perfectly.
+
+The balloons are solely run on solar power. The balloon works as a communication tower in the sky. The solar panels catches the sunlight that is available during the day, as well as charging up the lithium-ion battery to last the night. In the stratosphere it is -70 degrees Celsius, these extreme cold conditions are not ideal fro the lithium battery. In order to make sure that the battery does not loose its effective battery capacity it is important that the battery is kept warm. The battery pack is insulated to reflect the heat that comes of the electronics to stay warm. This is still under development. 
+
+When it comes to lifetime, the goal is that the balloons stay alive for 100 days, or 3 laps around the globe. It is important to make sure that the balloon is leak free. The material is under a lot of stress, air is constantly being pumped in and out to control the position. As well as the extreme cold and warm temperatures. 
+
+Both on the way up and down the air traffic control in the specific country have to be contacted since the balloons go through airspace. Project loon requested permission to land on Norwegian soil according to Teknisk Ukeblad, a Norwegian science magazine. This permission was approved \cite{loonTU}.
+
+The area of usage is enormous. Situations where the Internet infrastructure has not been built out, either because it is too expensive or just not possible. Emergency situations, natural disaster and other situations where the cellphone-towers are down. Project Loon is still a project in development with extensive testing taking place. The project are taking into use what everybody have in common, namely the sky, to reach out to all the areas where access has not been possible. It is expensive to have enough balloons in the sky in order to have good enough coverage. Also the speed is not really high. And even though a specialized antenna is required to get access, this is breakthrough in order to get the whole world connected \cite{loonYouTube, loonNorsk}.
+
+Although this solution is not an option for distributing Internet as of today, it could be a good option in the near future. The solution is affordable and well compatible with our emergency box solution.
+
+Iridium satellite consultation is a large group of satellites providing data and and voice services to specialized satellite phones. The consultation exists of 66 active satellites in orbit. Iridium are considered to be low-orbit satellites and are situated at a hight of 781 km. The Iridium network is unique in the fact that it covers the whole earth, including oceans, airways and poles. The low orbit satellite differs from the balloons in the way that the satellites travel almost 40 times higher above earth and that they stay in a fixed position over the earth \cite{iridium}. To be able to utilize the satellite one would need a specialized satellite phone or a satellite dish in order to receive signal. With the balloons there are only need for an antenna to receive the signal. But then again the balloons does not offer a voice service. The balloons are intended as a cheaper, easier and simpler solution to the satellites.                                         
+
+\section{Apple's Mesh Network}
+In March 2014 a new iOS app was released, FireChat. FireChat utilizes Apple's Multipeer Connectivity Framework introduced in iOS7 \cite{appleMesh}. This app enables the possibility to chat with people "off-the-grid" \cite{fireChat}. Applications that communicates through this framework creates a mesh network similar to the one created by the Mesh Potatoes. 
+
+The Multipeer Connectivity framework provides support for discovering services provided by nearby iOS devices using peer-to-peer Wi-Fi, infrastructure Wi-Fi networks and bluetooth to communicate with those services. This communication could either be message-based data, streaming data and resources such as files \cite{multipeer}. These technologies have a short range, but this range can be greatly extended by a chain of users that creates a mesh network, see section \ref{subsec:mesh} for more information about mesh networks. AirDrop is a product that have been on the market for a while and also utilizes mesh networks. The main difference is that FireChat is fully decentralized and peer-to-peer. When there are multiple users in one area FireChat relay messages in the same way as Internet, from node to node, just in this case it is from phone to phone.  This, not only, enables two users to chat with each other without Internet connection, but also far beyond Wi-Fi and Bluetooth range from each other, using the chain of users (phones). For example if Bob is connected to Alice, and Alice is connected to Carol, Bob and Carol can send messages to each other. This chain can be indefinitely long. As long as no one device goes out of Wi-Fi range, all the devices can communicate with each other. 
+
+This new framework will mainstream wireless mesh networking. This could open for a future way of spreading Internet access. This could for example be a hotel basement, cave or rural areas where there are no cellphone towers, or disaster situations where Wi-Fi or mobile broadband  is no longer available. There are many benefits with the use of mesh networks. Mesh networks does not require a centralized infrastructure, there are no need for all the devices to be connected to Internet (as a router). Another benefit is that the mesh network is really easy to set up - everybody just uses the app FireChat (or similar applications like AirDrop), the network is created and everybody is connected. Simple as that! 
+
+The possibilities for this feature are enormous. Both in the creation of applications but also the area of usage. In a lot of countries Internet and mobile broadband connection is extremely expensive, people might afford a used cellphone but not the cost to connect. With this new feature, Internet connectivity can be spread through the mesh network needing only one node (phone) to have internet access. This way of spreading connectivity can open the possibility for people in rural, poorer areas like slums and small villages to stay connected. But not only the poor and rural areas can benefit from this new mesh-networking feature. Young people that does not have a phone can use an iPad or similar to talk to their friends. Or teens with restricted cell contracts can still connect with their friends, just with the help of the neighbours kids phone. Since FireChat enables communication without the use of internet it can be a useful tool to communicate privately and also to send sensitive data.
+ 
+It is not only Apple that is seizing the enormous potential in main-streaming mesh networking. Google has also expressed that they are working on a home mesh network \cite{googleMesh}. FireChat and AirDrop is just the beginning. We believe more extensive and mind blowing applications are to come. 
 
 \section{The Cost Structure and Revenue Model(s) of Village Telco Today}
 
