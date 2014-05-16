@@ -19,20 +19,20 @@
 \contentsline {section}{\numberline {2.3}Relevant Technologies}{8}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}OpenWrt}{8}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Telnet and SSH}{8}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Mobile Ad Hoc Networks}{9}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.3}Mobile Ad Hoc Networks}{8}{subsection.2.3.3}
 \contentsline {subsection}{\numberline {2.3.4}Wireless Mesh Networks}{9}{subsection.2.3.4}
-\contentsline {subsection}{\numberline {2.3.5}Routing Protocols}{10}{subsection.2.3.5}
-\contentsline {subsection}{\numberline {2.3.6}B.A.T.M.A.N}{11}{subsection.2.3.6}
+\contentsline {subsection}{\numberline {2.3.5}Routing Protocols}{9}{subsection.2.3.5}
+\contentsline {subsection}{\numberline {2.3.6}B.A.T.M.A.N}{10}{subsection.2.3.6}
 \contentsline {subsubsection}{Simple Unified Dashboard for mesh networks}{12}{section*.14}
 \contentsline {section}{\numberline {2.4}Up-Links}{12}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Internet via Telephone-line}{12}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.1}Internet via Telephone-line}{13}{subsection.2.4.1}
 \contentsline {subsubsection}{Dial-up Internet connection}{13}{section*.15}
 \contentsline {subsubsection}{ISDN}{13}{section*.16}
 \contentsline {subsubsection}{DSL}{13}{section*.17}
 \contentsline {subsection}{\numberline {2.4.2}Cellular Network Technologies}{14}{subsection.2.4.2}
 \contentsline {subsection}{\numberline {2.4.3}Satellite}{15}{subsection.2.4.3}
 \contentsline {subsection}{\numberline {2.4.4}Summary Up-Links}{15}{subsection.2.4.4}
-\contentsline {section}{\numberline {2.5}Future Internet Access Methods}{15}{section.2.5}
+\contentsline {section}{\numberline {2.5}Future Internet Access Methods}{16}{section.2.5}
 \contentsline {subsection}{\numberline {2.5.1}Google's Internet Balloons}{16}{subsection.2.5.1}
 \contentsline {section}{\numberline {2.6}Apple's Mesh Network}{18}{section.2.6}
 \contentsline {section}{\numberline {2.7}The Cost Structure and Revenue Model(s) of Village Telco Today}{19}{section.2.7}
@@ -75,14 +75,14 @@
 \contentsline {subsection}{\numberline {4.3.3}Get Started - How to Use the Box}{41}{subsection.4.3.3}
 \contentsline {subsection}{\numberline {4.3.4}How Connect the MP to Cabled Internet}{41}{subsection.4.3.4}
 \contentsline {subsection}{\numberline {4.3.5}How Connect the MP to Internet via PC Getting Wireless Internet from Landline or Cellular Network}{42}{subsection.4.3.5}
-\contentsline {subsection}{\numberline {4.3.6}How Connect the MP to Cellular Network}{43}{subsection.4.3.6}
-\contentsline {subsection}{\numberline {4.3.7}How Connect the MP to Satellite}{43}{subsection.4.3.7}
+\contentsline {subsection}{\numberline {4.3.6}How Connect the MP to Cellular Network}{44}{subsection.4.3.6}
+\contentsline {subsection}{\numberline {4.3.7}How Connect the MP to Satellite}{44}{subsection.4.3.7}
 \contentsline {section}{\numberline {4.4}Different Scenarios Where a Quick Roll-out is Necessary}{44}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}Natural Disasters}{44}{subsection.4.4.1}
 \contentsline {paragraph}{Hurrican Sandy}{45}{section*.41}
-\contentsline {paragraph}{Philippines}{45}{section*.42}
+\contentsline {paragraph}{Philippines}{46}{section*.42}
 \contentsline {subsection}{\numberline {4.4.2}Temporary Refugee and IDP camps}{46}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Festivals}{46}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.3}Festivals}{47}{subsection.4.4.3}
 \contentsline {subsection}{\numberline {4.4.4}Breakdown of Mobile Towers}{47}{subsection.4.4.4}
 \contentsline {chapter}{\chapternumberline {5}Discussion}{49}{chapter.5}
 \contentsline {chapter}{\chapternumberline {6}Conclusion}{51}{chapter.6}
