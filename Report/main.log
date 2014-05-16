@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.16)  16 MAY 2014 16:24
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.16)  16 MAY 2014 16:42
 entering extended mode
 **main.tex
 ("C:\Users\Ida Malene\Masteroppgave\Report\main.tex"
@@ -2146,16 +2146,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 82.
  [10 <C:/Users/Ida Malene/Masteroppgave/Report/figs/internettimor.PNG>] [11] [1
 2]
-
-LaTeX Warning: Reference `sec:pricingstrategies' on page 13 undefined on input 
-line 139.
-
-
-LaTeX Warning: Reference `sec:unbundletelecom' on page 13 undefined on input li
-ne 139.
-
-
-Underfull \vbox (badness 2111) has occurred while \output is active []
+Underfull \vbox (badness 4995) has occurred while \output is active []
 
  [13]
 <./figs/adhoc.png, id=744, 339.51843pt x 176.15813pt>
@@ -3960,18 +3951,15 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 680A8482979E94B271731FEE140FEB7B;4990.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 125.
  ) 
 Here is how much of TeX's memory you used:
- 30308 strings out of 493921
- 481513 string characters out of 3147267
- 698052 words of memory out of 3000000
- 32389 multiletter control sequences out of 15000+200000
+ 30306 strings out of 493921
+ 481469 string characters out of 3147267
+ 698016 words of memory out of 3000000
+ 32387 multiletter control sequences out of 15000+200000
  103033 words of font info for 136 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  58i,18n,101p,10440b,1999s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3991,7 +3979,7 @@ public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb>
 lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/
 Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (171 pages, 4476026 bytes).
+Output written on main.pdf (171 pages, 4475936 bytes).
 PDF statistics:
  2339 PDF objects out of 2487 (max. 8388607)
  513 named destinations out of 1000 (max. 500000)
