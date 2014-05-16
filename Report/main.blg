@@ -126,9 +126,20 @@ Warning--entry type for "philippines" isn't style-file defined
 --line 489 of file references.bib
 Warning--entry type for "philippinesradio" isn't style-file defined
 --line 495 of file references.bib
+Warning--I didn't find a database entry for "village_telco_deployments"
+Warning--I didn't find a database entry for "vt_dili"
+Warning--I didn't find a database entry for "quandl_timor"
+Warning--I didn't find a database entry for "wiki_telecom_east_timor"
+Warning--I didn't find a database entry for "budde"
+Warning--I didn't find a database entry for "vt_puerto_rico"
+Warning--I didn't find a database entry for "soto"
+Warning--I didn't find a database entry for "mataffin_ict"
+Warning--I didn't find a database entry for "itu_50years"
+Warning--I didn't find a database entry for "hallock2004brief"
+Warning--I didn't find a database entry for "thomasbruun"
 Warning--empty journal in adhoc2
 Warning--empty journal in batman
-Warning--empty journal in womenRefugee
 Warning--empty chapter and pages in audestad
 Warning--empty publisher in broadband
-(There were 62 warnings)
+Warning--empty journal in womenRefugee
+(There were 73 warnings)

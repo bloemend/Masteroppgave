@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{comparisonuplinks}
+S.~Cope, ``Internet connection and access methods,'' 2011.
+\newblock \url{http://www.steves-internet-guide.com/connect-methods/}, accessed
+  31.03.2014.
+
 \bibitem{UNHCRstat2010}
 A.~Sedghi and S.~Rogers, ``Unhcr 2011 refugee statistics: full data,'' June
   2011.
@@ -12,11 +17,6 @@ A.~Sedghi, ``Unhcr 2012 refugee statistics: full data,'' June 2013.
 \newblock
   \url{http://www.theguardian.com/news/datablog/2013/jun/19/refugees-unhcr-statistics-data},
   accessed 20.03.2014.
-
-\bibitem{comparisonuplinks}
-S.~Cope, ``Internet connection and access methods,'' 2011.
-\newblock \url{http://www.steves-internet-guide.com/connect-methods/}, accessed
-  31.03.2014.
 
 \bibitem{MParticle}
 J.~Dempsey, ``The mesh potato network,'' 2008.
@@ -103,88 +103,6 @@ A.~Neumann, C.~Aichele, M.~Lindner, and S.~Wunderlich, ``Better approach to
 \newblock
   \url{http://villagetelco.org/2011/06/spud-simple-unified-dashboard-for-mesh-networks/},
   accessed 26.02.2014.
-
-\bibitem{refugeeDef}
-{The UN Refugee Agency}, ``What is a refugee?.''
-\newblock
-  \url{http://www.unrefugees.org/site/c.lfIQKSOwFqG/b.4950731/k.A894/What_is_a_refugee.htm},
-  accessed 20.03.2014.
-
-\bibitem{somalia}
-{Refugees International}, ``Somalia.''
-\newblock \url{http://refugeesinternational.org/where-we-work/africa/somalia},
-  accessed 24.03.2014.
-
-\bibitem{iraq}
-{Refugees International}, ``Iraq.''
-\newblock
-  \url{http://www.refugeesinternational.org/where-we-work/middle-east/iraq},
-  accessed 24.03.2014.
-
-\bibitem{dadaab}
-Inveneo, ``How better connectivity can help dadaab, the world's largest refugee
-  camp,'' 2012.
-\newblock
-  \url{http://www.inveneo.org/2012/06/how-better-connectivity-can-help-dadaab-the-worlds-largest-refugee-camp/},
-  accessed 10.03.2014.
-
-\bibitem{dadaabcare}
-Care, ``Dadaab refugee camps, kenya.''
-\newblock \url{http://care.org/emergencies/dadaab-refugee-camp-kenya}, accessed
-  11.03.2014.
-
-\bibitem{nethope}
-Wikipedia, ``Nethope,'' Last edited: 13 May 2013.
-\newblock \url{http://en.wikipedia.org/wiki/NetHope}, accessed 11.03.2014.
-
-\bibitem{dadaabinveneo}
-Inveneo, ``Dadaabconnect.''
-\newblock \url{http://www.inveneo.org/projects/dadaabconnect/}, accessed
-  11.03.2014.
-
-\bibitem{womenRefugee}
-M.~Maasilta, ``Outsiders or active citizents? the role of oral amd mediated
-  ommunication in african refugee camps,'' ?
-
-\bibitem{ChoosingFirmware}
-{Village Telco}, ``Choosing a firmware for the mp.''
-\newblock
-  \url{http://villagetelco.org/get-started/choosing-a-firmware-for-the-mp/},
-  accessed 09.04.2014.
-
-\bibitem{flashing}
-{Village Telco}, ``Flash your mesh potato.''
-\newblock \url{http://villagetelco.org/get-started/flash-your-mesh-potato/},
-  accessed 09.04.2014.
-
-\bibitem{InstallingSecnFirmware}
-{Village Telco}, ``Installing vt secn firmware.''
-\newblock
-  \url{http://wiki.villagetelco.org/Installing_VT_SECN_Firmware#Using_Potato_Flash_software},
-  accessed 09.04.2014.
-
-\bibitem{keith}
-K.~Williamson, ``Guest post: Adapting mesh potatoes for emergency work.''
-\newblock
-  \url{http://villagetelco.org/2011/11/guest-post-adapting-mps-for-emergency-work/},
-  accessed 02.04.2014.
-
-\bibitem{whatisafrikaburn}
-{AfrikaBurn}, ``What is afrikaburn?.''
-\newblock \url{http://www.afrikaburn.com/about/what-is-afrikaburn}, accessed
-  05.05.2014.
-
-\bibitem{africaburnforavillagetelco}
-S.~Song, ``Africa burns for a village telco.''
-\newblock
-  \url{http://manypossibilities.net/2010/05/africa-burns-for-a-village-telco/},
-  accessed 05.05.2014.
-
-\bibitem{africaburnsagainforavillagetelco}
-D.~Carman, ``Afrikaburns again for a village telco.''
-\newblock
-  \url{http://villagetelco.org/2011/05/afrikaburns-again-for-a-village-telco/},
-  accessed 05.05.2014.
 
 \bibitem{HR}
 D.~Kravets, ``U.n. report declares internet access a human right.''
@@ -301,6 +219,88 @@ M.~Elgan, ``Why google is working on home mesh networking,'' March 2014.
 \newblock
   \url{http://www.eweek.com/cloud/why-google-is-working-on-home-mesh-networking.html},
   accessed 27.03.2014.
+
+\bibitem{refugeeDef}
+{The UN Refugee Agency}, ``What is a refugee?.''
+\newblock
+  \url{http://www.unrefugees.org/site/c.lfIQKSOwFqG/b.4950731/k.A894/What_is_a_refugee.htm},
+  accessed 20.03.2014.
+
+\bibitem{somalia}
+{Refugees International}, ``Somalia.''
+\newblock \url{http://refugeesinternational.org/where-we-work/africa/somalia},
+  accessed 24.03.2014.
+
+\bibitem{iraq}
+{Refugees International}, ``Iraq.''
+\newblock
+  \url{http://www.refugeesinternational.org/where-we-work/middle-east/iraq},
+  accessed 24.03.2014.
+
+\bibitem{dadaab}
+Inveneo, ``How better connectivity can help dadaab, the world's largest refugee
+  camp,'' 2012.
+\newblock
+  \url{http://www.inveneo.org/2012/06/how-better-connectivity-can-help-dadaab-the-worlds-largest-refugee-camp/},
+  accessed 10.03.2014.
+
+\bibitem{dadaabcare}
+Care, ``Dadaab refugee camps, kenya.''
+\newblock \url{http://care.org/emergencies/dadaab-refugee-camp-kenya}, accessed
+  11.03.2014.
+
+\bibitem{nethope}
+Wikipedia, ``Nethope,'' Last edited: 13 May 2013.
+\newblock \url{http://en.wikipedia.org/wiki/NetHope}, accessed 11.03.2014.
+
+\bibitem{dadaabinveneo}
+Inveneo, ``Dadaabconnect.''
+\newblock \url{http://www.inveneo.org/projects/dadaabconnect/}, accessed
+  11.03.2014.
+
+\bibitem{womenRefugee}
+M.~Maasilta, ``Outsiders or active citizents? the role of oral amd mediated
+  ommunication in african refugee camps,'' ?
+
+\bibitem{ChoosingFirmware}
+{Village Telco}, ``Choosing a firmware for the mp.''
+\newblock
+  \url{http://villagetelco.org/get-started/choosing-a-firmware-for-the-mp/},
+  accessed 09.04.2014.
+
+\bibitem{flashing}
+{Village Telco}, ``Flash your mesh potato.''
+\newblock \url{http://villagetelco.org/get-started/flash-your-mesh-potato/},
+  accessed 09.04.2014.
+
+\bibitem{InstallingSecnFirmware}
+{Village Telco}, ``Installing vt secn firmware.''
+\newblock
+  \url{http://wiki.villagetelco.org/Installing_VT_SECN_Firmware#Using_Potato_Flash_software},
+  accessed 09.04.2014.
+
+\bibitem{keith}
+K.~Williamson, ``Guest post: Adapting mesh potatoes for emergency work.''
+\newblock
+  \url{http://villagetelco.org/2011/11/guest-post-adapting-mps-for-emergency-work/},
+  accessed 02.04.2014.
+
+\bibitem{whatisafrikaburn}
+{AfrikaBurn}, ``What is afrikaburn?.''
+\newblock \url{http://www.afrikaburn.com/about/what-is-afrikaburn}, accessed
+  05.05.2014.
+
+\bibitem{africaburnforavillagetelco}
+S.~Song, ``Africa burns for a village telco.''
+\newblock
+  \url{http://manypossibilities.net/2010/05/africa-burns-for-a-village-telco/},
+  accessed 05.05.2014.
+
+\bibitem{africaburnsagainforavillagetelco}
+D.~Carman, ``Afrikaburns again for a village telco.''
+\newblock
+  \url{http://villagetelco.org/2011/05/afrikaburns-again-for-a-village-telco/},
+  accessed 05.05.2014.
 
 \bibitem{naturalDisaster}
 Dictionary.com, ``Natural disaster.''
