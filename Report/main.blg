@@ -132,20 +132,40 @@ Warning--entry type for "philippinesradio" isn't style-file defined
 --line 495 of file references.bib
 Warning--entry type for "interview" isn't style-file defined
 --line 504 of file references.bib
-Warning--I didn't find a database entry for "village_telco_deployments"
-Warning--I didn't find a database entry for "vt_dili"
-Warning--I didn't find a database entry for "quandl_timor"
-Warning--I didn't find a database entry for "wiki_telecom_east_timor"
-Warning--I didn't find a database entry for "budde"
-Warning--I didn't find a database entry for "vt_puerto_rico"
-Warning--I didn't find a database entry for "soto"
-Warning--I didn't find a database entry for "mataffin_ict"
-Warning--I didn't find a database entry for "itu_50years"
-Warning--I didn't find a database entry for "hallock2004brief"
-Warning--I didn't find a database entry for "thomasbruun"
+Warning--entry type for "soto" isn't style-file defined
+--line 510 of file references.bib
+You're missing a field name---line 511 of file references.bib
+ : 
+ : %author = {ArsTechnica},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "itu50years" isn't style-file defined
+--line 518 of file references.bib
+Warning--entry type for "wikitelecomeasttimor" isn't style-file defined
+--line 525 of file references.bib
+You're missing a field name---line 526 of file references.bib
+ : 
+ : %author={Wikipedia},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "budde" isn't style-file defined
+--line 531 of file references.bib
+Warning--entry type for "mataffinict" isn't style-file defined
+--line 537 of file references.bib
+Warning--entry type for "vtpuertorico" isn't style-file defined
+--line 591 of file references.bib
+Warning--entry type for "villagetelcodeployments" isn't style-file defined
+--line 597 of file references.bib
+Warning--entry type for "vtdili" isn't style-file defined
+--line 602 of file references.bib
+Warning--entry type for "quandltimor" isn't style-file defined
+--line 614 of file references.bib
+Warning--all relevant fields are empty in wikitelecomeasttimor
+Warning--all relevant fields are empty in soto
+Warning--empty journal in thomasbruun
 Warning--empty journal in adhoc2
 Warning--empty journal in batman
 Warning--empty chapter and pages in audestad
 Warning--empty publisher in broadband
 Warning--empty journal in womenRefugee
-(There was 1 error message)
+(There were 3 error messages)

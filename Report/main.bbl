@@ -57,6 +57,52 @@ Wikipedia, ``Binary bolb,'' Last modified December 2013.
 D.~Rowe, ``The mesh potato part 1,'' 2008.
 \newblock \url{http://www.rowetel.com/blog/?p=70}, accessed 26.02.2014.
 
+\bibitem{villagetelcodeployments}
+``Village telco deployments.''
+\newblock \url{http://villagetelco.org/deployments/}, accessed 30.04.2014.
+
+\bibitem{vtdili}
+V.~Telco, ``Dili village telco.''
+\newblock \url{http://villagetelco.org/deployments/dili/}, accessed 30.04.2014.
+
+\bibitem{quandltimor}
+Quandl, ``Timor-leste.''
+\newblock \url{http://www.quandl.com/timor-leste}, accessed 11.03.2014.
+
+\bibitem{wikitelecomeasttimor}
+
+
+\bibitem{budde}
+BuddeComm, ``East timor (timor leste) - telecoms, mobile and internet.''
+\newblock
+  \url{http://www.budde.com.au/Research/East-Timor-Timor-Leste-Telecoms-Mobile-and-Internet.html},
+  accessed: 20.03.2014.
+
+\bibitem{vtpuertorico}
+V.~Telco, ``Jose soto - puerto rico.''
+\newblock \url{http://villagetelco.org/deployments/jose-soto-puerto-rico/},
+  accessed 30.04.2014.
+
+\bibitem{soto}
+
+
+\bibitem{mataffinict}
+M.~Macadamia, ``Ict.''
+\newblock \url{http://mataffinmacadamia.co.za/ict.html}, accessed: 10.04.2014.
+
+\bibitem{itu50years}
+I.~T. Union, ``50 years of excellence,'' 2006.
+\newblock \url{http://www.itu.int/itudoc/gs/promo/tsb/88192.pdf}, accessed:
+  11.05.2013.
+
+\bibitem{hallock2004brief}
+J.~Hallock, ``A brief history of voip,'' {\em Evolution}, 2004.
+
+\bibitem{thomasbruun}
+T.~Bruun, ``Evaluation of telecom operator enabled internet telephony by
+  creating a proof-of-concept web application,'' 2013.
+\newblock Master thesis IDI NTNU.
+
 \bibitem{openwrt}
 {OpenWrt Wiki}, ``About openwrt.''
 \newblock \url{http://wiki.openwrt.org/about/start}, accessed 03.03.2014.
