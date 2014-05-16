@@ -9,8 +9,13 @@
 \usepackage{framed}
 \usepackage{underscore}
 \usepackage{parskip}
+%\usepackage[toc][acronym]{glossary}
+%\usepackage[nonumberlist]{glossaries} 
 
-
+\usepackage[nonumberlist,acronym,xindy,toc]{glossaries} % nomain, if you define glossaries in a file, and you use \include{INP-00-glossary}
+%\makeglossaries
+\usepackage[xindy]{imakeidx}
+\makeindex
 
 \title{Utilizing Mesh Potatoes in Emergency \\ Situations} % The title of your assignement; NB use \newlinetitle to start a newline
 \author{Esther Bloemendaal \& Ida Malene Hassel Øveråsen}
@@ -28,8 +33,10 @@
 \DeclareGraphicsExtensions{.pdf,.jpg}
 \graphicspath{{./figs/}}
 
-\loadglsentries{glossary}
+\loadglsentries[main]{glossary}
 \makeglossaries
+
+
 
 \begin{document}
 \selectlanguage{english}
@@ -63,6 +70,7 @@
 % similarly you may add a separate acknowledgments page
 
 \tableofcontents*
+\addcontentsline{toc}{chapter}{Glossary}
 \cleardoublepage
 
 %% include if relevant
@@ -79,20 +87,20 @@
 %\cleardoublepage
 
 %% include if relevant
-%\printglossary[title=List of Symbols, style=long]
+\glsaddall[]
+%\printglossaries%[title=List of Symbols, style=long]
 %\cleardoublepage
-%\glsaddall[]
+
 
 %% include if relevant
-%\printglossary[title=List of Acronyms,type=\acronymtype] % prints just the list of acronyms
-%\cleardoublepage
+\printglossary[title=List of Acronyms,type=\acronymtype] % prints just the list of acronyms
+\cleardoublepage
 
 \pagenumbering{arabic}
 \pagestyle{ruled}
 
 \include{introduction}
 %% include here the other chapters
-
 \include{background}
 \include{backgroundrefugeecamps}
 \include{quickrollout}

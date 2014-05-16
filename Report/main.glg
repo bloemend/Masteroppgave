@@ -1,0 +1,13 @@
+;; This logfile was generated automatically by `xindy'
+;; at 16.05.2014  13:19:03
+;; Indexstyle: "C:\\Users\\IDAMAL~1\\AppData\\Local\\Temp\\q9yCPigFIH", Rawindex: "C:\\Users\\IDAMAL~1\\AppData\\Local\\Temp\\ObTuCwGmdp", Output: "main.gls"
+
+
+Building indexentry-tree:
+Hierdepth of index is :TREE
+
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+
+Forming letter-groups:
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "´€Ú—ë" -> "L"
