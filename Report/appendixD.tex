@@ -1,7 +1,7 @@
 \chapter{Script for Internet via PC}
 \label{chp:appendixD} 
 
-This appendix contains the script we made and ran to get Internet via a PC to the Mesh Potato. The PC was running Linux Ubuntu and had a wireless Internet connection. To run the script open the terminal and enter the directory (folder) where the script is located, and write: "sh scriptviaPC.sh". Make sure that the Mesh Potato is connected to the PC via an Ethernet cable before running the script. 
+This appendix contains the script (scriptviaPC.sh) we made and ran to get Internet via a PC to the Mesh Potato.  
 
 \begin{framed}
 \noindent
@@ -31,10 +31,20 @@ iptables --table nat --flush
 iptables --flush
 iptables --delete-chain
 
+sleep 2
+
 iptables --table nat --append POSTROUTING --out-interface 
 $var2 -j MASQUERADE
 iptables --append FORWARD --in-interface eth0 -j ACCEPT
-echo 1> /proc/sys/net/ipv4/ip_forward
+echo 1 > /proc/sys/net/ipv4/ip_forward
+
+{
+echo route del default
+sleep 2
+echo route add default gateway 192.168.1.2
+sleep 2
+echo "exit"
+} | telnet 192.168.1.$var1
 
 xdg-open http://192.168.1.$var1  &
 
