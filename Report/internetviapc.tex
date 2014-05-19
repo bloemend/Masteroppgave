@@ -41,6 +41,14 @@ In order to perform this set up, a PC with Linux Ubuntu with wireless Internet, 
 \end{lstlisting}
 \end{itemize}  
 
+\item Telnet into the \gls{mp} and configure the default gateway by entering the following commands
+\begin{lstlisting}[language=bash]
+  $ telnet 192.168.1.x
+  $ route 
+  $ route del default 
+  $ route add default gateway 192.168.1.2
+\end{lstlisting} 
+
 \item Go back to the web interface and click on the "Advanced"-tab at the top of the page. Change the following parameters under "DHCP Server":
 \begin{itemize}
 \item Tick the box "Enable DHCP Server".

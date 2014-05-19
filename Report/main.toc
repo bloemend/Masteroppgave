@@ -92,23 +92,17 @@
 \contentsline {subsection}{\numberline {4.3.6}How Connect the MP to Satellite}{49}{subsection.4.3.6}
 \contentsline {section}{\numberline {4.4}Different Scenarios Where a Quick Roll-out is Necessary}{49}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}Natural Disasters}{49}{subsection.4.4.1}
-\contentsline {subsubsection}{Hurrican Sandy}{50}{section*.54}
+\contentsline {subsubsection}{Hurrican Sandy}{51}{section*.54}
 \contentsline {subsubsection}{Philippines}{51}{section*.55}
-\contentsline {subsection}{\numberline {4.4.2}Temporary Refugee and IDP camps}{51}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Festivals}{51}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.2}Temporary Refugee and IDP camps}{52}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Festivals}{52}{subsection.4.4.3}
 \contentsline {subsection}{\numberline {4.4.4}Breakdown of Mobile Towers}{52}{subsection.4.4.4}
 \contentsline {chapter}{\chapternumberline {5}Discussion}{53}{chapter.5}
-\contentsline {chapter}{\chapternumberline {6}Conclusion}{55}{chapter.6}
-\contentsline {section}{\numberline {6.1}Future Work}{55}{section.6.1}
-\contentsline {chapter}{References}{57}{section*.57}
+\contentsline {chapter}{\chapternumberline {6}Conclusion}{57}{chapter.6}
+\contentsline {section}{\numberline {6.1}Future Work}{57}{section.6.1}
+\contentsline {chapter}{References}{59}{section*.57}
  \vspace {1em} \noindent \bfseries Appendices\par \vspace {-.5em} 
-<<<<<<< HEAD
-\contentsline {appendix}{\chapternumberline {A}Interview with Care}{63}{appendix.A}
-\contentsline {appendix}{\chapternumberline {B}SECN-1.1 User Guide}{67}{appendix.B}
-\contentsline {appendix}{\chapternumberline {C}SECN-2.0 User Guide}{107}{appendix.C}
-=======
 \contentsline {appendix}{\chapternumberline {A}Interview with Care}{65}{appendix.A}
 \contentsline {appendix}{\chapternumberline {B}Script for Internet via PC}{69}{appendix.B}
 \contentsline {appendix}{\chapternumberline {C}SECN-1.1 User Guide}{71}{appendix.C}
 \contentsline {appendix}{\chapternumberline {D}SECN-2.0 User Guide}{111}{appendix.D}
->>>>>>> 18e3b5cc36b9c493c103bbc06c2a2c5c4b1bcd22
