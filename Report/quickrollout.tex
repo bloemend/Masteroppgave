@@ -143,24 +143,45 @@ The key components of our emergency box is described in \tref{tab:components}.
    \end{table}
 \end{center}
 
-\subsection{Creating the Emergency Box}
-This section describes how we created the emergency box from scratch. A go-box is delivered with everything already set up. The Mesh Potato is configured and delivered with an unique IP address. The suitcase contains a cd with Linux Ubuntu in case the user does not already have it installed, and there would be a need for the user to configure or upgrade the MP. The case would also contain necessary cables and detailed descriptions on how to connect to the different up-links. 
+\subsection{Creating the QUICK Box}
+This section describes how we created the \gls{quick} box from scratch. A go-box is delivered with everything already set up. The Mesh Potato is configured and delivered with an unique IP address. The suitcase contains a cd with Linux Ubuntu in case the user does not already have it installed, and there would be a need for the user to configure or upgrade the MP. The case would also contain necessary cables and detailed descriptions on how to connect to the different up-links. \fref{fig:boxinmaking} shows the box in the making.
 
 \begin{figure}[t]
   \centering
       \includegraphics[width=0.9\textwidth]{emergencybox.jpg}
-  \caption [The composition of the emergency box]{\textbf{\textbf{The composition of the emergency box.}} This figure shows how the key components in the emergency box is conjoined together.}
+  \caption [The composition of the \gls{quick} box]{\textbf{\textbf{The composition of the \gls{quick} box.}} This figure shows how the key components in the \gls{quick} box is conjoined together.}
   \label{fig:emergencybox}
 \end{figure}
 
-\paragraph{Conjoining the components of the emergency box.}
+\paragraph{Conjoining the components of the QUICK box.}
 The components that we used to construct the box was a solar regulator, a gel battery, a solar panel and a Mesh Potato. These components were put together as shown in \fref{fig:emergencybox}. The solar regulator is connected to all the components, and is used in order to not overcharge the battery. The solar regulator was initially built for another type of solar panel than the one we chose to use. This means that the concomitant plugs could not be used. These plugs were cut of and we soldered on our own wires.  
 
 New wires were soldered on the solar regulator, one was connected to the power cord to the Mesh Potato, the other two fro, respectively, the battery and the solar panel. Before connecting everything together we used a multimeter in order to measure the voltage in the solar panel. We placed the solar panel under a bright lamp to see if it made any impact, which it did. We used the multimeter to check the battery as well, which was fully charged, with a voltage of a little over 13 V. 
 We fist connected the solar panel, then the battery, and at last the Mesh Potato. In order for all to work the MP have to turn on, which it did.  
 
-\paragraph{Configuring and upgrading the emergency box.}
-When the emergency box is delivered the Mesh Potato is already set-up and configured with an unique IP-address, and running the latest version of the SECN firmware. The descriptions will be in the box in case something would happen and there will be a need to upgrade or configure. These processes are described in sections \ref{subsec:configuring} and \ref{subsec:upgrading}.
+\begin{figure}
+        \centering
+        \begin{subfigure}[t]{0.4\textwidth}
+                \includegraphics[width=\textwidth]{boxinmaking2}
+                \label{fig:boxinmaking2}
+        \end{subfigure}
+        \begin{subfigure}[t]{0.4\textwidth}
+                \includegraphics[width=\textwidth]{boxinmaking4}
+                \label{fig:boxinmaking}
+        \end{subfigure}
+         \begin{subfigure}[t]{0.3\textwidth}
+                \includegraphics[width=\textwidth]{boxinmaking3} 
+                \label{fig:boxinmaking3}
+        \end{subfigure}
+        \begin{subfigure}[t]{0.4\textwidth}
+                \includegraphics[width=\textwidth]{boxinmaking} 
+                \label{fig:boxinmaking4}
+        \end{subfigure}
+\caption{The QUICK box in the making.} \label{fig:boxinmaking}
+\end{figure}
+
+\paragraph{Configuring and upgrading the QUICK Box}
+When the \gls{quick} box is delivered the Mesh Potato is already set-up and configured with an unique IP-address, and running the latest version of the SECN firmware. The descriptions will be in the box in case something would happen and there will be a need to upgrade or configure. These processes are described in sections \ref{subsec:configuring} and \ref{subsec:upgrading}.
 
 \subsection{Battery and Charging Calculations}
 All the calculations done in this section is based on the components described in \tref{tab:components}. 
@@ -212,7 +233,7 @@ $$Amp\times Hours = AmpHours \Rightarrow Hours = \frac{AmpHours}{Amp} = \frac{5 
 \subsection{Possible Improvements}
 As mentioned this set-up is fairly easy and simple, but leaves room for improvements. There should be an on/off switch to not use unnecessary battery capacity. This on/off switch would be placed between the battery and the regulator. Unless a measuring instrument is available to check the voltage, there are no way for the user to know the remaining battery time. This might be very useful in situations where communication is vital and the hours of battery lifetime are limited and should be taken into account. 
 
-The battery we used is a gel battery. They are less explosive than the lithium batteries, and are better suited to be placed into enclosed spaces that may get hot. The downside of the gel batteries is their weight, they are heavy. Since our aim is to make a case that is portable, a lighter battery would be preferable. Under the requirement of being portable a factor to keep in mind is that it is not allowed to bring lithium batteries on the plane. This means that if we chose to use a lithium battery in our solution a regular person would not be allowed to bring their emergency box on the plane. in the case of relief organizations, this might not be a problem since they transport their equipment in special planes, like a hercules. 
+The battery we used is a gel battery. They are less explosive than the lithium batteries, and are better suited to be placed into enclosed spaces that may get hot. The downside of the gel batteries is their weight, they are heavy. Since our aim is to make a case that is portable, a lighter battery would be preferable. Under the requirement of being portable a factor to keep in mind is that it is not allowed to bring lithium batteries on the plane. This means that if we chose to use a lithium battery in our solution a regular person would not be allowed to bring their \gls{quick} box on the plane. in the case of relief organizations, this might not be a problem since they transport their equipment in special planes, like a hercules. 
 
 The MP2 is a lot smaller than the first generation, and a powerful solar panel does not take that much space, so there is no need for a suitcase of the size we have purchased. A smaller case that is lighter and easier to handle would make the solution even more portable. 
 
@@ -223,18 +244,24 @@ Our main focus was to get something that worked and that was safe, and we did no
 As mentioned, one of our areas of focus is the process of quick roll-out. There are many aspects that can be included in order to speed up the roll-out process and make it as easy as possible. We will now present some of our ideas to meet this requirement.
 
 \subsection{Script}
-A script is a list of commands that can be executed without user interaction, in other words, to automate a process. In order to connect the mesh network to Internet a list of commands have to be executed. One idea to speed up the process of setting up the network was to create a script to automate this process. One way to do this could be by creating a self-executable script that could be included in the emergency box on for example on an USB-stick. There would have to be a different script, and different USBs, for each up-link type. 
+A script is a list of commands that can be executed without user interaction, in other words, to automate a process. In order to connect the mesh network to Internet a list of commands have to be executed. One idea to speed up the process of setting up the network was to create a script to automate this process. One way to do this could be by creating a self-executable script that could be included in the \gls{quick} box on for example on an USB-stick. There would have to be a different script, and different USBs, for each up-link type. 
 
-The different scripts created in order to make the process of connecting to an up-link can be found in Appendix \ref{chp:appendixD}.
-
-*Forklare spesifikke ting som er tatt i betrakning for å gjøre utrullingen raskest mulig. Feks scripting, manual etc. 
-
+We made a script that simplifies the process of getting Internet to a Mesh Potato via a PC (see section \ref{subsec:internetviaPC} for step-by-step description) with wireless Internet connection. This script can be found in Appendix \ref{chp:appendixD}. The PC was running Linux Ubuntu and had a wireless Internet connection. Some easy steps must be conducted to run the script:
+\begin{enumerate}
+\item Make sure the \gls{mp} is connected to the PC via Ethernet cable.
+\item In the terminal go to the directory where the script is located and enter the following command:
+\noindent
+\begin{lstlisting}[language=bash]
+  $ sudo su
+  $ sh scriptviaPC.sh
+\end{lstlisting}
+\end{enumerate}
 
 
 \subsection{With the MP02}
 The MP02 Basic does not have the option to connect to a phone. Hence the issue with telephone number distribution is irrelevant. Later in 2014 Village Telco will release a new version of the MP2, MP2-Phone. MP2-Phone will be identical to MP02 Basic, just with an FXS daughterboard. With this new version the issue of number distribution appears. 
 
-The emergency box could be delivered with several MPs, where each MP is marked with the pre-configured IP address. Since it is not possible to connect a phone to the MP there is no issue of number distribution. The box could for example contain 5 MPs, where one would be connected to an up-link, while the other ones would be strategically placed in order to spread the Internet access further. 
+The \gls{quick} box could be delivered with several MPs, where each MP is marked with the pre-configured IP address. Since it is not possible to connect a phone to the MP there is no issue of number distribution. The box could for example contain 5 MPs, where one would be connected to an up-link, while the other ones would be strategically placed in order to spread the Internet access further. 
 
 \subsubsection{Distributing Numbers}
 When a Village Telco is set up today, telephone numbers are distributed by updating a spreadsheet with name and number to the users. These spreadsheets are printed out and delivered to everyone. This is a system that might seem cumbersome, but serves its purpose. If new nodes are added to the network or any changes are made, new sheets have to be printed out and delivered to everyone. This way of spreading telephone numbers might be more difficult with the go-box. 
@@ -252,6 +279,7 @@ Another approach would be to integrate the distribution of phone number in the w
 \input{internetviaethernetcable}
 
 \subsection{How Connect the MP to Internet via PC Getting Wireless Internet from Landline or Cellular Network}
+\label{subsec:internetviaPC}
 \input{internetviapc}
  
 \input{internetviacellular}
@@ -272,7 +300,7 @@ When a natural disaster hits it is hard to know the extent of it, which  again m
 
 When looking at the less developed world, which is often more vulnerable to natural disasters, the situations are different. According to \cite{DevelopingWorld, 360} developing countries are in an larger extent affected by natural disasters than the developed world. The reason for this can be explained by the economic status of the country. Both in how the country is prepared for the disaster and in how fast they can rebuild and recuperate after a natural disaster. Developing countries often lack the infrastructure needed to quickly and efficiently provide aids to the ones affected. According to Baxter \cite{360}, a natural disaster could set back a developing country many years in development.  
 
-People are extremely dependent on communication systems when natural disasters occur. It is crucial to have the possibility to inform others of their current situation and what is needed. Time can be everything in situations like these, it can be life or death. Time can be spared if the ability to communicate without having to do it face-to-face is offered. Doing a quick roll-out of emergency boxes could be a good solution in situations like these. 
+People are extremely dependent on communication systems when natural disasters occur. It is crucial to have the possibility to inform others of their current situation and what is needed. Time can be everything in situations like these, it can be life or death. Time can be spared if the ability to communicate without having to do it face-to-face is offered. Doing a quick roll-out of \gls{quick} boxes could be a good solution in situations like these. 
 
 Following comes two examples, respectively from a developed country, and a underdeveloped country. The examples shows how the situation was handled, and if there where any emergency communication systems available. 
 
