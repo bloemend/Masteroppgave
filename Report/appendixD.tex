@@ -1,0 +1,55 @@
+\chapter{Script for Internet via PC}
+\label{chp:appendixD} 
+
+This appendix contains the script we made and ran to get Internet via a PC to the Mesh Potato. The PC was running Linux Ubuntu and had a wireless Internet connection. To run the script open the terminal and enter the directory (folder) where the script is located, and write: "sh scriptviaPC.sh". Make sure that the Mesh Potato is connected to the PC via an Ethernet cable before running the script. 
+
+\begin{framed}
+\noindent
+\lstset{showstringspaces=false}
+\begin{lstlisting}[language=sh]
+#!bin/bash
+zenity --info --text 'This script set up the Mesh Potato
+with Internet via a PC with wireless Internet connection. 
+Before running the script, make sure that the MP 
+is connected to the PC with Ethernet cable. '
+
+
+echo -n "Enter the values of variables 'Last octet of the
+IP address' and 'Name of wireless Interface on PC'"
+echo =n "(separated by a space or tab):"
+read var1 var2
+echo "var1 = $var1    var2 = $var2"
+
+sudo apt-get install telnetd
+sudo /etc/init.d/openbsd-inetd restart
+apt-get install dnsmasq
+apt-get install iptables 
+
+ifconfig eth0 up 192.168.1.2
+
+iptables --table nat --flush
+iptables --flush
+iptables --delete-chain
+
+iptables --table nat --append POSTROUTING --out-interface 
+$var2 -j MASQUERADE
+iptables --append FORWARD --in-interface eth0 -j ACCEPT
+echo 1> /proc/sys/net/ipv4/ip_forward
+
+xdg-open http://192.168.1.$var1  &
+
+
+zenity --info --text 
+'The web interface did now open in the browser. 
+Do the following changes under "DHCP Server" 
+under the tab "Advanved" at the top of the page:
+(1) Tick the box "Enable DHCP Server",
+(2) Remove the tick from "Use device Ip", 
+(3) Change the address in "Gateway Router" to 
+"192.168.1.2", and finally 
+(4) Press "Save" at the bottom of the page. 
+Now you should have Internet from the Mesh Potato.'
+
+\end{lstlisting}
+\end{framed}
+
