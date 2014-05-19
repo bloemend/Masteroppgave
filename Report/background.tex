@@ -1,6 +1,8 @@
 \chapter{Background}
 \label{chp:background} 
 
+This chapter is written in cooperation with Mate Berg Inset, a fellow student at \gls{ntnu}, that also writes her thesis in collaboration with Village Telco.
+
 \section{Village Telco}
 The Village Telco concept was developed in June 2008 during a workshop at the Shuttleworth Foundation in Cape Town, South Africa. The main goal was to develop an inexpensive system to provide rural and under-served areas with affordable telephone communication \cite{MParticle}. The workshop included participants like open hardware pioneer Dawid Rowe, and Elektra, the developer of \gls{batman}(for more information about \gls{batman} see section \ref{subsec:batman}) \cite{MPworkshop}. The purpose of the workshop was to develop a business model, as well as a prototype for a Village Telco. Initially the idea was to use low cost \gls{voip} headsets. At that time it was the most viable and convenient way to deliver telephone services to the customers. The wireless \gls{voip} telephones have small antennas, which became a problem. The nodes could not be more than 100 meters away from each other in order to have a reliable connection. This required more nodes in order to cover a desirable area. This factor drastically increased the start-up costs for a village. In order to keep the cost down, it was also important to keep the number of \glspl{ap} down. A mesh network has a larger range, and one suggestion was to use a small mesh device like an Open Mesh \gls{ap} and connect a \gls{sip} phone to it. This solution would solve a lot of the problems regarding range, antenna and number of \glspl{ap}, but the idea was still an expensive option. The challenge was to create something that would be simple enough to be configured, and scaled by local entrepreneurs with limited technical skills. In addition to this it was important to keep the cost down. The two key cost factors that emerged in the scale-up of a Village Telco were the cost of the customer's phone and the power supply. It was clear that the power supply was the most important factor, and that they had to look at other, and cheaper options regarding the customers phones \cite{MPworkshop}. During the debating, Rael Lissoos took an \gls{ata} and an Open Mesh \gls{ap}, held them together and said; \textit{"we need these two devices in one"}. This point was the birth of the Mesh Potato, fully based on customized open hardware and software design. The name "Mesh Potato" comes from combining the words mesh, \gls{pots} and \gls{ata}. "Patata" is the Spanish word for potato, and hence the name Mesh Potato. The Mesh Potato is a mesh enabled Wi-Fi device, with the possibility to connect any inexpensive regular phone and IP device \cite{MPorigin}.
 
@@ -38,7 +40,7 @@ The second generation \glspl{mp} comes in three versions, where just the first o
 
 
 \section{Village Telco Network Deployments} \label{sec:deployments}
-There are Village Telcos in different places in the world. The first Village Telco network was established in Dili on Timor-Leste. There are also Village Telco networks in Brazil, South Africa, Nigeria, Nepal, Puerto Rico and other countries in the world. This section will present some of the villages that exist today. \fref{fig:mapdeployments} show where some of the Village Telco deployments are located in the world. Since the villages are not deployed by Village Telco itself, but by local entrepreneurs, there does not exist a complete overview over all the villages. 
+There are Village Telcos in different places all around the world. The first Village Telco network was established in Dili on Timor-Leste. There are also Village Telco networks in Brazil, South Africa, Nigeria, Nepal, Puerto Rico and other countries in the world. This section will present some of the villages that exist today. \fref{fig:mapdeployments} show where some of the Village Telco deployments are located in the world. Since the villages are not deployed by Village Telco itself, but by local entrepreneurs, there does not exist a complete overview over all the villages. 
 
 
 \begin{figure}[H]
@@ -55,7 +57,7 @@ Dili is the capital of Timor-Leste, one of the poorest countries in Asia \cite{v
 
 
 \subsubsection{Telecommunications in Timor-Leste}
-There exist some infrastructure for fixed and mobile telephone in Timor-Leste. However, the services are expensive and the regular Timorese can't afford to use the services on a regular basis. After the independence of Indonesia, Timor-Leste's telecommunications sector has expanded, especially the mobile telephone sector. \fref{fig:cellulartimor} and \fref{fig:internettimor} show number of subscriptions/users per 100 people in Timor-Leste for cellular telephony and internet. \fref{fig:internettimor} show that there are less than 1 of 100 people that use the internet. The main reason for these low numbers are the high costs for the services in combination with low income of Timor-Leste's inhabitants. 
+There exist some infrastructure for fixed and mobile telephone in Timor-Leste. However, the services are expensive and the regular Timorese can't afford to use the services on a regular basis. After the independence of Indonesia, Timor-Leste's telecommunications sector has expanded, especially the mobile telephone sector. \fref{fig:cellulartimor} and \fref{fig:internettimor} show number of subscriptions/users per 100 people in Timor-Leste for cellular telephony and internet. \fref{fig:internettimor} show that there are less than 1 of 100 people that use the Internet. The main reason for these low numbers are the high costs for the services, in combination with low income of Timor-Leste's inhabitants. 
 
 
 \begin{figure}[H]
@@ -65,10 +67,10 @@ There exist some infrastructure for fixed and mobile telephone in Timor-Leste. H
 \label{fig:cellulartimor}
 \end{figure}
 
-\paragraph{Telephony: }
-From 2002 to 2013 Timor Telecom (owned by Portugal Telecom) had monopoly. Portugal Telecom signed a contract with the government in 2002 to invest \$29 million to rebuild and operate the phone system and giving them an exclusive license in the market until 2017 \cite{wikitelecomeasttimor}. The contract was renewable, but in 2012 Portugal Telecom agreed with the government to end the monopoly earlier than planned \cite{budde}. In 2013 two new competitors entered the market. After this the market changed rapidly. In addition to this the government are in the process of setting up a new independent regulatory authority for the telecom sector. 
+{Telephony }
+From 2002 to 2013 Timor Telecom (owned by Portugal Telecom) had monopoly. Portugal Telecom signed a contract with the government in 2002 to invest \$29 million to rebuild and operate the phone system, and giving them an exclusive license in the market until 2017 \cite{wikitelecomeasttimor}. The contract was renewable, but in 2012 Portugal Telecom agreed with the government to end the monopoly earlier than planned \cite{budde}. In 2013 two new competitors entered the market. After this the market changed rapidly. In addition to this the government are in the process of setting up a new independent regulatory authority for the telecom sector. 
 
-\paragraph{Internet:} There is only one \gls{isp} in Timor-Leste, Timor Telecom \cite{wikitelecomeasttimor}. The internet traffic is expensive due to the fact that international traffic goes via expensive \gls{vsat} connections. This accounts for most of the national traffic as well \cite{vtdili}. For example it is not possible to send a \gls{ip} packet from one side of Dili to the other without sending the packet overseas via \gls{vsat} connections. 
+\subsubsection{Internet} There is only one \gls{isp} in Timor-Leste, Timor Telecom \cite{wikitelecomeasttimor}. The internet traffic is expensive due to the fact that international traffic goes via expensive \gls{vsat} connections. This accounts for most of the national traffic as well \cite{vtdili}. For example it is not possible to send a \gls{ip} packet from one side of Dili to the other without sending the packet overseas via \gls{vsat} connections. 
 
 
 \begin{figure}[H]
@@ -79,7 +81,7 @@ From 2002 to 2013 Timor Telecom (owned by Portugal Telecom) had monopoly. Portug
 \end{figure}
 
 \subsubsection{The Deployment}
-The Village Telco deployment in Dili is planning to build a 100-node network. The project is collaboration between Rowotel \footnote{A business operated by David Rowe that focus on open telephony software and hardware} and Fongtil \footnote{The umbrella organisation for Timor-Leste’s local, national and international \glspl{ngo} }. The project was funded by \gls{isif} and \gls{isoc} community grants. 
+The Village Telco deployment in Dili is planning to build a 100-node network. The project is a collaboration between Rowotel \footnote{A business operated by David Rowe that focus on open telephony software and hardware} and Fongtil \footnote{The umbrella organisation for Timor-Leste’s local, national and international \glspl{ngo} }. The project was funded by \gls{isif} and \gls{isoc} community grants. 
 
 The project had three main goals \cite{vtdili}:
 \begin{itemize}
@@ -88,19 +90,19 @@ The project had three main goals \cite{vtdili}:
 \item Use the mesh Wi-Fi network to provide a community \gls{ip} backbone across metropolitan Dili to encourage local \gls{ip} traffic and local content.
 \end{itemize}
 
-In May 2012 the project had 60 operating nodes, and Fongtil maintains the network. The network is a public resource, anyone in Dili has access to the bandwidth. Fongtil also trains people in \gls{mp} set up. 
+In May 2012 the project had 60 operating nodes, and Fongtil maintains the network. The network is a public resource, anyone in Dili has access to the bandwidth. Fongtil also trains people in how to set up the \glspl{mp}. 
 
 
 \subsubsection{Business Model}
 The business model in for the Village Telco deployment in Dili is based on free internal calls, in addition to pre-paid usage charging.  
 
 \subsection{Orocovis, Puerto Rico}
-Orocovis is a village in Puerto Rico with about 25 000 inhabitants. Orocovis is a rural and low-income town, the average income in the town is less than \$14 000 annually, most families require financial assistance from government funding.   
+Orocovis is a village in Puerto Rico with about 25 000 inhabitants. Orocovis is a rural and low-income town, the average income in the town is less than \$14 000 annually. In order so survive, most families require financial assistance from government funding.   
 
-In the village there are landline telephone infrastructure that needs repair and upgrades. The village is situated in a mountainous terrain, which provides an obstacle for cellular telephony. Most of the cell phone users have to travel 30 to 40 minutes to get a stable cell phone connection \cite{vtpuertorico, soto}. 
+In the village there is a landline telephone infrastructure that needs to be repaired and upgraded. The village is situated in a mountainous terrain, which provides an obstacle for cellular telephony. Most of the cell phone users have to travel 30 to 40 minutes to get a stable cell phone connection \cite{vtpuertorico, soto}. 
 
 \subsubsection{The Deployment}
-In 2012 Jose Soto rolled out a Village Telco network in the village. Jose Soto is the president of CoquiTel, a small \gls{wisp}. CoquiTel is a project created to improve the infrastructure of Puerto Rico especially in rural or the last mile areas. The hope through the project is to create and maintain the infrastructure at the same time stimulate the local economy and provide adequate means for students in school, patients in the medical care institutions and general public as a whole.  
+In 2012 Jose Soto rolled out a Village Telco network in Orocovis. Jose Soto is the president of CoquiTel, a small \gls{wisp}. CoquiTel is a project created to improve the infrastructure of Puerto Rico especially in rural or the last mile areas. The hope through the project is to create and maintain the infrastructure at the same time stimulate the local economy and provide adequate means for students in school, patients in the medical care institutions, and the general public as a whole.  
 
 The network consists of 146 \glspl{mp} and are still growing as there is a plan of an expansion to other villages close to Orocovis. The deployment is mainly funded by Jose Soto \cite{vtpuertorico}. The initial roll out of 45 \glspl{mp} took between eight and ten months. In the beginning the main focus of the project was telephony, but this changed to Internet connectivity because the project gained access to a microwave link with a large capacity. 
 

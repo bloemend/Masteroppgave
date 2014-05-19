@@ -1,34 +1,4 @@
 
-These instructions assumes that the MP01 is pre-configured with an IP-address (192.168.1.x). 
+The easiest way to get Internet to the \gls{mp} is by connecting it to the with an Ethernet cable to the jack port in the wall. This way of receiving internet requires no specific configuration. 
 
-\begin{enumerate}
-\item Make sure that the Mesh Potato is connected to a PC running Linux with an Ethernet cable. 
-\item The IP address of the MP is pre-configured to 192.168.1.x (where x is unique for each MP), where the x is written on the MP. In order to access the MP, the PC must be on the same subnet. To do this write in the terminal: 
-\noindent
-\begin{lstlisting}[language=bash]
-  $ ifconfig eth0 up 192.128.1.120
-\end{lstlisting}
-\item Enter the SECN web interface by typing the IP address (192.168.1.x) of the MP01 in a browser. This is an assurance that there is contact with the MP. 
-\item Open Linux terminal and type in the following command: 
-\noindent
-\begin{lstlisting}[language=bash]
-  $ sudo su
-  $ ifconfig eth0 172.31.255.253 netmask 255.255.255.252 
-\end{lstlisting}
-\item Telnet into the MP01:
-\noindent
-\begin{lstlisting}[language=bash]
-  $ telnet 172.31.255.254 
-\end{lstlisting}
-You have now entered the root environment of the MP01. 
-\item Execute udhcpc: 
-*Skrive hva denne kommandoen gjør
-\noindent
-\begin{lstlisting}[language=bash]
-  $ udhcpc -i eth0 
-\end{lstlisting}
-You will get a message stating that the udhcpc process has started. This is followed by several messages stating "Sending discover...". When this appears unplug the Ethernet cable connected to the PC, and connect the MP with an Ethernet cable to cabled Internet (wall). 
-*Finne ut hva internett i veggen heter på engelsk.
-\item Internet will now be available for the mesh network. The SSID and password for the network can be found and altered in the interface. 
-\end{enumerate}
 

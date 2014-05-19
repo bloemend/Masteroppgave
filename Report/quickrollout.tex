@@ -1,4 +1,4 @@
-\chapter{Main Work}
+\chapter{QUICK Box}
 \label{chp:quickrollout} 
 
 The main purpose of our study was to create an easy way to utilize the Mesh Potatoes in emergency situations and other situations where there are need for cheap and instant communication. Our main focus has been on providing Internet access to the mesh network, and the aspect of quick roll-out of the network. Internet access may be a vital way of communication in emergency situations, or just convenient in other situations. The process of setting up a mesh network providing Internet should be done quickly, since time is a crucial factor to consider in emergency situations. In this chapter we will describe parts of the set-up techniques for the Mesh Potatoes. Further on we will present our Emergency Box, which is a box including a Mesh Potato, telephone, solar panel, battery and a charging regulator. A box ready to go in any situations. We will describe how we made this box, and similar work that have been conducted previously on the area. When it comes to the quick roll-out, specific approaches for making a best practice for quick roll-out will be presented. We will present the different types of up-links available to provide the mesh network with Internet access, along with a manual on how to connect the network to the different up-links. At last we will describe some situations where the need for a quick roll-out of a communication system may be needed. 
@@ -115,8 +115,6 @@ The Mesh Potatoes and Village Telcos were created to get voice and data connecti
 \paragraph{AfrikaBurn.}
 AfrikaBurn is a "Burning Man" festival in Tankwa Town in the Karoo (South Africa) that is held once a year \cite{whatisafrikaburn}. This is a festival with focus on art and freedom of expression. Instead of using money, the festival attendants are inspired to trade different types of goods with each other. A Village Telco has been established at this festival a few years now. Free-standing phone boots with Mesh Potatoes powered by solar panels has been set up at the festival area. The first year five phone boots where set up around the festival area. Since it were few numbers to call, the calling became sort of random. This gave a  "ChatRoulette" like effect, only with phones instead. The second year some aspects where improved from the previous year. The boots had production MPs, no lighting and new sleeves. A netbook was brought with them, and this acted as a gateway \cite{africaburnforavillagetelco,africaburnsagainforavillagetelco}. 
 
-* litt mer her? hvordan funker det? hvorfor har det blitt satt opp? er det med Internet? Om vi ikke finner dette noe sted kan vi sende en mail til Steeve.
-
 \paragraph{Millitary}
 * høre med Arild om hvas om brukes i millitæret i dag, om det er noe liknende i det hele tatt
 
@@ -147,7 +145,7 @@ The key components of our emergency box is described in \tref{tab:components}.
 \end{center}
 
 \subsection{Creating the Emergency Box}
-This section describes how we created the emergency box from scratch. A go-box is delivered with everything already set up. The Mesh Potato is configures and delivered with an unique IP address. In addition the suitcase contains a cd with Linux Ubuntu in case the user does not already have it installed and there would be a need for the user to configure or upgrade the MP. The case would also contain necessary cables and a detailed descriptions on how to connect to the different up-links. 
+This section describes how we created the emergency box from scratch. A go-box is delivered with everything already set up. The Mesh Potato is configured and delivered with an unique IP address. The suitcase contains a cd with Linux Ubuntu in case the user does not already have it installed, and there would be a need for the user to configure or upgrade the MP. The case would also contain necessary cables and detailed descriptions on how to connect to the different up-links. 
 
 \begin{figure}[t]
   \centering
@@ -157,7 +155,7 @@ This section describes how we created the emergency box from scratch. A go-box i
 \end{figure}
 
 \paragraph{Conjoining the components of the emergency box.}
-The components that we used to construct the box was a solar regulator, a gel battery, a solar panel and a Mesh Potato. These components were put together as shown in \fref{fig:emergencybox}. The solar regulator is connected to all the components, and is used in order to not over charge the battery. The solar regulator was initially built for another type of solar panel than the one we chose to use. This means that the concomitant plugs could not be used. These plugs were cut of and we soldered on our own wires.  
+The components that we used to construct the box was a solar regulator, a gel battery, a solar panel and a Mesh Potato. These components were put together as shown in \fref{fig:emergencybox}. The solar regulator is connected to all the components, and is used in order to not overcharge the battery. The solar regulator was initially built for another type of solar panel than the one we chose to use. This means that the concomitant plugs could not be used. These plugs were cut of and we soldered on our own wires.  
 
 New wires were soldered on the solar regulator, one was connected to the power cord to the Mesh Potato, the other two fro, respectively, the battery and the solar panel. Before connecting everything together we used a multimeter in order to measure the voltage in the solar panel. We placed the solar panel under a bright lamp to see if it made any impact, which it did. We used the multimeter to check the battery as well, which was fully charged, with a voltage of a little over 13 V. 
 We fist connected the solar panel, then the battery, and at last the Mesh Potato. In order for all to work the MP have to turn on, which it did.  
@@ -169,7 +167,7 @@ When the emergency box is delivered the Mesh Potato is already set-up and config
 All the calculations done in this section is based on the components described in \tref{tab:components}. 
 
 \paragraph{Charging with solar panel.}
-How long it will take for the solar panel to charge the battery from fully discharged to fully charged depends on how much sun there is. The following calculations are calculated using the peak value of the solar panel (10W). 
+How long it will take for the solar panel to charge the battery from fully discharged to fully charged, depends on how much sun there is. The following calculations are calculated using the peak value of the solar panel (10W). 
 
 The solar panel capacity is:
 $$Amp = \frac{Watt}{Volt} = \frac{10 W}{17 V} = 0.59 Ampere$$
@@ -228,6 +226,8 @@ As mentioned, one of our areas of focus is the process of quick roll-out. There 
 \subsection{Script}
 A script is a list of commands that can be executed without user interaction, in other words, to automate a process. In order to connect the mesh network to Internet a list of commands have to be executed. One idea to speed up the process of setting up the network was to create a script to automate this process. One way to do this could be by creating a self-executable script that could be included in the emergency box on for example on an USB-stick. There would have to be a different script, and different USBs, for each up-link type. 
 
+The different scripts created in order to make the process of connecting to an up-link can be found in Appendix \ref{chp:appendixD}.
+
 *Forklare spesifikke ting som er tatt i betrakning for å gjøre utrullingen raskest mulig. Feks scripting, manual etc. 
 
 
@@ -242,7 +242,7 @@ When a Village Telco is set up today, telephone numbers are distributed by updat
 
 One option is to continue with the number distribution approach in use today. The suitcase could contain 5 MPs, all MPs are marked with its unique IP address. There will be attached a list with the IP addresses of the other Mesh Potatoes in the suitcase. When setting up the network the names can easily be filled in on each Mesh Potato. This will then be the telephone list.  
 
-An other approach would be to integrate the distribution of phone number in the web interface. A new feature could be implemented in the interface. This feature would discover the other MPs in range, also in range through other MPs. All MPs would be displayed with name of the SSID, IP address, where the last octet is the telephone number and the name of residence or user. This name could be edited by the master user or by the user themselves. Each MP in the suitcase are pre-configured and set up, they are also set up with security and a password to enter the web interface. So in order for a user to enter the web interface they have to enter the password to get access. Once inside they can see other MPs in range and also put in their name for the other MPs to see. The password and security is set up so that no other than the main user of the MP can change the name. 
+Another approach would be to integrate the distribution of phone number in the web interface. A new feature could be implemented in the interface. This feature would discover the other MPs in range, also in range through other MPs. All MPs would be displayed with name of the SSID, IP address, where the last octet is the telephone number and the name of residence or user. This name could be edited by the master user or by the user themselves. Each MP in the suitcase are pre-configured and set up, they are also set up with security and a password to enter the web interface. So in order for a user to enter the web interface they have to enter the password to get access. Once inside they can see other MPs in range and also put in their name for the other MPs to see. The password and security is set up so that no other than the main user of the MP can change the name. 
 
 
 \subsection{Get Started - How to Use the Box}
@@ -254,12 +254,7 @@ An other approach would be to integrate the distribution of phone number in the 
 
 \subsection{How Connect the MP to Internet via PC Getting Wireless Internet from Landline or Cellular Network}
 \input{internetviapc}
-
-\subsection{How Connect the MP to Cellular Network}
-*Er det mulig å koble MPen direkte til et aksesspunkt? Uten at det er en PC imellom??
-
-The following manual will describe how a user can use the emergency box to connect to a cellular network, like 3G and 4G. As well as how to use a cell phone as an access point. 
-
+ 
 \input{internetviacellular}
 
 \subsection{How Connect the MP to Satellite}
@@ -282,10 +277,10 @@ People are extremely dependent on communication systems when natural disasters o
 
 Following comes two examples, respectively from a developed country, and a underdeveloped country. The examples shows how the situation was handled, and if there where any emergency communication systems available. 
 
-\paragraph{Hurrican Sandy}
+\subsubsection{Hurrican Sandy}
 Hurricane Sandy hit big parts of the Caribbean, as well as the south-east parts of the Unites States at the end of October 2012 \cite{WikiSandy}. As many as 25\% of the citizens in the affected areas lost cell phone coverage, and even more lost electricity. Emergency communication is a challenge in natural disasters, and often leave the public with out a way to call the the emergency number, but also makes it difficult for first responders (as fire fighters, police, etc) to communicate.  Satellite is sometimes used but is an expensive solution and they have more fixed restrictions, plus the fact that the equipment needed, phones and dishes, are expensive. No single communication system is fault free, and there always have to a backup to the backup. Satellite was used but the phones are expensive and the lines can be oversaturated if others parties are trying to connect to the network at the same time. A small aperture terminal (VSAT) trailer was also used to act like a satellite ground station. Finding a good spot for the trailer can be tricky, it requires clear view to the sky and can not be placed too close to a large building. The Red Cross launched an emergency preparedness application for smart phones. The application had a peak in downloads right before the hurricane hit, but when the commercial wireless network failed, they had to go back to the old way of spreading information. Distributing paper files, going from house to house to check up on peoples welfare, give information word-by-mouth and using bullhorn \cite{hurricaneSandy}.
 
-\paragraph{Philippines}
+\subsubsection{Philippines}
 November 8 2013 the typhoon Haiyan, a powerful tropical cyclone, struck and destroyed parts of south-east Asia, in particular the Philippines. Haiyan is the strongest hurricane in wind speed ever recorded. The hurricane had the highest number for casualties, killing at least 6,268 people in the country alone \cite{wikiHaiyan}. International humanitarians and the government at the Philippines was warned about the storm in advance, but nobody could anticipate its viciousness. Some of the first teams on the spot was the communication experts, in order to coordinate, and make sure information was spread as desired.    \cite{disasterResponse} 
 
 Numerous of relief organizations contributed with their help after the typhoon struck. They helped with everything from food and shelter to collecting donations. The United Nations World Relief Programme where among the helpers, and they helped setting up emergency communication systems \cite{philippines}. In addition to this amateur radio operators helped with communication both during and after the disaster. Due to power outages, the existing communication systems where down and there were no cell phone signals. By using radio, they could help keep track of the storm, and give important information (about evacuations and flooding). An addition application area of the radio, was to help people communicate with loved ones \cite{philippinesradio}. 
