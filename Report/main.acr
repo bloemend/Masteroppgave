@@ -50,7 +50,7 @@
 \glsXpageXglsnumberformat{}{xv}, 
 \glsXpageXglsnumberformat{}{5}\delimR 
 \glsXpageXglsnumberformat{}{7}\delimN 
-\glsXpageXglsnumberformat{}{15}\delimN 
+\glsXpageXglsnumberformat{}{16}\delimN 
 \glsXpageXglsnumberformat{}{17}}}\glsgroupskip
 \glsgroupheading{C}\relax\glsresetentrylist
 \glossaryentryfield{cdma}{\glsnamefont{CDMA}}{Code Division Multiple Access}{\relax }{\glossaryentrynumbers{\relax 
@@ -59,7 +59,6 @@
 \glsgroupheading{D}\relax\glsresetentrylist
 \glossaryentryfield{dsl}{\glsnamefont{DSL}}{Digital subscriber line}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
-\glsXpageXglsnumberformat{}{18}\delimN 
 \glsXpageXglsnumberformat{}{19}\delimN 
 \glsXpageXglsnumberformat{}{21}}}\glsgroupskip
 \glsgroupheading{F}\relax\glsresetentrylist
@@ -76,13 +75,13 @@
 \glsXpageXglsnumberformat{}{xv}}}\relax\glsresetentrylist
 \glossaryentryfield{ip}{\glsnamefont{IP}}{Internet Protocol}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
-\glsXpageXglsnumberformat{}{9}\delimN 
 \glsXpageXglsnumberformat{}{10}\delimN 
-\glsXpageXglsnumberformat{}{12}\delimN 
-\glsXpageXglsnumberformat{}{13}}}\relax\glsresetentrylist
+\glsXpageXglsnumberformat{}{11}\delimN 
+\glsXpageXglsnumberformat{}{13}\delimN 
+\glsXpageXglsnumberformat{}{14}}}\relax\glsresetentrylist
 \glossaryentryfield{isdn}{\glsnamefont{ISDN}}{Integrated Services Digital Network}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
-\glsXpageXglsnumberformat{}{18}}}\relax\glsresetentrylist
+\glsXpageXglsnumberformat{}{19}}}\relax\glsresetentrylist
 \glossaryentryfield{isif}{\glsnamefont{ISIF}}{International Society Innovation Fund}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
 \glsXpageXglsnumberformat{}{10}}}\relax\glsresetentrylist
@@ -91,38 +90,39 @@
 \glsXpageXglsnumberformat{}{10}}}\relax\glsresetentrylist
 \glossaryentryfield{isp}{\glsnamefont{ISP}}{Internet Service Provider}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
-\glsXpageXglsnumberformat{}{9}}}\relax\glsresetentrylist
+\glsXpageXglsnumberformat{}{10}}}\relax\glsresetentrylist
 \glossaryentryfield{item}{\glsnamefont{ITEM}}{Department of Telematics}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}}}\glsgroupskip
 \glsgroupheading{K}\relax\glsresetentrylist
 \glossaryentryfield{kbps}{\glsnamefont{kbit/s}}{Kilobit Per Second}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
-\glsXpageXglsnumberformat{}{18}}}\glsgroupskip
+\glsXpageXglsnumberformat{}{18}\delimN 
+\glsXpageXglsnumberformat{}{19}}}\glsgroupskip
 \glsgroupheading{L}\relax\glsresetentrylist
 \glossaryentryfield{lan}{\glsnamefont{LAN}}{Local Area Network}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
-\glsXpageXglsnumberformat{}{17}}}\glsgroupskip
+\glsXpageXglsnumberformat{}{18}}}\glsgroupskip
 \glsgroupheading{M}\relax\glsresetentrylist
 \glossaryentryfield{msc}{\glsnamefont{M. Sc.}}{Master of Science}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}}}\relax\glsresetentrylist
 \glossaryentryfield{manet}{\glsnamefont{MANET}}{Mobile Ad-hoc Network}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
-\glsXpageXglsnumberformat{}{13}\delimR 
-\glsXpageXglsnumberformat{}{15}}}\relax\glsresetentrylist
+\glsXpageXglsnumberformat{}{14}\delimR 
+\glsXpageXglsnumberformat{}{16}}}\relax\glsresetentrylist
 \glossaryentryfield{mbps}{\glsnamefont{Mbit/s}}{Megabits Per Second}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
 \glsXpageXglsnumberformat{}{18}\delimR 
 \glsXpageXglsnumberformat{}{20}}}\relax\glsresetentrylist
 \glossaryentryfield{mno}{\glsnamefont{MNO}}{Mobile Network Operator}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
-\glsXpageXglsnumberformat{}{12}}}\relax\glsresetentrylist
+\glsXpageXglsnumberformat{}{13}}}\relax\glsresetentrylist
 \glossaryentryfield{mp}{\glsnamefont{MP}}{Mesh Potato}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
 \glsXpageXglsnumberformat{}{6}\delimR 
 \glsXpageXglsnumberformat{}{8}\delimN 
-\glsXpageXglsnumberformat{}{10}\delimN 
 \glsXpageXglsnumberformat{}{11}\delimN 
-\glsXpageXglsnumberformat{}{15}}}\relax\glsresetentrylist
+\glsXpageXglsnumberformat{}{12}\delimN 
+\glsXpageXglsnumberformat{}{16}}}\relax\glsresetentrylist
 \glossaryentryfield{mp1}{\glsnamefont{MP01}}{Mesh Potato Version 1}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}}}\relax\glsresetentrylist
 \glossaryentryfield{mp2}{\glsnamefont{MP02}}{Mesh Potato Version 2}{\relax }{\glossaryentrynumbers{\relax 
@@ -130,7 +130,7 @@
 \glsXpageXglsnumberformat{}{8}}}\relax\glsresetentrylist
 \glossaryentryfield{mr}{\glsnamefont{MRs}}{Mesh Routers}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
-\glsXpageXglsnumberformat{}{14}}}\glsgroupskip
+\glsXpageXglsnumberformat{}{15}}}\glsgroupskip
 \glsgroupheading{N}\relax\glsresetentrylist
 \glossaryentryfield{ngo}{\glsnamefont{NGO}}{Non-Governmental Organization}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
@@ -140,20 +140,23 @@
 \glsgroupheading{O}\relax\glsresetentrylist
 \glossaryentryfield{olsr}{\glsnamefont{OLSR}}{Optimized Link State Routing Protocol}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
-\glsXpageXglsnumberformat{}{15}}}\glsgroupskip
+\glsXpageXglsnumberformat{}{16}}}\glsgroupskip
 \glsgroupheading{P}\relax\glsresetentrylist
 \glossaryentryfield{p2p}{\glsnamefont{P2P}}{Peer-to-Peer}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
 \glsXpageXglsnumberformat{}{6}}}\relax\glsresetentrylist
 \glossaryentryfield{plmn}{\glsnamefont{PLMN}}{Public Land Mobile Network}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
-\glsXpageXglsnumberformat{}{12}}}\relax\glsresetentrylist
+\glsXpageXglsnumberformat{}{13}}}\relax\glsresetentrylist
 \glossaryentryfield{pots}{\glsnamefont{POTS}}{Plain Old Telephone Service}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
 \glsXpageXglsnumberformat{}{6}}}\relax\glsresetentrylist
 \glossaryentryfield{pstn}{\glsnamefont{PSTN}}{Public Switched Telephone Network}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
-\glsXpageXglsnumberformat{}{12}}}\glsgroupskip
+\glsXpageXglsnumberformat{}{13}}}\glsgroupskip
+\glsgroupheading{Q}\relax\glsresetentrylist
+\glossaryentryfield{quick}{\glsnamefont{QUICK}}{Quick User-friendly Internet-providing Communication Kit}{\relax }{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{xv}}}\glsgroupskip
 \glsgroupheading{S}\relax\glsresetentrylist
 \glossaryentryfield{sip}{\glsnamefont{SIP}}{Session Initiation Protocol}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
@@ -164,27 +167,27 @@
 \glsXpageXglsnumberformat{}{17}}}\relax\glsresetentrylist
 \glossaryentryfield{ssh}{\glsnamefont{SSH}}{Secure Shell}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
-\glsXpageXglsnumberformat{}{13}}}\glsgroupskip
+\glsXpageXglsnumberformat{}{14}}}\glsgroupskip
 \glsgroupheading{T}\relax\glsresetentrylist
 \glossaryentryfield{ttl}{\glsnamefont{TTL}}{Time To Live}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
-\glsXpageXglsnumberformat{}{16}\delimN 
 \glsXpageXglsnumberformat{}{17}}}\glsgroupskip
 \glsgroupheading{V}\relax\glsresetentrylist
 \glossaryentryfield{voip}{\glsnamefont{VoIP}}{Voice over Internet Protocol}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
 \glsXpageXglsnumberformat{}{5}\delimN 
 \glsXpageXglsnumberformat{}{7}\delimN 
-\glsXpageXglsnumberformat{}{10}\delimR 
+\glsXpageXglsnumberformat{}{10}\delimN 
+\glsXpageXglsnumberformat{}{12}\delimN 
 \glsXpageXglsnumberformat{}{13}}}\relax\glsresetentrylist
 \glossaryentryfield{vsat}{\glsnamefont{VSAT}}{Very Small Aperture Terminal}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
-\glsXpageXglsnumberformat{}{9}}}\glsgroupskip
+\glsXpageXglsnumberformat{}{10}}}\glsgroupskip
 \glsgroupheading{W}\relax\glsresetentrylist
 \glossaryentryfield{wisp}{\glsnamefont{WISP}}{Wireless Internet Service Provider}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
-\glsXpageXglsnumberformat{}{10}}}\relax\glsresetentrylist
+\glsXpageXglsnumberformat{}{11}}}\relax\glsresetentrylist
 \glossaryentryfield{wmn}{\glsnamefont{WMN}}{Wireless Mesh Networks}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
-\glsXpageXglsnumberformat{}{14}}}%
+\glsXpageXglsnumberformat{}{15}}}%
 \end{theglossary}\glossarypostamble

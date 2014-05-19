@@ -67,7 +67,7 @@
 \contentsline {subsubsection}{Installing Firmware on Mesh Potato 1.0}{36}{section*.38}
 \contentsline {subsubsection}{Installing Firmware on Mesh Potato v2.0}{38}{section*.40}
 \contentsline {subsection}{\numberline {4.1.3}The SECN Web Interface}{38}{subsection.4.1.3}
-\contentsline {section}{\numberline {4.2}The Emergency Box}{39}{section.4.2}
+\contentsline {section}{\numberline {4.2}QUICK Box}{39}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Previous/similar work}{40}{subsection.4.2.1}
 \contentsline {paragraph}{Go Box.}{40}{section*.42}
 \contentsline {paragraph}{AfrikaBurn.}{40}{section*.43}
@@ -105,5 +105,6 @@
 \contentsline {chapter}{References}{59}{section*.58}
  \vspace {1em} \noindent \bfseries Appendices\par \vspace {-.5em} 
 \contentsline {appendix}{\chapternumberline {A}Interview with Care}{65}{appendix.A}
-\contentsline {appendix}{\chapternumberline {B}SECN-1.1 User Guide}{69}{appendix.B}
-\contentsline {appendix}{\chapternumberline {C}SECN-2.0 User Guide}{109}{appendix.C}
+\contentsline {appendix}{\chapternumberline {B}Script for Internet via PC}{69}{appendix.B}
+\contentsline {appendix}{\chapternumberline {C}SECN-1.1 User Guide}{71}{appendix.C}
+\contentsline {appendix}{\chapternumberline {D}SECN-2.0 User Guide}{111}{appendix.D}

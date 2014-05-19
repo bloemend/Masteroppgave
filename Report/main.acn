@@ -42,6 +42,7 @@
 (indexentry :tkey (("CDMA" "\\glossaryentryfield{cdma}{\\glsnamefont{CDMA}}{Code Division Multiple Access}{\\relax }") ) :locref "{}{xv}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("Mbit/s" "\\glossaryentryfield{mbps}{\\glsnamefont{Mbit/s}}{Megabits Per Second}{\\relax }") ) :locref "{}{xv}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("kbit/s" "\\glossaryentryfield{kbps}{\\glsnamefont{kbit/s}}{Kilobit Per Second}{\\relax }") ) :locref "{}{xv}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("QUICK" "\\glossaryentryfield{quick}{\\glsnamefont{QUICK}}{Quick User-friendly Internet-providing Communication Kit}{\\relax }") ) :locref "{}{xv}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("B.A.T.M.A.N." "\\glossaryentryfield{batman}{\\glsnamefont{B.A.T.M.A.N.}}{Better Approach To Mobile Adhoc Networking}{\\relax }") ) :locref "{}{5}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("B.A.T.M.A.N." "\\glossaryentryfield{batman}{\\glsnamefont{B.A.T.M.A.N.}}{Better Approach To Mobile Adhoc Networking}{\\relax }") ) :locref "{}{5}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("VoIP" "\\glossaryentryfield{voip}{\\glsnamefont{VoIP}}{Voice over Internet Protocol}{\\relax }") ) :locref "{}{5}" :attr "pageglsnumberformat" ) 
@@ -171,3 +172,4 @@
 (indexentry :tkey (("Mbit/s" "\\glossaryentryfield{mbps}{\\glsnamefont{Mbit/s}}{Megabits Per Second}{\\relax }") ) :locref "{}{20}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("DSL" "\\glossaryentryfield{dsl}{\\glsnamefont{DSL}}{Digital subscriber line}{\\relax }") ) :locref "{}{21}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("DSL" "\\glossaryentryfield{dsl}{\\glsnamefont{DSL}}{Digital subscriber line}{\\relax }") ) :locref "{}{21}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("QUICK" "\\glossaryentryfield{quick}{\\glsnamefont{QUICK}}{Quick User-friendly Internet-providing Communication Kit}{\\relax }") ) :locref "{}{35}" :attr "pageglsnumberformat" ) 
