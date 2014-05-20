@@ -1,4 +1,73 @@
 
 The easiest way to get Internet to the \gls{mp} is by connecting it to the with an Ethernet cable to the jack port in the wall. This way of receiving internet requires no specific configuration. 
 
+The Mesh Potato is delivered preconfigured with IP address and name of the network (SSID) stated in the \gls{quick} box.
 
+\begin{enumerate}
+\item Make sure to have wireless contact with the \gls{mp}.
+
+\item preform the following steps in order to wireless connect the PC to the \gls{mp}.
+\begin{enumerate}
+\item Press the Wi-Fi symbol in the top right corner on your Linux Ubuntu home screen, and press "Edit Connections".
+\item  Under the tab "Wireless" choose the network called "vt-mesh" and press "edit"
+\item In the field BSSID enter "02:CA:FF:EE:BA:BE".
+\item Press "save" and close the window. 
+\end{enumerate}
+
+ 
+
+\item Connect the MP to wired Internet with an Esthernet cable. Using the "LAN" port on the \gls{mp} and the wall jack. 
+
+\item Telnet into the \gls{mp}
+\noindent
+\begin{lstlisting}[language=bash]
+  $ sudo su
+  $ telnet 10.10.1.20
+\end{lstlisting}
+
+\item inside the telnet execute the following command
+\noindent
+\begin{lstlisting}[language=bash]
+  $ udhcpc -i br-lan
+\end{lstlisting}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+, running Linux Ubuntu, with an Ethernet cable. The Ethernet cable must be put into the LAN-port on the MP. 
+
+\item Enter the following command in the terminal:
+\noindent
+\begin{lstlisting}[language=bash]
+  $ sudo su
+  $ ifconfig eth0 up 172.31.255.253 netmask 255.255.255.252
+\end{lstlisting}
+
+\item Telnet into the \gls{mp}
+\noindent
+\begin{lstlisting}[language=bash]
+  $ telnet 172.31.255.254
+\end{lstlisting}
+
+\item inside the telnet execute the following command
+\noindent
+\begin{lstlisting}[language=bash]
+  $ udhcpc -i br-lan
+\end{lstlisting}
+
+\item 
+
+
+\end{lstlisting}
+\end{enumerate}
