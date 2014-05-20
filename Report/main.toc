@@ -91,7 +91,11 @@
 \contentsline {subsection}{\numberline {4.3.5}How Connect the MP to Internet via PC Getting Wireless Internet from Landline or Cellular Network}{48}{subsection.4.3.5}
 \contentsline {subsection}{\numberline {4.3.6}How Connect the MP to Satellite}{50}{subsection.4.3.6}
 \contentsline {section}{\numberline {4.4}Different Scenarios Where a Quick Roll-out is Necessary}{50}{section.4.4}
+<<<<<<< HEAD
 \contentsline {subsection}{\numberline {4.4.1}Natural Disasters}{51}{subsection.4.4.1}
+=======
+\contentsline {subsection}{\numberline {4.4.1}Natural Disasters}{50}{subsection.4.4.1}
+>>>>>>> a2d7eb6ba8ec44e069fa56443c0f84802ec3d43c
 \contentsline {subsubsection}{Hurrican Sandy}{52}{section*.55}
 \contentsline {subsubsection}{Philippines}{52}{section*.56}
 \contentsline {subsection}{\numberline {4.4.2}Temporary Refugee and IDP camps}{53}{subsection.4.4.2}

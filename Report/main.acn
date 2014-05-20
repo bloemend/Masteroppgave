@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 (indexentry :tkey (("QUICK" "\\glossaryentryfield{quick}{\\glsnamefont{QUICK}}{Quick User-friendly Internet-providing Communication Kit}{\\relax }") ) :locref "{}{iv}" :attr "pageglsnumberformat" ) 
+=======
+>>>>>>> a2d7eb6ba8ec44e069fa56443c0f84802ec3d43c
 (indexentry :tkey (("QUICK" "\\glossaryentryfield{quick}{\\glsnamefont{QUICK}}{Quick User-friendly Internet-providing Communication Kit}{\\relax }") ) :locref "{}{xi}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("QUICK" "\\glossaryentryfield{quick}{\\glsnamefont{QUICK}}{Quick User-friendly Internet-providing Communication Kit}{\\relax }") ) :locref "{}{xi}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("NTNU" "\\glossaryentryfield{ntnu}{\\glsnamefont{NTNU}}{Norwegian University of Science and Technology}{\\relax }") ) :locref "{}{xv}" :attr "pageglsnumberformat" ) 
