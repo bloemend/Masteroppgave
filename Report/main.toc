@@ -72,37 +72,17 @@
 \contentsline {paragraph}{AfrikaBurn.}{40}{section*.42}
 \contentsline {paragraph}{Millitary}{40}{section*.43}
 \contentsline {subsection}{\numberline {4.2.2}Key Components}{40}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Creating the Emergency Box}{40}{subsection.4.2.3}
-\contentsline {paragraph}{Conjoining the components of the emergency box.}{41}{section*.46}
-\contentsline {paragraph}{Configuring and upgrading the emergency box.}{42}{section*.48}
-\contentsline {subsection}{\numberline {4.2.4}Battery and Charging Calculations}{42}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.3}Creating the QUICK Box}{40}{subsection.4.2.3}
+\contentsline {paragraph}{Conjoining the components of the QUICK box.}{41}{section*.46}
+\contentsline {paragraph}{Configuring and upgrading the QUICK Box}{42}{section*.48}
+\contentsline {subsection}{\numberline {4.2.4}Battery and Charging Calculations}{43}{subsection.4.2.4}
 \contentsline {paragraph}{Charging with solar panel.}{43}{section*.49}
 \contentsline {paragraph}{Charge while MP01 is running.}{44}{section*.50}
 \contentsline {paragraph}{Charge while MP02 is running.}{44}{section*.51}
-\contentsline {paragraph}{On fully charged battery - MP01}{44}{section*.52}
+\contentsline {paragraph}{On fully charged battery - MP01}{45}{section*.52}
 \contentsline {paragraph}{On fully charged battery - MP02}{45}{section*.53}
 \contentsline {subsection}{\numberline {4.2.5}Possible Improvements}{45}{subsection.4.2.5}
-\contentsline {section}{\numberline {4.3}The Process of Quick Roll-Out}{45}{section.4.3}
-<<<<<<< HEAD
-\contentsline {subsection}{\numberline {4.3.1}Script}{45}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}With the MP02}{45}{subsection.4.3.2}
-\contentsline {subsubsection}{Distributing Numbers}{46}{section*.53}
-\contentsline {subsection}{\numberline {4.3.3}Get Started - How to Use the Box}{46}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}How Connect the MP to Cabled Internet}{47}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}How Connect the MP to Internet via PC Getting Wireless Internet from Landline or Cellular Network}{47}{subsection.4.3.5}
-\contentsline {subsection}{\numberline {4.3.6}How Connect the MP to Satellite}{49}{subsection.4.3.6}
-\contentsline {section}{\numberline {4.4}Different Scenarios Where a Quick Roll-out is Necessary}{49}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Natural Disasters}{49}{subsection.4.4.1}
-\contentsline {subsubsection}{Hurrican Sandy}{51}{section*.54}
-\contentsline {subsubsection}{Philippines}{51}{section*.55}
-\contentsline {subsection}{\numberline {4.4.2}Temporary Refugee and IDP camps}{52}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Festivals}{52}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}Breakdown of Mobile Towers}{52}{subsection.4.4.4}
-\contentsline {chapter}{\chapternumberline {5}Discussion}{53}{chapter.5}
-\contentsline {chapter}{\chapternumberline {6}Conclusion}{57}{chapter.6}
-\contentsline {section}{\numberline {6.1}Future Work}{57}{section.6.1}
-\contentsline {chapter}{References}{59}{section*.57}
-=======
+\contentsline {section}{\numberline {4.3}The Process of Quick Roll-Out}{46}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Script}{46}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}With the MP02}{46}{subsection.4.3.2}
 \contentsline {subsubsection}{Distributing Numbers}{47}{section*.54}
@@ -112,18 +92,17 @@
 \contentsline {subsection}{\numberline {4.3.6}How Connect the MP to Satellite}{50}{subsection.4.3.6}
 \contentsline {section}{\numberline {4.4}Different Scenarios Where a Quick Roll-out is Necessary}{50}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}Natural Disasters}{50}{subsection.4.4.1}
-\contentsline {subsubsection}{Hurrican Sandy}{51}{section*.55}
+\contentsline {subsubsection}{Hurrican Sandy}{52}{section*.55}
 \contentsline {subsubsection}{Philippines}{52}{section*.56}
-\contentsline {subsection}{\numberline {4.4.2}Temporary Refugee and IDP camps}{52}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Festivals}{52}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.2}Temporary Refugee and IDP camps}{53}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Festivals}{53}{subsection.4.4.3}
 \contentsline {subsection}{\numberline {4.4.4}Breakdown of Mobile Towers}{53}{subsection.4.4.4}
 \contentsline {chapter}{\chapternumberline {5}Discussion}{55}{chapter.5}
-\contentsline {chapter}{\chapternumberline {6}Conclusion}{57}{chapter.6}
-\contentsline {section}{\numberline {6.1}Future Work}{57}{section.6.1}
-\contentsline {chapter}{References}{59}{section*.58}
->>>>>>> 7fe21023ad5c83ad022c2f66029ea097635cd661
+\contentsline {chapter}{\chapternumberline {6}Conclusion}{59}{chapter.6}
+\contentsline {section}{\numberline {6.1}Future Work}{59}{section.6.1}
+\contentsline {chapter}{References}{61}{section*.58}
  \vspace {1em} \noindent \bfseries Appendices\par \vspace {-.5em} 
-\contentsline {appendix}{\chapternumberline {A}Interview with Care}{65}{appendix.A}
-\contentsline {appendix}{\chapternumberline {B}Script for Internet via PC}{69}{appendix.B}
-\contentsline {appendix}{\chapternumberline {C}SECN-1.1 User Guide}{71}{appendix.C}
-\contentsline {appendix}{\chapternumberline {D}SECN-2.0 User Guide}{111}{appendix.D}
+\contentsline {appendix}{\chapternumberline {A}Interview with Care}{67}{appendix.A}
+\contentsline {appendix}{\chapternumberline {B}Script for Internet via PC}{71}{appendix.B}
+\contentsline {appendix}{\chapternumberline {C}SECN-1.1 User Guide}{73}{appendix.C}
+\contentsline {appendix}{\chapternumberline {D}SECN-2.0 User Guide}{113}{appendix.D}
