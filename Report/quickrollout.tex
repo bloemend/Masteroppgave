@@ -1,17 +1,17 @@
 \chapter{QUICK Box}
 \label{chp:quickrollout} 
 
-The main purpose of our study was to create an easy way to utilize the Mesh Potatoes in emergency situations and other situations where there are need for cheap and instant communication. Our main focus has been on providing Internet access to the mesh network, and the aspect of quick roll-out of the network. Internet access may be a vital way of communication in emergency situations, or just convenient in other situations. The process of setting up a mesh network providing Internet should be done quickly, since time is a crucial factor to consider in emergency situations. In this chapter we will describe parts of the set-up techniques for the Mesh Potatoes. Further on we will present our \gls{quick} Box, which is a box including a Mesh Potato, telephone, solar panel, battery and a charging regulator. A box ready to go in any situations. We will describe how we made this box, and similar work that have been conducted previously on the area. When it comes to the quick roll-out, specific approaches for making a best practice for quick roll-out will be presented. We will present the different types of up-links available to provide the mesh network with Internet access, along with a manual on how to connect the network to the different up-links. At last we will describe some situations where the need for a quick roll-out of a communication system may be needed. 
+The main purpose of our study was to create an easy way to utilize the Mesh Potatoes in emergency situations and other situations where there are need for cheap and instant communication. Our main focus has been on providing Internet access to the mesh network, and the aspect of quick roll-out of the network. Internet access may be a vital way of communication in emergency situations, or just convenient in other situations. The process of setting up a mesh network providing Internet should be done quickly, since time is a crucial factor to consider in emergency situations. In this chapter we will describe parts of the set-up techniques for the Mesh Potatoes. Further on we will present our \gls{quick} Box, which is a box including a \gls{mp}, telephone, solar panel, battery and a charging regulator. A box ready to go in any situations. We will describe how we made this box, and similar work that have been conducted previously on the area. When it comes to the quick roll-out, specific approaches for making a best practice for quick roll-out will be presented. We will present the different types of up-links available to provide the mesh network with Internet access, along with a manual on how to connect the network to the different up-links. At last we will describe some situations where the need for a quick roll-out of a communication system may be needed. 
 
 A big part of our work is gathering of information, and make this information more understandable for the common user. The existing user guides tend to be advanced and not adapted to people with little background knowledge on the area. Therefore we found it necessary to make the descriptions easier and more user friendly. The set-up procedures we explain in this chapter can also be found elsewhere. 
 
 
 \section{Set-up of the Mesh Potato}
-The set-up process of the Mesh Potato includes, among other activities, installing firmware, allocating IP-addresses and providing Internet to the network. The firmware used for the Mesh Potatoes is called Small Enterprise/Campus Network (SECN) Firmware \cite{ChoosingFirmware}. 
+The set-up process of the Mesh Potato includes, among other activities, installing firmware, allocating \gls{ip}-addresses and providing Internet to the network. The firmware used for the \glspl{mp} is called \gls{secn} Firmware \cite{ChoosingFirmware}. 
 
 \subsection{Configuring the Mesh Potato}
 \label{subsec:configuring}
-Configuring a Mesh Potato is the process of allocating an unique IP-address to the MP. Each of the MPs were assigned a static IP address, these addresses were not part of the LAN address space. The IP addresses are allocated in a predefined default address space 10.130.1.20. In order to change this IP address, the MP has to be connected via an Ethernet cable to a PC running Linux. The PC must be on the same subnet as the MP, in order to establish contact. When the PC is on the same subnet, the MPs web interface can be accessed via a browser. In the web interface, the IP of the MP can easily be changed. This description works for both versions of the MP. One difference is that you can change the IP on MP01 by using interactive voice response (IVR) commands (see page 28 in Appendix \ref{chp:appendixB}). A second version of the MP02 is in development. This version has a telephone jack port (FXS daughterboard), which allows for IVR. 
+Configuring a Mesh Potato is the process of allocating an unique \gls{ip}-address to the \gls{mp}. Each of the \glspl{mp} were assigned a static \gls{ip} address, these addresses were not part of the \gls{lan} address space. The \gls{ip} addresses are allocated in a predefined default address space 10.130.1.20. In order to change this \gls{ip} address, the \gls{mp} has to be connected via an Ethernet cable to a PC running Linux. The PC must be on the same subnet as the \gls{mp}, in order to establish contact. When the PC is on the same subnet, the \glspl{mp} web interface can be accessed via a browser. In the web interface, the \gls{ip} of the \gls{mp} can easily be changed. This description works for both versions of the \gls{mp}. One difference is that you can change the \gls{ip} on \gls{mp1} by using \gls{ivr} commands (see page 28 in Appendix \ref{chp:appendixB}). A second version of the \gls{mp2} is in development. This version has a telephone jack port (\gls{fxs} daughterboard), which allows for \gls{ivr}. 
 
 \begin{enumerate}
 \item Set the PC to have the same subnet, by writing the following command in the terminal:
@@ -20,17 +20,17 @@ Configuring a Mesh Potato is the process of allocating an unique IP-address to t
   $ ifconfig eth0 10.130.1.120 netmask 255.255.255.0
 \end{lstlisting}
 \item Open a browser and type in "10.130.1.20". The web interface will then appear. 
-\item In the web interface, under network, change the IP address field to "192.168.1.x", where x is the unique number for the specific MP. This number should be between 21-99. In order to set the change, a save and reboot must be done from the interface. 
+\item In the web interface, under network, change the \gls{ip} address field to "192.168.1.x", where x is the unique number for the specific \gls{mp}. This number should be between 21-99. In order to set the change, a save and reboot must be done from the interface. 
 \end{enumerate}
 
 \subsection{Upgrading the Mesh Potato}
 \label{subsec:upgrading}
-The firmware of the Mesh Potatoes are under constant development. It is therefore advisable that the MP is running the latest version of the firmware. The process of upgrading the firmware is different from MP01 and MP02. The different methods are described below. 
+The firmware of the Mesh Potatoes are under constant development. It is therefore advisable that the \gls{mp} is running the latest version of the firmware. The process of upgrading the firmware is different from \gls{mp1} and \gls{mp2}. The different methods are described below. 
 
-See the SECN User Guide for respectively MP01 and MP02 in Appendix \ref{chp:appendixB} and \ref{chp:appendixC} for a more detailed description of how to upgrade the firmware on the Mesh Potatoes.
+See the \gls{secn} User Guide for respectively \gls{mp1} and \gls{mp2} in Appendix \ref{chp:appendixB} and \ref{chp:appendixC} for a more detailed description of how to upgrade the firmware on the Mesh Potatoes.
 
 \subsubsection{Installing Firmware on Mesh Potato 1.0}
-Flashing is the process of updating or changing the firmware (SECN) on the MP01. The most common way to perform the flashing process is by using the potato-flash application \cite{flashing}. This is a specialised software application for the Mesh Potato. Potato-flash can be used regardless of previously installed firmware on the Mesh Potato \cite{InstallingSecnFirmware}. 
+Flashing is the process of updating or changing the firmware (\gls{secn}) on the \gls{mp1}. The most common way to perform the flashing process is by using the potato-flash application \cite{flashing}. This is a specialised software application for the Mesh Potato. Potato-flash can be used regardless of previously installed firmware on the Mesh Potato \cite{InstallingSecnFirmware}. 
 
 \begin{enumerate}
 \item Downloaded the 64 bit potato-flash utility from \url{http://download.villagetelco.org/utilities/potato-flash/potato-flash-64bit/} to the folder \textbf{/etc/local/bin}.
@@ -54,7 +54,7 @@ Flashing is the process of updating or changing the firmware (SECN) on the MP01.
   $ service network-manager stop
 \end{lstlisting}
 
-\noindent \textbf{Bring the interface connected to the MP up:}
+\noindent \textbf{Bring the interface connected to the \gls{mp} up:}
 \begin{lstlisting}[language=bash]
   $ ip link set eth0 up
 \end{lstlisting}
@@ -70,7 +70,7 @@ Flashing is the process of updating or changing the firmware (SECN) on the MP01.
   $ ifconfig eth0 1.1.1.1
 \end{lstlisting}
 
-Before running the potato-flash utility we made sure that the MP was unplugged from its power supply, and that the Mesh Potato was connected to our PC via an Ethernet cable. 
+Before running the potato-flash utility we made sure that the \gls{mp} was unplugged from its power supply, and that the Mesh Potato was connected to our PC via an Ethernet cable. 
 
 \noindent \textbf{Executing the potato-flash utility:}
 \begin{lstlisting}[language=bash]
@@ -90,13 +90,13 @@ Briefly after the potato-flash had been executed, dots stared appearing on the s
 
 
 \subsubsection{Installing Firmware on Mesh Potato v2.0}
-The process of upgrading the MP's firmware is simplified with the MP2. With the MP1, command shell must be utilized in order do this. In contrary, with the MP2, firmware upgrade can be done from the SECN web interface (more information about the interface can be found in section \ref{subsec:interface}). Extra functionality has been added to the interface from MP1 to MP2. Under "Advanced" in the interface an extra tab called "Firmware" is added, and there the firmware upgrade can be executed. When this button is pressed, a new windows pops up where you have to add the firmware file. The firmware for MP02 can be found here: \url{http://download.villagetelco.org/firmware/secn/unstable/mp02/SECN-2.0/SECN-2.0-RC4/}.
+The process of upgrading the MP's firmware is simplified with the \gls{mp2}. With the \gls{mp1}, command shell must be utilized in order do this. In contrary, with the \gls{mp2}, firmware upgrade can be done from the \gls{secn} web interface (more information about the interface can be found in section \ref{subsec:interface}). Extra functionality has been added to the interface from \gls{mp1} to \gls{mp2}. Under "Advanced" in the interface an extra tab called "Firmware" is added, and there the firmware upgrade can be executed. When this button is pressed, a new windows pops up where you have to add the firmware file. The firmware for \gls{mp2} can be found here: \url{http://download.villagetelco.org/firmware/secn/unstable/mp02/SECN-2.0/SECN-2.0-RC4/}.
 
 \subsection{The SECN Web Interface}
 \label{subsec:interface}
-Village Telco provides a SECN web interface for configuration and management of individual MPs. This web interface can be accessed by entering the IP address of the MP in a browser, this interface is shown in \fref{fig:webinterface} In order to be able to do this, the PC must be on the same subnet (exact same prefix) as the MP.  
+Village Telco provides a SECN web interface for configuration and management of individual \glspl{mp}. This web interface can be accessed by entering the \gls{ip} address of the \gls{mp} in a browser, this interface is shown in \fref{fig:webinterface} In order to be able to do this, the PC must be on the same subnet (exact same prefix) as the \gls{mp}.  
 
-The web interface allows the user to do alterations in the MP. The web interface allows the user to alter some key parameters. Among these are changing the IP address of the device, set up the WiFi Access Point, VoIP/SIP Configurations, Password and Web Server Security. The web interface also allows the user to do changes to more advanced settings and monitoring. To get a detailed description of the web interface see the user guide in Appendix \ref{chp:appendixA}. In addition to this, like mentioned above, the interface has been extended and improved from MP1 to MP2. More actions can be conducted via the interface with MP2. 
+The web interface allows the user to do alterations in the \gls{mp}. The web interface allows the user to alter some key parameters. Among these are changing the \gls{ip} address of the device, set up the WiFi \gls{ap}, \gls{voip}/\gls{sip} Configurations, Password and Web Server Security. The web interface also allows the user to do changes to more advanced settings and monitoring. To get a detailed description of the web interface see the user guide in Appendix \ref{chp:appendixA}. In addition to this, like mentioned above, the interface has been extended and improved from \gls{mp1} to \gls{mp2}. More actions can be conducted via the interface with \gls{mp2}. 
 
 \begin{figure}[t]
   \centering
@@ -112,7 +112,7 @@ The Mesh Potatoes and Village Telcos were created to get voice and data connecti
 \paragraph{Go Box.} Something similar has been done before by Keith Williamson, a volunteer in the Village Telco community. His idea of utilizing the Mesh Potatoes in emergency situations started with his interest in amateur radios, and the use of radios in emergency situations. He put together a "go box" by using a waterproof Pelican 1200 case. This case contained a bracket holding the Mesh Potato, a rechargeable Li-Ion or Li-Poly battery, telephone handset and junction box to provide an on/off switch \cite{keith}. Our Emergency Box differ in some ways from the Go Box made by Williamson. 
 
 \paragraph{AfrikaBurn.}
-AfrikaBurn is a "Burning Man" festival in Tankwa Town in the Karoo (South Africa) that is held once a year \cite{whatisafrikaburn}. This is a festival with focus on art and freedom of expression. Instead of using money, the festival attendants are inspired to trade different types of goods with each other. A Village Telco has been established at this festival a few years now. Free-standing phone boots with Mesh Potatoes powered by solar panels has been set up at the festival area. The first year five phone boots where set up around the festival area. Since it were few numbers to call, the calling became sort of random. This gave a  "ChatRoulette" like effect, only with phones instead. The second year some aspects where improved from the previous year. The boots had production MPs, no lighting and new sleeves. A netbook was brought with them, and this acted as a gateway \cite{africaburnforavillagetelco,africaburnsagainforavillagetelco}. 
+AfrikaBurn is a "Burning Man" festival in Tankwa Town in the Karoo (South Africa) that is held once a year \cite{whatisafrikaburn}. This is a festival with focus on art and freedom of expression. Instead of using money, the festival attendants are inspired to trade different types of goods with each other. A Village Telco has been established at this festival a few years now. Free-standing phone boots with Mesh Potatoes powered by solar panels has been set up at the festival area. The first year five phone boots where set up around the festival area. Since it were few numbers to call, the calling became sort of random. This gave a  "ChatRoulette" like effect, only with phones instead. The second year some aspects where improved from the previous year. The boots had production \glspl{mp}, no lighting and new sleeves. A netbook was brought with them, and this acted as a gateway \cite{africaburnforavillagetelco,africaburnsagainforavillagetelco}. 
 
 \paragraph{Millitary}
 * høre med Arild om hvas om brukes i millitæret i dag, om det er noe liknende i det hele tatt
@@ -133,7 +133,7 @@ The key components of our emergency box is described in \tref{tab:components}.
     \hline
     Power supply & A gel battery (12 V and 5 Ah). No need for maintenance. The battery acid is bound in a viscous gel. This prevents leakage, even when the battery is mounted horizontally. Long lifetime and safe to handle. The battery is fully closed, and do not need refill of battery water. No hydrogen gas or other gas might leak. When the battery is charging no gas or acid vapor is emitted, hence the battery can be placed in narrow or enclosed spaces. The battery withstands multiple discharges. The gel battery is ideal for seasonal or occasional use, since it have a slow self-discharge tempo, and a good ability to recover after deep discharging. Dimensions: 114x69x109. Weight: 2,16 kg. \\
     \hline
-    Plain old telephone &  A regular plain old telephone that can be connected to the MP01 via a FXS port by using a RJ-11. \\
+    Plain old telephone &  A regular plain old telephone that can be connected to the \gls{mp1} via a \gls{fxs} port by using a RJ-11. \\
 	\hline
 	Solar panel & Solar panel from Multicomp with item number: MC-SP10-GCS. Power rating: 10 W. Power Voltage Max: 17 V. Dimensions: 357x280x18\\
 	\hline
@@ -144,7 +144,7 @@ The key components of our emergency box is described in \tref{tab:components}.
 \end{center}
 
 \subsection{Creating the QUICK Box}
-This section describes how we created the \gls{quick} box from scratch. A go-box is delivered with everything already set up. The Mesh Potato is configured and delivered with an unique IP address. The suitcase contains a cd with Linux Ubuntu in case the user does not already have it installed, and there would be a need for the user to configure or upgrade the MP. The case would also contain necessary cables and detailed descriptions on how to connect to the different up-links. \fref{fig:boxinmaking} shows the box in the making.
+This section describes how we created the \gls{quick} box from scratch. A go-box is delivered with everything already set up. The Mesh Potato is configured and delivered with an unique \gls{ip} address. The suitcase contains a cd with Linux Ubuntu in case the user does not already have it installed, and there would be a need for the user to configure or upgrade the \gls{mp}. The case would also contain necessary cables and detailed descriptions on how to connect to the different up-links. \fref{fig:boxinmaking} shows the box in the making.
 
 \begin{figure}[t]
   \centering
@@ -157,7 +157,7 @@ This section describes how we created the \gls{quick} box from scratch. A go-box
 The components that we used to construct the box was a solar regulator, a gel battery, a solar panel and a Mesh Potato. These components were put together as shown in \fref{fig:emergencybox}. The solar regulator is connected to all the components, and is used in order to not overcharge the battery. The solar regulator was initially built for another type of solar panel than the one we chose to use. This means that the concomitant plugs could not be used. These plugs were cut of and we soldered on our own wires.  
 
 New wires were soldered on the solar regulator, one was connected to the power cord to the Mesh Potato, the other two fro, respectively, the battery and the solar panel. Before connecting everything together we used a multimeter in order to measure the voltage in the solar panel. We placed the solar panel under a bright lamp to see if it made any impact, which it did. We used the multimeter to check the battery as well, which was fully charged, with a voltage of a little over 13 V. 
-We fist connected the solar panel, then the battery, and at last the Mesh Potato. In order for all to work the MP have to turn on, which it did.  
+We fist connected the solar panel, then the battery, and at last the Mesh Potato. In order for all to work the \gls{mp} have to turn on, which it did.  
 
 \begin{figure}
         \centering
@@ -181,7 +181,7 @@ We fist connected the solar panel, then the battery, and at last the Mesh Potato
 \end{figure}
 
 \paragraph{Configuring and upgrading the QUICK Box}
-When the \gls{quick} box is delivered the Mesh Potato is already set-up and configured with an unique IP-address, and running the latest version of the SECN firmware. The descriptions will be in the box in case something would happen and there will be a need to upgrade or configure. These processes are described in sections \ref{subsec:configuring} and \ref{subsec:upgrading}.
+When the \gls{quick} box is delivered the Mesh Potato is already set-up and configured with an unique \gls{ip}-address, and running the latest version of the \gls{secn} firmware. The descriptions will be in the box in case something would happen and there will be a need to upgrade or configure. These processes are described in sections \ref{subsec:configuring} and \ref{subsec:upgrading}.
 
 \subsection{Battery and Charging Calculations}
 All the calculations done in this section is based on the components described in \tref{tab:components}. 
@@ -199,7 +199,7 @@ $$Amp\times Hours = AmpHours \Rightarrow Hours =\frac{AmpHours}{Amp} = \frac{5 A
 
 to fully charge it. 
 
-This calculation does not take into consideration that the solar panel may have to charge the battery while the MP is running. The effect from the solar panel to the battery will then decrease. 
+This calculation does not take into consideration that the solar panel may have to charge the battery while the \gls{mp} is running. The effect from the solar panel to the battery will then decrease. 
 
 \paragraph{Charge while MP01 is running.}
 The capacity from the solar panel will then be: 
@@ -218,13 +218,13 @@ $$Amp\times Hours = AmpHours \Rightarrow Hours =\frac{AmpHours}{Amp} = \frac{5 A
 Number of sun hours per day in for example South Africa in December is approximately 14. In June number of sun hours is approximately 10.5. And off course, it can be cloudy, so these numbers are best case. This means that it is possible to fully charge the battery in the course of a day, but it may not always be the case. The following calculations shows how long the battery can provide the Mesh Potato with power from fully charged condition without the solar panel charging it at the same time. 
 
 \paragraph{On fully charged battery - MP01}
-This calculation takes into account that the solar panel is disconnected from the battery. With the components described in \tref{tab:components} the number of hours the MP1 can last with fully charged battery is: 
+This calculation takes into account that the solar panel is disconnected from the battery. With the components described in \tref{tab:components} the number of hours the \gls{mp1} can last with fully charged battery is: 
 
 $$Amp = \frac{Watt}{Volt} = \frac{2.5 W}{12 V} = 0.208 Ampere$$
 $$Amp\times Hours = AmpHours \Rightarrow Hours = \frac{AmpHours}{Amp} = \frac{5 Ah}{0.208 A} = 24 Hours$$
 
 \paragraph{On fully charged battery - MP02}
-This calculation takes into account that the solar panel is disconnected from the battery. With the components described in \tref{tab:components} the number of hours the MP2 can last with fully charged battery is: 
+This calculation takes into account that the solar panel is disconnected from the battery. With the components described in \tref{tab:components} the number of hours the \gls{mp2} can last with fully charged battery is: 
 
 $$Amp = \frac{Watt}{Volt} = \frac{0.75 W}{12 V} = 0.06 Ampere$$
 $$Amp\times Hours = AmpHours \Rightarrow Hours = \frac{AmpHours}{Amp} = \frac{5 Ah}{0.06 A} = 83 Hours$$
@@ -235,7 +235,7 @@ As mentioned this set-up is fairly easy and simple, but leaves room for improvem
 
 The battery we used is a gel battery. They are less explosive than the lithium batteries, and are better suited to be placed into enclosed spaces that may get hot. The downside of the gel batteries is their weight, they are heavy. Since our aim is to make a case that is portable, a lighter battery would be preferable. Under the requirement of being portable a factor to keep in mind is that it is not allowed to bring lithium batteries on the plane. This means that if we chose to use a lithium battery in our solution a regular person would not be allowed to bring their \gls{quick} box on the plane. in the case of relief organizations, this might not be a problem since they transport their equipment in special planes, like a hercules. 
 
-The MP2 is a lot smaller than the first generation, and a powerful solar panel does not take that much space, so there is no need for a suitcase of the size we have purchased. A smaller case that is lighter and easier to handle would make the solution even more portable. 
+The \gls{mp2} is a lot smaller than the first generation, and a powerful solar panel does not take that much space, so there is no need for a suitcase of the size we have purchased. A smaller case that is lighter and easier to handle would make the solution even more portable. 
 
 Our main focus was to get something that worked and that was safe, and we did not focus on aesthetics and appearance. This is therefore also an area where there are room for improvements. 
 
@@ -259,16 +259,16 @@ We made a script that simplifies the process of getting Internet to a Mesh Potat
 
 
 \subsection{With the MP02}
-The MP02 Basic does not have the option to connect to a phone. Hence the issue with telephone number distribution is irrelevant. Later in 2014 Village Telco will release a new version of the MP2, MP2-Phone. MP2-Phone will be identical to MP02 Basic, just with an FXS daughterboard. With this new version the issue of number distribution appears. 
+The \gls{mp2} Basic does not have the option to connect to a phone. Hence the issue with telephone number distribution is irrelevant. Later in 2014 Village Telco will release a new version of the \gls{mp2}, \gls{mp2}-Phone. MP2-Phone will be identical to \gls{mp2} Basic, just with an \gls{fxs} daughterboard. With this new version the issue of number distribution appears. 
 
-The \gls{quick} box could be delivered with several MPs, where each MP is marked with the pre-configured IP address. Since it is not possible to connect a phone to the MP there is no issue of number distribution. The box could for example contain 5 MPs, where one would be connected to an up-link, while the other ones would be strategically placed in order to spread the Internet access further. 
+The \gls{quick} box could be delivered with several \glspl{mp}, where each \gls{mp} is marked with the pre-configured IP address. Since it is not possible to connect a phone to the \gls{mp} there is no issue of number distribution. The box could for example contain 5 \glspl{mp}, where one would be connected to an up-link, while the other ones would be strategically placed in order to spread the Internet access further. 
 
 \subsubsection{Distributing Numbers}
 When a Village Telco is set up today, telephone numbers are distributed by updating a spreadsheet with name and number to the users. These spreadsheets are printed out and delivered to everyone. This is a system that might seem cumbersome, but serves its purpose. If new nodes are added to the network or any changes are made, new sheets have to be printed out and delivered to everyone. This way of spreading telephone numbers might be more difficult with the go-box. 
 
-One option is to continue with the number distribution approach in use today. The suitcase could contain 5 MPs, all MPs are marked with its unique IP address. There will be attached a list with the IP addresses of the other Mesh Potatoes in the suitcase. When setting up the network the names can easily be filled in on each Mesh Potato. This will then be the telephone list.  
+One option is to continue with the number distribution approach in use today. The suitcase could contain 5 \glspl{mp}, all \glspl{mp} are marked with its unique \gls{ip} address. There will be attached a list with the \gls{ip} addresses of the other Mesh Potatoes in the suitcase. When setting up the network the names can easily be filled in on each Mesh Potato. This will then be the telephone list.  
 
-Another approach would be to integrate the distribution of phone number in the web interface. A new feature could be implemented in the interface. This feature would discover the other MPs in range, also in range through other MPs. All MPs would be displayed with name of the SSID, IP address, where the last octet is the telephone number and the name of residence or user. This name could be edited by the master user or by the user themselves. Each MP in the suitcase are pre-configured and set up, they are also set up with security and a password to enter the web interface. So in order for a user to enter the web interface they have to enter the password to get access. Once inside they can see other MPs in range and also put in their name for the other MPs to see. The password and security is set up so that no other than the main user of the MP can change the name. 
+Another approach would be to integrate the distribution of phone number in the web interface. A new feature could be implemented in the interface. This feature would discover the other \glspl{mp} in range, also in range through other \glspl{mp}. All \glspl{mp} would be displayed with name of the \gls{ssid}, \gls{ip} address, where the last octet is the telephone number and the name of residence or user. This name could be edited by the master user or by the user themselves. Each \gls{mp} in the suitcase are pre-configured and set up, they are also set up with security and a password to enter the web interface. So in order for a user to enter the web interface they have to enter the password to get access. Once inside they can see other \glspl{mp} in range and also put in their name for the other \glspl{mp} to see. The password and security is set up so that no other than the main user of the \gls{mp} can change the name. 
 
 
 \subsection{Get Started - How to Use the Box}

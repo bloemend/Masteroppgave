@@ -1,6 +1,6 @@
 ;; This logfile was generated automatically by `xindy'
-;; at 19.05.2014  11:47:59
-;; Indexstyle: "C:\\Users\\IDAMAL~1\\AppData\\Local\\Temp\\mYDL2yplSH", Rawindex: "C:\\Users\\IDAMAL~1\\AppData\\Local\\Temp\\TpgUAUj0tX", Output: "main.acr"
+;; at 20.05.2014  18:45:09
+;; Indexstyle: "C:\\Users\\IDAMAL~1\\AppData\\Local\\Temp\\lAMQSgGUIs", Rawindex: "C:\\Users\\IDAMAL~1\\AppData\\Local\\Temp\\FvApbzy7Pa", Output: "main.acr"
 
 
 Building indexentry-tree:
@@ -51,8 +51,12 @@ sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 
 Forming letter-groups:
+Letter-group: "Êà¨†®" -> "Q"
 Letter-group: "¼Ú¼à" -> "N"
 Letter-group: "» Ð†" -> "M"
 Letter-group: "¨»—" -> "I"
@@ -97,7 +101,9 @@ Letter-group: "Ð»" -> "G"
 Letter-group: "†»€" -> "C"
 Letter-group: "»„¨Ú/Ð" -> "M"
 Letter-group: "®„¨Ú/Ð" -> "K"
-Letter-group: "Êà¨†®" -> "Q"
+Letter-group: "Ð—†¼" -> "S"
+Letter-group: "¨åË" -> "I"
+Letter-group: "ÐÐ¨" -> "S"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "2" -> "glsnumbers"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
@@ -129,7 +135,7 @@ Letter-group: "È2È" -> "P"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "Êà¨†®" -> "Q"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
-Letter-group: "Ð¨È" -> "S"
+Letter-group: "Ð—†¼" -> "S"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "ÚÚ´" -> "T"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)

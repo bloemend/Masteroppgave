@@ -40,10 +40,11 @@
 \glsXpageXglsnumberformat{}{xv}}}\relax\glsresetentrylist
 \glossaryentryfield{ap}{\glsnamefont{AP}}{Access Point}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
-\glsXpageXglsnumberformat{}{5}}}\relax\glsresetentrylist
+\glsXpageXglsnumberformat{}{5}\delimN 
+\glsXpageXglsnumberformat{}{6}\delimN 
+\glsXpageXglsnumberformat{}{39}}}\relax\glsresetentrylist
 \glossaryentryfield{ata}{\glsnamefont{ATA}}{Analog Telephony Adapter}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
-\glsXpageXglsnumberformat{}{5}\delimN 
 \glsXpageXglsnumberformat{}{6}}}\glsgroupskip
 \glsgroupheading{B}\relax\glsresetentrylist
 \glossaryentryfield{batman}{\glsnamefont{B.A.T.M.A.N.}}{Better Approach To Mobile Adhoc Networking}{\relax }{\glossaryentrynumbers{\relax 
@@ -65,7 +66,10 @@
 \glossaryentryfield{fxs}{\glsnamefont{FXS}}{Foreign eXchange Station}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
 \glsXpageXglsnumberformat{}{6}\delimN 
-\glsXpageXglsnumberformat{}{8}}}\glsgroupskip
+\glsXpageXglsnumberformat{}{7}\delimN 
+\glsXpageXglsnumberformat{}{36}\delimN 
+\glsXpageXglsnumberformat{}{41}\delimN 
+\glsXpageXglsnumberformat{}{46}}}\glsgroupskip
 \glsgroupheading{G}\relax\glsresetentrylist
 \glossaryentryfield{gsm}{\glsnamefont{GSM}}{Global System for Mobile Communications}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
@@ -78,7 +82,13 @@
 \glsXpageXglsnumberformat{}{10}\delimN 
 \glsXpageXglsnumberformat{}{11}\delimN 
 \glsXpageXglsnumberformat{}{13}\delimN 
-\glsXpageXglsnumberformat{}{14}}}\relax\glsresetentrylist
+\glsXpageXglsnumberformat{}{14}\delimN 
+\glsXpageXglsnumberformat{}{35}\delimN 
+\glsXpageXglsnumberformat{}{36}\delimN 
+\glsXpageXglsnumberformat{}{38}\delimR 
+\glsXpageXglsnumberformat{}{40}\delimN 
+\glsXpageXglsnumberformat{}{42}\delimN 
+\glsXpageXglsnumberformat{}{47}}}\relax\glsresetentrylist
 \glossaryentryfield{isdn}{\glsnamefont{ISDN}}{Integrated Services Digital Network}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
 \glsXpageXglsnumberformat{}{19}}}\relax\glsresetentrylist
@@ -92,7 +102,10 @@
 \glsXpageXglsnumberformat{}{xv}, 
 \glsXpageXglsnumberformat{}{10}}}\relax\glsresetentrylist
 \glossaryentryfield{item}{\glsnamefont{ITEM}}{Department of Telematics}{\relax }{\glossaryentrynumbers{\relax 
-\glsXpageXglsnumberformat{}{xv}}}\glsgroupskip
+\glsXpageXglsnumberformat{}{xv}}}\relax\glsresetentrylist
+\glossaryentryfield{ivr}{\glsnamefont{IVR}}{Interactive Voice Response}{\relax }{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{xv}, 
+\glsXpageXglsnumberformat{}{36}}}\glsgroupskip
 \glsgroupheading{K}\relax\glsresetentrylist
 \glossaryentryfield{kbps}{\glsnamefont{kbit/s}}{Kilobit Per Second}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
@@ -101,7 +114,8 @@
 \glsgroupheading{L}\relax\glsresetentrylist
 \glossaryentryfield{lan}{\glsnamefont{LAN}}{Local Area Network}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
-\glsXpageXglsnumberformat{}{18}}}\glsgroupskip
+\glsXpageXglsnumberformat{}{18}\delimN 
+\glsXpageXglsnumberformat{}{36}}}\glsgroupskip
 \glsgroupheading{M}\relax\glsresetentrylist
 \glossaryentryfield{msc}{\glsnamefont{M. Sc.}}{Master of Science}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}}}\relax\glsresetentrylist
@@ -118,16 +132,34 @@
 \glsXpageXglsnumberformat{}{13}}}\relax\glsresetentrylist
 \glossaryentryfield{mp}{\glsnamefont{MP}}{Mesh Potato}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
-\glsXpageXglsnumberformat{}{6}\delimR 
-\glsXpageXglsnumberformat{}{8}\delimN 
+\glsXpageXglsnumberformat{}{6}\delimN 
+\glsXpageXglsnumberformat{}{7}\delimN 
 \glsXpageXglsnumberformat{}{11}\delimN 
 \glsXpageXglsnumberformat{}{12}\delimN 
-\glsXpageXglsnumberformat{}{16}}}\relax\glsresetentrylist
+\glsXpageXglsnumberformat{}{16}\delimN 
+\glsXpageXglsnumberformat{}{35}\delimR 
+\glsXpageXglsnumberformat{}{40}\delimN 
+\glsXpageXglsnumberformat{}{42}\delimN 
+\glsXpageXglsnumberformat{}{44}\delimN 
+\glsXpageXglsnumberformat{}{46}\delimR 
+\glsXpageXglsnumberformat{}{49}\delimN 
+\glsXpageXglsnumberformat{}{52}\delimN 
+\glsXpageXglsnumberformat{}{59}}}\relax\glsresetentrylist
 \glossaryentryfield{mp1}{\glsnamefont{MP01}}{Mesh Potato Version 1}{\relax }{\glossaryentrynumbers{\relax 
-\glsXpageXglsnumberformat{}{xv}}}\relax\glsresetentrylist
+\glsXpageXglsnumberformat{}{xv}, 
+\glsXpageXglsnumberformat{}{36}\delimN 
+\glsXpageXglsnumberformat{}{38}\delimN 
+\glsXpageXglsnumberformat{}{39}\delimN 
+\glsXpageXglsnumberformat{}{41}\delimN 
+\glsXpageXglsnumberformat{}{45}}}\relax\glsresetentrylist
 \glossaryentryfield{mp2}{\glsnamefont{MP02}}{Mesh Potato Version 2}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
-\glsXpageXglsnumberformat{}{8}}}\relax\glsresetentrylist
+\glsXpageXglsnumberformat{}{7}\delimN 
+\glsXpageXglsnumberformat{}{36}\delimN 
+\glsXpageXglsnumberformat{}{38}\delimN 
+\glsXpageXglsnumberformat{}{39}\delimN 
+\glsXpageXglsnumberformat{}{45}\delimN 
+\glsXpageXglsnumberformat{}{46}}}\relax\glsresetentrylist
 \glossaryentryfield{mr}{\glsnamefont{MRs}}{Mesh Routers}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
 \glsXpageXglsnumberformat{}{15}}}\glsgroupskip
@@ -136,7 +168,8 @@
 \glsXpageXglsnumberformat{}{xv}, 
 \glsXpageXglsnumberformat{}{10}}}\relax\glsresetentrylist
 \glossaryentryfield{ntnu}{\glsnamefont{NTNU}}{Norwegian University of Science and Technology}{\relax }{\glossaryentrynumbers{\relax 
-\glsXpageXglsnumberformat{}{xv}}}\glsgroupskip
+\glsXpageXglsnumberformat{}{xv}, 
+\glsXpageXglsnumberformat{}{5}}}\glsgroupskip
 \glsgroupheading{O}\relax\glsresetentrylist
 \glossaryentryfield{olsr}{\glsnamefont{OLSR}}{Optimized Link State Routing Protocol}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
@@ -144,7 +177,7 @@
 \glsgroupheading{P}\relax\glsresetentrylist
 \glossaryentryfield{p2p}{\glsnamefont{P2P}}{Peer-to-Peer}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
-\glsXpageXglsnumberformat{}{6}}}\relax\glsresetentrylist
+\glsXpageXglsnumberformat{}{7}}}\relax\glsresetentrylist
 \glossaryentryfield{plmn}{\glsnamefont{PLMN}}{Public Land Mobile Network}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
 \glsXpageXglsnumberformat{}{13}}}\relax\glsresetentrylist
@@ -156,18 +189,42 @@
 \glsXpageXglsnumberformat{}{13}}}\glsgroupskip
 \glsgroupheading{Q}\relax\glsresetentrylist
 \glossaryentryfield{quick}{\glsnamefont{QUICK}}{Quick User-friendly Internet-providing Communication Kit}{\relax }{\glossaryentrynumbers{\relax 
-\glsXpageXglsnumberformat{}{xv}}}\glsgroupskip
+\glsXpageXglsnumberformat{}{iv}\delimN 
+\glsXpageXglsnumberformat{}{xi}\delimN 
+\glsXpageXglsnumberformat{}{xv}, 
+\glsXpageXglsnumberformat{}{1}\delimR 
+\glsXpageXglsnumberformat{}{4}\delimN 
+\glsXpageXglsnumberformat{}{27}\delimN 
+\glsXpageXglsnumberformat{}{35}\delimN 
+\glsXpageXglsnumberformat{}{40}\delimN 
+\glsXpageXglsnumberformat{}{42}\delimN 
+\glsXpageXglsnumberformat{}{45}\delimR 
+\glsXpageXglsnumberformat{}{47}\delimN 
+\glsXpageXglsnumberformat{}{49}\delimN 
+\glsXpageXglsnumberformat{}{53}\delimN 
+\glsXpageXglsnumberformat{}{58}\delimN 
+\glsXpageXglsnumberformat{}{59}}}\glsgroupskip
 \glsgroupheading{S}\relax\glsresetentrylist
+\glossaryentryfield{secn}{\glsnamefont{SECN}}{Small Enterprise/Campus Network}{\relax }{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{xv}, 
+\glsXpageXglsnumberformat{}{35}\delimN 
+\glsXpageXglsnumberformat{}{36}\delimN 
+\glsXpageXglsnumberformat{}{38}\delimN 
+\glsXpageXglsnumberformat{}{42}}}\relax\glsresetentrylist
 \glossaryentryfield{sip}{\glsnamefont{SIP}}{Session Initiation Protocol}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
 \glsXpageXglsnumberformat{}{5}\delimN 
-\glsXpageXglsnumberformat{}{6}}}\relax\glsresetentrylist
+\glsXpageXglsnumberformat{}{6}\delimN 
+\glsXpageXglsnumberformat{}{39}}}\relax\glsresetentrylist
 \glossaryentryfield{spud}{\glsnamefont{SPUD}}{Simple Unified Dashboard}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
 \glsXpageXglsnumberformat{}{17}}}\relax\glsresetentrylist
 \glossaryentryfield{ssh}{\glsnamefont{SSH}}{Secure Shell}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
-\glsXpageXglsnumberformat{}{14}}}\glsgroupskip
+\glsXpageXglsnumberformat{}{14}}}\relax\glsresetentrylist
+\glossaryentryfield{ssid}{\glsnamefont{SSID}}{Service Set Identification}{\relax }{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{xv}, 
+\glsXpageXglsnumberformat{}{47}}}\glsgroupskip
 \glsgroupheading{T}\relax\glsresetentrylist
 \glossaryentryfield{ttl}{\glsnamefont{TTL}}{Time To Live}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
@@ -179,7 +236,8 @@
 \glsXpageXglsnumberformat{}{7}\delimN 
 \glsXpageXglsnumberformat{}{10}\delimN 
 \glsXpageXglsnumberformat{}{12}\delimN 
-\glsXpageXglsnumberformat{}{13}}}\relax\glsresetentrylist
+\glsXpageXglsnumberformat{}{13}\delimN 
+\glsXpageXglsnumberformat{}{39}}}\relax\glsresetentrylist
 \glossaryentryfield{vsat}{\glsnamefont{VSAT}}{Very Small Aperture Terminal}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
 \glsXpageXglsnumberformat{}{10}}}\glsgroupskip
