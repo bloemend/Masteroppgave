@@ -239,55 +239,6 @@ The \gls{mp2} is a lot smaller than the first generation, and a powerful solar p
 
 Our main focus was to get something that worked and that was safe, and we did not focus on aesthetics and appearance. This is therefore also an area where there are room for improvements. 
 
-
-\section{The Process of Quick Roll-Out}
-As mentioned, one of our areas of focus is the process of quick roll-out. There are many aspects that can be included in order to speed up the roll-out process and make it as easy as possible. We will now present some of our ideas to meet this requirement.
-
-\subsection{Script}
-A script is a list of commands that can be executed without user interaction, in other words, to automate a process. In order to connect the mesh network to Internet a list of commands have to be executed. One idea to speed up the process of setting up the network was to create a script to automate this process. One way to do this could be by creating a self-executable script that could be included in the \gls{quick} box on for example on an USB-stick. There would have to be a different script, and different USBs, for each up-link type. 
-
-We made a script that simplifies the process of getting Internet to a Mesh Potato via a PC (see section \ref{subsec:internetviaPC} for step-by-step description) with wireless Internet connection. This script can be found in Appendix \ref{chp:appendixD}. The PC was running Linux Ubuntu and had a wireless Internet connection. Some easy steps must be conducted to run the script:
-\begin{enumerate}
-\item Make sure the \gls{mp} is connected to the PC via Ethernet cable.
-\item In the terminal go to the directory where the script is located and enter the following command:
-\noindent
-\begin{lstlisting}[language=bash]
-  $ sudo su
-  $ sh scriptviaPC.sh
-\end{lstlisting}
-\end{enumerate}
-
-
-\subsection{With the MP02}
-The \gls{mp2} Basic does not have the option to connect to a phone. Hence the issue with telephone number distribution is irrelevant. Later in 2014 Village Telco will release a new version of the \gls{mp2}, \gls{mp2}-Phone. MP2-Phone will be identical to \gls{mp2} Basic, just with an \gls{fxs} daughterboard. With this new version the issue of number distribution appears. 
-
-The \gls{quick} box could be delivered with several \glspl{mp}, where each \gls{mp} is marked with the pre-configured IP address. Since it is not possible to connect a phone to the \gls{mp} there is no issue of number distribution. The box could for example contain 5 \glspl{mp}, where one would be connected to an up-link, while the other ones would be strategically placed in order to spread the Internet access further. 
-
-\subsubsection{Distributing Numbers}
-When a Village Telco is set up today, telephone numbers are distributed by updating a spreadsheet with name and number to the users. These spreadsheets are printed out and delivered to everyone. This is a system that might seem cumbersome, but serves its purpose. If new nodes are added to the network or any changes are made, new sheets have to be printed out and delivered to everyone. This way of spreading telephone numbers might be more difficult with the go-box. 
-
-One option is to continue with the number distribution approach in use today. The suitcase could contain 5 \glspl{mp}, all \glspl{mp} are marked with its unique \gls{ip} address. There will be attached a list with the \gls{ip} addresses of the other Mesh Potatoes in the suitcase. When setting up the network the names can easily be filled in on each Mesh Potato. This will then be the telephone list.  
-
-Another approach would be to integrate the distribution of phone number in the web interface. A new feature could be implemented in the interface. This feature would discover the other \glspl{mp} in range, also in range through other \glspl{mp}. All \glspl{mp} would be displayed with name of the \gls{ssid}, \gls{ip} address, where the last octet is the telephone number and the name of residence or user. This name could be edited by the master user or by the user themselves. Each \gls{mp} in the suitcase are pre-configured and set up, they are also set up with security and a password to enter the web interface. So in order for a user to enter the web interface they have to enter the password to get access. Once inside they can see other \glspl{mp} in range and also put in their name for the other \glspl{mp} to see. The password and security is set up so that no other than the main user of the \gls{mp} can change the name. 
-
-
-\subsection{Get Started - How to Use the Box}
-
-\input{gettingstarted}
-
-\subsection{How Connect the MP02 to Cabled Internet}
-\label{subsec:cabledInternet}
-\input{internetviaethernetcable}
-
-\subsection{How Connect the MP02 to Internet via PC Getting Wireless Internet from Landline or Cellular Network}
-\label{subsec:internetviaPC}
-\input{internetviapc}
- 
-\input{internetviacellular}
-
-\subsection{How Connect the MP02 to Satellite}
-\input{internetviasatellite}
-
  
 \section{Different Scenarios Where a Quick Roll-out is Necessary}
 Everyday there are situations all over the world that in some way affects the modern communications systems, or causes a need for one.  These situations can range from big natural disasters, like the tsunami in Japan, to temporary refugee camps and IDP camps. Also more festive situations can have use of the quick roll-out communication system, for example music festivals. 
