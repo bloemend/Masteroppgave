@@ -1,18 +1,18 @@
-\begin{figure}[b]
+\begin{figure}[h!]
   \centering
       \includegraphics[width=0.7\textwidth]{networkconnections.PNG}
   \caption [Network Connections on Linux Ubuntu]{\textbf{This figure shows the "vt-mesh" under Wireless Network Connections.}}
   \label{fig:networkconnections}
 \end{figure}
 
-\begin{figure}[b]
+\begin{figure}[h!]
   \centering
       \includegraphics[width=1\textwidth]{sendingdiscover.PNG}
   \caption [The results from executing "uchcpc -i br-lan".]{\textbf{This figure shows the allocation of lease after executing "uchcpc -i br-lan".}}
   \label{fig:sendingdiscover}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[h!]
         \centering
         \begin{subfigure}[t]{0.49\textwidth}
                 \includegraphics[width=\textwidth]{bssid.PNG}
@@ -31,7 +31,7 @@ The Mesh Potato is delivered preconfigured with IP address and name of the netwo
 
 
 \begin{enumerate}
-\item Make sure that you are connected to the \gls{mp} via WiFi on your PC. In order to do this perform the following steps:
+\item Do the following steps to connect the \gls{mp} via WiFi to the PC:
 \begin{enumerate}
 \item Press the WiFi symbol in the top right corner on your Linux Ubuntu home screen, and press "Edit Connections".
 \item  Under the tab "Wireless" choose the network called "vt-mesh" and press "Edit" like shown in \fref{fig:networkconnections}.
@@ -43,21 +43,22 @@ The Mesh Potato is delivered preconfigured with IP address and name of the netwo
 \item[] \textbf{Netmask:} 24
 \item[] \textbf{Gateway:} 10.130.1.1
 \end{description}
-\item Press "Save" and close the window. 
-\item Then choose "vt-mesh" from the list of networks available. The PC should then be connected to the MP via WiFi. 
+\item Press "Save" on the "Editing vt-mesh"-window, and then "Close" on the "Network Connections"-window. 
+\item Then choose "vt-mesh" from the list of available networks. This list is found after pressing the WiFi symbol in the top right corner on your screen. The PC should then be connected to the MP via WiFi. 
 \end{enumerate}
-\item Connect the MP (the LAN-port) to wired Internet (wall jack) with an Ethernet cable.
-\item Telnet into the \gls{mp}:
+\item Connect an Ethernet cable from the LAN-port on the MP to wired Internet (wall jack).
+\item Type the following commands to telnet into the \gls{mp}:
 \noindent
 \begin{lstlisting}[language=bash]
   $ sudo su
   $ telnet 10.10.1.20
 \end{lstlisting}
-\item Inside the MP, execute the following command:
+We highly recommend that you enhance the security on the \gls{mp} by enabling SSH instead of telnet. This has no impact on this set-up, and will not affect the ability to provide Internet to the network. Description on how to enable SSH is found in section \ref{subsubsec:ssh}.
+\item To verify that the previous command was executed correctly, a "picture" will appear in your terminal saying "Welcome to Village Telco". Then execute the following command to finish the set-up:
 \noindent
 \begin{lstlisting}[language=bash]
  $ udhcpc -i br-lan
 \end{lstlisting}
 \item A "Sending discover ..." appears, and a lease is obtained like shown in \fref{fig:sendingdiscover}. 
+\item After the lease is obtained, the \gls{mp} is provided with Internet access. You can test this by connecting to the \gls{mp} from for example your smart phone or a PC. The name of network and password is stated in the "Get Started - How to Use the Box"-document provided in the \gls{quick} box. 
 \end{enumerate}
-
