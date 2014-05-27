@@ -7,20 +7,7 @@ One area of focus has been the process of quick roll-out. There are many aspects
 \section{Scripting}
 A script is a list of commands that can be executed without user interaction, in other words, to automate a process. In order to connect the mesh network to Internet a list of commands have to be executed. One idea to speed up the process of setting up the network was to create a script to automate this process. This could be by creating a self-executable script that could be included in the \gls{quick} box, for example on an USB-stick. There would have to be a different script, and different USBs, for each up-link type. 
 
-<<<<<<< HEAD
-We made a script that simplifies the process of getting Internet to a Mesh Potato via a PC (see section \ref{subsec:internetviaPC} for step-by-step description). This script can be found in Appendix \ref{chp:appendixD}. The PC was running Linux Ubuntu and had a wireless Internet connection. Some easy steps must be conducted to run the script:
-\begin{enumerate}
-\item Make sure the \gls{mp} is connected to the PC via an Ethernet cable.
-\item In the terminal go to the directory where the script is located and enter the following command:
-\noindent
-\begin{lstlisting}[language=bash]
-  $ sudo su
-  $ sh scriptviaPC.sh
-\end{lstlisting}
-\end{enumerate}
-=======
 We made a script that simplifies the process of getting Internet to a Mesh Potato via a PC (see section \ref{subsec:internetviaPC} for step-by-step description). This script can be found in Appendix \ref{chp:appendixD}. 
->>>>>>> 394a3e9e85d5a24ca1633491e3211478ba59fab9
 
 \section{Distributing Numbers}
 The \gls{mp2} Basic does not have the option to connect to a phone. Hence the issue with telephone number distribution is irrelevant. Later in 2014 Village Telco will release a new version of the \gls{mp2}, \gls{mp2}-Phone. \gls{mp2}-Phone will be identical to \gls{mp2}-Basic, just with an \gls{fxs} daughterboard. With this new version the issue of number distribution appears. 
@@ -36,14 +23,14 @@ Another approach would be to integrate the distribution of phone number in the w
 
 \section{Manuals}
 The following section contains manuals describing how to get started with the \gls{quick} box, and how to connect it to different up-links in order to provide Internet to the network. All the manuals below will be laminated, and provided in the \gls{quick} box. 
-
+\clearpage
 \subsection{Get Started - How to Use the Box}
 \input{gettingstarted}
-
+\clearpage
 \subsection{How Connect the MP02 Directly to Cabled Internet}
 \label{subsec:cabledInternet}
 \input{internetviaethernetcable}
-
+\clearpage
 \subsection{How Connect the MP02 to Internet via PC Getting Wireless Internet from Landline or Cellular Network}
 \label{subsec:internetviaPC}
 
@@ -52,9 +39,10 @@ If you have a PC supporting wireless Internet, there are different ways of getti
 In order to perform this set up, a PC with Linux Ubuntu with wireless Internet, and a Mesh Potato 2.0 is required. The last octet (number) of the IP address of the MP, is the unique number for each MP. The Mesh Potato is pre-configured with an unique IP address which is stated on the MP. In the following example we use "x" as the last octet (the last number in the IP-address). When conducting this description please change the x with the last octet written on your MP.
 
 \input{internetviapc}
+\clearpage
 \input{scriptviapc}
  
-
+\clearpage
 \subsection{How Connect the MP02 to Satellite}
 \input{internetviasatellite}
 
