@@ -92,35 +92,22 @@
 \contentsline {subsection}{\numberline {4.3.4}Breakdown of Mobile Towers}{49}{subsection.4.3.4}
 \contentsline {chapter}{\chapternumberline {5}Roll-out of the QUICK Box}{51}{chapter.5}
 \contentsline {section}{\numberline {5.1}Scripting}{51}{section.5.1}
-<<<<<<< HEAD
 \contentsline {section}{\numberline {5.2}Distributing Numbers}{52}{section.5.2}
-\contentsline {section}{\numberline {5.3}Manuals}{52}{section.5.3}
+\contentsline {section}{\numberline {5.3}Manuals}{53}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}Get Started - How to Use the Box}{53}{subsection.5.3.1}
 \contentsline {subsection}{\numberline {5.3.2}How Connect the MP02 Directly to Cabled Internet}{54}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}How Connect the MP02 to Internet via PC Getting Wireless Internet from Landline or Cellular Network}{55}{subsection.5.3.3}
-\contentsline {subsection}{\numberline {5.3.4}How Connect the MP02 to Satellite}{58}{subsection.5.3.4}
-\contentsline {section}{\numberline {5.4}Training}{58}{section.5.4}
-\contentsline {section}{\numberline {5.5}How to Create a Network}{59}{section.5.5}
-\contentsline {subsubsection}{Placing the Mesh Potatoes}{59}{section*.59}
-\contentsline {subsubsection}{Have a stable power source}{59}{section*.60}
-\contentsline {subsubsection}{No stable power source}{59}{section*.61}
-\contentsline {chapter}{\chapternumberline {6}Discussion}{61}{chapter.6}
-\contentsline {chapter}{\chapternumberline {7}Conclusion}{65}{chapter.7}
-\contentsline {section}{\numberline {7.1}Future Work}{65}{section.7.1}
-\contentsline {chapter}{References}{67}{section*.63}
-=======
-\contentsline {section}{\numberline {5.2}Distributing Numbers}{51}{section.5.2}
-\contentsline {section}{\numberline {5.3}Manuals}{52}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Get Started - How to Use the Box}{52}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}How Connect the MP02 Directly to Cabled Internet}{53}{subsection.5.3.2}
 \contentsline {subsection}{\numberline {5.3.3}How Connect the MP02 to Internet via PC Getting Wireless Internet from Landline or Cellular Network}{56}{subsection.5.3.3}
 \contentsline {subsubsection}{Script providing Internet via PC}{58}{section*.60}
 \contentsline {subsection}{\numberline {5.3.4}How Connect the MP02 to Satellite}{59}{subsection.5.3.4}
+\contentsline {section}{\numberline {5.4}Training}{60}{section.5.4}
+\contentsline {section}{\numberline {5.5}How to Create a Network}{60}{section.5.5}
+\contentsline {subsubsection}{Placing the Mesh Potatoes}{60}{section*.61}
+\contentsline {subsubsection}{Have a stable power source}{60}{section*.62}
+\contentsline {subsubsection}{No stable power source}{60}{section*.63}
 \contentsline {chapter}{\chapternumberline {6}Discussion}{61}{chapter.6}
 \contentsline {chapter}{\chapternumberline {7}Conclusion}{65}{chapter.7}
 \contentsline {section}{\numberline {7.1}Future Work}{65}{section.7.1}
-\contentsline {chapter}{References}{67}{section*.62}
->>>>>>> 394a3e9e85d5a24ca1633491e3211478ba59fab9
+\contentsline {chapter}{References}{67}{section*.65}
  \vspace {1em} \noindent \bfseries Appendices\par \vspace {-.5em} 
 \contentsline {appendix}{\chapternumberline {A}Interview with Care}{73}{appendix.A}
 \contentsline {appendix}{\chapternumberline {B}Script for Internet via PC}{77}{appendix.B}
