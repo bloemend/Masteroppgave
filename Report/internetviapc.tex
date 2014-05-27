@@ -1,6 +1,4 @@
-If you have a PC supporting wireless Internet, there are different ways of getting wireless Internet to it. You can get WiFi on your PC from a router with landline connection, or the PC can establish a wireless connection to a access point for example in form of a cell phone. The cell phone may have a cellular network available. On most new smart phones, you can set your phone to act as an access point (AP), so that other devices can connect to it and get Internet. You can off course connect directly to this AP, but then the MP does not get Internet, and can not spread it further on to several neighbour MPs. The following set-up works for both types; either if you connect to a regular wireless router that gets Internet from for instance xDSL or if you connect to a AP that have a cellular network (3G, 4G) available. 
 
-In order to perform this set up, a PC with Linux Ubuntu with wireless Internet, and a Mesh Potato 2.0 is required. The last octet of the IP address of the MP, is the unique number for each MP. The Mesh Potato is pre-configured with an unique IP address which is stated on the MP. In the following example we use "x" as the last octet. When conducting this description please change the x with the last octet written on your MP.
 
 \begin{enumerate}
 \item Connect the MP to the PC, running Linux Ubuntu, with an Ethernet cable. The Ethernet cable must be put into the LAN-port on the MP. 
@@ -14,7 +12,7 @@ In order to perform this set up, a PC with Linux Ubuntu with wireless Internet, 
  $ apt-get install dnsmasq
 \end{lstlisting}
 
-\item The Mesh Potato will be pre-configured and the IP address 192.168.1.x. In in order to access the MP, the PC must be on the same subnet. To do this write in the terminal: 
+\item The Mesh Potato will be pre-configured and the IP address 192.168.1.x. In in order to access the MP, the PC must be on the same subnet. If the PC has only one Ethernet port, this is most likely called eth0. If the PC has two or more Ethernet ports, make sure to change from eth0 to the correct port-name in the following command. Execute the following command to enter the PC into the same subnet as the MP: 
 \noindent
 \begin{lstlisting}[language=bash]
   $ ifconfig eth0 up 192.168.1.2
@@ -22,12 +20,13 @@ In order to perform this set up, a PC with Linux Ubuntu with wireless Internet, 
 
 \item Open a browser on your PC and type in "192.168.1.x" in the URL field. The SECN Web Interface should now appear. This assures you that you have contact with the Mesh Potato. Changes in the interface will be described further down, so do not close this window.  
 
-\item Go back to the terminal and write the following commands in order to set up the ip tables correctly. You might have to change the "eth0" and "eth1", depending on how your laptop is set up. The eth0 in the following commands is equivalent to the interface of the Ethernet port connected to the MP, while the eth1 is the interface to the wireless network. 
+\item Go back to the terminal and write the following commands in order to set up the ip tables correctly. You might have to change the "eth0" and "eth1", depending on how your laptop is set up. If there is only one Ethernet port on the PC, the interface connected to the MP is \textbf{eth0}. (If there are two or more, make sure to use the right port. In order to find out which port the MP is connected to, execute the command "ifconfig" in the terminal. The port in use will have a "inet addr" stated.) The wireless interface on a Linux PC is usually called \textbf{wlan0}. Execute the following commands: 
 \noindent
 \begin{lstlisting}[language=bash]
   $ iptables --table nat --append POSTROUTING --out-interface
-   eth1 -j MASQUERADE
-  $ iptables --append FORWARD --in-interface eth0 -j ACCEPT
+   <WIRELESS INTERFACE> -j MASQUERADE
+  $ iptables --append FORWARD --in-interface <INTERFACE 
+  CONNECTED TO MP> -j ACCEPT
   $ echo 1 > /proc/sys/net/ipv4/ip_forward
 \end{lstlisting} 
 \begin{itemize}
@@ -40,13 +39,15 @@ In order to perform this set up, a PC with Linux Ubuntu with wireless Internet, 
 \end{lstlisting}
 \end{itemize}  
 
-\item Telnet into the \gls{mp} and configure the default gateway by entering the following commands
+\item Telnet into the \gls{mp} and configure the default gateway by entering the following commands: (Note that the output of the command "route del default" may display "SIOCDELRT: No such process". This is because the MP does not have a default gateway. Ignore this notification.)
 \begin{lstlisting}[language=bash]
   $ telnet 192.168.1.x
   $ route 
   $ route del default 
   $ route add default gateway 192.168.1.2
 \end{lstlisting} 
+
+We highly recommend that you enhance the security on the \gls{mp} by enabling SSH instead of telnet. This has no impact on this set-up, and will not affect the ability to provide Internet to the network. Description on how to enable SSH is found in section \ref{subsubsec:ssh}.
 
 \item Go back to the web interface and click on the "Advanced"-tab at the top of the page. Change the following parameters under "DHCP Server":
 \begin{itemize}
@@ -56,5 +57,5 @@ In order to perform this set up, a PC with Linux Ubuntu with wireless Internet, 
 \item Press "Save" at the bottom of the page. 
 \end{itemize}
 
-\item Internet should now be available in the mesh network. A device can connect to the network with the SSID (name of network) stated on the emergency box. This SSID is also stated in the web interface under "WiFi Access Point".  
+\item Internet should now be available in the mesh network. A device can connect to the network with the Station ID (\gls{ssid}, name of network) in the "Get Started - How to Use the Box"-document. This SSID is also stated in the web interface under "WiFi Access Point". You can test this by connecting to the \gls{mp} from for example your smart phone or a PC.
 \end{enumerate}

@@ -1,0 +1,22 @@
+\subsubsection{Script providing Internet via PC}
+
+An alternative, and easier method in order to provide Internet to the \gls{mp} via a PC with WiFi is running a script. This script is provided on a USB-stick that is included in the \gls{quick} box. 
+
+Some easy steps must be conducted to run the script:
+\begin{enumerate}
+\item Connect the MP to the PC, running Linux, with an Ethernet cable. The Ethernet cable must be plugged into the LAN-port on the MP. 
+\item Open the terminal on your PC. Click on "Dash Home" (the icon in the top left corner). Then type in "terminal" and press enter. 
+\item Execute the following commands to enter the right directory (where the script is located):
+\noindent
+\begin{lstlisting}[language=bash]
+  $ sudo su
+  $	cd /media/MP-USB
+  $ sh scriptviaPC.sh
+\end{lstlisting}
+\item Execute the following command to run the script (Follow the descriptions provided in the script from now on. This information will both be given in the terminal window and as pop-up windows. Make sure you read these carefully):
+\noindent
+\begin{lstlisting}[language=bash]
+  $ sh scriptviaPC.sh
+\end{lstlisting}
+\item Internet should now be available in the mesh network. A device can connect to the network with the Station ID (\gls{ssid}, name of network) in the "Get Started - How to Use the Box"-document. This SSID is also stated in the web interface under "WiFi Access Point". You can test this by connecting to the \gls{mp} from for example your smart phone or a PC.
+\end{enumerate}
