@@ -1,29 +1,7 @@
 ;; This logfile was generated automatically by `xindy'
-;; at 27.05.2014  11:15:07
-;; Indexstyle: "main.xdy", Rawindex: "C:\\Users\\IDAMAL~1\\AppData\\Local\\Temp\\zW9NNk6Nj4", Output: "main.gls"
+;; at 27.05.2014  11:29:29
+;; Indexstyle: "main.xdy", Rawindex: "C:\\Users\\Esther\\AppData\\Local\\Temp\\UfIfuxSj7M", Output: "main.gls"
 
-ERROR: "A" does not name a letter group in
-(DEFINE-LETTER-GROUP "glsnumbers" :PREFIXES
- ("0" "1" "2" "3" "4" "5" "6" "7" "8" "9") :BEFORE "A")
-
-*** Unable to execute: 'xindy    -I xindy -M "main" -t "main.glg" -o "main.gls" "main.glo"' ***
-
-Status report:
-
-Opening logfile "main.glg" (done)
-Reading indexstyle...
-Loading module "main.xdy"...
-Loading module "tex.xdy"...
-Finished loading module "tex.xdy".
-
-Error in line 426:
-
-
-; additional letter groups
-
-(define-letter-group "glsnumbers"
-   :prefixes ("0" "1" "2" "3" "4" "5" "6" "7" "8" "9")
-   :before "A")
 ERROR: "A" does not name a letter group in
 (DEFINE-LETTER-GROUP "glsnumbers" :PREFIXES
  ("0" "1" "2" "3" "4" "5" "6" "7" "8" "9") :BEFORE "A")
