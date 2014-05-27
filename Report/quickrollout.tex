@@ -25,6 +25,31 @@ Configuring a Mesh Potato is the process of allocating an unique \gls{ip}-addres
 
 \subsubsection{Change from telnet to SSH}
 \label{subsubsec:ssh}
+In order to be able to remotely configure the MP from a PC, telnet or SSH i used. Telnet is the default option, but SSH is a far more secure option and is highly recommended. In order to enable SSH, some steps must be conducted in the terminal:
+\begin{enumerate}
+\item Install SSH by entering the following command:
+\noindent
+\begin{lstlisting}[language=bash]
+	$ apt-get install ssh
+\end{lstlisting}
+\item Execute the following command to telnet into the MP:
+\noindent
+\begin{lstlisting}[language=bash]
+	$ sudo su
+	$ telnet <IP-address of the MP>
+\end{lstlisting}
+\item The following command will enable SSH, and ask you to choose a password for SSH. You will be asked to enter this password two times:
+\noindent
+\begin{lstlisting}[language=bash]
+	$ passwd
+\end{lstlisting}
+\item SSH is now enabled. The next time you enter the MP SSH must be used. To SSH into the MP enter the following command:
+\noindent
+\begin{lstlisting}[language=bash]
+	$ ssh root@<IP-address of the MP>
+\end{lstlisting}
+\end{enumerate}
+
 
 \subsection{Upgrading the Mesh Potato}
 \label{subsec:upgrading}
