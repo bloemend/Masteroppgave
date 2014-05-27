@@ -1,7 +1,7 @@
 \chapter{Script for Internet via PC}
 \label{chp:appendixD} 
 
-This appendix contains the script (scriptviaPC.sh) we made and ran to get Internet via a PC to the Mesh Potato.  
+This appendix contains the script (scriptviaPC.sh) we made and tested to get Internet via a PC to the Mesh Potato.  
 
 \begin{framed}
 \noindent
@@ -59,15 +59,16 @@ xdg-open http://192.168.1.$var1  &
 
 zenity --info --text 'The web interface did now open in 
 the browser. In the interface click on the "Advanced" 
-tab at the top of the page. Change the following 
-parameters under "DCHC Server": 
-(1) Tick the box "Enable DHCP Server", 
-(2) Remove the tick from "Use device IP", 
+tab at the top of the page. 
+Change the following parameters under "DCHC Server": 
+(1) Tick the box "Enable DHCP Server"
+(2) Remove the tick from "Use device IP"
 (3) Change the address in "Gateway Router" to "192.168.1.2"
-, and (4) Press "Save" at the bottom of the page. 
+(4) Press "Save" at the bottom of the page. 
+
 After the page is refreshed, there should be 
 Internet on the Mesh Potato. The login information 
-is stated in the 
+can be found in the 
 "Get Started - How to Use the Box"-document.'
 
 \end{lstlisting}
