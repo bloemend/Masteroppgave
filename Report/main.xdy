@@ -1,5 +1,13 @@
 ;; xindy style file created by the glossaries package
+<<<<<<< HEAD
 ;; for document 'main' on 2014-5-27
+=======
+<<<<<<< HEAD
+;; for document 'main' on 2014-5-27
+=======
+;; for document 'main' on 2014-5-26
+>>>>>>> 394a3e9e85d5a24ca1633491e3211478ba59fab9
+>>>>>>> bcfd0c79a9cbb275c64335e004544b0eb41fab7b
 
 ; required styles
 
