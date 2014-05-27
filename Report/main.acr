@@ -143,19 +143,12 @@
 \glsXpageXglsnumberformat{}{44}\delimN 
 \glsXpageXglsnumberformat{}{51}\delimN 
 \glsXpageXglsnumberformat{}{52}\delimN 
-\glsXpageXglsnumberformat{}{54}\delimN 
-\glsXpageXglsnumberformat{}{55}\delimN 
-<<<<<<< HEAD
-\glsXpageXglsnumberformat{}{57}\delimR 
-\glsXpageXglsnumberformat{}{59}\delimN 
-\glsXpageXglsnumberformat{}{62}\delimN 
-\glsXpageXglsnumberformat{}{63}}}\relax\glsresetentrylist
-=======
-\glsXpageXglsnumberformat{}{57}\delimN 
+\glsXpageXglsnumberformat{}{56}\delimR 
 \glsXpageXglsnumberformat{}{58}\delimN 
-\glsXpageXglsnumberformat{}{60}\delimN 
-\glsXpageXglsnumberformat{}{61}}}\relax\glsresetentrylist
->>>>>>> 394a3e9e85d5a24ca1633491e3211478ba59fab9
+\glsXpageXglsnumberformat{}{60}\delimR 
+\glsXpageXglsnumberformat{}{64}\delimN 
+\glsXpageXglsnumberformat{}{66}\delimN 
+\glsXpageXglsnumberformat{}{67}}}\relax\glsresetentrylist
 \glossaryentryfield{mp1}{\glsnamefont{MP01}}{Mesh Potato Version 1}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
 \glsXpageXglsnumberformat{}{36}\delimN 
@@ -163,11 +156,7 @@
 \glsXpageXglsnumberformat{}{39}\delimN 
 \glsXpageXglsnumberformat{}{41}\delimN 
 \glsXpageXglsnumberformat{}{45}\delimN 
-<<<<<<< HEAD
-\glsXpageXglsnumberformat{}{62}}}\relax\glsresetentrylist
-=======
-\glsXpageXglsnumberformat{}{60}}}\relax\glsresetentrylist
->>>>>>> 394a3e9e85d5a24ca1633491e3211478ba59fab9
+\glsXpageXglsnumberformat{}{66}}}\relax\glsresetentrylist
 \glossaryentryfield{mp2}{\glsnamefont{MP02}}{Mesh Potato Version 2}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
 \glsXpageXglsnumberformat{}{7}\delimN 
@@ -176,15 +165,9 @@
 \glsXpageXglsnumberformat{}{39}\delimN 
 \glsXpageXglsnumberformat{}{45}\delimN 
 \glsXpageXglsnumberformat{}{52}\delimN 
-<<<<<<< HEAD
-\glsXpageXglsnumberformat{}{54}\delimN 
-\glsXpageXglsnumberformat{}{62}\delimN 
-\glsXpageXglsnumberformat{}{63}}}\relax\glsresetentrylist
-=======
-\glsXpageXglsnumberformat{}{53}\delimN 
-\glsXpageXglsnumberformat{}{60}\delimN 
-\glsXpageXglsnumberformat{}{61}}}\relax\glsresetentrylist
->>>>>>> 394a3e9e85d5a24ca1633491e3211478ba59fab9
+\glsXpageXglsnumberformat{}{55}\delimN 
+\glsXpageXglsnumberformat{}{66}\delimN 
+\glsXpageXglsnumberformat{}{67}}}\relax\glsresetentrylist
 \glossaryentryfield{mr}{\glsnamefont{MRs}}{Mesh Routers}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
 \glsXpageXglsnumberformat{}{15}}}\glsgroupskip
@@ -227,17 +210,13 @@
 \glsXpageXglsnumberformat{}{47}\delimN 
 \glsXpageXglsnumberformat{}{51}\delimR 
 \glsXpageXglsnumberformat{}{54}\delimN 
-<<<<<<< HEAD
+\glsXpageXglsnumberformat{}{56}\delimN 
 \glsXpageXglsnumberformat{}{58}\delimN 
-\glsXpageXglsnumberformat{}{59}\delimN 
-\glsXpageXglsnumberformat{}{62}\delimN 
-\glsXpageXglsnumberformat{}{63}\delimN 
-\glsXpageXglsnumberformat{}{65}}}\glsgroupskip
-=======
-\glsXpageXglsnumberformat{}{60}\delimN 
-\glsXpageXglsnumberformat{}{61}\delimN 
-\glsXpageXglsnumberformat{}{63}}}\glsgroupskip
->>>>>>> 394a3e9e85d5a24ca1633491e3211478ba59fab9
+\glsXpageXglsnumberformat{}{62}\delimR 
+\glsXpageXglsnumberformat{}{64}\delimN 
+\glsXpageXglsnumberformat{}{66}\delimN 
+\glsXpageXglsnumberformat{}{67}\delimN 
+\glsXpageXglsnumberformat{}{69}}}\glsgroupskip
 \glsgroupheading{S}\relax\glsresetentrylist
 \glossaryentryfield{secn}{\glsnamefont{SECN}}{Small Enterprise/Campus Network}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
@@ -245,11 +224,7 @@
 \glsXpageXglsnumberformat{}{36}\delimN 
 \glsXpageXglsnumberformat{}{38}\delimN 
 \glsXpageXglsnumberformat{}{42}\delimN 
-<<<<<<< HEAD
-\glsXpageXglsnumberformat{}{62}}}\relax\glsresetentrylist
-=======
-\glsXpageXglsnumberformat{}{60}}}\relax\glsresetentrylist
->>>>>>> 394a3e9e85d5a24ca1633491e3211478ba59fab9
+\glsXpageXglsnumberformat{}{66}}}\relax\glsresetentrylist
 \glossaryentryfield{sip}{\glsnamefont{SIP}}{Session Initiation Protocol}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
 \glsXpageXglsnumberformat{}{5}\delimN 
@@ -263,7 +238,9 @@
 \glsXpageXglsnumberformat{}{14}}}\relax\glsresetentrylist
 \glossaryentryfield{ssid}{\glsnamefont{SSID}}{Service Set Identification}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
-\glsXpageXglsnumberformat{}{52}}}\glsgroupskip
+\glsXpageXglsnumberformat{}{52}\delimN 
+\glsXpageXglsnumberformat{}{61}\delimN 
+\glsXpageXglsnumberformat{}{62}}}\glsgroupskip
 \glsgroupheading{T}\relax\glsresetentrylist
 \glossaryentryfield{ttl}{\glsnamefont{TTL}}{Time To Live}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xv}, 
