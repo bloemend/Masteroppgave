@@ -3,7 +3,7 @@
 \begin{enumerate}
 \item Connect the MP to the PC, running Linux Ubuntu, with an Ethernet cable. The Ethernet cable must be put into the LAN-port on the MP. 
 
-\item Open Linux terminal and install telnet, dns and iptables by entering the following commands: 
+\item Open Linux terminal by pressing "Ctrl+Alt+t" and install telnet, dns and iptables by entering the following commands: 
 \noindent
 \begin{lstlisting}[language=bash]
  $ sudo su
@@ -13,15 +13,24 @@
  $ apt-get install iptables
 \end{lstlisting}
 
-\item The Mesh Potato will be pre-configured and the IP address 192.168.1.x. In in order to access the MP, the PC must be on the same subnet. If the PC has only one Ethernet port, this is most likely called eth0. If the PC has two or more Ethernet ports, make sure to change from eth0 to the correct port-name in the following command. Execute the following command to enter the PC into the same subnet as the MP: 
+\item The Mesh Potato will be pre-configured with the IP address 192.168.1.x. In order to access the MP, the PC must be on the same subnet. If the PC has only one Ethernet port, this is most likely called eth0. If the PC has two or more Ethernet ports, make sure to change from eth0 to the correct port-name in the following command. Execute the following command to enter the PC into the same subnet as the MP: 
 \noindent
 \begin{lstlisting}[language=bash]
   $ ifconfig eth0 up 192.168.1.2
 \end{lstlisting}
 
-\item Open a browser on your PC and type in "192.168.1.x" in the URL field. The SECN Web Interface should now appear. This assures you that you have contact with the Mesh Potato. Changes in the interface will be described further down, so do not close this window.  
+\item Open a browser on your PC and type in "192.168.1.x" in the URL field. Remember that x is equal to the last number of the IP-address stated on the MP. The SECN Web Interface should now appear. This assures you that you have contact with the Mesh Potato. Changes in the interface will be described further down, so do not close this window.  
 
-\item Go back to the terminal and write the following commands in order to set up the ip tables correctly. You might have to change the "eth0" and "eth1", depending on how your laptop is set up. If there is only one Ethernet port on the PC, the interface connected to the MP is \textbf{eth0}. (If there are two or more, make sure to use the right port. In order to find out which port the MP is connected to, execute the command "ifconfig" in the terminal. The port in use will have a "inet addr" stated.) The wireless interface on a Linux PC is usually called \textbf{wlan0}. Execute the following commands: 
+\item  
+If there is only one Ethernet port on the PC:
+\begin{itemize} 
+\item [] \textbf{<WIRELESS INTERFACE> = wlan0}
+\item [] \textbf{<INTERFACE CONNECTED TO MP> = eth0}
+\end{itemize}
+
+(This is not common, since most laptops only have one Ethernet port, but if there are two or more Ethernet ports on the PC, make sure to use the right ports in the following commands. In order to find out which ports are in use, execute the command "ifconfig" in the terminal. The ports in use will have a "inet addr" stated.) 
+
+Go to the terminal and write the following commands in order to set up the ip tables correctly:
 \noindent
 \begin{lstlisting}[language=bash]
   $ iptables --table nat --append POSTROUTING --out-interface
@@ -40,7 +49,7 @@
 \end{lstlisting}
 \end{itemize}  
 
-\item Telnet into the \gls{mp} and configure the default gateway by entering the following commands: (Note that the output of the command "route del default" may display "SIOCDELRT: No such process". This is because the MP does not have a default gateway. Ignore this notification.)
+\item Execute the following commands to telnet into the \gls{mp} and configure the default gateway: (Note that the output of the command "route del default" may display "SIOCDELRT: No such process". This is because the MP does not have a default gateway. Ignore this notification.) Remember that x is equal to the last number of the IP-address stated on the MP.
 \begin{lstlisting}[language=bash]
   $ telnet 192.168.1.x
   $ route 
@@ -58,5 +67,10 @@ We highly recommend that you enhance the security on the \gls{mp} by enabling SS
 \item Press "Save" at the bottom of the page. 
 \end{itemize}
 
-\item Internet should now be available in the mesh network. A device can connect to the network with the Station ID (\gls{ssid}, name of network) in the "Get Started - How to Use the Box"-document. This SSID is also stated in the web interface under "WiFi Access Point". You can test this by connecting to the \gls{mp} from for example your smart phone or a PC.
+\item Internet should now be available in the mesh network. You can test this by connecting to the \gls{mp} from, for example, your smart phone or a PC. 
+\begin{itemize}
+\item The name of the network: \textbf{MP2_21}
+\item The password is: \textbf{potato-potato}
+\end{itemize}
+Both the name and the password can be changed in the web interface. 
 \end{enumerate}

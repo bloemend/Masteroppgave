@@ -1,4 +1,4 @@
-One way to get Internet is by connecting the \gls{mp} with an Ethernet cable to the jack port in the wall. The Mesh Potato is delivered preconfigured with IP address and name of the network (SSID) stated in the \gls{quick} box. \fref{fig:oppsettfraveggen} illustrates how the components are connected together in the following manual. The figure is provided to help the user get a better understanding of the network.  
+One way to get Internet is by connecting the \gls{mp} with an Ethernet cable to the jack port in the wall. The Mesh Potato is delivered pre-configured, with IP address and name of the network (SSID) stated on the "Get Started - How to Use the Box"-document in the \gls{quick} box. \fref{fig:oppsettfraveggen} illustrates how the components are connected together in the following manual. The figure is provided to help the user get a better understanding of the network.  
 
 \begin{figure}[h!]
   \centering
@@ -10,7 +10,7 @@ One way to get Internet is by connecting the \gls{mp} with an Ethernet cable to 
 
 
 \begin{enumerate}
-\item Do the following steps to connect the \gls{mp} via WiFi to the PC:
+\item Do the following steps to connect the PC via WiFi to the \gls{mp}:
 \begin{enumerate}
 \item Press the WiFi symbol in the top right corner on your Linux Ubuntu home screen, and press "Edit Connections".
 \item  Under the tab "Wireless" choose the network called "vt-mesh" and press "Edit" like shown in \fref{fig:networkconnections}.
@@ -22,7 +22,7 @@ One way to get Internet is by connecting the \gls{mp} with an Ethernet cable to 
 \end{figure}
 
 \item In the field BSSID enter "02:CA:FF:EE:BA:BE", like shown in \fref{fig:bssid}.
-\item Under the tab "\gls{ipv4} Settings" choose "Manual" under the Method drop-down menu, like shown in \fref{fig:ipv4settings}. 
+\item Under the tab "IPv4 Settings" choose "Manual" in the "Method" drop-down menu, like shown in \fref{fig:ipv4settings}. 
 \item Then press "Add" on the same page. Enter the following parameters, like shown in \fref{fig:ipv4settings}:
 \begin{description}
 \item[] \textbf{Address:} 10.10.1.245
@@ -45,7 +45,7 @@ One way to get Internet is by connecting the \gls{mp} with an Ethernet cable to 
 \item Then choose "vt-mesh" from the list of available networks. This list is found after pressing the WiFi symbol in the top right corner on your screen. The PC should then be connected to the MP via WiFi. 
 \end{enumerate}
 \item Connect an Ethernet cable from the LAN-port on the MP to wired Internet (wall jack).
-\item Type the following commands to telnet into the \gls{mp}:
+\item Open the terminal windows on the PC by pressing "Ctrl+Alt+t" and type in the following commands to telnet into the \gls{mp}:
 \noindent
 \begin{lstlisting}[language=bash]
   $ sudo su
@@ -64,5 +64,10 @@ We highly recommend that you enhance the security on the \gls{mp} by enabling SS
   \caption [The results from executing "uchcpc -i br-lan".]{\textbf{This figure shows the allocation of lease after executing "uchcpc -i br-lan".}}
   \label{fig:sendingdiscover}
 \end{figure}
-\item After the lease is obtained, the \gls{mp} is provided with Internet access. You can test this by connecting to the \gls{mp} from for example your smart phone or a PC. The name of network and password is stated in the "Get Started - How to Use the Box"-document provided in the \gls{quick} box. 
+\item After the lease is obtained, the \gls{mp} is provided with Internet access. You can test this by connecting to the \gls{mp} from, for example, your smart phone or a PC. 
+\begin{itemize}
+\item The name of the network: \textbf{MP2_21}
+\item The password is: \textbf{potato-potato}
+\end{itemize}
+Both the name and the password can be changed in the web interface. 
 \end{enumerate}

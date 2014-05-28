@@ -5,18 +5,18 @@ One area of focus has been the process of quick roll-out. There are many aspects
 
 
 \section{Scripting}
-A script is a list of commands that can be executed without user interaction, in other words, to automate a process. In order to connect the mesh network to Internet a list of commands have to be executed. One idea to speed up the process of setting up the network was to create a script to automate this process. This could be by creating a self-executable script that could be included in the \gls{quick} box, for example on an USB-stick. There would have to be a different script, and different USBs, for each up-link type. 
+A script is a list of commands that can be executed without user interaction, in other words, to automate a process. In order to connect the mesh network to Internet a list of commands have to be executed. One idea to speed up the process of setting up the network is to create a script to automate this process. In the \gls{quick} box a USB-stick with a script for getting Internet via PC is included. This script requires some user interaction, and is not self-executing since the user have to start the script, and among other things enter some variables. There are room for improvements on this area. The script could be completely self-executable (not dependent on any user interaction). Addition scripts could also be included for other types of up-links. 
 
-We made a script that simplifies the process of getting Internet to a Mesh Potato via a PC (see section \ref{subsec:internetviaPC} for step-by-step description). This script can be found in Appendix \ref{chp:appendixD}. 
+As mentioned, we have made a script that simplifies the process of getting Internet to a Mesh Potato via a PC (see section \ref{subsec:internetviaPC} for step-by-step description). The script can be found in Appendix \ref{chp:appendixD}. 
 
 \section{Distributing Numbers}
-The \gls{mp2} Basic does not have the option to connect to a phone. Hence the issue with telephone number distribution is irrelevant. Later in 2014 Village Telco will release a new version of the \gls{mp2}, \gls{mp2}-Phone. \gls{mp2}-Phone will be identical to \gls{mp2}-Basic, just with an \gls{fxs} daughterboard. With this new version the issue of number distribution appears. 
+The \gls{mp2} Basic does not have ability to connect to a phone. Hence the issue with telephone number distribution is irrelevant. During 2014 Village Telco will release a new version of the \gls{mp2}, \gls{mp2}-Phone. \gls{mp2}-Phone will be identical to \gls{mp2}-Basic, just with an \gls{fxs} daughter board. With the \gls{mp2}-Phone the issue with number distribution is no longer irrelevant. 
 
-When a Village Telco is set up today, telephone numbers are distributed by updating a spreadsheet with name and number to the different users. These spreadsheets are printed out and delivered to everyone in the network. This is a system that might seem cumbersome, but serves its purpose. If new nodes are added to the network or any changes are made, new sheets have to be printed out and delivered to everyone. This way of spreading telephone numbers might be more difficult with the \gls{quick} box. Even though the numbers are predefined, it is not set who is using the phones.  
+When a Village Telco is set up today, telephone numbers are distributed by updating a spreadsheet with name and number of the different users. These spreadsheets are printed out and delivered to everyone in need of it. This is a system that might seem cumbersome, but it serves its purpose. If new nodes are added to the network or any changes are made, new sheets have to be printed out and delivered to everyone. This way of spreading telephone numbers might be more difficult with the \gls{quick} box. Even though the numbers are predefined, it is not set who is using the phones.  
 
-One option is to continue with the number distribution approach in use today. The suitcase could contain 5 \glspl{mp2}, all \glspl{mp2} are marked with its unique \gls{ip} address. There will be attached a list with the \gls{ip} addresses of the other Mesh Potatoes in the suitcase. When setting up the network the names can easily be filled in on each \gls{mp2}. This will then be the telephone list. When moving parts, or the whole, network, new lists have to be made. 
+One option is to continue with the number distribution approach in use today. The suitcase could contain 5 \glspl{mp2}. All \glspl{mp2} are marked with its unique \gls{ip}-address. There will be attached a list with the \gls{ip}-addresses of the other Mesh Potatoes in the suitcase. When setting up the network the names can easily be filled in on each \gls{mp2}. This will then be the telephone list. When moving parts, or the whole, network, new lists have to be made. 
 
-Another approach would be to integrate the distribution of phone number in the web interface. A new feature could be implemented in the interface. This feature would discover the other \glspl{mp} in range, also in range through other \glspl{mp}. All \glspl{mp} would be displayed with name of the \gls{ssid}, \gls{ip} address, where the last octet is the telephone number and the name of the residence or user. This name could be edited by the master user or by the user themselves. Each \gls{mp} in the suitcase are pre-configured and set up, in this case they also have to be set up with security and a password to enter the web interface. In order for a user to enter the web interface they have to enter the password to get access. This secures that only that user have access to the web interface of that \gls{mp} and that no other can change the different values. Once inside they can see other \glspl{mp} in range and also put in their name for the other \glspl{mp} to see. 
+Another approach would be to integrate the distribution of phone numbers as a new feature in the web interface. This feature would discover the other \glspl{mp} in range, also in range through other \glspl{mp}. All \glspl{mp} would be displayed with name of the \gls{ssid}, \gls{ip}-address, where the last octet is the telephone number, and the name of the residence or user. This name could be edited by the master user or by the user themselves. Each \gls{mp} in the suitcase are pre-configured and set up, in this case they also have to be set up with security and a password to enter the web interface. In order for a user to enter the web interface they have to enter the password to get access. This ensures that only the specific user has access to the web interface of the given \gls{mp}. Inside the web interface the user can see other \glspl{mp} in range and also put in their name for the other users/\glspl{mp} to see. 
 
 
 %The \gls{quick} box could be delivered with several \glspl{mp}, where each \gls{mp} is marked with the pre-configured IP address. Since it is not possible to connect a phone to the \gls{mp2} there is no issue of number distribution. The box could for example contain 5 \glspl{mp}, where one would be connected to an up-link, while the other ones would be strategically placed in order to spread the Internet access further. 
@@ -27,16 +27,16 @@ The following section contains manuals describing how to get started with the \g
 \subsection{Get Started - How to Use the Box}
 \input{gettingstarted}
 \clearpage
-\subsection{How Connect the MP02 Directly to Cabled Internet}
+\subsection{Manual for Connecting the MP02 Directly to Cabled Internet}
 \label{subsec:cabledInternet}
 \input{internetviaethernetcable}
 \clearpage
-\subsection{How Connect the MP02 to Internet via PC Getting Wireless Internet from Landline or Cellular Network}
+\subsection{Manual for Connecting the MP02 to Internet via PC Getting Wireless Internet from Landline or Cellular Network}
 \label{subsec:internetviaPC}
 
-If you have a PC supporting wireless Internet, there are different ways of getting wireless Internet to it. You can get WiFi on your PC from a router with landline connection, or the PC can establish a wireless connection to a access point for example in form of a cell phone. The cell phone may have a cellular network available. On most new smart phones, you can set your phone to act as an access point (AP), so that other devices can connect to it and get Internet. You can off course connect directly to this AP, but then the MP does not get Internet, and can not spread it further on to several neighbour MPs. The following set-up works for both types; either if you connect to a regular wireless router that gets Internet from for instance xDSL or if you connect to a AP that have a cellular network (3G, 4G) available. 
+If you have a PC supporting wireless Internet, there are different ways of getting wireless Internet to it. You can get WiFi on your PC from a router with landline connection, or the PC can establish a wireless connection to an access point, for example in form of a cell phone. The cell phone may have a cellular network available. On most new smart phones, you can set your phone to act as an access point (AP), so that other devices can connect to it and get Internet. You can of course connect directly to this AP, but then the MP does not get Internet, and can not spread it further on to several neighbour MPs. The following set-up works for both types; either if you connect to a regular wireless router that gets Internet from for instance xDSL or if you connect to an AP that have a cellular network (3G, 4G) available. 
 
-In order to perform this set up, a PC with Linux Ubuntu with wireless Internet, and a Mesh Potato 2.0 is required. The last octet (number) of the IP address of the MP, is the unique number for each MP. The Mesh Potato is pre-configured with an unique IP address which is stated on the MP. In the following example we use "x" as the last octet (the last number in the IP-address). When conducting this description please change the x with the last octet written on your MP.
+In order to perform this set up, a PC with Linux Ubuntu with wireless Internet, and a Mesh Potato 2.0 is required. The last octet (number) of the IP address of the MP, is the unique number for each MP. In the following example we use "x" as the last octet (the last number in the IP-address). When conducting this description please change the x with the last octet written on your MP.
 
 \fref{fig:oppsettviaveggen} illustrates how the components are connected together in the following manual. The figure is provided to help the user get a better understanding of the network. 
 
@@ -52,21 +52,21 @@ In order to perform this set up, a PC with Linux Ubuntu with wireless Internet, 
 \input{scriptviapc}
  
 \clearpage
-\subsection{How Connect the MP02 to Satellite}
+\subsection{Manual for Connecting the MP02 to Satellite}
 \input{internetviasatellite}
 
 \section{Training}
-The \gls{quick} boxes are delivered pre-configured, with all the  information necessary to set-up a mesh network. It is recommended that the ones using the \gls{quick} box have tested it and tried to set up the network in advance. This to make the process faster and easier when an emergency situation occurs, but it should not be necessary. The provided descriptions should be explanatory and easy enough for most people to use.
+The \gls{quick} box are delivered pre-configured, with all the  information necessary to set up a mesh network. It is recommended that the ones using the \gls{quick} box have tested it and tried to set up the network in advance. This to make the process faster and easier when an emergency situation occurs, but it should not be necessary. The provided descriptions should be explanatory and easy enough for most people to use.
 
 
 \section{How to Create a Network}
-When setting up the network some things have to be taken into account. 
+The following sections provides some explanation of specific aspects that should be taken into consideration when setting up a network consisting of \glspl{mp} and the \gls{quick} box. 
 
 \subsubsection{Placing the Mesh Potatoes}
-The range of the \gls{mp} differs based on terrain, if the terrain is hilly and with many obstacles, the range shortens. It is also important to keep in mind where the Mesh Potato is placed. To obtain a longer range the \gls{mp} should be placed as high as possible. This could for example be on the roof top, on a telephone pole or any other tall object. With a clear view the range could be up to 2 km. 
+The range of the \gls{mp} differs based on terrain. If the terrain is hilly and with many obstacles, the range shortens. It is also important to keep in mind where the \gls{mp}/gls{quick} box is placed. To obtain a longer range, the \glspl{mp} should be placed as high as possible. This could for example be on the roof top, on a telephone pole or any other tall object. With a clear view the range could be up to 2 km. 
 
 \subsubsection{Have a stable power source}
-If there is stable power source available there would be no use for the battery and solar panel for charging. In this situation the different pre-configured \glspl{mp} can be spaced out, with one connected to an up-link. 
+If there is stable power source available there would be no use for the battery and solar panel for charging. In this situation the different pre-configured \glspl{mp} can be spread out, with one connected to an up-link. 
 
 \subsubsection{No stable power source}
 It there is no stable power source available there will be a need for the battery and solar panel that is included in the \gls{quick} box in order to run the Mesh Potato. If the power is out there is a high probability that most up-links also are unavailable. Satellite may be the only option. In order to use satellite there have to be a satellite dish available. Keep in mind that this satellite may be located far away, and that there might be a need for several \glspl{mp} in order to spread internet to the desired location. It there is a need for several Mesh Potatoes in an area with power outages there would be a need for several \gls{quick} boxes, so that the \gls{mp} can run on battery charged by a solar panel. 

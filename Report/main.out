@@ -14,7 +14,7 @@
 \BOOKMARK [2][-]{subsection.2.3.2}{Orocovis, Puerto Rico}{section.2.3}% 14
 \BOOKMARK [2][-]{subsection.2.3.3}{Mataffin-Macadamia, Nelspruit South Africa}{section.2.3}% 15
 \BOOKMARK [2][-]{subsection.2.3.4}{Summary Developments}{section.2.3}% 16
-\BOOKMARK [1][-]{section.2.4}{The Evolution of Telecommunications Industry}{chapter.2}% 17
+\BOOKMARK [1][-]{section.2.4}{The Evolution of the Telecommunication Industry}{chapter.2}% 17
 \BOOKMARK [2][-]{subsection.2.4.1}{Evolution of Telephony}{section.2.4}% 18
 \BOOKMARK [1][-]{section.2.5}{Relevant Technologies}{chapter.2}% 19
 \BOOKMARK [2][-]{subsection.2.5.1}{OpenWrt}{section.2.5}% 20
@@ -43,12 +43,12 @@
 \BOOKMARK [2][-]{subsection.4.1.2}{Upgrading the Mesh Potato}{section.4.1}% 43
 \BOOKMARK [2][-]{subsection.4.1.3}{The SECN Web Interface}{section.4.1}% 44
 \BOOKMARK [1][-]{section.4.2}{QUICK Box}{chapter.4}% 45
-\BOOKMARK [2][-]{subsection.4.2.1}{Previous/similar work}{section.4.2}% 46
+\BOOKMARK [2][-]{subsection.4.2.1}{Previous/Similar work}{section.4.2}% 46
 \BOOKMARK [2][-]{subsection.4.2.2}{Key Components}{section.4.2}% 47
 \BOOKMARK [2][-]{subsection.4.2.3}{Creating the QUICK Box}{section.4.2}% 48
 \BOOKMARK [2][-]{subsection.4.2.4}{Battery and Charging Calculations}{section.4.2}% 49
 \BOOKMARK [2][-]{subsection.4.2.5}{Possible Improvements}{section.4.2}% 50
-\BOOKMARK [1][-]{section.4.3}{Different Scenarios Where a Quick Roll-out is Necessary}{chapter.4}% 51
+\BOOKMARK [1][-]{section.4.3}{Different Scenarios Where a Quick Roll-out Might be Necessary}{chapter.4}% 51
 \BOOKMARK [2][-]{subsection.4.3.1}{Natural Disasters}{section.4.3}% 52
 \BOOKMARK [2][-]{subsection.4.3.2}{Temporary Refugee and IDP camps}{section.4.3}% 53
 \BOOKMARK [2][-]{subsection.4.3.3}{Festivals}{section.4.3}% 54
@@ -58,16 +58,16 @@
 \BOOKMARK [1][-]{section.5.2}{Distributing Numbers}{chapter.5}% 58
 \BOOKMARK [1][-]{section.5.3}{Manuals}{chapter.5}% 59
 \BOOKMARK [2][-]{subsection.5.3.1}{Get Started - How to Use the Box}{section.5.3}% 60
-\BOOKMARK [2][-]{subsection.5.3.2}{How Connect the MP02 Directly to Cabled Internet}{section.5.3}% 61
-\BOOKMARK [2][-]{subsection.5.3.3}{How Connect the MP02 to Internet via PC Getting Wireless Internet from Landline or Cellular Network}{section.5.3}% 62
-\BOOKMARK [2][-]{subsection.5.3.4}{How Connect the MP02 to Satellite}{section.5.3}% 63
+\BOOKMARK [2][-]{subsection.5.3.2}{Manual for Connecting the MP02 Directly to Cabled Internet}{section.5.3}% 61
+\BOOKMARK [2][-]{subsection.5.3.3}{Manual for Connecting the MP02 to Internet via PC Getting Wireless Internet from Landline or Cellular Network}{section.5.3}% 62
+\BOOKMARK [2][-]{subsection.5.3.4}{Manual for Connecting the MP02 to Satellite}{section.5.3}% 63
 \BOOKMARK [1][-]{section.5.4}{Training}{chapter.5}% 64
 \BOOKMARK [1][-]{section.5.5}{How to Create a Network}{chapter.5}% 65
 \BOOKMARK [0][-]{chapter.6}{Testing the QUICK Box}{}% 66
 \BOOKMARK [0][-]{chapter.7}{Discussion}{}% 67
 \BOOKMARK [0][-]{chapter.8}{Conclusion}{}% 68
 \BOOKMARK [1][-]{section.8.1}{Future Work}{chapter.8}% 69
-\BOOKMARK [0][-]{section*.68}{References}{}% 70
+\BOOKMARK [0][-]{section*.70}{References}{}% 70
 \BOOKMARK [0][-]{appendix.A}{Interview with Care}{}% 71
 \BOOKMARK [0][-]{appendix.B}{Script for Internet via PC}{}% 72
 \BOOKMARK [0][-]{appendix.C}{SECN-1.1 User Guide}{}% 73
