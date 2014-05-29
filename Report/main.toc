@@ -107,12 +107,17 @@
 \contentsline {subsubsection}{Have a stable power source}{63}{section*.66}
 \contentsline {subsubsection}{No stable power source}{63}{section*.67}
 \contentsline {chapter}{\chapternumberline {6}Testing the QUICK Box}{65}{chapter.6}
-\contentsline {chapter}{\chapternumberline {7}Discussion}{67}{chapter.7}
-\contentsline {chapter}{\chapternumberline {8}Conclusion}{71}{chapter.8}
-\contentsline {section}{\numberline {8.1}Future Work}{71}{section.8.1}
-\contentsline {chapter}{References}{73}{section*.70}
+\contentsline {section}{\numberline {6.1}Test Execution}{65}{section.6.1}
+\contentsline {section}{\numberline {6.2}Test Results}{66}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Manual 1: Manual for Connecting the MP02 Directly to Cabled Internet}{66}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Manual 2: Manual for Connecting the MP02 to Internet via PC Getting WiFi from Landline or Cellular Network}{67}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Manual 3: Script Providing Internet via PC}{68}{subsection.6.2.3}
+\contentsline {chapter}{\chapternumberline {7}Discussion}{71}{chapter.7}
+\contentsline {chapter}{\chapternumberline {8}Conclusion}{75}{chapter.8}
+\contentsline {section}{\numberline {8.1}Future Work}{75}{section.8.1}
+\contentsline {chapter}{References}{77}{section*.70}
  \vspace {1em} \noindent \bfseries Appendices\par \vspace {-.5em} 
-\contentsline {appendix}{\chapternumberline {A}Interview with Care}{79}{appendix.A}
-\contentsline {appendix}{\chapternumberline {B}Script for Internet via PC}{83}{appendix.B}
-\contentsline {appendix}{\chapternumberline {C}SECN-1.1 User Guide}{85}{appendix.C}
-\contentsline {appendix}{\chapternumberline {D}SECN-2.0 User Guide}{125}{appendix.D}
+\contentsline {appendix}{\chapternumberline {A}Interview with Care}{83}{appendix.A}
+\contentsline {appendix}{\chapternumberline {B}Script for Internet via PC}{87}{appendix.B}
+\contentsline {appendix}{\chapternumberline {C}SECN-1.1 User Guide}{89}{appendix.C}
+\contentsline {appendix}{\chapternumberline {D}SECN-2.0 User Guide}{129}{appendix.D}

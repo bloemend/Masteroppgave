@@ -64,11 +64,16 @@
 \BOOKMARK [1][-]{section.5.4}{Training}{chapter.5}% 64
 \BOOKMARK [1][-]{section.5.5}{How to Create a Network}{chapter.5}% 65
 \BOOKMARK [0][-]{chapter.6}{Testing the QUICK Box}{}% 66
-\BOOKMARK [0][-]{chapter.7}{Discussion}{}% 67
-\BOOKMARK [0][-]{chapter.8}{Conclusion}{}% 68
-\BOOKMARK [1][-]{section.8.1}{Future Work}{chapter.8}% 69
-\BOOKMARK [0][-]{section*.70}{References}{}% 70
-\BOOKMARK [0][-]{appendix.A}{Interview with Care}{}% 71
-\BOOKMARK [0][-]{appendix.B}{Script for Internet via PC}{}% 72
-\BOOKMARK [0][-]{appendix.C}{SECN-1.1 User Guide}{}% 73
-\BOOKMARK [0][-]{appendix.D}{SECN-2.0 User Guide}{}% 74
+\BOOKMARK [1][-]{section.6.1}{Test Execution}{chapter.6}% 67
+\BOOKMARK [1][-]{section.6.2}{Test Results}{chapter.6}% 68
+\BOOKMARK [2][-]{subsection.6.2.1}{Manual 1: Manual for Connecting the MP02 Directly to Cabled Internet}{section.6.2}% 69
+\BOOKMARK [2][-]{subsection.6.2.2}{Manual 2: Manual for Connecting the MP02 to Internet via PC Getting WiFi from Landline or Cellular Network}{section.6.2}% 70
+\BOOKMARK [2][-]{subsection.6.2.3}{Manual 3: Script Providing Internet via PC}{section.6.2}% 71
+\BOOKMARK [0][-]{chapter.7}{Discussion}{}% 72
+\BOOKMARK [0][-]{chapter.8}{Conclusion}{}% 73
+\BOOKMARK [1][-]{section.8.1}{Future Work}{chapter.8}% 74
+\BOOKMARK [0][-]{section*.70}{References}{}% 75
+\BOOKMARK [0][-]{appendix.A}{Interview with Care}{}% 76
+\BOOKMARK [0][-]{appendix.B}{Script for Internet via PC}{}% 77
+\BOOKMARK [0][-]{appendix.C}{SECN-1.1 User Guide}{}% 78
+\BOOKMARK [0][-]{appendix.D}{SECN-2.0 User Guide}{}% 79

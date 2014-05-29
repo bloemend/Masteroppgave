@@ -1,7 +1,7 @@
 \chapter{Testing the QUICK Box}
 \label{chp:test} 
 
-In order to assurance the quality of the manuals and the \gls{quick} box, we conducted a test iteration. Testing is an important part in the iteration when developing a product. Using test persons with different technical background and knowledge, as well as different gender and age, will give us valuable output and comments that we in advance did not foresee. 
+In order to assurance the quality of the manuals and the \gls{quick} box, we conducted a test iteration. Testing is an important part of the process when developing a product. Using test persons with different technical background and knowledge, as well as different gender and age, will give us valuable output and comments that we in advance did not foresee. 
 
 \begin{center}
 \begin{table}[h!]
@@ -12,14 +12,51 @@ In order to assurance the quality of the manuals and the \gls{quick} box, we con
     \hline
     Test person 1 &  Male & 28 & High\\ 
     \hline
-    Test person 2 &  Female & 25 & High to medium\\  
+    Test person 2 &  Female & 25 & High\\  
     \hline
     Test person 3 &  Female & 22 & Low\\  
     \hline
-    Test person 4 &  Female & 31 & Low \\  
+    Test person 4 &  Male & 21 & Low/medium\\  
     \hline
-    Test person 5 &  Male & 28 & High\\  
+    Test person 5 &  Female & 31 & Low \\  
     \hline
     \end{tabular}
    \end{table}
 \end{center}
+
+
+\section{Test Execution}
+The main focus when performing the tests was to quality assure the manuals we have created. We wanted to see if the manuals were intuitive and user-friendly.
+
+The tests were performed in our office, since the focus was on the manuals and not on the concept. The test persons were given the different manuals, a \gls{mp}, an Ethernet cable, a USB-stick containing the script and a stationary PC running Linux Ubuntu with wireless Internet connection. We gave them a short introduction to what our project consists of. After the introduction the test persons started following the manuals, one at the time. In real life there will most likely only be necessary to run through one of the manuals. In this testing every test person ran through all the manuals, in order for us to get as much feedback as possible. In addition, this gave the test persons the opportunity to compare the different manuals. While the test persons were running through the manuals we were only observing the actions. The test persons were allowed to ask questions, although it was desirable that the test persons tried themselves before asking. If we observed that the test persons performed mistakes, caused by the lack of information or poor information in the manual, we stopped the test persons and guiding them towards correcting the mistakes. After a manual was completed, the test persons assured that they were able to connect to the Internet via the \gls{mp}. After a manual was completed the test persons were asked to answer a few questions regarding their experience. The questions concerned their previous use, and knowledge of Linux and how this affected their test experience, how easy they felt it was to follow the manual, and if they had any suggested improvements.
+While the questions were asked the \gls{mp} were rebooted and set up ready for the next manual. The same procedure was followed for all three  manuals. 
+
+The test was first performed on test person 1 which is considered a person with high technical knowledge. This test showed that the manuals were lacking a lot of crucial information. We chose to correct these shortcomings before conducting the tests on the remaining test persons. The shortcomings went on the expense of the test's purpose. 
+
+\section{Test Results}
+We will go through the results for each of the manuals and highlight the most interesting findings, before comparing them. 
+ 
+\subsection{Manual 1: Manual for Connecting the MP02 Directly to Cabled Internet}
+After test person 1 tested this manual, we did a lot of changes to the language used and in how the steps were described. The figures were changed out with more descriptive ones and placed closer to the respective steps in order to make it more visual for the user. 
+
+This manual was considered the easiest one by all test persons. There were little confusion regarding the steps described. The test persons expressed that they liked the pictures and felt it worked as an assurance that they were conducting the steps correctly. Test person 3 and test person 4 both expressed some confusion regarding step 3 where the test persons are asked to write in terminal-commands. Originally there were no information stating that the test persons had to open the terminal, or on how to open the terminal. Due to this feedback, information regarding this was added to the manual. The last step also caused some confusion. Originally the step described that login information could be found in the "Get started -How to Use the QUICK Box"-document. This document was also provided to the test persons, but non of them even looked at it or asked for it. The text in this step has also been improved to avoid this confusion. 
+
+\subsection{Manual 2: Manual for Connecting the MP02 to Internet via PC Getting WiFi from Landline or Cellular Network}
+Test person 1 expressed some confusion while running through this manual. The obstacle test person 1 pointed out was the use of the word octet. Test person 1 is considered a person with high technical knowledge, but were still unsure about the meaning of this word. In the manual we added more information explaining that with "the last octet" we mean the last number of the IP address. Another step that confused test person 1 was step 5. In this step the test persons are asked to enter some terminal-commands where they have to change two of the variables. It was unclear to test person 1 what to write and how to find out if the variables were correct or not. We changed this text to include more information about which variables that should be changed and how to find these. Test person 1 stopped up when receiving a error-message after entering the command "route del default" in step 6. This command deletes the default route, if one exists. If no default route are set, an error-message will be displayed. Test person 1 was unsure if he had done something wrong. We added information stating why this error message appears and that it can be ignored. 
+
+Most steps in this manual are executed in the terminal. Two of the test persons had no previous experience with Linux or the use of the terminal in Linux. This showed a clear difference between the technical and non-technical test persons. The technical test persons had no problem finding the terminal and immediately started entering the commands described in the manual. The non-technical test persons expressed hesitation and confusion around where to find the terminal and how to write commands. Test person 4 started writing a command with the "\$". This symbol is used to describe that the following is a command. Another of the non-technical test persons, test person 3, started writing in a new command before the last one was "finished". This emphasised the lack of Linux knowledge and the Linux-terminal experience.   
+
+In step 4 the test persons are asked to open the web browser and type in the MP's IP address in order to make sure that the PC had established contact with the \gls{mp}. Test person 3 typed in "192.168.1.x", which is exactly what is stated in the manual. Previously in the manual it is described that x have to changed out with the last number of the IP address. The same mistake happened in step 6, where test person 3 also forgot to change out the "x"-value with the last number of the IP address.  We have now added this information in the given steps. 
+
+Even though we made some changes to step 5, after test person 1's feedback, this still caused for a lot of confusion for the remaining test persons. All started typing the command exactly as stated in the manual, even though it was described in step that some parameters had to changed. We rewrote this text in order to avoid any more confusion. Only test person 2 understood that the parameter "<WIRELESS INTERFACE>" had to be changed. The correct alteration is "wlan0", but test person 2 typed "<wlan0>", meaning she did not remove the "crocodile symbols".
+
+The last step also caused some confusion. Originally the step described that login information could be found in the "Get started -How to Use the QUICK Box"-document. This document was also provided to the test persons, but non of them even looked at it or asked for it. The text in this step has also been improved to avoid this confusion.
+
+\subsection{Manual 3: Script Providing Internet via PC}
+In this manual test person 1 pointed out that the manual was missing a lot of necessary information. Test person 1 stopped up at step 1, where the manual did not describe which port on the \gls{mp} the Ethernet cable should be plugged into. Nor did the manual contain any information regarding that the user had to open the terminal and how to open it. The user was provided with a USB-stick containing the script, this was not stated in the manual, nor that the USB-stick have to be plugged in before entering the described commands. After the script started, and the first pop-up window appeared, test person 1 immediately looked at the manual for instructions. The pop-up window describes the further steps. The manual did not contain any information about what to do after the script had started running. Test person 1 also expressed that it was difficult to find, and understand what was meant by "wireless interface". Test person 1 was one of the technical people participating in our test and were able to figure out what the wireless interface was on his own. There were no confusion regarding the second pop-up window, but he pointed out that the text could be structured in a different way emphasizing the content.
+Test person 1 also pointed out that the commands were written in a separate font which made it easier to understand. 
+
+We improved the manual based on the feedback from test person 1. Test person 3 were one of the non-technical test persons, and got confused when the first pop-up appeared. Even though we made it very clear in the manual that it is important that the users carefully read the information given in the script, test person 3 immediately looked at the manual when she saw the first pop-up. The script asks the user to enter two variables, the last number of the IP address and name of wireless interface, in the terminal. Test person 3 entered just one variable before pressing enter, while test person 2 entered the whole IP address. 
+Several test persons expressed confusion regarding the pop-up windows. Originally the pop-up window appeared before the browser opened, which means that the test persons did not notice it. We have now changed this so that the browser opens first, then the pop-up window. 
+
+The last step also caused some confusion. Originally the step described that login information could be found in the "Get started -How to Use the QUICK Box"-document. This document was also provided to the test persons, but non of them even looked at it or asked for it. The text in this step has also been improved to avoid this confusion.
