@@ -1,6 +1,6 @@
 ;; This logfile was generated automatically by `xindy'
-;; at 27.05.2014  11:29:29
-;; Indexstyle: "main.xdy", Rawindex: "C:\\Users\\Esther\\AppData\\Local\\Temp\\UfIfuxSj7M", Output: "main.gls"
+;; at 29.05.2014  21:48:08
+;; Indexstyle: "main.xdy", Rawindex: "C:\\Users\\IDAMAL~1\\AppData\\Local\\Temp\\lsZlRiZkqY", Output: "main.gls"
 
 ERROR: "A" does not name a letter group in
 (DEFINE-LETTER-GROUP "glsnumbers" :PREFIXES

@@ -1,6 +1,6 @@
 ;; This logfile was generated automatically by `xindy'
-;; at 27.05.2014  11:29:28
-;; Indexstyle: "C:\\Users\\Esther\\AppData\\Local\\Temp\\YxjhrtO490", Rawindex: "C:\\Users\\Esther\\AppData\\Local\\Temp\\XE3r6HzdKE", Output: "main.acr"
+;; at 29.05.2014  21:48:07
+;; Indexstyle: "C:\\Users\\IDAMAL~1\\AppData\\Local\\Temp\\Z9rQyoX9yy", Rawindex: "C:\\Users\\IDAMAL~1\\AppData\\Local\\Temp\\jP0QmbmsOr", Output: "main.acr"
 
 
 Building indexentry-tree:
@@ -54,14 +54,13 @@ sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
-sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 
 Forming letter-groups:
 Letter-group: "Êà¨†®" -> "Q"
-Letter-group: "¼Ú¼à" -> "N"
-Letter-group: "» Ð†" -> "M"
-Letter-group: "¨»—" -> "I"
 Letter-group: "¨Ú—»" -> "I"
+Letter-group: "¼Ú¼à" -> "N"
+Letter-group: "»Ð†" -> "M"
+Letter-group: "¨»—" -> "I"
 Letter-group: "€È" -> "A"
 Letter-group: "€Ú€" -> "A"
 Letter-group: "»È" -> "M"
@@ -86,7 +85,7 @@ Letter-group: "È´»¼" -> "P"
 Letter-group: "ÐÐ¤" -> "S"
 Letter-group: "»€¼—Ú" -> "M"
 Letter-group: "æ»¼" -> "W"
-Letter-group: "»ËÐ" -> "M"
+Letter-group: "»Ë" -> "M"
 Letter-group: "´€¼" -> "L"
 Letter-group: "Ã´ÐË" -> "O"
 Letter-group: "€Ãå" -> "A"
@@ -105,7 +104,6 @@ Letter-group: "®„¨Ú/Ð" -> "K"
 Letter-group: "Ð—†¼" -> "S"
 Letter-group: "¨åË" -> "I"
 Letter-group: "ÐÐ¨" -> "S"
-Letter-group: "¨Èå4" -> "I"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "2" -> "glsnumbers"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
@@ -127,7 +125,7 @@ Letter-group: "®„¨Ú/Ð" -> "K"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "´€¼" -> "L"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
-Letter-group: "» Ð†" -> "M"
+Letter-group: "»€¼—Ú" -> "M"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "¼Ã" -> "N"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
@@ -144,3 +142,4 @@ sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "åÃ¨È" -> "V"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "æ¨ÐÈ" -> "W"
+Reading raw-index "C:\\Users\\IDAMAL~1\\AppData\\Local\\Temp\\jP0QmbmsOr"...WARNING: location-reference "{}{v}" did match multiple location-classes! (taking first one)

@@ -137,16 +137,22 @@ The web interface allows the user to do alterations on \gls{mp} settings. The we
 \end{figure}
 
 \section{QUICK Box}
-The Mesh Potatoes and Village Telcos were created to get voice and data connection to areas where services like these are non-existent or too expensive for the average person. As of now, the \glspl{mp} have been set up to create networks of different size in villages all over the world. We want to expand this solution by looking at its mobility and its usage on the go. We want to make a box that has high adaptability, enabling it to easily be used in several different scenarios, under different conditions and by different people, all with different needs. The box must be user friendly, so that there are no room for misunderstanding or mistakes. The box should be ready to go in any situation.  
+The Mesh Potatoes and Village Telcos were created to get voice and data connection to areas where services like these are non-existent or too expensive for the average person. As of now, the \glspl{mp} have been set up to create networks of different size in villages all over the world. We want to expand this solution by looking at its mobility and its usage on the go. We want to make a box that has high adaptability, enabling it to easily be used in several different scenarios, under different conditions and by different people, all with different needs. The box must be user friendly, so that there are no room for misunderstanding or mistakes. The box should be ready to go in any situation. QUICK stands for Quick User-friendly Internet-providing Communication Kit. 
+
+\begin{itemize}
+\item [] \textbf{Q}uick - The box should be easy to set-up, and include all manuals necessary to get started with the box, and to provide Internet to the network. Scripting could be used in order to automate the set-up process. 
+\item [] \textbf{U}ser-Friendly - The manuals should be easy to use, both by technical and non-technical people. 
+\item [] \textbf{I}nternet-Providing - There should be manuals explaining how to connect the MP to various types of up-links. 
+\item [] \textbf{C}ommunication - In today's society, and especially during emergency situations, it is crucial to have the possibility to communicate, both within a community, and with the outside world.
+\item [] \textbf{K}it - Our solution will be delivered in a mobile suitcase. 
+\end{itemize}
+
  
 \subsection{Previous/Similar work}
 \paragraph{Go Box.} Something similar has been done before by Keith Williamson, a volunteer in the Village Telco community. His idea of utilizing the Mesh Potatoes in emergency situations started with his interest in amateur radios, and the use of radios in emergency situations. He put together a "go box" by using a waterproof Pelican 1200 case. This case contained a bracket holding the Mesh Potato, a rechargeable Li-Ion or Li-Poly battery, telephone handset and a junction box to provide an on/off switch \cite{keith}. Our Emergency Box differ in some ways from the "go box" made by Williamson. The main difference between the "go box" and the \gls{quick} box is the fact that we have created our box based on the \gls{mp2}-basic, while the "go box" is with the first generation of the \gls{mp}. The fact that the \gls{quick} box is based on the basic edition of the second generation, means that it is not possible to connect a telephone to the \gls{mp}. The "go box" included a telephone, so this is also a difference between the "go box" and the \gls{quick} box. Another difference is the that the \gls{quick} box includes everything needed for an installation;  a solar panel, necessary cables, and full descriptions on how to use the box and how to connect to different up-links. The \gls{quick} box is therefore more comprehensive than the "go box".
 
 \paragraph{AfrikaBurn.}
 AfrikaBurn is a "Burning Man" festival in Tankwa Town in the Karoo (South Africa) that is held once a year \cite{whatisafrikaburn}. This is a festival with focus on art and freedom of expression. Instead of using money, the festival attendants are inspired to trade different types of goods with each other. A Village Telco has been established at this festival a few years now. Free-standing phone boots with Mesh Potatoes powered by solar panels has been set up at the festival area. The first year five phone boots where set up around the festival area. Since it were few numbers to call, the calling became sort of random. This gave a  "ChatRoulette" like effect, only with phones instead. The second year some aspects where improved from the previous year. The boots had production \glspl{mp}, no lighting and new sleeves. A netbook was brought with them, and this acted as a gateway \cite{africaburnforavillagetelco,africaburnsagainforavillagetelco}. 
-
-\paragraph{Millitary}
-* høre med Arild om hvas om brukes i millitæret i dag, om det er noe liknende i det hele tatt
 
 \subsection{Key Components}
 The key components of our emergency box is described in \tref{tab:components}. 
@@ -176,6 +182,7 @@ The key components of our emergency box is described in \tref{tab:components}.
 
 \subsection{Creating the QUICK Box}
 This section describes how we created the \gls{quick} box from scratch. The box is delivered with everything with a Mesh Potato that is pre-configured with an unique \gls{ip} address. The suitcase contains a CD with Linux Ubuntu in case the user does not already have it installed, since it is necessary to have Linux in order to execute all the configurations and set-ups provided in the box. The case also contains necessary cables and detailed descriptions on how to connect to the different up-links, in order to provide Internet to the network. \fref{fig:boxinmaking} shows the box in the making.
+
 
 \begin{figure}[t]
   \centering
