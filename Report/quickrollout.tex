@@ -6,11 +6,11 @@ The main purpose of our study was to create an easy way to utilize the Mesh Pota
 A big part of our work is gathering of information, and make the existing information more understandable for the common user. The existing user guides tend to be advanced and not adapted to people with little background knowledge on the area. Therefore we found it necessary to make the descriptions easier and more user friendly. 
 
 \section{Set-up of the Mesh Potato}
-The set-up process of the Mesh Potato includes, among other activities, installing firmware, allocating \gls{ip}-addresses and providing Internet to the network. The firmware used for the \glspl{mp} is called \gls{secn} Firmware \cite{ChoosingFirmware}. 
+The set-up process of the Mesh Potato includes, among other activities, installing firmware, allocating \gls{ip} addresses and providing Internet to the network. The firmware used for the \glspl{mp} is called \gls{secn} Firmware \cite{ChoosingFirmware}. 
 
 \subsection{Configuring the Mesh Potato}
 \label{subsec:configuring}
-Configuring a Mesh Potato is the process of allocating an unique \gls{ip}-address to the \gls{mp}. Each of the \glspl{mp} are assigned a static \gls{ip} address, these addresses are not part of the \gls{lan} address space. The \gls{ip} addresses are allocated in a predefined default address space 10.130.1.20. In order to change this \gls{ip} address, the \gls{mp} has to be connected via an Ethernet cable to a PC running Linux. The PC must be on the same subnet as the \gls{mp}, in order to establish contact. When the PC is on the same subnet, the \glspl{mp} web interface can be accessed via a browser. In the web interface, the \gls{ip} of the \gls{mp} can easily be changed. This description works for both versions of the \gls{mp}. One difference is that you can change the \gls{ip} on \gls{mp1} by using \gls{ivr} commands (see page 28 in Appendix \ref{chp:appendixB}). A second version of the \gls{mp2} is in development. This version has a telephone jack port (\gls{fxs} daughterboard), which will allow for \gls{ivr} on the \gls{mp2} as well. 
+Configuring a Mesh Potato is the process of allocating an unique \gls{ip} address to the \gls{mp}. Each of the \glspl{mp} are assigned a static \gls{ip} address, these addresses are not part of the \gls{lan} address space. The \gls{ip} addresses are allocated in a predefined default address space 10.130.1.20. In order to change this \gls{ip} address, the \gls{mp} has to be connected via an Ethernet cable to a PC running Linux. The PC must be on the same subnet as the \gls{mp}, in order to establish contact. When the PC is on the same subnet, the \glspl{mp} web interface can be accessed via a browser. In the web interface, the \gls{ip} of the \gls{mp} can easily be changed. This description works for both versions of the \gls{mp}. One difference is that you can change the \gls{ip} on \gls{mp1} by using \gls{ivr} commands (see page 28 in Appendix \ref{chp:appendixB}). A second version of the \gls{mp2} is in development. This version has a telephone jack port (\gls{fxs} daughterboard), which will allow for \gls{ivr} on the \gls{mp2} as well. 
 
 \begin{enumerate}
 \item Set the PC to have the same subnet, by writing the following command in the terminal:
@@ -35,7 +35,7 @@ In order to be able to remotely configure the MP from a PC, telnet or SSH i used
 \noindent
 \begin{lstlisting}[language=bash]
 	$ sudo su
-	$ telnet <IP-address of the MP>
+	$ telnet <IP address of the MP>
 \end{lstlisting}
 \item The following command will enable SSH, and ask you to choose a password for SSH. You will be asked to enter this password two times:
 \noindent
@@ -45,7 +45,7 @@ In order to be able to remotely configure the MP from a PC, telnet or SSH i used
 \item SSH is now enabled. The next time you enter the MP, SSH must be used. To SSH into the MP enter the following command:
 \noindent
 \begin{lstlisting}[language=bash]
-	$ ssh root@<IP-address of the MP>
+	$ ssh root@<IP address of the MP>
 \end{lstlisting}
 \end{enumerate}
 
@@ -93,7 +93,7 @@ Flashing is the process of updating or changing the firmware (\gls{secn}) on the
   .lzma files>
 \end{lstlisting}
 
-\item Assign IP-address to the interface:
+\item Assign IP address to the interface:
 \noindent 
 \begin{lstlisting}[language=bash]
   $ ifconfig eth0 1.1.1.1
@@ -125,7 +125,7 @@ The process of upgrading the MP's firmware is simplified with the \gls{mp2}. Wit
 
 \subsection{The SECN Web Interface}
 \label{subsec:interface}
-Village Telco provides a SECN web interface for configuration and management of individual \glspl{mp}. This web interface can be accessed by entering the \gls{ip}-address of the \gls{mp} in a browser, like shown in \fref{fig:webinterface}. In order to be able to do this, the PC must be on the same subnet (exact same prefix) as the \gls{mp}.  
+Village Telco provides a SECN web interface for configuration and management of individual \glspl{mp}. This web interface can be accessed by entering the \gls{ip} address of the \gls{mp} in a browser, like shown in \fref{fig:webinterface}. In order to be able to do this, the PC must be on the same subnet (exact same prefix) as the \gls{mp}.  
 
 The web interface allows the user to do alterations on \gls{mp} settings. The web interface allows the user to alter some key parameters. Among these are the \gls{ip} address of the device, set up the WiFi \gls{ap}, \gls{voip}/\gls{sip} Configurations, Password and Web Server Security. The web interface also allows the user to alter more advanced settings. To get a detailed description of the web interface, see the User Guide in Appendices \ref{chp:appendixB} and \ref{chp:appendixc}. In addition to this, like mentioned above, the interface has been extended and improved from the early versions of the \gls{secn} firmware. 
 
@@ -175,7 +175,7 @@ The key components of our emergency box is described in \tref{tab:components}.
 \end{center}
 
 \subsection{Creating the QUICK Box}
-This section describes how we created the \gls{quick} box from scratch. The box is delivered with everything with a Mesh Potato that is pre-configured with an unique \gls{ip}-address. The suitcase contains a CD with Linux Ubuntu in case the user does not already have it installed, since it is necessary to have Linux in order to execute all the configurations and set-ups provided in the box. The case also contains necessary cables and detailed descriptions on how to connect to the different up-links, in order to provide Internet to the network. \fref{fig:boxinmaking} shows the box in the making.
+This section describes how we created the \gls{quick} box from scratch. The box is delivered with everything with a Mesh Potato that is pre-configured with an unique \gls{ip} address. The suitcase contains a CD with Linux Ubuntu in case the user does not already have it installed, since it is necessary to have Linux in order to execute all the configurations and set-ups provided in the box. The case also contains necessary cables and detailed descriptions on how to connect to the different up-links, in order to provide Internet to the network. \fref{fig:boxinmaking} shows the box in the making.
 
 \begin{figure}[t]
   \centering
@@ -212,7 +212,7 @@ We first connected the solar panel, then the battery, and at last the Mesh Potat
 \end{figure}
 
 \paragraph{Configuring and upgrading the QUICK Box.}
-When the \gls{quick} box is delivered, the Mesh Potato is already set-up and configured with an unique \gls{ip}-address, and running the latest version of the \gls{secn} firmware. The descriptions will be in the box in case something would happen and there will be a need to upgrade or configure. These processes are described in sections \ref{subsec:configuring} and \ref{subsec:upgrading}.
+When the \gls{quick} box is delivered, the Mesh Potato is already set-up and configured with an unique \gls{ip} address, and running the latest version of the \gls{secn} firmware. The descriptions will be in the box in case something would happen and there will be a need to upgrade or configure. These processes are described in sections \ref{subsec:configuring} and \ref{subsec:upgrading}.
 
 \subsection{Battery and Charging Calculations}
 All the calculations done in this section is based on the components described in \tref{tab:components}. 
