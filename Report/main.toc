@@ -112,6 +112,7 @@
 \contentsline {subsection}{\numberline {6.2.1}Manual 1: Manual for Connecting the MP02 Directly to Cabled Internet}{66}{subsection.6.2.1}
 \contentsline {subsection}{\numberline {6.2.2}Manual 2: Manual for Connecting the MP02 to Internet via PC Getting WiFi from Landline or Cellular Network}{67}{subsection.6.2.2}
 \contentsline {subsection}{\numberline {6.2.3}Manual 3: Script Providing Internet via PC}{68}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}Summary of the Test Results}{69}{subsection.6.2.4}
 \contentsline {chapter}{\chapternumberline {7}Discussion}{71}{chapter.7}
 \contentsline {chapter}{\chapternumberline {8}Conclusion}{75}{chapter.8}
 \contentsline {section}{\numberline {8.1}Future Work}{75}{section.8.1}
