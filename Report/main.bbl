@@ -121,10 +121,6 @@ T.~Bruun, ``Evaluation of telecom operator enabled internet telephony by
 J.~Hoebeke, I.~Moerman, B.~Dhoedt, and P.~Demeester, ``An overview of mobile ad
   hoc networks: Applications and challenges,'' 2004.
 
-\bibitem{adhoc}
-X.~Hong, K.~Xu, and M.~Gerla, ``Scalable routing protocols for mobile ad hoc
-  networks,'' {\em IEEE}, 2002.
-
 \bibitem{wmn}
 J.~Wang, B.~Xie, and D.~P. Agrawal, {\em Journey from Mobile Ad Hoc Networks to
   Wireless Mesh Networks}, pp.~1--30.
@@ -135,6 +131,10 @@ B.~D. Shivahare, C.~Wahi, and S.~Shivhare, ``Comparison of proactive and
   reactive routing protocols in mobile adhoc network using routing protocol
   property,'' {\em International Journal of Emerging Technology and Advanced
   Engineering}, 2012.
+
+\bibitem{adhoc}
+X.~Hong, K.~Xu, and M.~Gerla, ``Scalable routing protocols for mobile ad hoc
+  networks,'' {\em IEEE}, 2002.
 
 \bibitem{batman}
 A.~Neumann, C.~Aichele, M.~Lindner, and S.~Wunderlich, ``Better approach to
