@@ -19,7 +19,7 @@ Configuring a Mesh Potato is the process of allocating an unique \gls{ip} addres
   $ ifconfig eth0 10.130.1.120 netmask 255.255.255.0
 \end{lstlisting}
 \item Open a browser and type in "10.130.1.20". The web interface will then appear. 
-\item In the web interface, under network, change the \gls{ip} address field to "192.168.1.x", where x is the unique number for the specific \gls{mp}. This number should be between 21-99. In order to set the change, a save and reboot must be done from the interface. 
+\item In the web interface, under network, change the \gls{ip} address field to "192.168.1.x", where x is the unique number for the specific \gls{mp}. This number should be between 1-254. In order to set the change, a save and reboot must be done from the interface. 
 \end{enumerate}
 
 \subsubsection{Change from telnet to SSH}
@@ -29,12 +29,12 @@ In order to be able to remotely configure the MP from a PC, telnet or SSH i used
 \item Install SSH by entering the following command:
 \noindent
 \begin{lstlisting}[language=bash]
+	$ sudo su
 	$ apt-get install ssh
 \end{lstlisting}
 \item Execute the following command to telnet into the MP:
 \noindent
 \begin{lstlisting}[language=bash]
-	$ sudo su
 	$ telnet <IP address of the MP>
 \end{lstlisting}
 \item The following command will enable SSH, and ask you to choose a password for SSH. You will be asked to enter this password two times:
@@ -289,7 +289,7 @@ A natural disaster is defined as; \textit{any event or force of nature that has 
 
 All over the world relief organizations are ready to help if an unexpected situation occur. These groups of people have the equipment, knowledge, experience and funding to help people in desperate need. Where are their help needed? Or if they hear about the disaster and the first respond team are in place, how do they report back about the situation? How do they communicate with each other to work more effectively and help the ones in desperate need? There is no doubt that there is a need for a simple, fast, and reliable communication system.
 
-When a natural disaster hits it is hard to know the extent of it, which  again makes it difficult to predict how the communication systems would be affected. This unpredictability makes it important to always have a back-up plan to the back-up plan. History shows that cell phone service is not a reliable service during an emergency situation. During 9/11 the system became heavily overloaded, and when hurricane Katrina hit, 70\% of the cell phone towers where knocked down. People might think that if they live in a big metropolitan they will be safe, but this is not necessarily the case \cite{disasterComm}. In addition, these examples are from the western world. The western communication systems tend to be more robust initially, compared to the ones in developing countries. 
+When a natural disaster strikes, it is hard to know the extent of it, which  again makes it difficult to predict how the communication systems would be affected. This unpredictability makes it important to always have a back-up plan to the back-up plan. History shows that cell phone service is not a reliable service during an emergency situation. During 9/11 the system became heavily overloaded, and when hurricane Katrina hit, 70\% of the cell phone towers where knocked down. People might think that if they live in a big metropolitan they will be safe, but this is not necessarily the case \cite{disasterComm}. In addition, these examples are from the western world. The western communication systems tend to be more robust initially, compared to the ones in developing countries. 
 
 When looking at the less developed world, which unfortunately is often more exposed to natural disasters, the situations are different. According to \cite{DevelopingWorld, 360} developing countries are in an larger extent affected by natural disasters than the developed world. The reason for this can be explained by the economic status of the country, both in how the country is prepared for a disaster and in how fast they can rebuild and recuperate after a natural disaster. Developing countries often lack the infrastructure needed to quickly and efficiently provide aids to the ones affected. According to Baxter \cite{360}, a natural disaster could set back a developing country many years in development.  
 
