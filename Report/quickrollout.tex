@@ -161,7 +161,7 @@ AfrikaBurn is a "Burning Man" festival in Tankwa Town in the Karoo (South Africa
 The key components of our emergency box is described in \tref{tab:components}. 
 
 \begin{center}
-\begin{table}[h!]
+\begin{table}[t]
 \caption{\label{tab:components}The components of Emergency Box}
     \begin{tabular}{ | l | p{9cm} |}
     \hline
@@ -183,11 +183,13 @@ The key components of our emergency box is described in \tref{tab:components}.
    \end{table}
 \end{center}
 
+\clearpage
+
 \subsection{Creating the QUICK Box}
 This section describes how we created the \gls{quick} box from scratch. The box is delivered with everything with a Mesh Potato that is pre-configured with an unique \gls{ip} address. The suitcase contains a CD with Linux Ubuntu in case the user does not already have it installed, since it is necessary to have Linux in order to execute all the configurations and set-ups provided in the box. The case also contains necessary cables and detailed descriptions on how to connect to the different up-links, in order to provide Internet to the network. \fref{fig:boxinmaking} shows the box in the making.
 
 
-\begin{figure}[t]
+\begin{figure}[b]
   \centering
       \includegraphics[width=0.9\textwidth]{emergencybox.jpg}
   \caption [The composition of the \gls{quick} box]{\textbf{The composition of the \gls{quick} box.} This figure shows how the key components in the \gls{quick} box is conjoined together.}
@@ -198,7 +200,7 @@ This section describes how we created the \gls{quick} box from scratch. The box 
 The components that we used to construct the box was a solar regulator, a gel battery, a solar panel and a \gls{mp2}. These components were put together as shown in \fref{fig:emergencybox}. The solar regulator is connected to all the components, and is used in order to not overcharge the battery. The solar regulator was initially built for another type of solar panel than the one we chose to use. This means that the concomitant plugs could not be used. These plugs were cut of and we soldered on new wires.  
 
 New wires were soldered on the solar regulator, one was connected to the MP's power cord, while the other two was connected to battery and to the solar panel. Before connecting everything together we used a multimeter to measure the voltage of the solar panel. We placed the solar panel under a bright light (lamp) to see if it had any impact, which it did. We used the multimeter to check the battery as well, which was fully charged, with a voltage of a little over 13 V. 
-We first connected the solar panel, then the battery, and at last the Mesh Potato. When everything was conjoined correctly, the \gls{mp} turned on.  
+We first connected the solar panel, then the battery, and at last the Mesh Potato. When everything was conjoined correctly, the \gls{mp} turned on. \fref{fig:ferdigbox} shows our final prototype of the \gls{quick} box. 
 
 \begin{figure}
         \centering
@@ -221,8 +223,28 @@ We first connected the solar panel, then the battery, and at last the Mesh Potat
 \caption{The QUICK box in the making.} \label{fig:boxinmaking}
 \end{figure}
 
+\begin{figure}
+        \centering
+        \begin{subfigure}[t]{0.4\textwidth}
+                \includegraphics[width=\textwidth]{ferdigbox1}
+                \label{fig:ferdigbox1}
+        \end{subfigure}
+        \begin{subfigure}[t]{0.4\textwidth}
+                \includegraphics[width=\textwidth]{ferdigbox2}
+                \label{fig:ferdigbox2}
+        \end{subfigure}
+         \begin{subfigure}[t]{0.81\textwidth}
+                \includegraphics[width=\textwidth]{ferdigbox3} 
+                \label{fig:ferdigbox3}
+        \end{subfigure}
+\caption[Final prototype of the QUICK box]{\textbf{Final prototype of the QUICK box.} This figure shows the final prototype of the QUICK box including everything necessary for a quick roll-out. As shown, there is room for adding a telephone inside the box. This can be included with the \gls{mp2}-Phone.} \label{fig:ferdigbox}
+\end{figure}
+
+
 \paragraph{Configuring and upgrading the QUICK Box.}
 When the \gls{quick} box is delivered, the Mesh Potato is already set-up and configured with an unique \gls{ip} address, and running the latest version of the \gls{secn} firmware. The descriptions will be in the box in case something would happen and there will be a need to upgrade or configure. These processes are described in sections \ref{subsec:configuring} and \ref{subsec:upgrading}.
+
+\clearpage
 
 \subsection{Battery and Charging Calculations}
 All the calculations done in this section is based on the components described in \tref{tab:components}. 
