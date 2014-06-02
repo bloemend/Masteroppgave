@@ -62,7 +62,7 @@ D.~Rowe, ``The mesh potato part 1,'' 2008.
 \newblock \url{http://villagetelco.org/deployments/}, accessed 30.04.2014.
 
 \bibitem{vtdili}
-V.~Telco, ``Dili village telco.''
+{Village Telco}, ``Dili village telco.''
 \newblock \url{http://villagetelco.org/deployments/dili/}, accessed 30.04.2014.
 
 \bibitem{quandltimor}
@@ -70,7 +70,9 @@ Quandl, ``Timor-leste.''
 \newblock \url{http://www.quandl.com/timor-leste}, accessed 11.03.2014.
 
 \bibitem{wikitelecomeasttimor}
-
+Wikipedia, ``Telecommunications in east timor.''
+\newblock \url{http://en.wikipedia.org/wiki/Telecommunications_in_East_Timor},
+  accessed: 20.03.2014.
 
 \bibitem{budde}
 BuddeComm, ``East timor (timor leste) - telecoms, mobile and internet.''
@@ -79,19 +81,23 @@ BuddeComm, ``East timor (timor leste) - telecoms, mobile and internet.''
   accessed: 20.03.2014.
 
 \bibitem{vtpuertorico}
-V.~Telco, ``Jose soto - puerto rico.''
+{Village Telco}, ``Jose soto - puerto rico.''
 \newblock \url{http://villagetelco.org/deployments/jose-soto-puerto-rico/},
   accessed 30.04.2014.
 
 \bibitem{soto}
-
+ArsTechnica, ``How one man is bringing voip, 'net access where telecoms fear to
+  tread,'' 2012.
+\newblock
+  \url{http://arstechnica.com/business/2012/08/how-one-man-is-bringing-voip-net-access-where-telecoms-fear-to-tread/},
+  accessed: 29.04.2014.
 
 \bibitem{mataffinict}
 M.~Macadamia, ``Ict.''
 \newblock \url{http://mataffinmacadamia.co.za/ict.html}, accessed: 10.04.2014.
 
 \bibitem{itu50years}
-I.~T. Union, ``50 years of excellence,'' 2006.
+{International Telecommunication Union}, ``50 years of excellence,'' 2006.
 \newblock \url{http://www.itu.int/itudoc/gs/promo/tsb/88192.pdf}, accessed:
   11.05.2013.
 
@@ -236,7 +242,7 @@ R.~Ramsdal, ``Google fikk ja til å sende internett-ballonger over norge,''
 \newblock \url{http://www.youtube.com/user/ProjectLoon}, accessed 28.03.2014.
 
 \bibitem{loonNorsk}
-A.~B. SMEDSRUD, ``Disse ballongene skal gi internett til hele verden,'' June
+A.~B. Smedsrud, ``Disse ballongene skal gi internett til hele verden,'' June
   2013.
 \newblock
   \url{http://www.hardware.no/artikler/disse-ballongene-skal-gi-internett-til-hele-verden/134539},
@@ -355,7 +361,7 @@ D.~Carman, ``Afrikaburns again for a village telco.''
   accessed 05.05.2014.
 
 \bibitem{naturalDisaster}
-Dictionary.com, ``Natural disaster.''
+{Dictionary.com}, ``Natural disaster.''
 \newblock \url{http://dictionary.reference.com/browse/natural+disaster},
   accessed 19.03.2014.
 
@@ -423,7 +429,7 @@ Wikipedia, ``Liste over nedetid i mobilnettet i norge.''
   accessed 19.03.2014.
 
 \bibitem{TelenorNede}
-Nettavisen.no, ``Telenor: Feilen i mobilnettet er rettet.''
+{Nettavisen.no}, ``Telenor: Feilen i mobilnettet er rettet.''
 \newblock \url{http://www.nettavisen.no/nyheter/3168897.html}, accessed
   19.03.2014.
 

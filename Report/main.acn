@@ -83,6 +83,7 @@
 (indexentry :tkey (("MP01" "\\glossaryentryfield{mp1}{\\glsnamefont{MP01}}{Mesh Potato Version 1}{\\relax }") ) :locref "{}{6}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("MP" "\\glossaryentryfield{mp}{\\glsnamefont{MP}}{Mesh Potato}{\\relax }") ) :locref "{}{6}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("P2P" "\\glossaryentryfield{p2p}{\\glsnamefont{P2P}}{Peer-to-Peer}{\\relax }") ) :locref "{}{7}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("AP" "\\glossaryentryfield{ap}{\\glsnamefont{AP}}{Access Point}{\\relax }") ) :locref "{}{7}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("MP" "\\glossaryentryfield{mp}{\\glsnamefont{MP}}{Mesh Potato}{\\relax }") ) :locref "{}{7}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("VoIP" "\\glossaryentryfield{voip}{\\glsnamefont{VoIP}}{Voice over Internet Protocol}{\\relax }") ) :locref "{}{7}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("MP" "\\glossaryentryfield{mp}{\\glsnamefont{MP}}{Mesh Potato}{\\relax }") ) :locref "{}{7}" :attr "pageglsnumberformat" ) 
