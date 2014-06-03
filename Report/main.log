@@ -1,11 +1,7 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=latex 2013.9.23)  2 JUN 2014 16:27
-=======
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.16)  2 JUN 2014 13:23
->>>>>>> 82c5da04825c988056e1060f47252eabd539260f
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.16)  3 JUN 2014 16:33
 entering extended mode
 **main.tex
-(C:\Users\Esther\Masteroppgave\Report\main.tex
+("C:\Users\Ida Malene\Masteroppgave\Report\main.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -17,10 +13,10 @@ german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-(C:\Users\Esther\Masteroppgave\Report\MScthesisITEM.cls
+("C:\Users\Ida Malene\Masteroppgave\Report\MScthesisITEM.cls"
 Document Class: MScthesisITEM 2012/11/10 v1.0 LaTeX2e ITEM MSc thesis document 
 class
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\memoir\memoir.cls"
+("C:\Program Files\MiKTeX 2.9\tex\latex\memoir\memoir.cls"
 Document Class: memoir 2013/05/30 v3.7b configurable book, report, article docu
 ment class
 \onelineskip=\skip41
@@ -29,18 +25,18 @@ ment class
 \@memcnta=\count79
 \c@@memmarkcntra=\count80
 \l@nohyphenation=\language69
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is not detected.
+Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ifetex\ifetex.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\ifetex\ifetex.sty"
 Package: ifetex 2011/12/15 v1.2 ifetex
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\plain\ifetex\ifetex.tex"))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+("C:\Program Files\MiKTeX 2.9\tex\plain\ifetex\ifetex.tex"))
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -49,11 +45,11 @@ Package ifluatex Info: LuaTeX not detected.
 \trimtop=\skip46
 \trimedge=\skip47
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\misc\etex.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\misc\etex.sty"
 Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
 \et@xins=\count81
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\memoir\mem10.clo"
+("C:\Program Files\MiKTeX 2.9\tex\latex\memoir\mem10.clo"
 File: mem10.clo 2008/01/30 v0.3 memoir class 10pt size option
 )
 \binding=\skip48
@@ -352,38 +348,34 @@ Package tocvsec2 [2008/07/23] emulated by memoir.
 Package verbatim [2008/07/23] emulated by memoir.
 Package verse [2008/07/23] emulated by memoir.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\memoir\mempatch.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\memoir\mempatch.sty"
 Package: mempatch 2009/07/24 v6.0f Patches for memoir class v1.6180339
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\iftex\iftex.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\iftex\iftex.sty"
 Package: iftex 2013/04/04 v0.2 Provides if(tex) conditional for PDFTeX, XeTeX, 
 and LuaTeX
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package xcolor Info: Driver file: dvips.def on input line 225.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvips.def"
-File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
-=======
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count138
->>>>>>> 82c5da04825c988056e1060f47252eabd539260f
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
 Package xcolor Info: Model `RGB' extended on input line 1353.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
@@ -392,19 +384,19 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks22
 \inpenc@posthook=\toks23
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
 File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -554,7 +546,7 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
 File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -585,7 +577,7 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
 File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -609,14 +601,14 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\lmodern.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\lmodern.sty"
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -671,21 +663,21 @@ Sidefoothsep and sidefootwidth: 7pt and 59pt
 Sidefootvsep and sidefootheight: 12pt and 464.39996pt
 ******************************************************
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\microtype.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype.sty"
 Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks24
 )
 \MT@toks=\toks25
-\MT@count=\count138
+\MT@count=\count139
 LaTeX Info: Redefining \textls on input line 766.
 \MT@outer@kern=\dimen147
 LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
-\MT@listname@count=\count139
+\MT@listname@count=\count140
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\microtype-pdftex.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype-pdftex.def"
 File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 915.
@@ -694,24 +686,24 @@ LaTeX Info: Redefining \lslig on input line 915.
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\microtype.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype.cfg"
 File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\afterpage.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\afterpage.sty"
 Package: afterpage 1995/10/27 v1.08 After-Page Package (DPC)
 \AP@output=\toks26
 \AP@partial=\box29
 \AP@footins=\box30
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip186
 \enit@outerparindent=\dimen148
 \enit@toks=\toks27
 \enit@inbox=\box31
-\enitdp@description=\count140
+\enitdp@description=\count141
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -726,12 +718,12 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
 File: ts1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
@@ -866,16 +858,16 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\multicol.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
 Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
-\c@tracingmulticols=\count141
+\c@tracingmulticols=\count142
 \mult@box=\box32
 \multicol@leftmargin=\dimen149
-\c@unbalance=\count142
-\c@collectmore=\count143
-\doublecol@number=\count144
-\multicoltolerance=\count145
-\multicolpretolerance=\count146
+\c@unbalance=\count143
+\c@collectmore=\count144
+\doublecol@number=\count145
+\multicoltolerance=\count146
+\multicolpretolerance=\count147
 \full@width=\dimen150
 \page@free=\dimen151
 \premulticols=\dimen152
@@ -905,30 +897,30 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \@tempa=\box53
 \@tempa=\box54
 \@tempa=\box55
-\c@columnbadness=\count147
-\c@finalcolumnbadness=\count148
+\c@columnbadness=\count148
+\c@finalcolumnbadness=\count149
 \last@try=\dimen154
 \multicolovershoot=\dimen155
 \multicolundershoot=\dimen156
 \mult@nat@firstbox=\box56
 \colbreak@box=\box57
-\multicol@sort@counter=\count149
+\multicol@sort@counter=\count150
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 \bigstrutjot=\dimen157
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
 
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
 Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package hobsub Info: Skipping package `ifluatex' (already loaded).
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
@@ -946,7 +938,7 @@ Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
+Package pdftexcmds Info: \pdfdraftmode found.
 Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
 Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
 )
@@ -963,24 +955,24 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen158
-\Hy@linkcounter=\count150
-\Hy@pagecounter=\count151
+\Hy@linkcounter=\count151
+\Hy@pagecounter=\count152
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count152
+\Hy@SavedSpaceFactor=\count153
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4443.
@@ -990,15 +982,15 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count153
+\c@Hy@tempcnt=\count154
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen159
-\Fld@menulength=\count154
+\Fld@menulength=\count155
 \Field@Width=\dimen160
 \Fld@charsize=\dimen161
 Package hyperref Info: Hyper figures OFF on input line 6295.
@@ -1010,70 +1002,57 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count155
-\c@Item=\count156
-\c@Hfootnote=\count157
+\Hy@abspage=\count156
+\c@Item=\count157
+\c@Hfootnote=\count158
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\memoir\memhfixc.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\memoir\memhfixc.sty"
 Package: memhfixc 2013/05/30 v1.17 nameref/hyperref package fixes for memoir cl
 ass
-\c@memhycontfloat=\count158
-\c@Hpagenote=\count159
+\c@memhycontfloat=\count159
+\c@Hpagenote=\count160
 )
 
-Package hyperref Message: Driver (default): hdvips.
+Package hyperref Message: Driver (autodetected): hpdftex.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hdvips.def"
-File: hdvips.def 2012/11/06 v6.83m Hyperref driver for dvips
-
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pdfmark.def"
-File: pdfmark.def 2012/11/06 v6.83m Hyperref definitions for pdfmark specials
-\pdf@docset=\toks28
-\pdf@box=\box58
-\pdf@toks=\toks29
-\pdf@defaulttoks=\toks30
-\HyField@AnnotCount=\count160
-=======
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
->>>>>>> 82c5da04825c988056e1060f47252eabd539260f
 \Fld@listcount=\count161
 \c@bookmark@seq@number=\count162
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip189
-))
+)
 Package hyperref Info: Option `colorlinks' set `true' on input line 81.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: dvips.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 )
 \Gin@req@height=\dimen162
 \Gin@req@width=\dimen163
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
 Package: pdfpages 2013/08/25 v0.4v Insert pages of external PDF documents (AM)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count163
 \calc@Bcount=\count164
@@ -1086,57 +1065,43 @@ LaTeX Info: Redefining \addtolength on input line 77.
 \calc@Ccount=\count165
 \calc@Cskip=\skip192
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
 Package: eso-pic 2010/10/06 v2.0c eso-pic (RN)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
 File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\ppnull.def"
-File: ppnull.def 2013/08/25 v0.4v Pdfpages dummy driver (AM)
-
-
-Package pdfpages Warning: I will use a dummy \includepdf command
-(pdfpages)                which will NOT insert any pages, because
-(pdfpages)                you are producing DVI output.
-
-))
-\AM@pagebox=\box59
-\AM@toc@title=\toks31
+)
+\AM@pagebox=\box58
+\AM@toc@title=\toks28
 \c@AM@survey=\count166
-<<<<<<< HEAD
-\AM@templatesizebox=\box60
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.sty"
-=======
 \AM@templatesizebox=\box59
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.sty"
->>>>>>> 82c5da04825c988056e1060f47252eabd539260f
+("C:\Program Files\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.sty"
 \wrapoverhang=\dimen166
 \WF@size=\dimen167
 \c@WF@wrappedlines=\count167
-\WF@box=\box61
-\WF@everypar=\toks32
+\WF@box=\box60
+\WF@everypar=\toks29
 Package: wrapfig 2003/01/31  v 3.6
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip193
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks33
+\@emptytoks=\toks30
 \ex@=\dimen168
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen169
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count168
@@ -1149,8 +1114,8 @@ LaTeX Info: Redefining \overline on input line 306.
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
-\Mathstrutbox@=\box62
-\strutbox@=\box63
+\Mathstrutbox@=\box61
+\strutbox@=\box62
 \big@size=\dimen170
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
@@ -1159,57 +1124,57 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \dotsspace@=\muskip11
 \c@parentequation=\count175
 \dspbrk@lvl=\count176
-\tag@help=\toks34
+\tag@help=\toks31
 \row@=\count177
 \column@=\count178
 \maxfields@=\count179
-\andhelp@=\toks35
+\andhelp@=\toks32
 \eqnshift@=\dimen171
 \alignsep@=\dimen172
 \tagshift@=\dimen173
 \tagwidth@=\dimen174
 \totwidth@=\dimen175
 \lineht@=\dimen176
-\@envbody=\toks36
+\@envbody=\toks33
 \multlinegap=\skip194
 \multlinetaggap=\skip195
-\mathdisplay@stack=\toks37
+\mathdisplay@stack=\toks34
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amscd.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amscd.sty"
 Package: amscd 1999/11/29 v2.0
-\athelp@=\toks38
+\athelp@=\toks35
 \minaw@=\dimen177
 \bigaw@=\dimen178
 \minCDarrowwidth=\dimen179
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
 Package: amsthm 2004/08/06 v2.20
-\thm@style=\toks39
-\thm@bodyfont=\toks40
-\thm@headfont=\toks41
-\thm@notefont=\toks42
-\thm@headpunct=\toks43
+\thm@style=\toks36
+\thm@bodyfont=\toks37
+\thm@headfont=\toks38
+\thm@notefont=\toks39
+\thm@headpunct=\toks40
 \thm@preskip=\skip196
 \thm@postskip=\skip197
 \thm@headsep=\skip198
-\dth@everypar=\toks44
+\dth@everypar=\toks41
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mh\mathtools.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\mh\mathtools.sty"
 Package: mathtools 2013/02/12 v1.13 mathematical typesetting tools
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mh\mhsetup.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\mh\mhsetup.sty"
 Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
 )
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
@@ -1228,10 +1193,10 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \c@recommendation=\count182
 \c@question=\count183
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
 \lst@mode=\count184
-\lst@gtempboxa=\box64
-\lst@token=\toks45
+\lst@gtempboxa=\box63
+\lst@token=\toks42
 \lst@length=\count185
 \lst@currlwidth=\dimen187
 \lst@column=\count186
@@ -1242,33 +1207,33 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \lst@lineno=\count189
 \lst@maxwidth=\dimen190
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
 \c@lstnumber=\count190
 \lst@skipnumbers=\count191
-\lst@framebox=\box65
+\lst@framebox=\box64
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
 File: listings.cfg 2013/08/26 1.5b listings configuration
 ))
 Package: listings 2013/08/26 1.5b (Carsten Heinz)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\algorithms\algorithm.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithms\algorithm.sty"
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count192
-\float@exts=\toks46
-\float@box=\box66
-\@float@everytoks=\toks47
-\@floatcapt=\box67
+\float@exts=\toks43
+\float@box=\box65
+\@float@everytoks=\toks44
+\@floatcapt=\box66
 )
-\@float@every@algorithm=\toks48
+\@float@every@algorithm=\toks45
 \c@algorithm=\count193
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\algorithmicx\algorithmicx.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithmicx\algorithmicx.sty"
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
@@ -1282,37 +1247,38 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 \c@ALG@storecount=\count199
 \c@ALG@tmpcounter=\count200
 \ALG@tmplength=\skip202
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\algorithmicx\algpseudocode.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\algorithmicx\algpseudocode.sty"
 Package: algpseudocode 
+
 Document Style - pseudocode environments for use with the `algorithmicx' style
 )
 \chaptertitleboxheight=\skip203
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 237.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 237.
 
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OML+lmm on input line 237.
 
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 237
 .
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OMX+lmex on input line 237
 .
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1323,71 +1289,65 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 237.
 LaTeX Font Info:    Try loading font information for U+msa on input line 237.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 237.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip204
 \bibsep=\skip205
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count201
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\glossaries\base\glossaries.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\base\glossaries.sty"
 Package: glossaries 2013/07/05 v3.07 (NLCT)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
 Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
 
-<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
-\XKV@toks=\toks49
-\XKV@tempa@toks=\toks50
-=======
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
 \XKV@toks=\toks46
 \XKV@tempa@toks=\toks47
->>>>>>> 82c5da04825c988056e1060f47252eabd539260f
 \XKV@depth=\count202
 File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\glossaries\base\mfirstuc.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\base\mfirstuc.sty"
 Package: mfirstuc 2012/05/21 v1.06 (NLCT)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
 Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
 \etb@tempcnta=\count203
 )
-\@glsmfirst=\toks51
-\@glsmrest=\toks52
+\@glsmfirst=\toks48
+\@glsmrest=\toks49
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xfor\xfor.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\xfor\xfor.sty"
 Package: xfor 2009/02/05 v1.05 (NLCT)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\datatool\datatool-base.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\datatool\datatool-base.sty"
 Package: datatool-base 2013/09/06 v2.18 (NLCT)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\substr\substr.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\substr\substr.sty"
 Package: substr 2009/10/20 v1.2 Handle substrings
 \c@su@anzahl=\count204
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\datatool\datatool-fp.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\datatool\datatool-fp.sty"
 Package: datatool-fp 2013/08/29 v2.17 (NLCT)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fp\fp.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp.sty"
 Package: fp 1995/04/02
 
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fp\defpattern.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\fp\defpattern.sty"
 Package: defpattern 1994/10/12
 \actioncount=\count205
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fp\fp-basic.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-basic.sty"
 Package: fp-basic 1996/05/13
 \FP@xs=\count206
 \FP@xia=\count207
@@ -1399,35 +1359,35 @@ Package: fp-basic 1996/05/13
 \FP@regs=\count213
 \FP@times=\count214
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fp\fp-addons.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-addons.sty"
 Package: fp-addons 1995/03/15
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fp\fp-snap.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-snap.sty"
 Package: fp-snap 1995/04/05
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fp\fp-exp.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-exp.sty"
 Package: fp-exp 1995/04/03
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fp\fp-trigo.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-trigo.sty"
 Package: fp-trigo 1995/04/14
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fp\fp-pas.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-pas.sty"
 Package: fp-pas 1994/08/29
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fp\fp-random.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-random.sty"
 Package: fp-random 1995/02/23
 \FPseed=\count215
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fp\fp-eqn.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-eqn.sty"
 Package: fp-eqn 1995/04/03
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fp\fp-upn.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-upn.sty"
 Package: fp-upn 1996/10/21
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fp\fp-eval.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-eval.sty"
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks53
+\@dtl@toks=\toks50
 \@dtl@tmpcount=\count216
 \dtl@tmplength=\skip206
 \dtl@sortresult=\count217
@@ -1438,27 +1398,24 @@ Package: fp-eval 1995/04/03
 \@dtl@foreach@level=\count222
 )
 \gls@level=\count223
-\@gls@tmpb=\toks54
+\@gls@tmpb=\toks51
 \gls@tmplen=\skip207
 \glswrite=\write4
-\glskeylisttok=\toks55
-\glslabeltok=\toks56
-\glsshorttok=\toks57
-\glslongtok=\toks58
+\glskeylisttok=\toks52
+\glslabeltok=\toks53
+\glsshorttok=\toks54
+\glslongtok=\toks55
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-hypern
-av.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-hypernav.sty
+"
 Package: glossary-hypernav 2007/07/04 v1.01 (NLCT)
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-list.s
-ty"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-list.sty"
 Package: glossary-list 2012/11/11 v3.04 (NLCT)
 \glslistdottedwidth=\skip208
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-long.s
-ty"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-long.sty"
 Package: glossary-long 2012/09/21 v3.03 (NLCT)
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
 Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip209
 \LTright=\skip210
@@ -1466,23 +1423,23 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTpost=\skip212
 \LTchunksize=\count224
 \LTcapwidth=\dimen191
-\LT@head=\box68
-\LT@firsthead=\box69
-\LT@foot=\box70
-\LT@lastfoot=\box71
+\LT@head=\box67
+\LT@firsthead=\box68
+\LT@foot=\box69
+\LT@lastfoot=\box70
 \LT@cols=\count225
 \LT@rows=\count226
 \c@LT@tables=\count227
 \c@LT@chunks=\count228
-\LT@p@ftn=\toks59
+\LT@p@ftn=\toks56
 )
 \glsdescwidth=\skip213
 \glspagelistwidth=\skip214
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-super.
-sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-super.sty"
 Package: glossary-super 2012/09/21 v3.03 (NLCT)
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\supertabular\supertabular.sty"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\supertabular\supertabular.sty"
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
 Normal \count register pool exhausted, switching to extended pool.
 \c@tracingst=\count277
@@ -1500,25 +1457,25 @@ Normal \count register pool exhausted, switching to extended pool.
 \ST@prevht=\dimen200
 \ST@toadd=\dimen201
 \ST@dimen=\dimen202
-\ST@pbox=\box72
+\ST@pbox=\box71
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-tree.s
-ty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-tree.sty"
 Package: glossary-tree 2012/09/21 v3.03 (NLCT)
 \glstreeindent=\skip218
-)) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
+))
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2008/07/08 v3.8m The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\english.ldf"
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\english.ldf"
 Language: english 2005/03/30 v3.3o English support from the babel system
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count278
 \U@D=\dimen203
@@ -1527,27 +1484,27 @@ File: babel.def 2008/07/08 v3.8m Babel common definitions
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\norsk.ldf"
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\norsk.ldf"
 Language: norsk 2005/03/30 v2.0h Norsk support from the babel system
 Package babel Info: Making " an active character on input line 113.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\datetime\datetime.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\datetime\datetime.sty"
 Package: datetime 2010/09/21 v2.58 Date Time Package
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fmtcount\fmtcount.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fmtcount.sty"
 Package: fmtcount 2013/08/17 v2.03
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fmtcount\fcprefix.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fcprefix.sty"
 Package: fcprefix 2012/09/28
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fmtcount\fcnumparser.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fcnumparser.sty"
 Package: fcnumparser 2012/09/28
 \fc@digit@counter=\count279
 ))
 \c@padzeroesN=\count280
 \fc@tmpcatcode=\count281
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fmtcount\fc-english.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fc-english.def"
 File: fc-english.def 2013/08/17
 )
 \@DT@modctr=\count282
@@ -1577,32 +1534,32 @@ put line 292.
 \dayofweek=\count303
 LaTeX Info: Redefining \today on input line 724.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\datetime\dt-norsk.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\datetime\dt-norsk.def"
 File: dt-norsk.def 2004/10/31
 LaTeX Info: Redefining \datenorsk on input line 63.
 )
-\dt@a=\toks60
-\dt@b=\toks61
+\dt@a=\toks57
+\dt@b=\toks58
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\framed\framed.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\framed\framed.sty"
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip219
 \fb@frw=\dimen204
 \fb@frh=\dimen205
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\underscore\underscore.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\underscore\underscore.sty"
 Package: underscore 2006/09/13
 LaTeX Info: Redefining \_ on input line 42.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\imakeidx.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\imakeidx.sty"
 Package: imakeidx 2013/07/11 v1.3a Package for typesetting indices in a synchro
 nous mode
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xpatch\xpatch.sty"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\xpatch\xpatch.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty"
 Package: expl3 2014/05/06 v4751 L3 programming layer (loader) 
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\expl3-code.tex"
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3-code.tex"
 Package: expl3 2014/05/06 v4751 L3 programming layer (code) 
 L3 Module: l3bootstrap 2014/05/06 v4750 L3 Bootstrap code
 L3 Module: l3names 2014/05/04 v4728 L3 Namespace for primitives
@@ -1664,13 +1621,13 @@ L3 Module: l3fp 2014/04/30 v4712 L3 Floating points
 \c__fp_Bigg_middle_shift_int=\count324
 \c__fp_Bigg_trailing_shift_int=\count325
 L3 Module: l3box 2014/05/04 v4728 L3 Experimental boxes
-\c_empty_box=\box73
-\l_tmpa_box=\box74
-\l_tmpb_box=\box75
-\g_tmpa_box=\box76
-\g_tmpb_box=\box77
+\c_empty_box=\box72
+\l_tmpa_box=\box73
+\l_tmpb_box=\box74
+\g_tmpa_box=\box75
+\g_tmpb_box=\box76
 L3 Module: l3coffins 2014/05/04 v4728 L3 Coffin code layer
-\l__coffin_internal_box=\box78
+\l__coffin_internal_box=\box77
 \l__coffin_internal_dim=\dimen262
 \l__coffin_offset_x_dim=\dimen263
 \l__coffin_offset_y_dim=\dimen264
@@ -1678,14 +1635,14 @@ L3 Module: l3coffins 2014/05/04 v4728 L3 Coffin code layer
 \l__coffin_y_dim=\dimen266
 \l__coffin_x_prime_dim=\dimen267
 \l__coffin_y_prime_dim=\dimen268
-\c_empty_coffin=\box79
-\l__coffin_aligned_coffin=\box80
-\l__coffin_aligned_internal_coffin=\box81
-\l_tmpa_coffin=\box82
-\l_tmpb_coffin=\box83
-\l__coffin_display_coffin=\box84
-\l__coffin_display_coord_coffin=\box85
-\l__coffin_display_pole_coffin=\box86
+\c_empty_coffin=\box78
+\l__coffin_aligned_coffin=\box79
+\l__coffin_aligned_internal_coffin=\box80
+\l_tmpa_coffin=\box81
+\l_tmpb_coffin=\box82
+\l__coffin_display_coffin=\box83
+\l__coffin_display_coord_coffin=\box84
+\l__coffin_display_pole_coffin=\box85
 \l__coffin_display_offset_dim=\dimen269
 \l__coffin_display_x_dim=\dimen270
 \l__coffin_display_y_dim=\dimen271
@@ -1702,7 +1659,7 @@ L3 Module: l3candidates 2014/05/04 v4734 L3 Experimental additions to l3kernel
 \l__box_bottom_new_dim=\dimen277
 \l__box_left_new_dim=\dimen278
 \l__box_right_new_dim=\dimen279
-\l__box_internal_box=\box87
+\l__box_internal_box=\box86
 \l__coffin_bounding_shift_dim=\dimen280
 \l__coffin_left_corner_dim=\dimen281
 \l__coffin_right_corner_dim=\dimen282
@@ -1713,7 +1670,7 @@ L3 Module: l3candidates 2014/05/04 v4734 L3 Experimental additions to l3kernel
 ))
 Package: xpatch 2012/10/02 v0.3 Extending etoolbox patching commands
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty"
 Package: xparse 2014/05/05 v4740 L3 Experimental document command parser
 \l__xparse_current_arg_int=\count328
 \l__xparse_m_args_int=\count329
@@ -1935,10 +1892,10 @@ To prepare we will now reset all captioning macros and configurations to kernel
  defaults, and then let the caption package take over. Please remember to use t
 he caption package interfaces in order to configure your captions. .
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen287
@@ -1955,66 +1912,65 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\ltcaption.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\ltcaption.sty"
 Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
 )
 Package caption Info: supertabular package is loaded.
 Package caption Info: wrapfig package is loaded.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
 Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
 \c@subfigure=\count334
 \c@subtable=\count335
 )
-(C:\Users\Esther\Masteroppgave\Report\glossary.tex)
+("C:\Users\Ida Malene\Masteroppgave\Report\glossary.tex")
 \glo@main@file=\write6
-Package glossaries Info: Writing glossary file main.glo on input line 36.
+Package glossaries Info: Writing glossary file main.glo on input line 37.
 \glo@acronym@file=\write7
-Package glossaries Info: Writing glossary file main.acn on input line 36.
+Package glossaries Info: Writing glossary file main.acn on input line 37.
 
-(C:\Users\Esther\Masteroppgave\Report\main.aux
-(C:\Users\Esther\Masteroppgave\Report\abstract.aux)
-(C:\Users\Esther\Masteroppgave\Report\preface.aux)
-(C:\Users\Esther\Masteroppgave\Report\introduction.aux)
-(C:\Users\Esther\Masteroppgave\Report\background.aux)
-(C:\Users\Esther\Masteroppgave\Report\backgroundrefugeecamps.aux)
-(C:\Users\Esther\Masteroppgave\Report\quickrollout.aux
+("C:\Users\Ida Malene\Masteroppgave\Report\main.aux"
+("C:\Users\Ida Malene\Masteroppgave\Report\abstract.aux")
+("C:\Users\Ida Malene\Masteroppgave\Report\abstractnorwegian.aux")
+("C:\Users\Ida Malene\Masteroppgave\Report\preface.aux")
+("C:\Users\Ida Malene\Masteroppgave\Report\introduction.aux")
+("C:\Users\Ida Malene\Masteroppgave\Report\background.aux")
+("C:\Users\Ida Malene\Masteroppgave\Report\backgroundrefugeecamps.aux")
+("C:\Users\Ida Malene\Masteroppgave\Report\quickrollout.aux"
 
 LaTeX Warning: Label `fig:boxinmaking' multiply defined.
 
-) (C:\Users\Esther\Masteroppgave\Report\manuals.aux)
-(C:\Users\Esther\Masteroppgave\Report\testing.aux)
-(C:\Users\Esther\Masteroppgave\Report\discussion.aux)
-(C:\Users\Esther\Masteroppgave\Report\conclusion.aux)
-(C:\Users\Esther\Masteroppgave\Report\appendixA.aux)
-(C:\Users\Esther\Masteroppgave\Report\appendixD.aux)
-(C:\Users\Esther\Masteroppgave\Report\appendixB.aux)
-(C:\Users\Esther\Masteroppgave\Report\appendixC.aux))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 40.
+) ("C:\Users\Ida Malene\Masteroppgave\Report\manuals.aux")
+("C:\Users\Ida Malene\Masteroppgave\Report\testing.aux")
+("C:\Users\Ida Malene\Masteroppgave\Report\discussion.aux")
+("C:\Users\Ida Malene\Masteroppgave\Report\conclusion.aux")
+("C:\Users\Ida Malene\Masteroppgave\Report\appendixA.aux")
+("C:\Users\Ida Malene\Masteroppgave\Report\appendixD.aux")
+("C:\Users\Ida Malene\Masteroppgave\Report\appendixB.aux")
+("C:\Users\Ida Malene\Masteroppgave\Report\appendixC.aux"))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 41.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-<<<<<<< HEAD
-=======
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count336
 \scratchdimen=\dimen294
@@ -2028,80 +1984,52 @@ LaTeX Font Info:    ... okay on input line 40.
 \makeMPintoPDFobject=\count341
 \everyMPtoPDFconversion=\toks60
 )
->>>>>>> 82c5da04825c988056e1060f47252eabd539260f
-LaTeX Info: Redefining \microtypecontext on input line 40.
-Package microtype Info: Generating DVI output.
+LaTeX Info: Redefining \microtypecontext on input line 41.
+Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
-Package microtype Info: No font expansion.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
-<<<<<<< HEAD
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-cmr.cfg"
-=======
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\mt-cmr.cfg"
->>>>>>> 82c5da04825c988056e1060f47252eabd539260f
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-cmr.cfg"
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
 \AtBeginShipoutBox=\box88
-Package hyperref Info: Link coloring ON on input line 40.
+Package hyperref Info: Link coloring ON on input line 41.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count336
+\c@section@level=\count342
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 40.
-LaTeX Info: Redefining \ref on input line 40.
-LaTeX Info: Redefining \pageref on input line 40.
-LaTeX Info: Redefining \nameref on input line 40.
-(C:\Users\Esther\Masteroppgave\Report\main.out)
-(C:\Users\Esther\Masteroppgave\Report\main.out)
+LaTeX Info: Redefining \nameref on input line 41.
+LaTeX Info: Redefining \ref on input line 41.
+LaTeX Info: Redefining \pageref on input line 41.
+LaTeX Info: Redefining \nameref on input line 41.
+("C:\Users\Ida Malene\Masteroppgave\Report\main.out")
+("C:\Users\Ida Malene\Masteroppgave\Report\main.out")
 \@outlinefile=\write8
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
-\c@lstlisting=\count337
+\c@lstlisting=\count343
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
-<<<<<<< HEAD
-! LaTeX Error: Cannot determine size of graphic in ./figs/ntnu-logo.pdf (no Bou
-ndingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 \titleITEM
-               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: ./figs/ntnu-logo.pdf Graphic file (type eps)
-<./figs/ntnu-logo.pdf>
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 48.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
-=======
 <./figs/ntnu-logo.pdf, id=323, 241.4922pt x 52.79724pt>
 File: ./figs/ntnu-logo.pdf Graphic file (type pdf)
 
 <use ./figs/ntnu-logo.pdf>
-Package pdftex.def Info: ./figs/ntnu-logo.pdf used on input line 47.
+Package pdftex.def Info: ./figs/ntnu-logo.pdf used on input line 49.
 (pdftex.def)             Requested size: 170.71652pt x 37.32436pt.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 47.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
->>>>>>> 82c5da04825c988056e1060f47252eabd539260f
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 49.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic settings for font family
@@ -2109,444 +2037,171 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (4.65376pt too wide) in paragraph at lines 48--48
+Overfull \hbox (4.65376pt too wide) in paragraph at lines 49--49
 \T1/lmss/bx/n/16.00006 Esther Bloe-men-daal & Ida Ma-lene Has-sel Øveråsen 
  []
 
-LaTeX Font Info:    Calculating math sizes for size <11.49994> on input line 48
+LaTeX Font Info:    Calculating math sizes for size <11.49994> on input line 49
 .
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <11.49994> on input line 48.
+(Font)              <11.49994> on input line 49.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8.04991> on input line 48.
+(Font)              <8.04991> on input line 49.
 LaTeX Font Info:    External font `lmex10' loaded for size
-<<<<<<< HEAD
-(Font)              <5.74997> on input line 48.
+(Font)              <5.74997> on input line 49.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-msa.cfg"
-=======
-(Font)              <5.74997> on input line 47.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\mt-msa.cfg"
->>>>>>> 82c5da04825c988056e1060f47252eabd539260f
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\mt-msb.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-msb.cfg"
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) [1
 
-<<<<<<< HEAD
-] [2
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Ida Malene/Maste
+roppgave/Report/figs/ntnu-logo.pdf>] [2
 
 ]
-("C:\Users\Ida Malene\Masteroppgave\Report\abstract.tex"
-Overfull \hbox (57.85814pt too wide) in paragraph at lines 21--22
-\T1/lmr/m/n/10 our so-lu-tion the [][][][][][][]
- []
-
-) [3
-=======
-{C:/Users/Esther/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/E
-sther/Masteroppgave/Report/figs/ntnu-logo.pdf>] [2
-
-]
-(C:\Users\Esther\Masteroppgave\Report\abstract.tex) [3
->>>>>>> 82c5da04825c988056e1060f47252eabd539260f
+("C:\Users\Ida Malene\Masteroppgave\Report\abstract.tex") [3
 
 ] [4
 
 
-<<<<<<< HEAD
-] ("C:\Users\Ida Malene\Masteroppgave\Report\preface.tex"
-Overfull \hbox (115.99222pt too wide) in paragraph at lines 4--5
-[]\T1/lmr/m/n/10 This study was per-formed as a mas-ter's the-sis on be-half of
- the [][][][][][][]
- []
-
-
-=======
 ]
-(C:\Users\Esther\Masteroppgave\Report\preface.tex
->>>>>>> 82c5da04825c988056e1060f47252eabd539260f
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
-
- []
-
-) [5
+("C:\Users\Ida Malene\Masteroppgave\Report\abstractnorwegian.tex") [5
 
 ] [6
 
 
-<<<<<<< HEAD
-] ("C:\Users\Ida Malene\Masteroppgave\Report\main.toc" [7]
-Overfull \hbox (174.87515pt too wide) in paragraph at lines 100--100
- [][] [] []  
+]
+("C:\Users\Ida Malene\Masteroppgave\Report\preface.tex"
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
  []
-=======
-] (C:\Users\Esther\Masteroppgave\Report\main.toc [7]
+
+) [7
+
+] [8
+
+
+] ("C:\Users\Ida Malene\Masteroppgave\Report\main.toc" [9]
 Underfull \vbox (badness 1137) has occurred while \output is active []
->>>>>>> 82c5da04825c988056e1060f47252eabd539260f
 
-[8]
-Overfull \hbox (44.44542pt too wide) in paragraph at lines 111--111
- [][] [] []  
- []
+ [10])
+[11] [12
 
-<<<<<<< HEAD
-
-Overfull \hbox (223.20863pt too wide) in paragraph at lines 112--112
- [][] [] []  
- []
-
-) [9] [10
-
-] ("C:\Users\Ida Malene\Masteroppgave\Report\main.lof"
-Overfull \hbox (10.97108pt too wide) in paragraph at lines 27--27
- [][] [] []  
- []
-
-) [11] [12
-
-] ("C:\Users\Ida Malene\Masteroppgave\Report\main.lot") [13] [14
-=======
-] (C:\Users\Esther\Masteroppgave\Report\main.lof) [11] [12
+] ("C:\Users\Ida Malene\Masteroppgave\Report\main.lof") [13] [14
 
 ]
-(C:\Users\Esther\Masteroppgave\Report\main.lot) [13] [14
->>>>>>> 82c5da04825c988056e1060f47252eabd539260f
+("C:\Users\Ida Malene\Masteroppgave\Report\main.lot") [15] [16
 
 ]
-(C:\Users\Esther\Masteroppgave\Report\main.acr [15
+("C:\Users\Ida Malene\Masteroppgave\Report\main.acr" [17
 
 
-] [16]) [17] [18
+] [18]) [19] [20
 
 ]
-(C:\Users\Esther\Masteroppgave\Report\introduction.tex
+("C:\Users\Ida Malene\Masteroppgave\Report\introduction.tex"
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1
 
 
 ]
-<<<<<<< HEAD
-[2]
-
-! LaTeX Error: Cannot determine size of graphic in ./figs/metode.jpg (no Boundi
-ngBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.36 ...egraphics[width=0.6\textwidth]{metode.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: ./figs/metode.jpg Graphic file (type eps)
-<./figs/metode.jpg> [3]) [4]
-("C:\Users\Ida Malene\Masteroppgave\Report\background.tex"
-Overfull \hbox (98.88527pt too wide) in paragraph at lines 7--8
-\T1/lmr/m/n/10 Dawid Rowe, and Elek-tra, the de-vel-oper of [][][][][][][]
- []
-
-[5
-=======
-[2] <./figs/metode.jpg, id=629, 289.83281pt x 210.03468pt>
+[2] <./figs/metode.jpg, id=639, 289.83281pt x 210.03468pt>
 File: ./figs/metode.jpg Graphic file (type jpg)
 
 <use ./figs/metode.jpg>
 Package pdftex.def Info: ./figs/metode.jpg used on input line 36.
 (pdftex.def)             Requested size: 218.40222pt x 158.27235pt.
- [3 <C:/Users/Esther/Masteroppgave/Report/figs/metode.jpg>]) [4] (C:\Users\Esth
-er\Masteroppgave\Report\background.tex [5
->>>>>>> 82c5da04825c988056e1060f47252eabd539260f
+ [3 <C:/Users/Ida Malene/Masteroppgave/Report/figs/metode.jpg>]) [4] ("C:\Users
+\Ida Malene\Masteroppgave\Report\background.tex"
+[5
 
 
 
-]
-<<<<<<< HEAD
-
-! LaTeX Error: Cannot determine size of graphic in ./figs/MP01.jpg (no Bounding
-Box).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.14 ...includegraphics[width=0.5\textwidth]{MP01}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: ./figs/MP01.jpg Graphic file (type eps)
-<./figs/MP01.jpg>
-Overfull \hbox (16.04338pt too wide) in paragraph at lines 19--20
-\T1/lmr/m/n/10 a low, but sta-ble, power sup-ply. The Eth-er-net port, the [][]
-[][][][][]
- []
-
-[6]
-
-! LaTeX Error: Cannot determine size of graphic in ./figs/mp2.PNG (no BoundingB
-ox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.33 ...ludegraphics[width=0.5\textwidth]{mp2.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-=======
-<./figs/MP01.jpg, id=671, 752.8125pt x 602.25pt>
+] <./figs/MP01.jpg, id=683, 752.8125pt x 602.25pt>
 File: ./figs/MP01.jpg Graphic file (type jpg)
  <use ./figs/MP01.jpg>
 Package pdftex.def Info: ./figs/MP01.jpg used on input line 14.
 (pdftex.def)             Requested size: 182.0pt x 145.59975pt.
- [6 <C:/Users/Esther/Masteroppgave/Report/figs/MP01.jpg>]
-<./figs/mp2.PNG, id=708, 803.0pt x 438.63875pt>
+
+[6 <C:/Users/Ida Malene/Masteroppgave/Report/figs/MP01.jpg>]
+<./figs/mp2.PNG, id=719, 803.0pt x 438.63875pt>
 File: ./figs/mp2.PNG Graphic file (type png)
  <use ./figs/mp2.PNG>
 Package pdftex.def Info: ./figs/mp2.PNG used on input line 33.
 (pdftex.def)             Requested size: 182.0pt x 99.41899pt.
->>>>>>> 82c5da04825c988056e1060f47252eabd539260f
-
-File: ./figs/mp2.PNG Graphic file (type eps)
-<./figs/mp2.PNG>
-
-<<<<<<< HEAD
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-=======
- [7 <C:/Users/Esther/Masteroppgave/Report/figs/mp2.PNG>]
-<./figs/villagetelco3.PNG, id=728, 744.53156pt x 516.42938pt>
+ [7 <C:/Users/Ida Malene/Masteroppgave/Report/figs/mp2.PNG>]
+<./figs/villagetelco3.PNG, id=739, 744.53156pt x 516.42938pt>
 File: ./figs/villagetelco3.PNG Graphic file (type png)
->>>>>>> 82c5da04825c988056e1060f47252eabd539260f
 
-[7]
+<use ./figs/villagetelco3.PNG>
+Package pdftex.def Info: ./figs/villagetelco3.PNG used on input line 48.
+(pdftex.def)             Requested size: 364.0pt x 252.48524pt.
 
-! LaTeX Error: Cannot determine size of graphic in ./figs/villagetelco3.PNG (no
- BoundingBox).
+Underfull \vbox (badness 3579) has occurred while \output is active []
 
-<<<<<<< HEAD
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 ...hics[width=1\textwidth]{villagetelco3.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: ./figs/villagetelco3.PNG Graphic file (type eps)
-<./figs/villagetelco3.PNG>
-Underfull \vbox (badness 10000) has occurred while \output is active []
-=======
- [8 <C:/Users/Esther/Masteroppgave/Report/figs/villagetelco3.PNG>]
-<./figs/Cellulartimor.PNG, id=738, 462.97969pt x 207.77625pt>
+ [8 <C:/Users/Ida Malene/Masteroppgave/Report/figs/villagetelco3.PNG>]
+<./figs/Cellulartimor.PNG, id=750, 462.97969pt x 207.77625pt>
 File: ./figs/Cellulartimor.PNG Graphic file (type png)
 
 <use ./figs/Cellulartimor.PNG>
 Package pdftex.def Info: ./figs/Cellulartimor.PNG used on input line 64.
 (pdftex.def)             Requested size: 364.0pt x 163.35834pt.
- [9 <C:/Users/Esther/Masteroppgave/Report/figs/Cellulartimor.PNG>]
-<./figs/internettimor.PNG, id=756, 541.27219pt x 210.03468pt>
+ [9 <C:/Users/Ida Malene/Masteroppgave/Report/figs/Cellulartimor.PNG>]
+<./figs/internettimor.PNG, id=768, 541.27219pt x 210.03468pt>
 File: ./figs/internettimor.PNG Graphic file (type png)
->>>>>>> 82c5da04825c988056e1060f47252eabd539260f
 
- [8]
-[9]
-
-! LaTeX Error: Cannot determine size of graphic in ./figs/Cellulartimor.PNG (no
- BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.64 ...hics[width=1\textwidth]{Cellulartimor.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: ./figs/Cellulartimor.PNG Graphic file (type eps)
-<./figs/Cellulartimor.PNG> [10]
-
-! LaTeX Error: Cannot determine size of graphic in ./figs/internettimor.PNG (no
- BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.80 ...hics[width=1\textwidth]{internettimor.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: ./figs/internettimor.PNG Graphic file (type eps)
-<./figs/internettimor.PNG>
+<use ./figs/internettimor.PNG>
+Package pdftex.def Info: ./figs/internettimor.PNG used on input line 80.
+(pdftex.def)             Requested size: 364.0pt x 141.2513pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 86.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 86.
-<<<<<<< HEAD
-=======
- [10 <C:/Users/Esther/Masteroppgave/Report/figs/internettimor.PNG>] [11] [12] [
-13]
-<./figs/adhoc.png, id=844, 339.51843pt x 176.15813pt>
+ [10 <C:/Users/Ida Malene/Masteroppgave/Report/figs/internettimor.PNG>] [11] [1
+2] [13]
+<./figs/adhoc.png, id=856, 339.51843pt x 176.15813pt>
 File: ./figs/adhoc.png Graphic file (type png)
  <use ./figs/adhoc.png>
 Package pdftex.def Info: ./figs/adhoc.png used on input line 164.
 (pdftex.def)             Requested size: 291.20111pt x 151.0952pt.
 
-[14 <C:/Users/Esther/Masteroppgave/Report/figs/adhoc.png>]
-<./figs/wmn.png, id=866, 508.14844pt x 358.33875pt>
+[14 <C:/Users/Ida Malene/Masteroppgave/Report/figs/adhoc.png>]
+<./figs/wmn.png, id=879, 508.14844pt x 358.33875pt>
 File: ./figs/wmn.png Graphic file (type png)
  <use ./figs/wmn.png>
 Package pdftex.def Info: ./figs/wmn.png used on input line 173.
 (pdftex.def)             Requested size: 291.20111pt x 205.35423pt.
->>>>>>> 82c5da04825c988056e1060f47252eabd539260f
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--86
-[][] [][][][][][][]\T1/lmr/m/n/8 The um-brella or-gan-i-sa-tion for Timor-Leste
-'s lo-cal, na-tional and in-ter-na-tional
- []
-
-[11]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12]
-[13]
-Overfull \hbox (14.82274pt too wide) in paragraph at lines 136--137
-\T1/lmr/m/n/10 and cheaper to buy for the user. The cov-er-age of the [][][][][
-][][]
- []
-
-
-Overfull \hbox (107.22614pt too wide) in paragraph at lines 138--140
-\T1/lmr/m/n/10 ally done over the [][][][][][][] or the [][][][][][][].
- []
-
-[14]
-
-! LaTeX Error: Cannot determine size of graphic in ./figs/adhoc.png (no Boundin
-gBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.164 ...egraphics[width=0.8\textwidth]{adhoc.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: ./figs/adhoc.png Graphic file (type eps)
-<./figs/adhoc.png>
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-<<<<<<< HEAD
- [15]
-
-! LaTeX Error: Cannot determine size of graphic in ./figs/wmn.png (no BoundingB
-ox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.173 ...udegraphics[width=0.8\textwidth]{wmn.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: ./figs/wmn.png Graphic file (type eps)
-<./figs/wmn.png> [16]
-
-! LaTeX Error: Cannot determine size of graphic in ./figs/adhocprotocols.png (n
-o BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.189 ...cs[width=1\textwidth]{adhocprotocols.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: ./figs/adhocprotocols.png Graphic file (type eps)
-<./figs/adhocprotocols.png>
-
-! LaTeX Error: Cannot determine size of graphic in ./figs/batman.png (no Boundi
-ngBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.209 ...graphics[width=0.8\textwidth]{batman.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: ./figs/batman.png Graphic file (type eps)
-<./figs/batman.png> [17] [18] [19]
-
-! LaTeX Error: Cannot determine size of graphic in ./figs/mobilesubscriptions.p
-ng (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.252 ...dth=1\textwidth]{mobilesubscriptions.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: ./figs/mobilesubscriptions.png Graphic file (type eps)
-<./figs/mobilesubscriptions.png>
-Overfull \hbox (3.35611pt too wide) in paragraph at lines 258--259
-\T1/lmr/m/n/10 age, and 45 % had [][][][][][][]
- []
-
-
-Overfull \hbox (77.46942pt too wide) in paragraph at lines 260--261
-\T1/lmr/m/n/10 work ([][][][][][][] or [][][][][][][])
- []
-
-[20]
-Underfull \hbox (badness 6808) in paragraph at lines 283--284
-[]|\T1/lmr/m/n/10 Unreliable, ex-pen-sive, slower
-=======
- [15 <C:/Users/Esther/Masteroppgave/Report/figs/wmn.png>]
-<./figs/adhocprotocols.png, id=894, 1014.79124pt x 360.59718pt>
+ [15 <C:/Users/Ida Malene/Masteroppgave/Report/figs/wmn.png>]
+<./figs/adhocprotocols.png, id=906, 1014.79124pt x 360.59718pt>
 File: ./figs/adhocprotocols.png Graphic file (type png)
 
 <use ./figs/adhocprotocols.png>
 Package pdftex.def Info: ./figs/adhocprotocols.png used on input line 189.
 (pdftex.def)             Requested size: 364.0pt x 129.34169pt.
- [16 <C:/Users/Esther/Masteroppgave/Report/figs/adhocprotocols.png>] <./figs/ba
-tman.png, id=916, 273.02pt x 65.043pt>
+ [16 <C:/Users/Ida Malene/Masteroppgave/Report/figs/adhocprotocols.png>] <./fig
+s/batman.png, id=928, 273.02pt x 65.043pt>
 File: ./figs/batman.png Graphic file (type png)
 
 <use ./figs/batman.png>
 Package pdftex.def Info: ./figs/batman.png used on input line 209.
 (pdftex.def)             Requested size: 291.20111pt x 69.37895pt.
- [17 <C:/Users/Esther/Masteroppgave/Report/figs/batman.png>] [18] <./figs/mobil
-esubscriptions.png, id=978, 466.74374pt x 207.77625pt>
+ [17 <C:/Users/Ida Malene/Masteroppgave/Report/figs/batman.png>] [18]
+<./figs/mobilesubscriptions.png, id=991, 466.74374pt x 207.77625pt>
 File: ./figs/mobilesubscriptions.png Graphic file (type png)
 
 <use ./figs/mobilesubscriptions.png>
 Package pdftex.def Info: ./figs/mobilesubscriptions.png used on input line 252.
 
 (pdftex.def)             Requested size: 364.0pt x 162.04578pt.
- [19] [20 <C:/Users/Esther/Masteroppgave/Report/figs/mobilesubscriptions.png>]
+ [19] [20 <C:/Users/Ida Malene/Masteroppgave/Report/figs/mobilesubscriptions.pn
+g>]
 Underfull \hbox (badness 4328) in paragraph at lines 283--284
 []|\T1/lmr/m/n/10 (+20) Unreliable, ex-pen-sive, slower
->>>>>>> 82c5da04825c988056e1060f47252eabd539260f
  []
 
 
@@ -2554,1165 +2209,508 @@ Overfull \hbox (6.17464pt too wide) in paragraph at lines 275--286
 [][] 
  []
 
+<./figs/loon2.PNG, id=1035, 425.33907pt x 251.43938pt>
+File: ./figs/loon2.PNG Graphic file (type png)
+ <use ./figs/loon2.PNG>
+Package pdftex.def Info: ./figs/loon2.PNG used on input line 299.
+(pdftex.def)             Requested size: 156.51733pt x 92.52466pt.
 
-! LaTeX Error: Cannot determine size of graphic in ./figs/loon2.PNG (no Boundin
-gBox).
+<./figs/loon1.jpg, id=1036, 821.0675pt x 501.875pt>
+File: ./figs/loon1.jpg Graphic file (type jpg)
+ <use ./figs/loon1.jpg>
+Package pdftex.def Info: ./figs/loon1.jpg used on input line 306.
+(pdftex.def)             Requested size: 151.05756pt x 92.33232pt.
 
-<<<<<<< HEAD
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.299 ...ludegraphics[width=\textwidth]{loon2.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-=======
-[21] [22 <C:/Users/Esther/Masteroppgave/Report/figs/loon2.PNG> <C:/Users/Esther
-/Masteroppgave/Report/figs/loon1.jpg>] [23] [24]) [25]
-(C:\Users\Esther\Masteroppgave\Report\backgroundrefugeecamps.tex [26
->>>>>>> 82c5da04825c988056e1060f47252eabd539260f
-
-File: ./figs/loon2.PNG Graphic file (type eps)
-<./figs/loon2.PNG>
-
-! LaTeX Error: Cannot determine size of graphic in ./figs/loon1.jpg (no Boundin
-gBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.306 ...ludegraphics[width=\textwidth]{loon1.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: ./figs/loon1.jpg Graphic file (type eps)
-<./figs/loon1.jpg> [21]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [22]
-[23]) [24] [25] [26] [27] [28] [29] [30]
-("C:\Users\Ida Malene\Masteroppgave\Report\backgroundrefugeecamps.tex"
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [31
+[21] [22 <C:/Users/Ida Malene/Masteroppgave/Report/figs/loon2.PNG> <C:/Users/Id
+a Malene/Masteroppgave/Report/figs/loon1.jpg>] [23] [24]) [25]
+("C:\Users\Ida Malene\Masteroppgave\Report\backgroundrefugeecamps.tex" [26
 
 
 
 ]
-[32]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
+[28]
 Overfull \hbox (16.73952pt too wide) in paragraph at lines 34--57
 [][] 
  []
 
-[33]
+[29]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34]
+ [30]
+[31]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-<<<<<<< HEAD
- [36]
-Underfull \vbox (badness 3601) has occurred while \output is active []
-
- [37])
-[38] ("C:\Users\Ida Malene\Masteroppgave\Report\quickrollout.tex"
-Overfull \hbox (21.77515pt too wide) in paragraph at lines 9--10
-\T1/lmr/m/n/10 firmware used for the [][][][][][][] is called [][][][][][][] Fi
-rmware
- []
-
-
-=======
  [32]
-[33]) [34] (C:\Users\Esther\Masteroppgave\Report\quickrollout.tex
->>>>>>> 82c5da04825c988056e1060f47252eabd539260f
+[33]) [34] ("C:\Users\Ida Malene\Masteroppgave\Report\quickrollout.tex"
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39
+ [35
 
 
 
 ]
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2013/08/26 1.5b listings language file
-)
-Overfull \hbox (1.77867pt too wide) in paragraph at lines 22--23
-[]\T1/lmr/m/n/10 In the web in-ter-face, un-der net-work, change the [][][][][]
-[][] ad-dress field to "192.168.1.x",
- []
-
-[40]
-Overfull \hbox (178.36148pt too wide) in paragraph at lines 63--64
-[]\T1/lmr/m/n/10 Download the 64 bit potato-flash util-ity from [][][][][][]
- []
-
-<<<<<<< HEAD
+) [36]
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 68.
+
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
-=======
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
->>>>>>> 82c5da04825c988056e1060f47252eabd539260f
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-Overfull \hbox (261.2763pt too wide) in paragraph at lines 68--69
-\T1/lmr/m/n/10 the ker-nel file (\T1/lmtt/m/n/10 openwrt-secn1_-1-GA01-MP01-vml
-inux.lzma\T1/lmr/m/n/10 ) from [][][][][][]
+ [37]
+Overfull \hbox (37.00363pt too wide) in paragraph at lines 107--108
+[][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-<<<<<<< HEAD
-[41]
-Overfull \hbox (37.00363pt too wide) in paragraph at lines 107--108
-[][][][][][][][][][][][][][][][][][][][][][][][][] 
-=======
-<./figs/potatoFlash.png, id=1241, 1219.55624pt x 445.665pt>
+<./figs/potatoFlash.png, id=1255, 1219.55624pt x 445.665pt>
 File: ./figs/potatoFlash.png Graphic file (type png)
 
 <use ./figs/potatoFlash.png>
 Package pdftex.def Info: ./figs/potatoFlash.png used on input line 117.
 (pdftex.def)             Requested size: 364.0pt x 133.0137pt.
- [38 <C:/Users/Esther/Masteroppgave/Report/figs/potatoFlash.png>] <./figs/webin
-terface.png, id=1273, 703.12688pt x 520.94624pt>
+ [38 <C:/Users/Ida Malene/Masteroppgave/Report/figs/potatoFlash.png>]
+<./figs/webinterface.png, id=1288, 703.12688pt x 520.94624pt>
 File: ./figs/webinterface.png Graphic file (type png)
 
 <use ./figs/webinterface.png>
 Package pdftex.def Info: ./figs/webinterface.png used on input line 131.
 (pdftex.def)             Requested size: 364.0pt x 269.68536pt.
- [39 <C:/Users/Esther/Masteroppgave/Report/figs/webinterface.png>] [40]
-Overfull \hbox (25.4973pt too wide) in paragraph at lines 166--183
+ [39 <C:/Users/Ida Malene/Masteroppgave/Report/figs/webinterface.png>] [40]
+Overfull \hbox (25.4973pt too wide) in paragraph at lines 166--189
 [][] 
->>>>>>> 82c5da04825c988056e1060f47252eabd539260f
  []
 
-
-! LaTeX Error: Cannot determine size of graphic in ./figs/potatoFlash.png (no B
-oundingBox).
-
-<<<<<<< HEAD
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.117 ...phics[width=1\textwidth]{potatoFlash.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: ./figs/potatoFlash.png Graphic file (type eps)
-<./figs/potatoFlash.png>
-Overfull \hbox (121.7523pt too wide) in paragraph at lines 124--125
-\T1/lmr/m/n/10 can be found here: [][][][][][]. 
- []
-=======
-<./figs/emergencybox.jpg, id=1319, 432.11438pt x 295.85532pt>
+[41] [42] <./figs/emergencybox.jpg, id=1346, 432.11438pt x 295.85532pt>
 File: ./figs/emergencybox.jpg Graphic file (type jpg)
 
 <use ./figs/emergencybox.jpg>
-Package pdftex.def Info: ./figs/emergencybox.jpg used on input line 192.
+Package pdftex.def Info: ./figs/emergencybox.jpg used on input line 200.
 (pdftex.def)             Requested size: 327.59778pt x 224.30612pt.
- [41] [42]
-<./figs/boxinmaking2.jpg, id=1341, 3276.24pt x 2457.18pt>
+ [43
+
+ <C:/Users/Ida Malene/Masteroppgave/Report/figs/emergencybox.jpg>] <./figs/boxi
+nmaking2.jpg, id=1361, 3276.24pt x 2457.18pt>
 File: ./figs/boxinmaking2.jpg Graphic file (type jpg)
 
 <use ./figs/boxinmaking2.jpg>
-Package pdftex.def Info: ./figs/boxinmaking2.jpg used on input line 206.
+Package pdftex.def Info: ./figs/boxinmaking2.jpg used on input line 214.
 (pdftex.def)             Requested size: 145.59778pt x 109.18106pt.
 
-<./figs/boxinmaking4.jpg, id=1342, 3276.24pt x 2457.18pt>
+<./figs/boxinmaking4.jpg, id=1362, 3276.24pt x 2457.18pt>
 File: ./figs/boxinmaking4.jpg Graphic file (type jpg)
 
 <use ./figs/boxinmaking4.jpg>
-Package pdftex.def Info: ./figs/boxinmaking4.jpg used on input line 210.
+Package pdftex.def Info: ./figs/boxinmaking4.jpg used on input line 218.
 (pdftex.def)             Requested size: 145.59778pt x 109.18106pt.
 
-<./figs/boxinmaking3.jpg, id=1343, 2457.18pt x 3276.24pt>
+<./figs/boxinmaking3.jpg, id=1363, 2457.18pt x 3276.24pt>
 File: ./figs/boxinmaking3.jpg Graphic file (type jpg)
 
 <use ./figs/boxinmaking3.jpg>
-Package pdftex.def Info: ./figs/boxinmaking3.jpg used on input line 214.
+Package pdftex.def Info: ./figs/boxinmaking3.jpg used on input line 222.
 (pdftex.def)             Requested size: 109.20111pt x 145.57475pt.
 
-<./figs/boxinmaking.jpg, id=1344, 3276.24pt x 2457.18pt>
+<./figs/boxinmaking.jpg, id=1364, 3276.24pt x 2457.18pt>
 File: ./figs/boxinmaking.jpg Graphic file (type jpg)
 
 <use ./figs/boxinmaking.jpg>
-Package pdftex.def Info: ./figs/boxinmaking.jpg used on input line 218.
+Package pdftex.def Info: ./figs/boxinmaking.jpg used on input line 226.
 (pdftex.def)             Requested size: 145.59778pt x 109.18106pt.
- [43 <C:/Users/Esther/Masteroppgave/Report/figs/emergencybox.jpg>] [44 <C:/User
-s/Esther/Masteroppgave/Report/figs/boxinmaking2.jpg> <C:/Users/Esther/Masteropp
-gave/Report/figs/boxinmaking4.jpg> <C:/Users/Esther/Masteroppgave/Report/figs/b
-oxinmaking3.jpg> <C:/Users/Esther/Masteroppgave/Report/figs/boxinmaking.jpg>] [
-45]
-Underfull \vbox (badness 10000) has occurred while \output is active []
->>>>>>> 82c5da04825c988056e1060f47252eabd539260f
 
+<./figs/ferdigbox1.jpg, id=1365, 2457.18pt x 3276.24pt>
+File: ./figs/ferdigbox1.jpg Graphic file (type jpg)
 
-! LaTeX Error: Cannot determine size of graphic in ./figs/webinterface.png (no 
-BoundingBox).
+<use ./figs/ferdigbox1.jpg>
+Package pdftex.def Info: ./figs/ferdigbox1.jpg used on input line 235.
+(pdftex.def)             Requested size: 145.59778pt x 194.11635pt.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.131 ...hics[width=1\textwidth]{webinterface.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<./figs/ferdigbox2.jpg, id=1366, 2457.18pt x 3276.24pt>
+File: ./figs/ferdigbox2.jpg Graphic file (type jpg)
 
-File: ./figs/webinterface.png Graphic file (type eps)
-<./figs/webinterface.png> [42] [43]
-Overfull \hbox (25.4973pt too wide) in paragraph at lines 166--183
-[][] 
- []
+<use ./figs/ferdigbox2.jpg>
+Package pdftex.def Info: ./figs/ferdigbox2.jpg used on input line 239.
+(pdftex.def)             Requested size: 145.59778pt x 194.11635pt.
 
-[44] [45] [46] [47]
+<./figs/ferdigbox3.jpg, id=1367, 3276.24pt x 2457.18pt>
+File: ./figs/ferdigbox3.jpg Graphic file (type jpg)
 
-! LaTeX Error: Cannot determine size of graphic in ./figs/emergencybox.jpg (no 
-BoundingBox).
+<use ./figs/ferdigbox3.jpg>
+Package pdftex.def Info: ./figs/ferdigbox3.jpg used on input line 243.
+(pdftex.def)             Requested size: 294.83911pt x 221.09917pt.
+ [44 <C:/Users/Ida Malene/Masteroppgave/Report/figs/boxinmaking2.jpg> <C:/Users
+/Ida Malene/Masteroppgave/Report/figs/boxinmaking4.jpg> <C:/Users/Ida Malene/Ma
+steroppgave/Report/figs/boxinmaking3.jpg> <C:/Users/Ida Malene/Masteroppgave/Re
+port/figs/boxinmaking.jpg>] [45 <C:/Users/Ida Malene/Masteroppgave/Report/figs/
+ferdigbox1.jpg> <C:/Users/Ida Malene/Masteroppgave/Report/figs/ferdigbox2.jpg> 
+<C:/Users/Ida Malene/Masteroppgave/Report/figs/ferdigbox3.jpg>] [46
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.194 ...cs[width=0.9\textwidth]{emergencybox.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: ./figs/emergencybox.jpg Graphic file (type eps)
-<./figs/emergencybox.jpg>
-
-! LaTeX Error: Cannot determine size of graphic in ./figs/boxinmaking2.jpg (no 
-BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.208 ...egraphics[width=\textwidth]{boxinmaking2}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: ./figs/boxinmaking2.jpg Graphic file (type eps)
-<./figs/boxinmaking2.jpg>
-
-! LaTeX Error: Cannot determine size of graphic in ./figs/boxinmaking4.jpg (no 
-BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.212 ...egraphics[width=\textwidth]{boxinmaking4}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: ./figs/boxinmaking4.jpg Graphic file (type eps)
-<./figs/boxinmaking4.jpg>
-
-! LaTeX Error: Cannot determine size of graphic in ./figs/boxinmaking3.jpg (no 
-BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.216 ...egraphics[width=\textwidth]{boxinmaking3}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: ./figs/boxinmaking3.jpg Graphic file (type eps)
-<./figs/boxinmaking3.jpg>
-
-! LaTeX Error: Cannot determine size of graphic in ./figs/boxinmaking.jpg (no B
-oundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.220 ...degraphics[width=\textwidth]{boxinmaking}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: ./figs/boxinmaking.jpg Graphic file (type eps)
-<./figs/boxinmaking.jpg>
-
-! LaTeX Error: Cannot determine size of graphic in ./figs/ferdigbox1.jpg (no Bo
-undingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.229 ...udegraphics[width=\textwidth]{ferdigbox1}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: ./figs/ferdigbox1.jpg Graphic file (type eps)
-<./figs/ferdigbox1.jpg>
-
-! LaTeX Error: Cannot determine size of graphic in ./figs/ferdigbox2.jpg (no Bo
-undingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.233 ...udegraphics[width=\textwidth]{ferdigbox2}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: ./figs/ferdigbox2.jpg Graphic file (type eps)
-<./figs/ferdigbox2.jpg>
-
-! LaTeX Error: Cannot determine size of graphic in ./figs/ferdigbox3.jpg (no Bo
-undingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.237 ...udegraphics[width=\textwidth]{ferdigbox3}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: ./figs/ferdigbox3.jpg Graphic file (type eps)
-<./figs/ferdigbox3.jpg> [48
-
-] [49] [50] [51] [52
-
-] [53] [54]
+] [47] [48]
 
 Class memoir Warning: The material used in the headers is too large
 (24.0pt) for the given head height (12.0pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 324.
+(in both cases you will find help in the memoir manual). on input line 330.
 
 
 Overfull \vbox (12.0pt too high) has occurred while \output is active []
 
- [55]
-[56])
-Overfull \vbox (12.0pt too high) has occurred while \output is active []
-
-<<<<<<< HEAD
- [57]
-("C:\Users\Ida Malene\Masteroppgave\Report\manuals.tex" [58
-=======
  [49]
-[50] (C:\Users\Esther\Masteroppgave\Report\manuals.tex
-Underfull \vbox (badness 1242) has occurred while \output is active []
->>>>>>> 82c5da04825c988056e1060f47252eabd539260f
+[50])
+Overfull \vbox (12.0pt too high) has occurred while \output is active []
+
+ [51]
+("C:\Users\Ida Malene\Masteroppgave\Report\manuals.tex" [52
 
 
 
-]
-Underfull \vbox (badness 1242) has occurred while \output is active []
+] [53] [54]
+("C:\Users\Ida Malene\Masteroppgave\Report\gettingstarted.tex") [55
 
- [59]
-[60] ("C:\Users\Ida Malene\Masteroppgave\Report\gettingstarted.tex") [61
-
-]
-<<<<<<< HEAD
-[62] ("C:\Users\Ida Malene\Masteroppgave\Report\internetviaethernetcable.tex"
-
-! LaTeX Error: Cannot determine size of graphic in ./figs/oppsettfraveggen.jpg 
-(no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 ...ics[width=0.78\textwidth]{oppsettfraveggen}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: ./figs/oppsettfraveggen.jpg Graphic file (type eps)
-<./figs/oppsettfraveggen.jpg>
-
-! LaTeX Error: Cannot determine size of graphic in ./figs/networkconnections.PN
-G (no BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.19 ...dth=0.7\textwidth]{networkconnections.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: ./figs/networkconnections.PNG Graphic file (type eps)
-<./figs/networkconnections.PNG> [63
-
-]
-=======
-[52] (C:\Users\Esther\Masteroppgave\Report\gettingstarted.tex) [53
-
-] [54]
-(C:\Users\Esther\Masteroppgave\Report\internetviaethernetcable.tex
-<./figs/oppsettfraveggen.jpg, id=1489, 393.72093pt x 207.02344pt>
+] [56]
+("C:\Users\Ida Malene\Masteroppgave\Report\internetviaethernetcable.tex"
+<./figs/oppsettfraveggen.jpg, id=1518, 393.72093pt x 207.02344pt>
 File: ./figs/oppsettfraveggen.jpg Graphic file (type jpg)
->>>>>>> 82c5da04825c988056e1060f47252eabd539260f
 
-! LaTeX Error: Cannot determine size of graphic in ./figs/bssid.PNG (no Boundin
-gBox).
+<use ./figs/oppsettfraveggen.jpg>
+Package pdftex.def Info: ./figs/oppsettfraveggen.jpg used on input line 5.
+(pdftex.def)             Requested size: 283.91956pt x 149.28735pt.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 ...cludegraphics[width=\textwidth]{bssid.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-<<<<<<< HEAD
-File: ./figs/bssid.PNG Graphic file (type eps)
-<./figs/bssid.PNG>
-=======
-<./figs/networkconnections.PNG, id=1492, 360.59718pt x 245.41687pt>
+<./figs/networkconnections.PNG, id=1521, 360.59718pt x 245.41687pt>
 File: ./figs/networkconnections.PNG Graphic file (type png)
->>>>>>> 82c5da04825c988056e1060f47252eabd539260f
 
-! LaTeX Error: Cannot determine size of graphic in ./figs/ipv4settings.PNG (no 
-BoundingBox).
+<use ./figs/networkconnections.PNG>
+Package pdftex.def Info: ./figs/networkconnections.PNG used on input line 19.
+(pdftex.def)             Requested size: 254.79889pt x 173.41211pt.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.39 ...aphics[width=\textwidth]{ipv4settings.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: ./figs/ipv4settings.PNG Graphic file (type eps)
-<./figs/ipv4settings.PNG>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<<<<<<< HEAD
-[64]
-
-! LaTeX Error: Cannot determine size of graphic in ./figs/sendingdiscover.PNG (
-no BoundingBox).
-=======
-<./figs/bssid.PNG, id=1496, 341.02406pt x 367.3725pt>
+<./figs/bssid.PNG, id=1525, 341.02406pt x 367.3725pt>
 File: ./figs/bssid.PNG Graphic file (type png)
  <use ./figs/bssid.PNG>
 Package pdftex.def Info: ./figs/bssid.PNG used on input line 35.
 (pdftex.def)             Requested size: 178.362pt x 192.1447pt.
 
-<./figs/ipv4settings.PNG, id=1497, 341.77687pt x 365.11406pt>
+<./figs/ipv4settings.PNG, id=1526, 341.77687pt x 365.11406pt>
 File: ./figs/ipv4settings.PNG Graphic file (type png)
->>>>>>> 82c5da04825c988056e1060f47252eabd539260f
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.63 ...cs[width=1\textwidth]{sendingdiscover.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<use ./figs/ipv4settings.PNG>
+Package pdftex.def Info: ./figs/ipv4settings.PNG used on input line 39.
+(pdftex.def)             Requested size: 178.362pt x 190.54565pt.
+ [57
 
-File: ./figs/sendingdiscover.PNG Graphic file (type eps)
-<./figs/sendingdiscover.PNG>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<<<<<<< HEAD
-[65]) [66]
-
-! LaTeX Error: Cannot determine size of graphic in ./figs/oppsettviapc.jpg (no 
-BoundingBox).
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.45 ...raphics[width=0.8\textwidth]{oppsettviapc}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-File: ./figs/oppsettviapc.jpg Graphic file (type eps)
-<./figs/oppsettviapc.jpg>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-("C:\Users\Ida Malene\Masteroppgave\Report\internetviapc.tex" [67
-
-] [68]
-=======
-[55
-
- <C:/Users/Esther/Masteroppgave/Report/figs/oppsettfraveggen.jpg>] [56 <C:/User
-s/Esther/Masteroppgave/Report/figs/networkconnections.PNG> <C:/Users/Esther/Mas
-teroppgave/Report/figs/bssid.PNG> <C:/Users/Esther/Masteroppgave/Report/figs/ip
-v4settings.PNG>]
-<./figs/sendingdiscover.PNG, id=1522, 602.25pt x 124.96687pt>
+ <C:/Users/Ida Malene/Masteroppgave/Report/figs/oppsettfraveggen.jpg>] [58 <C:/
+Users/Ida Malene/Masteroppgave/Report/figs/networkconnections.PNG> <C:/Users/Id
+a Malene/Masteroppgave/Report/figs/bssid.PNG> <C:/Users/Ida Malene/Masteroppgav
+e/Report/figs/ipv4settings.PNG>]
+<./figs/sendingdiscover.PNG, id=1549, 602.25pt x 124.96687pt>
 File: ./figs/sendingdiscover.PNG Graphic file (type png)
 
 <use ./figs/sendingdiscover.PNG>
 Package pdftex.def Info: ./figs/sendingdiscover.PNG used on input line 63.
 (pdftex.def)             Requested size: 364.0pt x 75.53368pt.
-) [57 <C:/Users/Esther/Masteroppgave/Report/figs/sendingdiscover.PNG>]
-<./figs/oppsettviapc.jpg, id=1541, 373.395pt x 134.00063pt>
+) [59 <C:/Users/Ida Malene/Masteroppgave/Report/figs/sendingdiscover.PNG>]
+<./figs/oppsettviapc.jpg, id=1571, 373.395pt x 134.00063pt>
 File: ./figs/oppsettviapc.jpg Graphic file (type jpg)
 
 <use ./figs/oppsettviapc.jpg>
 Package pdftex.def Info: ./figs/oppsettviapc.jpg used on input line 45.
 (pdftex.def)             Requested size: 291.20111pt x 104.50778pt.
 
-(C:\Users\Esther\Masteroppgave\Report\internetviapc.tex
+("C:\Users\Ida Malene\Masteroppgave\Report\internetviapc.tex"
 Underfull \vbox (badness 1436) has occurred while \output is active []
 
- [58
+ [60
 
- <C:/Users/Esther/Masteroppgave/Report/figs/oppsettviapc.jpg>]
->>>>>>> 82c5da04825c988056e1060f47252eabd539260f
+ <C:/Users/Ida Malene/Masteroppgave/Report/figs/oppsettviapc.jpg>]
 Overfull \hbox (27.00375pt too wide) in paragraph at lines 36--37
-[][][][][][][][][][][][][][][][][][][][][][][][] 
+[][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-<<<<<<< HEAD
-[69]) [70] ("C:\Users\Ida Malene\Masteroppgave\Report\scriptviapc.tex")
-[71
+[61]) [62] ("C:\Users\Ida Malene\Masteroppgave\Report\scriptviapc.tex")
+[63
 
 ] ("C:\Users\Ida Malene\Masteroppgave\Report\internetviasatellite.tex")
-[72
-=======
-[59]) [60] (C:\Users\Esther\Masteroppgave\Report\scriptviapc.tex) [61
+[64
 
-]
-(C:\Users\Esther\Masteroppgave\Report\internetviasatellite.tex)
-Underfull \vbox (badness 10000) has occurred while \output is active []
->>>>>>> 82c5da04825c988056e1060f47252eabd539260f
+]) [65
 
-]) [73
-
-<<<<<<< HEAD
-] ("C:\Users\Ida Malene\Masteroppgave\Report\testing.tex" [74
+] ("C:\Users\Ida Malene\Masteroppgave\Report\testing.tex" [66
 
 
 
 ]
-[75] [76] [77] [78]) [79]
-("C:\Users\Ida Malene\Masteroppgave\Report\discussion.tex" [80
-=======
-])
-[63] (C:\Users\Esther\Masteroppgave\Report\testing.tex [64
-
-
-
-] [65] [66] [67]
-[68]) [69] (C:\Users\Esther\Masteroppgave\Report\discussion.tex [70
->>>>>>> 82c5da04825c988056e1060f47252eabd539260f
+[67] [68] [69] [70]) [71]
+("C:\Users\Ida Malene\Masteroppgave\Report\discussion.tex" [72
 
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [81]
+ [73]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [82]
+ [74]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-<<<<<<< HEAD
- [83])
-[84] ("C:\Users\Ida Malene\Masteroppgave\Report\conclusion.tex"
-=======
- [73])
-[74] (C:\Users\Esther\Masteroppgave\Report\conclusion.tex
->>>>>>> 82c5da04825c988056e1060f47252eabd539260f
+ [75])
+[76] ("C:\Users\Ida Malene\Masteroppgave\Report\conclusion.tex"
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [85
+ [77
 
 
 
 ])
-<<<<<<< HEAD
-[86] ("C:\Users\Ida Malene\Masteroppgave\Report\main.bbl"
-=======
-[76] (C:\Users\Esther\Masteroppgave\Report\main.bbl
->>>>>>> 82c5da04825c988056e1060f47252eabd539260f
+[78] ("C:\Users\Ida Malene\Masteroppgave\Report\main.bbl"
 bibitemlist
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--7
-[]\T1/lmr/m/n/10 S. Cope, ``In-ter-net con-nec-tion and ac-cess meth-ods,'' 201
-1.
+Underfull \hbox (badness 1917) in paragraph at lines 9--14
+[]\T1/lmr/m/n/10 (+20) A. Sedghi and S. Rogers, ``Un-hcr 2011 refugee statis-ti
+cs: full data,''
  []
 
 
-Overfull \hbox (39.578pt too wide) in paragraph at lines 9--14
-[][][][][][]\T1/lmr/m/n/10 ,
+Underfull \hbox (badness 10000) in paragraph at lines 9--14
+\T1/lmr/m/n/10 (+20) June 2011.  [][]$http : / / www . theguardian . com / news
+ / datablog / 2011 / jun / 20 /$
  []
 
 
-Underfull \hbox (badness 6252) in paragraph at lines 16--20
-[]\T1/lmr/m/n/10 A. Sedghi, ``Un-hcr 2012 refugee statis-tics: full data,'' Jun
-e 2013.
+Underfull \hbox (badness 1248) in paragraph at lines 48--51
+[]\T1/lmr/m/n/10 (+20) Village Telco, ``Mesh potato,'' 2013.  http://store.vill
+agetelco.com/mesh-
  []
 
-
-Overfull \hbox (43.52249pt too wide) in paragraph at lines 16--20
-[][][][][][]\T1/lmr/m/n/10 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--32
-[]\T1/lmr/m/n/10 J. Dempsey, ``The mesh potato net-work,'' 2008.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--32
-[][][][][][]\T1/lmr/m/n/10 , ac-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--37
-[]\T1/lmr/m/n/10 Village Telco, ``Vil-lage telco work-shop,'' 2008.
- []
-
-
-Underfull \hbox (badness 3343) in paragraph at lines 39--42
-[]\T1/lmr/m/n/10 Village Telco, ``The ori-gin of the mesh potato,'' Last edited
-: 2013.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--42
-[][][][][][]\T1/lmr/m/n/10 , ac-cessed
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--46
-[]\T1/lmr/m/n/10 Village Telco, ``Back-ground vil-lage telco,'' Last edited: 20
-13.
- []
-
-
-Underfull \hbox (badness 2197) in paragraph at lines 48--51
-[]\T1/lmr/m/n/10 Village Telco, ``Mesh potato,'' 2013.  http://store.villagetel
-co.com/mesh-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--55
-[]\T1/lmr/m/n/10 Wikipedia, ``Bi-nary bolb,'' Last mod-i-fied De-cem-ber 2013.
- []
-
-[87
+[79
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 69--71
-[]\T1/lmr/m/n/10 Quandl, ``Timor-leste.''  [][][][][][], ac-cessed
+Underfull \hbox (badness 10000) in paragraph at lines 78--82
+[]\T1/lmr/m/n/10 (+20) BuddeComm, ``East timor (timor leste) - tele-coms, mo-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--76
-[]\T1/lmr/m/n/10 Wikipedia, ``Telecom-mu-ni-ca-tions in east timor.''
+Underfull \hbox (badness 10000) in paragraph at lines 78--82
+\T1/lmr/m/n/10 (+20) bile and in-ter-net.''  [][]$http : / / www . budde . com 
+. au / Research /$
  []
 
 
-Underfull \hbox (badness 5147) in paragraph at lines 73--76
-[][][][][][]\T1/lmr/m/n/10 , ac-cessed:
+Underfull \hbox (badness 10000) in paragraph at lines 78--82
+$\T1/lmr/m/n/10 (+20) East-[]Timor-[]Timor-[]Leste-[]Telecoms-[]Mobile-[]and-[]
+Internet . html$[][], ac-cessed:
  []
 
 
-Overfull \hbox (85.2965pt too wide) in paragraph at lines 78--82
-[][][][][][]\T1/lmr/m/n/10 ,
+Underfull \hbox (badness 7576) in paragraph at lines 89--94
+[]\T1/lmr/m/n/10 (+20) ArsTechnica, ``How one man is bring-ing voip, 'net ac-ce
+ss where
  []
 
 
-Overfull \hbox (75.89532pt too wide) in paragraph at lines 84--87
-[]\T1/lmr/m/n/10 Village Telco, ``Jose soto - puerto rico.''  [][][][][][],
+Underfull \hbox (badness 3635) in paragraph at lines 89--94
+\T1/lmr/m/n/10 (+20) tele-coms fear to tread,'' 2012.  [][]$http : / / arstechn
+ica . com / business / 2012 /$
+ []
+
+[80]
+Underfull \hbox (badness 10000) in paragraph at lines 153--158
+[]\T1/lmr/m/n/10 (+20) Freie Uni-ver-sität Berlin, ``Bet-ter ap-proach to mo-bi
+le ad hoc
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--94
-[]\T1/lmr/m/n/10 ArsTechnica, ``How one man is bring-ing voip,
+Underfull \hbox (badness 10000) in paragraph at lines 153--158
+\T1/lmr/m/n/10 (+20) net-work-ing (b.a.t.m.a.n.).''  [][]$http : / / www . des-
+[]testbed . net / content /$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--94
-\T1/lmr/m/n/10 'net ac-cess where tele-coms fear to tread,'' 2012.
+Underfull \hbox (badness 1242) in paragraph at lines 201--206
+[]\T1/lmr/m/n/10 (+20) International Telecom-mu-ni-ca-tion Union, ``The world i
+n 2013: Ict facts
  []
 
 
-Overfull \hbox (153.41513pt too wide) in paragraph at lines 89--94
-[][][][][][]\T1/lmr/m/n/10 ,
- []
-
-
-Underfull \hbox (badness 1360) in paragraph at lines 96--98
-[]\T1/lmr/m/n/10 M. Macadamia, ``Ict.''  [][][][][][], ac-cessed:
- []
-
-
-Underfull \hbox (badness 3009) in paragraph at lines 100--103
-[]\T1/lmr/m/n/10 International Telecom-mu-ni-ca-tion Union, ``50 years of ex-ce
-l-lence,'' 2006.
- []
-
-
-Overfull \hbox (168.84pt too wide) in paragraph at lines 121--125
-[]\T1/lmr/m/n/10 Indiana Uni-ver-sity, ``What is tel-net/ssh?.''  [][][][][][],
-
- []
-
-[88]
-Underfull \hbox (badness 8056) in paragraph at lines 146--151
-[]\T1/lmr/m/n/10 A. Neu-mann, C. Aichele, M. Lind-ner, and S. Wun-der-lich, ``B
-et-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 146--151
-\T1/lmr/m/n/10 ter ap-proach to mo-bile ad-hoc net-work-ing (b.a.t.m.a.n.),'' 2
-008.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 146--151
-[][][][][][]\T1/lmr/m/n/10 , ac-
- []
-
-
-Underfull \hbox (badness 1253) in paragraph at lines 153--158
-[]\T1/lmr/m/n/10 Freie Uni-ver-sität Berlin, ``Bet-ter ap-proach to mo-bile ad 
-hoc net-work-ing
- []
-
-
-Overfull \hbox (107.60353pt too wide) in paragraph at lines 153--158
-\T1/lmr/m/n/10 (b.a.t.m.a.n.).''  [][][][][][],
- []
-
-
-Underfull \hbox (badness 3701) in paragraph at lines 160--164
-[]\T1/lmr/m/n/10 Village Telco, ``Spud  sim-ple uni-fied dash-board for mesh n
-et-works.''
- []
-
-
-Overfull \hbox (17.99825pt too wide) in paragraph at lines 160--164
-[][][][][][]\T1/lmr/m/n/10 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 166--170
-[]\T1/lmr/m/n/10 D. Kravets, ``U.n. re-port de-clares in-ter-net ac-cess a hu-m
-an right.''
- []
-
-
-Overfull \hbox (153.05115pt too wide) in paragraph at lines 172--176
-[]\T1/lmr/m/n/10 B. Mitchell, ``What is an up-link(port)?.''  [][][][][][],
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 178--182
-[]\T1/lmr/m/n/10 Digital Unite, ``How to con-nect to in-ter-net.''
- []
-
-
-Overfull \hbox (48.69359pt too wide) in paragraph at lines 178--182
-[][][][][][]\T1/lmr/m/n/10 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 189--194
-[]\T1/lmr/m/n/10 A. Chi-a-nis, ``Ca-ble vs. satel-lite  which in-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 189--194
-\T1/lmr/m/n/10 ter-net con-nec-tion serves your busi-ness best?.''
- []
-
-
-Overfull \hbox (188.11093pt too wide) in paragraph at lines 189--194
-[][][][][][]\T1/lmr/m/n/10 ,
- []
-
-
-Overfull \hbox (60.29959pt too wide) in paragraph at lines 201--206
-\T1/lmr/m/n/10 ures.''  [][][][][][],
- []
-
-
-Overfull \hbox (20.3547pt too wide) in paragraph at lines 208--213
-\T1/lmr/m/n/10 ures.''  [][][][][][],
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 215--219
-[]\T1/lmr/m/n/10 B. Mith-cell, ``What is mo-bile broad-band?.''
- []
-
-
-Overfull \hbox (69.93333pt too wide) in paragraph at lines 215--219
-[][][][][][]\T1/lmr/m/n/10 ,
- []
-
-[89]
-Underfull \hbox (badness 7576) in paragraph at lines 230--232
-[]\T1/lmr/m/n/10 Project Loon, ``Pro-jet loon: Balloon-powered in-ternt for ev-
-ery-one.''
+Underfull \hbox (badness 4713) in paragraph at lines 201--206
+\T1/lmr/m/n/10 (+20) and fig-ures.''  [][]$http : / / www . itu . int / en / IT
+U-[]D / Statistics / Documents / facts /$
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 234--239
-[]\T1/lmr/m/n/10 R. Rams-dal, ``Google fikk ja til å sende
+[]\T1/lmr/m/n/10 (+20) R. Rams-dal, ``Google fikk ja til å sende internett-ball
+onger
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 234--239
-\T1/lmr/m/n/10 internett-ballonger over norge,'' March 2014.
+\T1/lmr/m/n/10 (+20) over norge,'' March 2014.  [][]$http : / / www . tu . no /
+ it / 2014 / 03 / 22 /$
+ []
+
+[81]
+Underfull \hbox (badness 10000) in paragraph at lines 245--250
+[]\T1/lmr/m/n/10 (+20) A. B. Smed-srud, ``Disse bal-lon-gene skal gi in-ter-net
+t til
  []
 
 
-Overfull \hbox (47.33258pt too wide) in paragraph at lines 234--239
-[][][][][][]\T1/lmr/m/n/10 ,
- []
-
-
-Overfull \hbox (23.32716pt too wide) in paragraph at lines 241--243
-[]\T1/lmr/m/n/10 Project Loon, ``Project loon,'' 2013-2014.  [][][][][][],
- []
-
-
-Overfull \hbox (50.94348pt too wide) in paragraph at lines 245--250
-[][][][][][]\T1/lmr/m/n/10 ,
- []
-
-
-Overfull \hbox (109.49426pt too wide) in paragraph at lines 252--255
-[]\T1/lmr/m/n/10 Wikipedia, ``Irid-ium satel-lite con-stel-la-tion.''  [][][][]
-[][],
+Underfull \hbox (badness 10000) in paragraph at lines 245--250
+\T1/lmr/m/n/10 (+20) hele ver-den,'' June 2013.  [][]$http : / / www . hardware
+ . no / artikler /$
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 257--262
-[]\T1/lmr/m/n/10 M. El-gan, ``How an under-appreciated ios 7 fea-
+[]\T1/lmr/m/n/10 (+20) M. El-gan, ``How an under-appreciated ios 7 fea-ture wil
+l change
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 257--262
-\T1/lmr/m/n/10 ture will change the world,'' March 2014.
- []
-
-
-Overfull \hbox (6.35844pt too wide) in paragraph at lines 257--262
-[][][][][][]\T1/lmr/m/n/10 ,
- []
-
-
-Overfull \hbox (148.97739pt too wide) in paragraph at lines 264--268
-[]\T1/lmr/m/n/10 FireChat, ``app store: Firechat.''  [][][][][][],
+\T1/lmr/m/n/10 (+20) the world,'' March 2014.  [][]$http : / / www . cultofmac 
+. com / 271225 /$
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 270--274
-[]\T1/lmr/m/n/10 Apple, ``About mul-ti-peer con-nec-tiv-ity,'' Septem-ber 2013.
-
+[]\T1/lmr/m/n/10 (+20) Apple, ``About mul-ti-peer con-nec-tiv-ity,'' Septem-ber
+ 2013.  [][]$https :$
  []
 
 
-Overfull \hbox (342.272pt too wide) in paragraph at lines 270--274
-[][][][][][]\T1/lmr/m/n/10 ,
+Underfull \hbox (badness 10000) in paragraph at lines 270--274
+$\T1/lmr/m/n/10 (+20) / / developer . apple . com / library / ios / documentati
+on / MultipeerConnectivity /$
  []
 
 
-Overfull \hbox (28.32463pt too wide) in paragraph at lines 276--280
-[][][][][][]\T1/lmr/m/n/10 ,
+Underfull \hbox (badness 10000) in paragraph at lines 270--274
+$\T1/lmr/m/n/10 (+20) Reference / MultipeerConnectivityFramework / Introduction
+ / Introduction . html$[][],
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--286
-[]\T1/lmr/m/n/10 The UN Refugee Agency, ``What is a refugee?.''
+Underfull \hbox (badness 10000) in paragraph at lines 288--291
+[]\T1/lmr/m/n/10 (+20) Refugees In-ter-na-tional, ``So-ma-lia.''  [][]$http : /
+ / refugeesinternational . org /$
  []
 
 
-Overfull \hbox (68.19832pt too wide) in paragraph at lines 282--286
-[][][][][][]\T1/lmr/m/n/10 ,
- []
-
-
-Overfull \hbox (79.33441pt too wide) in paragraph at lines 288--291
-[]\T1/lmr/m/n/10 Refugees In-ter-na-tional, ``So-ma-lia.''  [][][][][][],
- []
-
-
-Overfull \hbox (97.80237pt too wide) in paragraph at lines 293--297
-[]\T1/lmr/m/n/10 Refugees In-ter-na-tional, ``Iraq.''  [][][][][][],
+Underfull \hbox (badness 10000) in paragraph at lines 293--297
+[]\T1/lmr/m/n/10 (+20) Refugees In-ter-na-tional, ``Iraq.''  [][]$http : / / ww
+w . refugeesinternational . org /$
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 299--304
-[]\T1/lmr/m/n/10 Inveneo, ``How bet-ter con-nec-tiv-ity can help
+[]\T1/lmr/m/n/10 (+20) Inveneo, ``How bet-ter con-nec-tiv-ity can help dadaab, 
+the world's
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 299--304
-\T1/lmr/m/n/10 dadaab, the world's largest refugee camp,'' 2012.
+\T1/lmr/m/n/10 (+20) largest refugee camp,'' 2012.  [][]$http : / / www . inven
+eo . org / 2012 / 06 /$
  []
 
 
-Overfull \hbox (132.91524pt too wide) in paragraph at lines 299--304
-[][][][][][]\T1/lmr/m/n/10 ,
- []
-
-[90]
-Overfull \hbox (67.75208pt too wide) in paragraph at lines 306--309
-[]\T1/lmr/m/n/10 Care, ``Dadaab refugee camps, kenya.''  [][][][][][],
+Underfull \hbox (badness 10000) in paragraph at lines 299--304
+$\T1/lmr/m/n/10 (+20) how-[]better-[]connectivity-[]can-[]help-[]dadaab-[]the-[
+]worlds-[]largest-[]refugee-[]camp/$[][],
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--313
-[]\T1/lmr/m/n/10 Wikipedia, ``Nethope,'' Last edited: 13 May 2013.
+Underfull \hbox (badness 4967) in paragraph at lines 306--309
+[]\T1/lmr/m/n/10 (+20) Care, ``Dadaab refugee camps, kenya.''  [][]$http : / / 
+care . org / emergencies /$
+ []
+
+[82]
+Underfull \hbox (badness 3701) in paragraph at lines 335--339
+$\T1/lmr/m/n/10 (+20) Installing _ VT _ SECN _ Firmware # Using _ Potato _ Flas
+h _ software$[][], ac-cessed
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--328
-[]\T1/lmr/m/n/10 Village Telco, ``Choos-ing a firmware for the mp.''
- []
-
-
-Underfull \hbox (badness 5954) in paragraph at lines 324--328
-[][][][][][]\T1/lmr/m/n/10 , ac-cessed
- []
-
-
-Overfull \hbox (88.86745pt too wide) in paragraph at lines 330--333
-[]\T1/lmr/m/n/10 Village Telco, ``Flash your mesh potato.''  [][][][][][],
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 335--339
-[]\T1/lmr/m/n/10 Village Telco, ``In-stalling vt secn firmware.''
- []
-
-
-Overfull \hbox (67.998pt too wide) in paragraph at lines 335--339
-[][][][][][]\T1/lmr/m/n/10 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 341--345
-[][][][][][]\T1/lmr/m/n/10 ,
- []
-
-
-Overfull \hbox (45.9373pt too wide) in paragraph at lines 347--350
-[]\T1/lmr/m/n/10 AfrikaBurn, ``What is afrik-aburn?.''  [][][][][][],
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 352--356
-[]\T1/lmr/m/n/10 S. Song, ``Africa burns for a vil-lage telco.''
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 358--362
-[]\T1/lmr/m/n/10 D. Car-man, ``Afrik-aburns again for a vil-lage telco.''
- []
-
-
-Overfull \hbox (55.8961pt too wide) in paragraph at lines 364--367
-[]\T1/lmr/m/n/10 Dictionary.com, ``Nat-u-ral dis-as-ter.''  [][][][][][],
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 369--373
-[]\T1/lmr/m/n/10 S. Kelly, ``What is the best sht-f/dis-as-ter com-mu-ni-ca-tio
-n?.''
- []
-
-
-Overfull \hbox (0.60924pt too wide) in paragraph at lines 369--373
-[][][][][][]\T1/lmr/m/n/10 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 375--380
-[]\T1/lmr/m/n/10 D. Smith-field, ``Haiti's up-hill bat-tle: De-vel-op-ing coun-
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 375--380
-\T1/lmr/m/n/10 tries strug-gle with nat-u-ral dis-as-ters,'' Oc-to-ber 2013.
- []
-
-
-Overfull \hbox (191.05339pt too wide) in paragraph at lines 375--380
-[][][][][][]\T1/lmr/m/n/10 ,
- []
-
-[91]
-Overfull \hbox (450.82466pt too wide) in paragraph at lines 382--386
-[]\T1/lmr/m/n/10 Aurecon, ``$\OT1/lmr/m/n/10 360 []$ \T1/lmr/m/n/10 nat-u-ral d
-is-as-ter,'' 2011.  [][][][][][],
+Underfull \hbox (badness 1895) in paragraph at lines 347--350
+[]\T1/lmr/m/n/10 (+20) AfrikaBurn, ``What is afrik-aburn?.''  [][]$http : / / w
+ww . afrikaburn . com / about /$
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 393--398
-[]\T1/lmr/m/n/10 V. In-sinna, ``Nat-u-ral dis-as-ters un-cover on-go-ing
+[]\T1/lmr/m/n/10 (+20) V. In-sinna, ``Nat-u-ral dis-as-ters un-cover on-go-ing 
+emer-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 393--398
-\T1/lmr/m/n/10 emer-gency com-mu-ni-ca-tions prob-lems,'' June 2013.
+\T1/lmr/m/n/10 (+20) gency com-mu-ni-ca-tions prob-lems,'' June 2013.  [][]$htt
+p : / /$
  []
 
 
-Overfull \hbox (298.35245pt too wide) in paragraph at lines 393--398
-[][][][][][]\T1/lmr/m/n/10 ,
+Underfull \hbox (badness 10000) in paragraph at lines 393--398
+$\T1/lmr/m/n/10 (+20) www . nationaldefensemagazine . org / archive / 2013 / Ja
+nuary / Pages /$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 405--410
-[]\T1/lmr/m/n/10 M. Tran, ``Ty-phoon haiyan dis-as-ter re-sponse:
+Underfull \hbox (badness 10000) in paragraph at lines 393--398
+$\T1/lmr/m/n/10 (+20) NaturalDisastersUncoverOngoingEmergencyCommunicationsProb
+lems . aspx$[][],
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 405--410
-\T1/lmr/m/n/10 how the re-lief ef-fort worked,'' Febru-ary 2014.
+[83]
+Underfull \hbox (badness 2875) in paragraph at lines 419--424
+[]\T1/lmr/m/n/10 (+20) J. Waits, ``Am-a-teur ra-dio op-er-a-tors as-sist dur-in
+g and af-ter ty-phoon
  []
 
-
-Overfull \hbox (258.85934pt too wide) in paragraph at lines 405--410
-[][][][][][]\T1/lmr/m/n/10 ,
- []
+) [84] ("C:\Users\Ida Malene\Masteroppgave\Report\appendixA.tex" [85
 
 
-Overfull \hbox (12.45201pt too wide) in paragraph at lines 412--417
-\T1/lmr/m/n/10 haiyan.''  [][][][][][],
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 419--424
-[]\T1/lmr/m/n/10 J. Waits, ``Am-a-teur ra-dio op-er-a-tors as-sist dur-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 419--424
-\T1/lmr/m/n/10 and af-ter ty-phoon in philip-pines,'' Novem-ber 2013.
- []
-
-
-Overfull \hbox (164.97015pt too wide) in paragraph at lines 419--424
-[][][][][][]\T1/lmr/m/n/10 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 426--430
-[]\T1/lmr/m/n/10 Wikipedia, ``Liste over nede-tid i mo-bil-net-tet i norge.''
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 426--430
-[][][][][][]\T1/lmr/m/n/10 ,
- []
-
-<<<<<<< HEAD
-=======
-) [82] (C:\Users\Esther\Masteroppgave\Report\appendixA.tex [83
->>>>>>> 82c5da04825c988056e1060f47252eabd539260f
-
-Underfull \hbox (badness 10000) in paragraph at lines 432--435
-[]\T1/lmr/m/n/10 Nettavisen.no, ``Te-lenor: Feilen i mo-bil-net-tet er ret-tet.
-''
- []
-
-) [92] ("C:\Users\Ida Malene\Masteroppgave\Report\appendixA.tex" [93
-
-<<<<<<< HEAD
-
-] [94])
-[95] ("C:\Users\Ida Malene\Masteroppgave\Report\appendixD.tex" [96
-=======
-] [84]) [85]
-(C:\Users\Esther\Masteroppgave\Report\appendixD.tex [86
->>>>>>> 82c5da04825c988056e1060f47252eabd539260f
+] [86])
+[87] ("C:\Users\Ida Malene\Masteroppgave\Report\appendixD.tex" [88
 
 
 
 ]
 Overfull \hbox (8.80359pt too wide) in paragraph at lines 65--66
-[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+[][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-<<<<<<< HEAD
-[97]) [98] ("C:\Users\Ida Malene\Masteroppgave\Report\appendixB.tex"
-=======
-[87]) [88] (C:\Users\Esther\Masteroppgave\Report\appendixB.tex
-<./figs/SECN.pdf, id=1977, 597.23125pt x 845.1575pt>
+[89]) [90] ("C:\Users\Ida Malene\Masteroppgave\Report\appendixB.tex"
+<./figs/SECN.pdf, id=2007, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
  <use ./figs/SECN.pdf>
 Package pdftex.def Info: ./figs/SECN.pdf used on input line 4.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: ./figs/SECN.pdf Graphic file (type pdf)
->>>>>>> 82c5da04825c988056e1060f47252eabd539260f
 
-Package pdfpages Warning: I cannot determine the number of pages of the
-(pdfpages)                included document, while being in DVI mode. You
-(pdfpages)                can use the option `lastpage' to give me a hint.
-
-[99
-
-
-
-] [100] [101] [102] [103] [104] [105] [106] [107] [108] [109] [110] [111]
-[112] [113] [114] [115] [116] [117] [118] [119] [120] [121] [122] [123]
-[124] [125] [126] [127] [128] [129] [130] [131] [132] [133] [134] [135]
-[136] [137]) ("C:\Users\Ida Malene\Masteroppgave\Report\appendixC.tex" [138
+<use ./figs/SECN.pdf>
+Package pdftex.def Info: ./figs/SECN.pdf used on input line 4.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+ [91
 
 
 
 ]
-<<<<<<< HEAD
-
-Package pdfpages Warning: I cannot determine the number of pages of the
-(pdfpages)                included document, while being in DVI mode. You
-(pdfpages)                can use the option `lastpage' to give me a hint.
-
-[139] [140] [141] [142] [143] [144] [145] [146] [147] [148] [149] [150]
-[151] [152] [153] [154] [155] [156] [157] [158] [159] [160] [161] [162]
-[163] [164] [165] [166] [167] [168] [169] [170] [171] [172] [173] [174]
-[175] [176] [177] [178] [179] [180] [181] [182] [183] [184] [185])
-=======
-<./figs/SECN.pdf, id=1984, page=1, 597.23125pt x 845.1575pt>
+<./figs/SECN.pdf, id=2014, page=1, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 1>
@@ -3736,8 +2734,8 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 <use ./figs/SECN.pdf, page 1>
 Package pdftex.def Info: ./figs/SECN.pdf, page1 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [90 <C:/Users/Esther/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf, id
-=2051, page=2, 597.23125pt x 845.1575pt>
+ [92 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
+, id=2081, page=2, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 2>
@@ -3752,8 +2750,8 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 <use ./figs/SECN.pdf, page 2>
 Package pdftex.def Info: ./figs/SECN.pdf, page2 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [91 <C:/Users/Esther/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf, id
-=2058, page=3, 597.23125pt x 845.1575pt>
+ [93 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
+, id=2087, page=3, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 3>
@@ -3768,8 +2766,8 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 <use ./figs/SECN.pdf, page 3>
 Package pdftex.def Info: ./figs/SECN.pdf, page3 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [92 <C:/Users/Esther/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf, id
-=2064, page=4, 597.23125pt x 845.1575pt>
+ [94 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
+, id=2093, page=4, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 4>
@@ -3784,8 +2782,8 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 <use ./figs/SECN.pdf, page 4>
 Package pdftex.def Info: ./figs/SECN.pdf, page4 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [93 <C:/Users/Esther/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf, id
-=2070, page=5, 597.23125pt x 845.1575pt>
+ [95 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
+, id=2100, page=5, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 5>
@@ -3800,8 +2798,8 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 <use ./figs/SECN.pdf, page 5>
 Package pdftex.def Info: ./figs/SECN.pdf, page5 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [94 <C:/Users/Esther/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf, id
-=2076, page=6, 597.23125pt x 845.1575pt>
+ [96 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
+, id=2106, page=6, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 6>
@@ -3816,8 +2814,8 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 <use ./figs/SECN.pdf, page 6>
 Package pdftex.def Info: ./figs/SECN.pdf, page6 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [95 <C:/Users/Esther/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf, id
-=2082, page=7, 597.23125pt x 845.1575pt>
+ [97 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
+, id=2112, page=7, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 7>
@@ -3832,8 +2830,8 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 <use ./figs/SECN.pdf, page 7>
 Package pdftex.def Info: ./figs/SECN.pdf, page7 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [96 <C:/Users/Esther/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf, id
-=2088, page=8, 597.23125pt x 845.1575pt>
+ [98 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
+, id=2118, page=8, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 8>
@@ -3848,8 +2846,8 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 <use ./figs/SECN.pdf, page 8>
 Package pdftex.def Info: ./figs/SECN.pdf, page8 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [97 <C:/Users/Esther/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf, id
-=2095, page=9, 597.23125pt x 845.1575pt>
+ [99 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf
+, id=2124, page=9, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 9>
@@ -3864,8 +2862,8 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 <use ./figs/SECN.pdf, page 9>
 Package pdftex.def Info: ./figs/SECN.pdf, page9 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [98 <C:/Users/Esther/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf, id
-=2101, page=10, 597.23125pt x 845.1575pt>
+ [100 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pd
+f, id=2130, page=10, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 10>
@@ -3880,8 +2878,8 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 <use ./figs/SECN.pdf, page 10>
 Package pdftex.def Info: ./figs/SECN.pdf, page10 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [99 <C:/Users/Esther/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf, id
-=2107, page=11, 597.23125pt x 845.1575pt>
+ [101 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pd
+f, id=2137, page=11, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 11>
@@ -3896,8 +2894,8 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 <use ./figs/SECN.pdf, page 11>
 Package pdftex.def Info: ./figs/SECN.pdf, page11 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [100 <C:/Users/Esther/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf, i
-d=2113, page=12, 597.23125pt x 845.1575pt>
+ [102 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pd
+f, id=2143, page=12, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 12>
@@ -3912,8 +2910,8 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 <use ./figs/SECN.pdf, page 12>
 Package pdftex.def Info: ./figs/SECN.pdf, page12 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [101 <C:/Users/Esther/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf, i
-d=2119, page=13, 597.23125pt x 845.1575pt>
+ [103 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pd
+f, id=2149, page=13, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 13>
@@ -3928,8 +2926,8 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 <use ./figs/SECN.pdf, page 13>
 Package pdftex.def Info: ./figs/SECN.pdf, page13 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [102 <C:/Users/Esther/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf, i
-d=2125, page=14, 597.23125pt x 845.1575pt>
+ [104 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pd
+f, id=2155, page=14, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 14>
@@ -3944,8 +2942,8 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 <use ./figs/SECN.pdf, page 14>
 Package pdftex.def Info: ./figs/SECN.pdf, page14 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [103 <C:/Users/Esther/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf, i
-d=2132, page=15, 597.23125pt x 845.1575pt>
+ [105 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pd
+f, id=2161, page=15, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 15>
@@ -3960,8 +2958,8 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 <use ./figs/SECN.pdf, page 15>
 Package pdftex.def Info: ./figs/SECN.pdf, page15 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [104 <C:/Users/Esther/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf, i
-d=2138, page=16, 597.23125pt x 845.1575pt>
+ [106 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pd
+f, id=2167, page=16, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 16>
@@ -3976,8 +2974,8 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 <use ./figs/SECN.pdf, page 16>
 Package pdftex.def Info: ./figs/SECN.pdf, page16 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [105 <C:/Users/Esther/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf, i
-d=2144, page=17, 597.23125pt x 845.1575pt>
+ [107 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pd
+f, id=2174, page=17, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 17>
@@ -3992,8 +2990,8 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 <use ./figs/SECN.pdf, page 17>
 Package pdftex.def Info: ./figs/SECN.pdf, page17 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [106 <C:/Users/Esther/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf, i
-d=2150, page=18, 597.23125pt x 845.1575pt>
+ [108 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pd
+f, id=2180, page=18, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 18>
@@ -4008,8 +3006,8 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 <use ./figs/SECN.pdf, page 18>
 Package pdftex.def Info: ./figs/SECN.pdf, page18 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [107 <C:/Users/Esther/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf, i
-d=2156, page=19, 597.23125pt x 845.1575pt>
+ [109 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pd
+f, id=2186, page=19, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 19>
@@ -4024,8 +3022,8 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 <use ./figs/SECN.pdf, page 19>
 Package pdftex.def Info: ./figs/SECN.pdf, page19 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [108 <C:/Users/Esther/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf, i
-d=2162, page=20, 597.23125pt x 845.1575pt>
+ [110 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pd
+f, id=2192, page=20, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 20>
@@ -4040,8 +3038,8 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 <use ./figs/SECN.pdf, page 20>
 Package pdftex.def Info: ./figs/SECN.pdf, page20 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [109 <C:/Users/Esther/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf, i
-d=2169, page=21, 597.23125pt x 845.1575pt>
+ [111 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pd
+f, id=2198, page=21, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 21>
@@ -4056,8 +3054,8 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 <use ./figs/SECN.pdf, page 21>
 Package pdftex.def Info: ./figs/SECN.pdf, page21 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [110 <C:/Users/Esther/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf, i
-d=2175, page=22, 597.23125pt x 845.1575pt>
+ [112 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pd
+f, id=2204, page=22, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 22>
@@ -4072,8 +3070,8 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 <use ./figs/SECN.pdf, page 22>
 Package pdftex.def Info: ./figs/SECN.pdf, page22 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [111 <C:/Users/Esther/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf, i
-d=2181, page=23, 597.23125pt x 845.1575pt>
+ [113 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pd
+f, id=2211, page=23, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 23>
@@ -4088,8 +3086,8 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 <use ./figs/SECN.pdf, page 23>
 Package pdftex.def Info: ./figs/SECN.pdf, page23 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [112 <C:/Users/Esther/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf, i
-d=2187, page=24, 597.23125pt x 845.1575pt>
+ [114 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pd
+f, id=2217, page=24, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 24>
@@ -4104,8 +3102,8 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 <use ./figs/SECN.pdf, page 24>
 Package pdftex.def Info: ./figs/SECN.pdf, page24 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [113 <C:/Users/Esther/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf, i
-d=2193, page=25, 597.23125pt x 845.1575pt>
+ [115 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pd
+f, id=2223, page=25, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 25>
@@ -4120,8 +3118,8 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 <use ./figs/SECN.pdf, page 25>
 Package pdftex.def Info: ./figs/SECN.pdf, page25 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [114 <C:/Users/Esther/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf, i
-d=2199, page=26, 597.23125pt x 845.1575pt>
+ [116 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pd
+f, id=2229, page=26, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 26>
@@ -4136,8 +3134,8 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 <use ./figs/SECN.pdf, page 26>
 Package pdftex.def Info: ./figs/SECN.pdf, page26 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [115 <C:/Users/Esther/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf, i
-d=2206, page=27, 597.23125pt x 845.1575pt>
+ [117 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pd
+f, id=2235, page=27, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 27>
@@ -4152,8 +3150,8 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 <use ./figs/SECN.pdf, page 27>
 Package pdftex.def Info: ./figs/SECN.pdf, page27 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [116 <C:/Users/Esther/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf, i
-d=2212, page=28, 597.23125pt x 845.1575pt>
+ [118 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pd
+f, id=2241, page=28, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 28>
@@ -4168,8 +3166,8 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 <use ./figs/SECN.pdf, page 28>
 Package pdftex.def Info: ./figs/SECN.pdf, page28 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [117 <C:/Users/Esther/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf, i
-d=2218, page=29, 597.23125pt x 845.1575pt>
+ [119 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pd
+f, id=2248, page=29, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 29>
@@ -4184,8 +3182,8 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 <use ./figs/SECN.pdf, page 29>
 Package pdftex.def Info: ./figs/SECN.pdf, page29 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [118 <C:/Users/Esther/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf, i
-d=2224, page=30, 597.23125pt x 845.1575pt>
+ [120 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pd
+f, id=2254, page=30, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 30>
@@ -4200,8 +3198,8 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 <use ./figs/SECN.pdf, page 30>
 Package pdftex.def Info: ./figs/SECN.pdf, page30 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [119 <C:/Users/Esther/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf, i
-d=2230, page=31, 597.23125pt x 845.1575pt>
+ [121 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pd
+f, id=2260, page=31, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 31>
@@ -4216,8 +3214,8 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 <use ./figs/SECN.pdf, page 31>
 Package pdftex.def Info: ./figs/SECN.pdf, page31 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [120 <C:/Users/Esther/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf, i
-d=2236, page=32, 597.23125pt x 845.1575pt>
+ [122 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pd
+f, id=2266, page=32, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 32>
@@ -4232,8 +3230,8 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 <use ./figs/SECN.pdf, page 32>
 Package pdftex.def Info: ./figs/SECN.pdf, page32 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [121 <C:/Users/Esther/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf, i
-d=2243, page=33, 597.23125pt x 845.1575pt>
+ [123 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pd
+f, id=2272, page=33, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 33>
@@ -4248,8 +3246,8 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 <use ./figs/SECN.pdf, page 33>
 Package pdftex.def Info: ./figs/SECN.pdf, page33 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [122 <C:/Users/Esther/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf, i
-d=2249, page=34, 597.23125pt x 845.1575pt>
+ [124 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pd
+f, id=2278, page=34, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 34>
@@ -4264,8 +3262,8 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 <use ./figs/SECN.pdf, page 34>
 Package pdftex.def Info: ./figs/SECN.pdf, page34 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [123 <C:/Users/Esther/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf, i
-d=2255, page=35, 597.23125pt x 845.1575pt>
+ [125 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pd
+f, id=2285, page=35, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 35>
@@ -4280,8 +3278,8 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 <use ./figs/SECN.pdf, page 35>
 Package pdftex.def Info: ./figs/SECN.pdf, page35 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [124 <C:/Users/Esther/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf, i
-d=2261, page=36, 597.23125pt x 845.1575pt>
+ [126 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pd
+f, id=2291, page=36, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 36>
@@ -4296,8 +3294,8 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 <use ./figs/SECN.pdf, page 36>
 Package pdftex.def Info: ./figs/SECN.pdf, page36 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [125 <C:/Users/Esther/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf, i
-d=2267, page=37, 597.23125pt x 845.1575pt>
+ [127 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pd
+f, id=2297, page=37, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 37>
@@ -4312,8 +3310,8 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 <use ./figs/SECN.pdf, page 37>
 Package pdftex.def Info: ./figs/SECN.pdf, page37 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [126 <C:/Users/Esther/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pdf, i
-d=2273, page=38, 597.23125pt x 845.1575pt>
+ [128 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>] <./figs/SECN.pd
+f, id=2303, page=38, 597.23125pt x 845.1575pt>
 File: ./figs/SECN.pdf Graphic file (type pdf)
 
 <use ./figs/SECN.pdf, page 38>
@@ -4328,24 +3326,24 @@ File: ./figs/SECN.pdf Graphic file (type pdf)
 <use ./figs/SECN.pdf, page 38>
 Package pdftex.def Info: ./figs/SECN.pdf, page38 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [127 <C:/Users/Esther/Masteroppgave/Report/figs/SECN.pdf>]) (C:\Users\Esther\M
-asteroppgave\Report\appendixC.tex [128
+ [129 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN.pdf>]) ("C:\Users\Ida
+ Malene\Masteroppgave\Report\appendixC.tex"
+[130
 
 
 
-]
-<./figs/SECN2.pdf, id=2284, 597.23125pt x 845.1575pt>
-File: ./figs/SECN2.pdf Graphic file (type pdf)
- <use ./figs/SECN2.pdf>
-Package pdftex.def Info: ./figs/SECN2.pdf used on input line 4.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+] <./figs/SECN2.pdf, id=2313, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf>
 Package pdftex.def Info: ./figs/SECN2.pdf used on input line 4.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
- [129]
-<./figs/SECN2.pdf, id=2291, page=1, 597.23125pt x 845.1575pt>
+File: ./figs/SECN2.pdf Graphic file (type pdf)
+ <use ./figs/SECN2.pdf>
+Package pdftex.def Info: ./figs/SECN2.pdf used on input line 4.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+ [131]
+<./figs/SECN2.pdf, id=2321, page=1, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 1>
@@ -4369,8 +3367,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 1>
 Package pdftex.def Info: ./figs/SECN2.pdf, page1 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [130 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2400, page=2, 597.23125pt x 845.1575pt>
+ [132 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.
+pdf, id=2430, page=2, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 2>
@@ -4385,8 +3383,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 2>
 Package pdftex.def Info: ./figs/SECN2.pdf, page2 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [131 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2406, page=3, 597.23125pt x 845.1575pt>
+ [133 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.
+pdf, id=2436, page=3, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 3>
@@ -4401,8 +3399,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 3>
 Package pdftex.def Info: ./figs/SECN2.pdf, page3 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [132 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2412, page=4, 597.23125pt x 845.1575pt>
+ [134 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.
+pdf, id=2442, page=4, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 4>
@@ -4417,8 +3415,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 4>
 Package pdftex.def Info: ./figs/SECN2.pdf, page4 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [133 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2419, page=5, 597.23125pt x 845.1575pt>
+ [135 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.
+pdf, id=2448, page=5, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 5>
@@ -4433,8 +3431,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 5>
 Package pdftex.def Info: ./figs/SECN2.pdf, page5 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [134 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2425, page=6, 597.23125pt x 845.1575pt>
+ [136 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.
+pdf, id=2454, page=6, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 6>
@@ -4449,8 +3447,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 6>
 Package pdftex.def Info: ./figs/SECN2.pdf, page6 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [135 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2431, page=7, 597.23125pt x 845.1575pt>
+ [137 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.
+pdf, id=2461, page=7, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 7>
@@ -4465,8 +3463,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 7>
 Package pdftex.def Info: ./figs/SECN2.pdf, page7 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [136 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2437, page=8, 597.23125pt x 845.1575pt>
+ [138 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.
+pdf, id=2467, page=8, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 8>
@@ -4481,8 +3479,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 8>
 Package pdftex.def Info: ./figs/SECN2.pdf, page8 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [137 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2443, page=9, 597.23125pt x 845.1575pt>
+ [139 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.
+pdf, id=2473, page=9, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 9>
@@ -4497,8 +3495,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 9>
 Package pdftex.def Info: ./figs/SECN2.pdf, page9 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [138 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2449, page=10, 597.23125pt x 845.1575pt>
+ [140 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.
+pdf, id=2479, page=10, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 10>
@@ -4513,8 +3511,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 10>
 Package pdftex.def Info: ./figs/SECN2.pdf, page10 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [139 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2456, page=11, 597.23125pt x 845.1575pt>
+ [141 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>]
+<./figs/SECN2.pdf, id=2485, page=11, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 11>
@@ -4529,8 +3527,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 11>
 Package pdftex.def Info: ./figs/SECN2.pdf, page11 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [140 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2462, page=12, 597.23125pt x 845.1575pt>
+ [142 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>]
+<./figs/SECN2.pdf, id=2491, page=12, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 12>
@@ -4545,8 +3543,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 12>
 Package pdftex.def Info: ./figs/SECN2.pdf, page12 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [141 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2468, page=13, 597.23125pt x 845.1575pt>
+ [143 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>]
+<./figs/SECN2.pdf, id=2498, page=13, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 13>
@@ -4561,8 +3559,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 13>
 Package pdftex.def Info: ./figs/SECN2.pdf, page13 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [142 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2474, page=14, 597.23125pt x 845.1575pt>
+ [144 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>]
+<./figs/SECN2.pdf, id=2504, page=14, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 14>
@@ -4577,8 +3575,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 14>
 Package pdftex.def Info: ./figs/SECN2.pdf, page14 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [143 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2480, page=15, 597.23125pt x 845.1575pt>
+ [145 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>]
+<./figs/SECN2.pdf, id=2510, page=15, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 15>
@@ -4593,8 +3591,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 15>
 Package pdftex.def Info: ./figs/SECN2.pdf, page15 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [144 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2486, page=16, 597.23125pt x 845.1575pt>
+ [146 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>]
+<./figs/SECN2.pdf, id=2516, page=16, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 16>
@@ -4609,8 +3607,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 16>
 Package pdftex.def Info: ./figs/SECN2.pdf, page16 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [145 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2493, page=17, 597.23125pt x 845.1575pt>
+ [147 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>]
+<./figs/SECN2.pdf, id=2522, page=17, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 17>
@@ -4625,8 +3623,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 17>
 Package pdftex.def Info: ./figs/SECN2.pdf, page17 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [146 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2499, page=18, 597.23125pt x 845.1575pt>
+ [148 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>]
+<./figs/SECN2.pdf, id=2528, page=18, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 18>
@@ -4641,8 +3639,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 18>
 Package pdftex.def Info: ./figs/SECN2.pdf, page18 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [147 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2505, page=19, 597.23125pt x 845.1575pt>
+ [149 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>]
+<./figs/SECN2.pdf, id=2535, page=19, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 19>
@@ -4657,8 +3655,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 19>
 Package pdftex.def Info: ./figs/SECN2.pdf, page19 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [148 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2511, page=20, 597.23125pt x 845.1575pt>
+ [150 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>]
+<./figs/SECN2.pdf, id=2541, page=20, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 20>
@@ -4673,8 +3671,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 20>
 Package pdftex.def Info: ./figs/SECN2.pdf, page20 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [149 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2517, page=21, 597.23125pt x 845.1575pt>
+ [151 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>]
+<./figs/SECN2.pdf, id=2547, page=21, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 21>
@@ -4689,8 +3687,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 21>
 Package pdftex.def Info: ./figs/SECN2.pdf, page21 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [150 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2523, page=22, 597.23125pt x 845.1575pt>
+ [152 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>]
+<./figs/SECN2.pdf, id=2553, page=22, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 22>
@@ -4705,8 +3703,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 22>
 Package pdftex.def Info: ./figs/SECN2.pdf, page22 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [151 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2530, page=23, 597.23125pt x 845.1575pt>
+ [153 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>]
+<./figs/SECN2.pdf, id=2559, page=23, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 23>
@@ -4721,8 +3719,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 23>
 Package pdftex.def Info: ./figs/SECN2.pdf, page23 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [152 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2536, page=24, 597.23125pt x 845.1575pt>
+ [154 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>]
+<./figs/SECN2.pdf, id=2565, page=24, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 24>
@@ -4737,8 +3735,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 24>
 Package pdftex.def Info: ./figs/SECN2.pdf, page24 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [153 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2542, page=25, 597.23125pt x 845.1575pt>
+ [155 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>]
+<./figs/SECN2.pdf, id=2572, page=25, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 25>
@@ -4753,8 +3751,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 25>
 Package pdftex.def Info: ./figs/SECN2.pdf, page25 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [154 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2548, page=26, 597.23125pt x 845.1575pt>
+ [156 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>]
+<./figs/SECN2.pdf, id=2578, page=26, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 26>
@@ -4769,8 +3767,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 26>
 Package pdftex.def Info: ./figs/SECN2.pdf, page26 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [155 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2554, page=27, 597.23125pt x 845.1575pt>
+ [157 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>]
+<./figs/SECN2.pdf, id=2584, page=27, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 27>
@@ -4785,8 +3783,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 27>
 Package pdftex.def Info: ./figs/SECN2.pdf, page27 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [156 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2560, page=28, 597.23125pt x 845.1575pt>
+ [158 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>]
+<./figs/SECN2.pdf, id=2590, page=28, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 28>
@@ -4801,8 +3799,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 28>
 Package pdftex.def Info: ./figs/SECN2.pdf, page28 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [157 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2567, page=29, 597.23125pt x 845.1575pt>
+ [159 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>]
+<./figs/SECN2.pdf, id=2596, page=29, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 29>
@@ -4817,8 +3815,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 29>
 Package pdftex.def Info: ./figs/SECN2.pdf, page29 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [158 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2573, page=30, 597.23125pt x 845.1575pt>
+ [160 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>]
+<./figs/SECN2.pdf, id=2602, page=30, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 30>
@@ -4833,8 +3831,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 30>
 Package pdftex.def Info: ./figs/SECN2.pdf, page30 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [159 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2579, page=31, 597.23125pt x 845.1575pt>
+ [161 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>]
+<./figs/SECN2.pdf, id=2609, page=31, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 31>
@@ -4849,8 +3847,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 31>
 Package pdftex.def Info: ./figs/SECN2.pdf, page31 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [160 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2585, page=32, 597.23125pt x 845.1575pt>
+ [162 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>]
+<./figs/SECN2.pdf, id=2615, page=32, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 32>
@@ -4865,8 +3863,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 32>
 Package pdftex.def Info: ./figs/SECN2.pdf, page32 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [161 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2591, page=33, 597.23125pt x 845.1575pt>
+ [163 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>]
+<./figs/SECN2.pdf, id=2621, page=33, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 33>
@@ -4881,8 +3879,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 33>
 Package pdftex.def Info: ./figs/SECN2.pdf, page33 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [162 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2597, page=34, 597.23125pt x 845.1575pt>
+ [164 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>]
+<./figs/SECN2.pdf, id=2627, page=34, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 34>
@@ -4897,8 +3895,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 34>
 Package pdftex.def Info: ./figs/SECN2.pdf, page34 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [163 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2604, page=35, 597.23125pt x 845.1575pt>
+ [165 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>]
+<./figs/SECN2.pdf, id=2633, page=35, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 35>
@@ -4913,8 +3911,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 35>
 Package pdftex.def Info: ./figs/SECN2.pdf, page35 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [164 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2610, page=36, 597.23125pt x 845.1575pt>
+ [166 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>]
+<./figs/SECN2.pdf, id=2639, page=36, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 36>
@@ -4929,8 +3927,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 36>
 Package pdftex.def Info: ./figs/SECN2.pdf, page36 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [165 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2616, page=37, 597.23125pt x 845.1575pt>
+ [167 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>]
+<./figs/SECN2.pdf, id=2646, page=37, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 37>
@@ -4945,8 +3943,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 37>
 Package pdftex.def Info: ./figs/SECN2.pdf, page37 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [166 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2622, page=38, 597.23125pt x 845.1575pt>
+ [168 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>]
+<./figs/SECN2.pdf, id=2652, page=38, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 38>
@@ -4961,8 +3959,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 38>
 Package pdftex.def Info: ./figs/SECN2.pdf, page38 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [167 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2628, page=39, 597.23125pt x 845.1575pt>
+ [169 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>]
+<./figs/SECN2.pdf, id=2658, page=39, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 39>
@@ -4977,8 +3975,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 39>
 Package pdftex.def Info: ./figs/SECN2.pdf, page39 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [168 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2634, page=40, 597.23125pt x 845.1575pt>
+ [170 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>]
+<./figs/SECN2.pdf, id=2664, page=40, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 40>
@@ -4993,8 +3991,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 40>
 Package pdftex.def Info: ./figs/SECN2.pdf, page40 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [169 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2641, page=41, 597.23125pt x 845.1575pt>
+ [171 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>]
+<./figs/SECN2.pdf, id=2670, page=41, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 41>
@@ -5009,8 +4007,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 41>
 Package pdftex.def Info: ./figs/SECN2.pdf, page41 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [170 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2647, page=42, 597.23125pt x 845.1575pt>
+ [172 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>]
+<./figs/SECN2.pdf, id=2676, page=42, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 42>
@@ -5025,8 +4023,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 42>
 Package pdftex.def Info: ./figs/SECN2.pdf, page42 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [171 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2653, page=43, 597.23125pt x 845.1575pt>
+ [173 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>]
+<./figs/SECN2.pdf, id=2683, page=43, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 43>
@@ -5041,8 +4039,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 43>
 Package pdftex.def Info: ./figs/SECN2.pdf, page43 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [172 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2659, page=44, 597.23125pt x 845.1575pt>
+ [174 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>]
+<./figs/SECN2.pdf, id=2689, page=44, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 44>
@@ -5057,8 +4055,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 44>
 Package pdftex.def Info: ./figs/SECN2.pdf, page44 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [173 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2665, page=45, 597.23125pt x 845.1575pt>
+ [175 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>]
+<./figs/SECN2.pdf, id=2695, page=45, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 45>
@@ -5073,8 +4071,8 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 45>
 Package pdftex.def Info: ./figs/SECN2.pdf, page45 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [174 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>] <./figs/SECN2.pdf,
- id=2671, page=46, 597.23125pt x 845.1575pt>
+ [176 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>]
+<./figs/SECN2.pdf, id=2701, page=46, 597.23125pt x 845.1575pt>
 File: ./figs/SECN2.pdf Graphic file (type pdf)
 
 <use ./figs/SECN2.pdf, page 46>
@@ -5089,22 +4087,21 @@ File: ./figs/SECN2.pdf Graphic file (type pdf)
 <use ./figs/SECN2.pdf, page 46>
 Package pdftex.def Info: ./figs/SECN2.pdf, page46 used on input line 4.
 (pdftex.def)             Requested size: 500.96pt x 708.92157pt.
- [175 <C:/Users/Esther/Masteroppgave/Report/figs/SECN2.pdf>])
->>>>>>> 82c5da04825c988056e1060f47252eabd539260f
+ [177 <C:/Users/Ida Malene/Masteroppgave/Report/figs/SECN2.pdf>])
 
 Class memoir Warning: The material used in the headers is too large
 (24.0pt) for the given head height (12.0pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 130.
+(in both cases you will find help in the memoir manual). on input line 131.
 
 \tf@toc=\write9
 \tf@lof=\write10
 \tf@lot=\write11
-<<<<<<< HEAD
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 130.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 130.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 131.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 131.
 ("C:\Users\Ida Malene\Masteroppgave\Report\main.aux"
 ("C:\Users\Ida Malene\Masteroppgave\Report\abstract.aux")
+("C:\Users\Ida Malene\Masteroppgave\Report\abstractnorwegian.aux")
 ("C:\Users\Ida Malene\Masteroppgave\Report\preface.aux")
 ("C:\Users\Ida Malene\Masteroppgave\Report\introduction.aux")
 ("C:\Users\Ida Malene\Masteroppgave\Report\background.aux")
@@ -5118,77 +4115,49 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 130.
 ("C:\Users\Ida Malene\Masteroppgave\Report\appendixD.aux")
 ("C:\Users\Ida Malene\Masteroppgave\Report\appendixB.aux")
 ("C:\Users\Ida Malene\Masteroppgave\Report\appendixC.aux"))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 130.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 130.
-=======
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 128.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 128.
-(C:\Users\Esther\Masteroppgave\Report\main.aux
-(C:\Users\Esther\Masteroppgave\Report\abstract.aux)
-(C:\Users\Esther\Masteroppgave\Report\preface.aux)
-(C:\Users\Esther\Masteroppgave\Report\introduction.aux)
-(C:\Users\Esther\Masteroppgave\Report\background.aux)
-(C:\Users\Esther\Masteroppgave\Report\backgroundrefugeecamps.aux)
-(C:\Users\Esther\Masteroppgave\Report\quickrollout.aux)
-(C:\Users\Esther\Masteroppgave\Report\manuals.aux)
-(C:\Users\Esther\Masteroppgave\Report\testing.aux)
-(C:\Users\Esther\Masteroppgave\Report\discussion.aux)
-(C:\Users\Esther\Masteroppgave\Report\conclusion.aux)
-(C:\Users\Esther\Masteroppgave\Report\appendixA.aux)
-(C:\Users\Esther\Masteroppgave\Report\appendixD.aux)
-(C:\Users\Esther\Masteroppgave\Report\appendixB.aux)
-(C:\Users\Esther\Masteroppgave\Report\appendixC.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 128.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 128.
->>>>>>> 82c5da04825c988056e1060f47252eabd539260f
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B4668CC9F93CCF79A1BCDC77E712B630;5802.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 131.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 131.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: B4668CC9F93CCF79A1BCDC77E712B630;5802
+(rerunfilecheck)             After:  4B26AB9EDC4A27F41A1ACEE58C475D14;5802.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 130.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 131.
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 29282 strings out of 493922
- 466473 string characters out of 3147290
- 732795 words of memory out of 3000000
- 31967 multiletter control sequences out of 15000+200000
- 97963 words of font info for 79 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 58i,13n,101p,10440b,1446s stack positions out of 5000i,500n,10000p,200000b,50000s
-=======
- 30771 strings out of 493921
- 490432 string characters out of 3144873
- 744080 words of memory out of 3000000
- 32673 multiletter control sequences out of 15000+200000
+ 30809 strings out of 493921
+ 489906 string characters out of 3147267
+ 747410 words of memory out of 3000000
+ 32696 multiletter control sequences out of 15000+200000
  102903 words of font info for 135 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  58i,18n,101p,10440b,2089s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/
-MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/MiKTeX 2.9/
-fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
-lic/lm/lmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx
-12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx9.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
-type1/public/lm/lmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
-lm/lmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><
-C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files (x86)
-/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb><C:/Program Files (x86)/MiKTeX 2.9
-/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
-pe1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
-lm/lmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pf
-b>
-Output written on main.pdf (193 pages, 19434345 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Fil
+es/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
+nc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec
+.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/lm/lmbx9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/lm/lmss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/
+lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/lm/lmtt10.pfb>
+Output written on main.pdf (197 pages, 30887884 bytes).
 PDF statistics:
- 2876 PDF objects out of 2984 (max. 8388607)
- 663 named destinations out of 1000 (max. 500000)
- 26826 words of extra memory for PDF output out of 29859 (max. 10000000)
->>>>>>> 82c5da04825c988056e1060f47252eabd539260f
+ 2906 PDF objects out of 2984 (max. 8388607)
+ 668 named destinations out of 1000 (max. 500000)
+ 26841 words of extra memory for PDF output out of 29859 (max. 10000000)
 
-Output written on main.dvi (203 pages, 657212 bytes).

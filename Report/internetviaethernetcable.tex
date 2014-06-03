@@ -1,4 +1,4 @@
-One way to get Internet is by connecting the \gls{mp} with an Ethernet cable to the jack port in the wall. The Mesh Potato is delivered pre-configured, with IP address and name of the network (SSID) stated on the "Get Started - How to Use the Box"-document in the \gls{quick} box. \fref{fig:oppsettfraveggen} illustrates how the components are connected together in the following manual. The figure is provided to help the user get a better understanding of the network.  
+One way to get Internet is by connecting the \gls{mp} with an Ethernet cable to the jack port in the wall. The Mesh Potato is delivered pre-configured, with the IP address and the name of the network (SSID) stated in the "Get Started - How to Use the Box"-document attached in the \gls{quick} box. \fref{fig:oppsettfraveggen} illustrates how the components are connected together in the following manual. The figure is provided to help the user get a better understanding of the network.  
 
 \begin{figure}[h!]
   \centering
@@ -21,7 +21,7 @@ One way to get Internet is by connecting the \gls{mp} with an Ethernet cable to 
   \label{fig:networkconnections}
 \end{figure}
 
-\item In the field BSSID enter "02:CA:FF:EE:BA:BE", like shown in \fref{fig:bssid}.
+\item In the field "BSSID" enter "02:CA:FF:EE:BA:BE", like shown in \fref{fig:bssid}.
 \item Under the tab "IPv4 Settings" choose "Manual" in the "Method" drop-down menu, like shown in \fref{fig:ipv4settings}. 
 \item Then press "Add" on the same page. Enter the following parameters, like shown in \fref{fig:ipv4settings}:
 \begin{description}
@@ -52,7 +52,7 @@ One way to get Internet is by connecting the \gls{mp} with an Ethernet cable to 
   $ telnet 10.10.1.20
 \end{lstlisting}
 We highly recommend that you enhance the security on the \gls{mp} by enabling SSH instead of telnet. This has no impact on this set-up, and will not affect the ability to provide Internet to the network. Description on how to enable SSH is found in section \ref{subsubsec:ssh}.
-\item To verify that the previous command was executed correctly, a "picture" will appear in your terminal saying "Welcome to Village Telco". Then execute the following command to finish the set-up:
+\item To verify that the previous command was executed correctly, a "picture" will appear in your terminal saying "Welcome to Village Telco". Execute the following command to finish the set-up:
 \noindent
 \begin{lstlisting}[language=bash]
  $ udhcpc -i br-lan

@@ -1,19 +1,19 @@
 \chapter{QUICK Box}
 \label{chp:quickrollout} 
 
-The main purpose of our study was to create an easy way to utilize the Mesh Potatoes in emergency situations and other situations where there are need for cheap and instant communication. Our main focus has been on providing Internet access to the mesh network formed by the \glspl{mp}, and the aspect of quick roll-out of the network. Internet access may be a vital way of communication in emergency situations, or just convenient in other situations. The process of setting up a mesh network providing Internet should be done quickly, since time is a crucial factor to consider in emergency situations. In this chapter we will describe parts of the set-up techniques for the Mesh Potatoes. Further on we will present our \gls{quick} Box, which is a box including a \gls{mp}, telephone, solar panel, battery and a charging regulator. A box ready to go in any situations. We will describe how we made this box, and similar work that have been conducted previously on the area. At last we will describe some situations where the need for a quick roll-out of a communication system may be needed. 
+The main purpose of our study was to create an easy way to utilize the Mesh Potatoes in emergency situations and other situations where there are need for cheap and instant communication. Our main focus has been on providing Internet access to the mesh network formed by the \glspl{mp}, and on the aspect of quick roll-out of the network. Internet access may be a vital way of communication in emergency situations, or just convenient in other situations. The process of setting up a mesh network providing Internet should be done quickly, since time is a crucial factor to consider in emergency situations. In this chapter we will describe parts of the set-up techniques for the Mesh Potatoes. Further on we will present our \gls{quick} Box, which is a box including a \gls{mp}, solar panel, battery, charging regulator, manuals for connecting the \gls{mp} for different up-links, manual for how to get started with the box, necessary cables, USB-stick containing script and a CD with Linux Ubuntu. A box ready to go in any situation. We will describe how we made this box, and similar work that has been conducted previously on this area. At last we will describe some situations where the need for a quick roll-out of a communication system may be needed. 
 
-A big part of our work is gathering of information, and make the existing information more understandable for the common user. The existing user guides tend to be advanced and not adapted to people with little background knowledge on the area. Therefore we found it necessary to make the descriptions easier and more user friendly. 
+A big part of our work has been gathering information, and make the existing information more understandable for the common user. The existing user guides tend to be advanced and not adapted to people with little background knowledge on the area. Therefore we found it necessary to make the descriptions easier and more user friendly. 
 
 \section{Set-up of the Mesh Potato}
 The set-up process of the Mesh Potato includes, among other activities, installing firmware, allocating \gls{ip} addresses and providing Internet to the network. The firmware used for the \glspl{mp} is called \gls{secn} Firmware \cite{ChoosingFirmware}. 
 
 \subsection{Configuring the Mesh Potato}
 \label{subsec:configuring}
-Configuring a Mesh Potato is the process of allocating an unique \gls{ip} address to the \gls{mp}. Each of the \glspl{mp} are assigned a static \gls{ip} address, these addresses are not part of the \gls{lan} address space. The \gls{ip} addresses are allocated in a predefined default address space 10.130.1.20. In order to change this \gls{ip} address, the \gls{mp} has to be connected via an Ethernet cable to a PC running Linux. The PC must be on the same subnet as the \gls{mp}, in order to establish contact. When the PC is on the same subnet, the \glspl{mp} web interface can be accessed via a browser. In the web interface, the \gls{ip} of the \gls{mp} can easily be changed. This description works for both versions of the \gls{mp}. One difference is that you can change the \gls{ip} on \gls{mp1} by using \gls{ivr} commands (see page 28 in Appendix \ref{chp:appendixB}). A second version of the \gls{mp2} is in development. This version has a telephone jack port (\gls{fxs} daughterboard), which will allow for \gls{ivr} on the \gls{mp2} as well. 
+Configuring a Mesh Potato is the process of allocating an unique \gls{ip} address to the \gls{mp}. Each of the \glspl{mp} are assigned a static \gls{ip} address, these addresses are not part of the \gls{lan} address space. The \gls{ip} addresses are allocated in a predefined default address space 10.130.1.20. In order to change this \gls{ip} address, the \gls{mp} must be connected via an Ethernet cable to a PC running Linux. The PC must be on the same subnet as the \gls{mp} in order to establish contact. When the PC is on the same subnet, the \glspl{mp} web interface can be accessed via a browser. In the web interface, the \gls{ip} of the \gls{mp} can easily be changed. This description works for both versions of the \gls{mp}. One difference is that you can change the \gls{ip} on \gls{mp1} by using \gls{ivr} commands (see page 28 in Appendix \ref{chp:appendixB}). A second version of the \gls{mp2} is in development. This version has a telephone jack port (\gls{fxs} daughterboard), which will allow for \gls{ivr} on the \gls{mp2} as well. 
 
 \begin{enumerate}
-\item Set the PC to have the same subnet, by writing the following command in the terminal:
+\item Set the PC to be in the same subnet as the MP, by writing the following command in the terminal:
 \noindent
 \begin{lstlisting}[language=bash]
   $ ifconfig eth0 10.130.1.120 netmask 255.255.255.0
@@ -24,7 +24,7 @@ Configuring a Mesh Potato is the process of allocating an unique \gls{ip} addres
 
 \subsubsection{Change from telnet to SSH}
 \label{subsubsec:ssh}
-In order to be able to remotely configure the MP from a PC, telnet or SSH i used. Telnet is the default option, but SSH is a far more secure option and is highly recommended. In order to enable SSH, some steps must be conducted in the terminal:
+In order to be able to remotely configure the MP from a PC, telnet or SSH is used. Telnet is the default option, but SSH is a far more secure option and is highly recommended. In order to enable SSH, some steps must be conducted in the terminal:
 \begin{enumerate}
 \item Install SSH by entering the following command:
 \noindent
@@ -52,9 +52,9 @@ In order to be able to remotely configure the MP from a PC, telnet or SSH i used
 
 \subsection{Upgrading the Mesh Potato}
 \label{subsec:upgrading}
-The firmware of the Mesh Potatoes are under constant development. It is therefore advisable that the \gls{mp} is running the latest version of the firmware. The process of upgrading the firmware is different from \gls{mp1} and \gls{mp2}. The different methods are described below. 
+The MP's firmware are under constant development. It is therefore advisable that the \gls{mp} is running the latest version of the firmware. The process of upgrading the firmware is different from \gls{mp1} and \gls{mp2}. The different methods are described below. 
 
-See the \gls{secn} User Guide for respectively \gls{mp1} and \gls{mp2} in Appendix \ref{chp:appendixB} and \ref{chp:appendixC} for a more detailed description of how to upgrade the firmware on the Mesh Potatoes.
+See the \gls{secn} User Guide, for respectively \gls{mp1} and \gls{mp2}, in Appendix \ref{chp:appendixB} and \ref{chp:appendixC} for more details around the upgrading process.
 
 \subsubsection{Installing Firmware on Mesh Potato Version 1}
 Flashing is the process of updating or changing the firmware (\gls{secn}) on the \gls{mp}. The most common way to perform the flashing process is by using the potato-flash application \cite{flashing}. This is a specialised software application for the Mesh Potato. Potato-flash can be used regardless of previously installed firmware on the Mesh Potato \cite{InstallingSecnFirmware}. 
@@ -65,7 +65,7 @@ Flashing is the process of updating or changing the firmware (\gls{secn}) on the
 \begin{lstlisting}[language=bash]
   $ cmod +x /usr/local/bin/potato-flash-x64
 \end{lstlisting}
-\item Download the rootfs file (\texttt{openwrt-secn1_1-GA01-MP01-root.suashfs}) and the kernel file (\texttt{openwrt-secn1_1-GA01-MP01-vmlinux.lzma})  from \url{http://download.villagetelco.org/firmware/secn/stable/mp/SECN-1.1/} to a folder, for example called, mp\_firmware in the local directory.
+\item Download the rootfs file (\texttt{openwrt-secn1_1-GA01-MP01-root.suashfs}) and the kernel file (\texttt{openwrt-secn1_1-GA01-MP01-vmlinux.lzma})  from \url{http://download.villagetelco.org/firmware/secn/stable/mp/SECN-1.1/} to a folder, for example called, mp\_firmware in the local directory. (Always choose the latest stable version of the firmware.)
 \item Open the terminal and write the following commands: 
 \begin{enumerate}
 \item Enter root environment:
@@ -101,7 +101,7 @@ Flashing is the process of updating or changing the firmware (\gls{secn}) on the
 
 \item Before running the potato-flash utility, make sure that the \gls{mp} is unplugged from its power supply, and that the \gls{mp} is connected to the PC via an Ethernet cable. 
 
-\item Executing the potato-flash utility:
+\item Execute the potato-flash utility:
 \noindent
 \begin{lstlisting}[language=bash]
   $ potato-flash-x64 openwrt-secn1_1-GA01-MP01-root.suashfs 
@@ -120,7 +120,7 @@ Briefly after the potato-flash is executed, dots will start appear on the screen
 \end{figure}
 
 
-\subsubsection{Installing Firmware on Mesh Potato v2.0}
+\subsubsection{Installing Firmware on Mesh Potato Version 2}
 The process of upgrading the MP's firmware is simplified with the \gls{mp2}. With the \gls{mp1}, command shell (terminal) must be utilized in order install or upgrade the firmware. In contrary, with the \gls{mp2}, firmware upgrade can be done from the \gls{secn} web interface (more information about the interface can be found in section \ref{subsec:interface}). Extra functionality has been added to the interface from \gls{mp1} to \gls{mp2}. Under "Advanced" in the interface an extra tab called "Firmware" is added. Under this tab the firmware upgrade can be executed. When the "Firmware"-button is pressed, a new windows pops up where you have to add the firmware file. The firmware for \gls{mp2} can be found here: \url{http://download.villagetelco.org/firmware/secn/unstable/mp02/SECN-2.0/SECN-2.0-RC4/}.
 
 \subsection{The SECN Web Interface}
@@ -129,18 +129,18 @@ The process of upgrading the MP's firmware is simplified with the \gls{mp2}. Wit
 \begin{figure}[t]
   \centering
       \includegraphics[width=1\textwidth]{webinterface.png}
-  \caption [Web interface]{\textbf{Web interface.} Displays the web interface to the Mesh Potato.}
+  \caption [Web interface]{\textbf{Web interface.} Displays the MP's web interface.}
   \label{fig:webinterface}
 \end{figure}
 
 Village Telco provides a SECN web interface for configuration and management of individual \glspl{mp}. This web interface can be accessed by entering the \gls{ip} address of the \gls{mp} in a browser, like shown in \fref{fig:webinterface}. In order to be able to do this, the PC must be on the same subnet (exact same prefix) as the \gls{mp}.  
 
-The web interface allows the user to do alterations on \gls{mp} settings. The web interface allows the user to alter some key parameters. Among these are the \gls{ip} address of the device, set up the WiFi \gls{ap}, \gls{voip}/\gls{sip} Configurations, Password and Web Server Security. The web interface also allows the user to alter more advanced settings. To get a detailed description of the web interface, see the User Guide in Appendices \ref{chp:appendixB} and \ref{chp:appendixC}. In addition to this, like mentioned above, the interface has been extended and improved from the early versions of the \gls{secn} firmware. 
+The web interface allows the user to do alterations on \gls{mp} settings. The web interface allows the user to alter some key parameters. Among these are the \gls{ip} address of the device, set up the WiFi \gls{ap}, \gls{voip}/\gls{sip} configurations, password and web server security. The web interface also allows the user to alter more advanced settings. To get a detailed description of the web interface, see the User Guide in Appendices \ref{chp:appendixB} and \ref{chp:appendixC}. In addition to this, like mentioned above, the interface has been extended and improved from the early versions of the \gls{secn} firmware. 
 
 
 
 \section{QUICK Box}
-The Mesh Potatoes and Village Telcos were created to get voice and data connection to areas where services like these are non-existent or too expensive for the average person. As of now, the \glspl{mp} have been set up to create networks of different size in villages all over the world. We want to expand this solution by looking at its mobility and its usage on the go. We want to make a box that has high adaptability, enabling it to easily be used in several different scenarios, under different conditions and by different people, all with different needs. The box must be user friendly, so that there are no room for misunderstanding or mistakes. The box should be ready to go in any situation. QUICK stands for Quick User-friendly Internet-providing Communication Kit. 
+The Mesh Potatoes and Village Telcos were created to get voice and data connection to areas where services like these are non-existent or too expensive for the average person. As of now, the \glspl{mp} have been set up to create networks of different size in villages all over the world. We want to expand this solution by looking at its mobility and its usage on the go. We want to make a box that has high adaptability, enabling it to easily be used in several different scenarios, under different conditions and by different people, all with different needs. The box must be user friendly, so there are no room for misunderstandings or mistakes. The box should be ready to go in any situation. QUICK stands for Quick User-friendly Internet-providing Communication Kit. 
 
 \begin{itemize}
 \item [] \textbf{Q}uick - The box should be easy to set-up, and include all manuals necessary to get started with the box, and to provide Internet to the network. Scripting could be used in order to automate the set-up process. 
@@ -152,32 +152,38 @@ The Mesh Potatoes and Village Telcos were created to get voice and data connecti
 
  
 \subsection{Previous/Similar work}
-\paragraph{Go Box.} Something similar has been done before by Keith Williamson, a volunteer in the Village Telco community. His idea of utilizing the Mesh Potatoes in emergency situations started with his interest in amateur radios, and the use of radios in emergency situations. He put together a "go box" by using a waterproof Pelican 1200 case. This case contained a bracket holding the Mesh Potato, a rechargeable Li-Ion or Li-Poly battery, telephone handset and a junction box to provide an on/off switch \cite{keith}. Our Emergency Box differ in some ways from the "go box" made by Williamson. The main difference between the "go box" and the \gls{quick} box is the fact that we have created our box based on the \gls{mp2}-basic, while the "go box" is with the first generation of the \gls{mp}. The fact that the \gls{quick} box is based on the basic edition of the second generation, means that it is not possible to connect a telephone to the \gls{mp}. The "go box" included a telephone, so this is also a difference between the "go box" and the \gls{quick} box. Another difference is the that the \gls{quick} box includes everything needed for an installation;  a solar panel, necessary cables, and full descriptions on how to use the box and how to connect to different up-links. The \gls{quick} box is therefore more comprehensive than the "go box".
+\paragraph{Go Box.} Something similar has been done before by Keith Williamson, a volunteer in the Village Telco community. His idea of utilizing the Mesh Potatoes in emergency situations started with his interest in amateur radios, and the use of radios in emergency situations. He put together a "go box" by using a waterproof Pelican 1200 case. This case contained a bracket holding the Mesh Potato, a rechargeable Li-Ion or Li-Poly battery, telephone handset and a junction box to provide an on/off switch \cite{keith}. Our Emergency Box differ in some ways from the "go box" made by Williamson. The main difference between the "go box" and the \gls{quick} box is the fact that we have created our box based on the \gls{mp2}-basic, while the "go box" is with the first generation of the \gls{mp}. The fact that the \gls{quick} box is based on the basic edition of the second generation, means that it is not possible to include a telephone. The "go box" included a telephone, so this is also a difference between the "go box" and the \gls{quick} box. Another difference is that the \gls{quick} box includes everything needed for an installation. The \gls{quick} box is therefore more comprehensive than the "go box".
 
 \paragraph{AfrikaBurn.}
 AfrikaBurn is a "Burning Man" festival in Tankwa Town in the Karoo (South Africa) that is held once a year \cite{whatisafrikaburn}. This is a festival with focus on art and freedom of expression. Instead of using money, the festival attendants are inspired to trade different types of goods with each other. A Village Telco has been established at this festival a few years now. Free-standing phone boots with Mesh Potatoes powered by solar panels has been set up at the festival area. The first year five phone boots where set up around the festival area. Since it were few numbers to call, the calling became sort of random. This gave a  "ChatRoulette" like effect, only with phones instead. The second year some aspects where improved from the previous year. The boots had production \glspl{mp}, no lighting and new sleeves. A netbook was brought with them, and this acted as a gateway \cite{africaburnforavillagetelco,africaburnsagainforavillagetelco}. 
 
 \subsection{Key Components}
-The key components of our emergency box is described in \tref{tab:components}. 
+The key components of the \gls{quick} box is described in \tref{tab:components}. 
 
 \begin{center}
 \begin{table}[t]
-\caption{\label{tab:components}The components of Emergency Box}
+\caption{\label{tab:components}The components of the QUICK box}
     \begin{tabular}{ | l | p{9cm} |}
     \hline
     \textbf{Component} & \textbf{Description and purpose} \\ 
     \hline
-    Access point for Internet &  Mesh Potato v2.0\\ 
+    Access point for Internet &  Mesh Potato version 2.\\ 
     \hline
     Suitcase/box &  A suitcase made of high quality plastic coated with aluminium foil. Strengthened edges and corners of aluminium and steel. It has a soft-padded interior. A solid handle for carrying. Dimensions: 455x330x152 (width, depth, height). Weight: 2,6 kg. \\ 
     \hline
     Power supply & A gel battery (12 V and 5 Ah). No need for maintenance. The battery acid is bound in a viscous gel. This prevents leakage, even when the battery is mounted horizontally. Long lifetime and safe to handle. The battery is fully closed, and do not need refill of battery water. No hydrogen gas or other gas might leak. When the battery is charging no gas or acid vapor is emitted, hence the battery can be placed in narrow or enclosed spaces. The battery withstands multiple discharges. The gel battery is ideal for seasonal or occasional use, since it have a slow self-discharge tempo, and a good ability to recover after deep discharging. Dimensions: 114x69x109. Weight: 2,16 kg. \\
     \hline
-    Plain old telephone &  A regular plain old telephone that can be connected to the \gls{mp1} via a \gls{fxs} port by using a RJ-11. \\
-	\hline
-	Solar panel & Solar panel from Multicomp with item number: MC-SP10-GCS. Power rating: 10 W. Power Voltage Max: 17 V. Dimensions: 357x280x18\\
+	Solar panel & Solar panel from Multicomp with item number: MC-SP10-GCS. Power rating: 10 W. Power Voltage Max: 17 V. Dimensions: 357x280x18.\\
 	\hline
 	Charging regulator & Regulator for 12 V solar panel. Protects the battery from overcharging and discharge. Capacity: 100 W / max. 7 A. Overcharging protection: 14.5 V. Discharge protection: <10,5 V. Three diodes shows charging, high voltage and low battery voltage. \\
+	\hline
+	Manuals & Different manuals for providing Internet to the MP, and a manual for how to get started with the QUICK box.\\
+	\hline
+	CD with Linux Ubuntu & A CD with Linux Ubuntu is provided.\\
+	\hline
+	USB-stick & The USB-stick contains a script that can be run in order to provide Internet to the MP via a PC.\\
+	\hline
+	Necessary cables & An Ethernet cable is provided in order to connect the MP to a PC, and an extra power cord is added in case there is a power outlet available. \\
 	\hline
     \end{tabular}
    \end{table}
@@ -186,7 +192,7 @@ The key components of our emergency box is described in \tref{tab:components}.
 \clearpage
 
 \subsection{Creating the QUICK Box}
-This section describes how we created the \gls{quick} box from scratch. The box is delivered with everything with a Mesh Potato that is pre-configured with an unique \gls{ip} address. The suitcase contains a CD with Linux Ubuntu in case the user does not already have it installed, since it is necessary to have Linux in order to execute all the configurations and set-ups provided in the box. The case also contains necessary cables and detailed descriptions on how to connect to the different up-links, in order to provide Internet to the network. \fref{fig:boxinmaking} shows the box in the making.
+This section describes how we created the \gls{quick} box from scratch. The box is delivered with a Mesh Potato that is pre-configured with an unique \gls{ip} address. The suitcase contains a CD with Linux Ubuntu in case the user does not already have it installed, since it is necessary to have Linux in order to execute all the configurations and set-ups provided in the box. The case also contains necessary cables and detailed descriptions on how to connect to the different up-links, in order to provide Internet to the network. \fref{fig:boxinmaking} shows the box in the making.
 
 
 \begin{figure}[b]
@@ -197,9 +203,9 @@ This section describes how we created the \gls{quick} box from scratch. The box 
 \end{figure}
 
 \paragraph{Conjoining the components of the QUICK box.}
-The components that we used to construct the box was a solar regulator, a gel battery, a solar panel and a \gls{mp2}. These components were put together as shown in \fref{fig:emergencybox}. The solar regulator is connected to all the components, and is used in order to not overcharge the battery. The solar regulator was initially built for another type of solar panel than the one we chose to use. This means that the concomitant plugs could not be used. These plugs were cut of and we soldered on new wires.  
+The key components that we used to construct the box was a solar regulator, a gel battery, a solar panel and a \gls{mp2}. These components were put together as shown in \fref{fig:emergencybox}. The solar regulator is connected to all the components, and is used in order to not overcharge the battery. The solar regulator was initially built for another type of solar panel than the one we chose to use. This means that the concomitant plugs could not be used. These plugs were cut of and we soldered on new wires.  
 
-New wires were soldered on the solar regulator, one was connected to the MP's power cord, while the other two was connected to battery and to the solar panel. Before connecting everything together we used a multimeter to measure the voltage of the solar panel. We placed the solar panel under a bright light (lamp) to see if it had any impact, which it did. We used the multimeter to check the battery as well, which was fully charged, with a voltage of a little over 13 V. 
+New wires were soldered on the solar regulator, one was connected to the MP's power cord, while the other two was connected to the battery and to the solar panel. Before connecting everything together we used a multimeter to measure the voltage of the solar panel. We placed the solar panel under a bright light (lamp) to see if it had any impact, which it did. We used the multimeter to check the battery as well, which was fully charged, with a voltage of a little over 13 V. 
 We first connected the solar panel, then the battery, and at last the Mesh Potato. When everything was conjoined correctly, the \gls{mp} turned on. \fref{fig:ferdigbox} shows our final prototype of the \gls{quick} box. 
 
 \begin{figure}
@@ -278,16 +284,16 @@ $$Amp = \frac{Watt}{Volt} = \frac{10-0.75 W}{17 V} = 0.54 Ampere$$
 The time it will take to fully charge the battery from fully discharged condition will then be: 
 $$Amp\times Hours = AmpHours \Rightarrow Hours =\frac{AmpHours}{Amp} = \frac{5 Ah\times 1.2}{0.54A} = 11.1 Hours$$
 
-Number of sun hours per day, in for example South Africa in December, is approximately 14. In June the number of sun hours is approximately 10.5. And off course, it can be cloudy, so these numbers are best case. This means that it is possible to fully charge the battery in the course of a day, but it may not always be the case. The following calculations shows how long the battery can provide the Mesh Potato with power from fully charged condition without the solar panel charging it at the same time. 
+In South Africa in December, for example, the number of sun hours per day is approximately 14. In June the number of sun hours is approximately 10.5. Of course, it can be cloudy, so these numbers are best case. This means that it is possible to fully charge the battery in the course of a day, but this may not always be the case. The following calculations show how long the battery can provide the Mesh Potato with power when fully charged, without the solar panel charging the battery at the same time. 
 
-\paragraph{On fully charged battery - MP01}
-This calculation takes into account that the solar panel is disconnected from the battery. With the components described in \tref{tab:components} the number of hours the \gls{mp1} can last with fully charged battery is: 
+\paragraph{With fully charged battery - MP01}
+This calculation takes into account that the solar panel is disconnected from the battery. With the components described in \tref{tab:components} the number of hours the \gls{mp1} can last with a fully charged battery is: 
 
 $$Amp = \frac{Watt}{Volt} = \frac{2.5 W}{12 V} = 0.208 Ampere$$
 $$Amp\times Hours = AmpHours \Rightarrow Hours = \frac{AmpHours}{Amp} = \frac{5 Ah}{0.208 A} = 24 Hours$$
 
-\paragraph{On fully charged battery - MP02}
-This calculation takes into account that the solar panel is disconnected from the battery. With the components described in \tref{tab:components} the number of hours the \gls{mp2} can last with fully charged battery is: 
+\paragraph{With fully charged battery - MP02}
+This calculation takes into account that the solar panel is disconnected from the battery. With the components described in \tref{tab:components} the number of hours the \gls{mp2} can last with a fully charged battery is: 
 
 $$Amp = \frac{Watt}{Volt} = \frac{0.75 W}{12 V} = 0.06 Ampere$$
 $$Amp\times Hours = AmpHours \Rightarrow Hours = \frac{AmpHours}{Amp} = \frac{5 Ah}{0.06 A} = 83 Hours$$
@@ -296,11 +302,11 @@ $$Amp\times Hours = AmpHours \Rightarrow Hours = \frac{AmpHours}{Amp} = \frac{5 
 \subsection{Possible Improvements}
 As mentioned, the \gls {quick} box is fairly easy and simple, and leaves room for improvements. There should be an on/off switch in order to spare battery capacity. This on/off switch would be placed between the battery and the regulator. Unless a measuring instrument is available to check the voltage, there are no way for the user to know the remaining battery capacity. This might be very useful in situations where communication is vital and the hours of battery lifetime are limited and should be taken into account. 
 
-The battery used is a gel battery. They are less explosive than the lithium batteries, and are better suited to be placed into enclosed spaces that may get hot. The downside of the gel batteries is their weight, since they are very heavy. Since our aim is to make a case that is portable, a lighter battery would be preferable. Under the requirement of being portable a factor to keep in mind is that it is not allowed to bring lithium batteries on airplanes. This means that if we chose to use a lithium battery in our solution a regular person would not be allowed to bring the \gls{quick} box on the plane. When it comes to relief organizations, this might not be a problem since they transport their equipment in own planes, like a Hercules. 
+The battery used is a gel battery. They are less explosive than the lithium batteries, and are better suited to be placed into enclosed spaces that may get hot. The downside of the gel batteries is their weight, since they are very heavy. Since our aim is to make a case that is portable, a lighter battery would be preferable. Under the requirement of being portable a factor to keep in mind is that it is not allowed to bring lithium batteries on airplanes. This means that if we chose to use a lithium battery in our solution, a regular person would not be allowed to bring the \gls{quick} box on an airplane. When it comes to relief organizations, this might not be a problem since they transport equipment in their own airplanes, for example Hercules. 
 
-The \gls{mp2} is a lot smaller than the \gls{mp1}, and a powerful solar panel does not take that much space, so there is no need for a suitcase of the size we have used. A smaller case that is lighter and easier to handle would make the solution even more portable. 
+The \gls{mp2} is small (much smaller than the \gls{mp1}), and a powerful solar panel does not take much space, so there is no need for a suitcase of the size we have used. A smaller case, that is lighter and easier to handle, would make the solution even more portable. 
 
-Our main focus was to get something that worked and that was safe, and we did not focus on aesthetics and appearance. This is therefore also an area where there are room for improvements. 
+Our main focus was to make something that worked and that was safe. We did not focus on aesthetics and appearance. This is therefore also an area with room for improvements. 
 
  
 \section{Different Scenarios Where a Quick Roll-out Might be Necessary}
@@ -329,7 +335,7 @@ Numerous of relief organizations contributed with their help after the typhoon s
 
 
 \subsection{Temporary Refugee and IDP camps}
-We got a better understanding of refugee and IDP camps after conducting interviews with different relief organizations (for interview with respectively CARE and Norwegian Refugee Council see section \ref{sec:interviewcare} and section \ref{sec:interviewnrc}). 
+We got a better understanding of refugee and IDP camps after conducting interviews with different relief organizations (for interview with respectively the Norwegian Refugee Council and Care see section \ref{sec:interviewnrc} and section \ref{sec:interviewcare}). 
 Not all refugee and IDP camps are as well established, like the one in Dadaab. Many camps are short-term, and are therefore in more need of a temporary communication system. In this case, setting up \gls{quick} boxes in the camp to provide the refugees/IDPs with Internet access could be an option. 
 
 \subsection{Festivals}

@@ -1,34 +1,35 @@
 \select@language {norsk}
 \select@language {english}
 \select@language {english}
+\select@language {norsk}
 \select@language {english}
 \addvspace {10pt}
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Methodology for making of the \gls {quick} box}}{3}{figure.caption.8}
 \addvspace {10pt}
 \contentsline {figure}{\numberline {2.1}{\ignorespaces MP01}}{6}{figure.caption.9}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces MP2}}{8}{figure.caption.11}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces World map of Village Telco deployments}}{9}{figure.caption.12}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Number of cellular subscriptions per 100 people in Timor-Leste}}{10}{figure.caption.14}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Number of internet users per 100 people in Timor-Leste}}{12}{figure.caption.17}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Cellular network vs. MANET}}{25}{figure.caption.24}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Example of a Wireless Mesh Network}}{26}{figure.caption.25}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Ad Hoc routing protocols}}{27}{figure.caption.26}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Originator Message in B.A.T.M.A.N}}{28}{figure.caption.27}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Number of mobile-cellular subscriptions}}{29}{figure.caption.32}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Project Loon: Balloon-powered internet for everyone.\relax }}{30}{figure.caption.34}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces MP02}}{7}{figure.caption.11}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces World map of Village Telco deployments}}{8}{figure.caption.12}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Number of cellular subscriptions per 100 people in Timor-Leste}}{9}{figure.caption.14}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Number of internet users per 100 people in Timor-Leste}}{10}{figure.caption.17}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Cellular network vs. MANET}}{14}{figure.caption.24}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Example of a Wireless Mesh Network}}{15}{figure.caption.25}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Ad Hoc routing protocols}}{16}{figure.caption.26}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Originator Message in B.A.T.M.A.N}}{17}{figure.caption.27}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Number of mobile-cellular subscriptions}}{20}{figure.caption.32}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Project Loon: Balloon-powered Internet for everyone.\relax }}{22}{figure.caption.34}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Flashing the Mesh Potato}}{46}{figure.caption.41}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Web interface}}{47}{figure.caption.43}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces The composition of the \gls {quick} box}}{49}{figure.caption.47}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces The QUICK box in the making.\relax }}{50}{figure.caption.49}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Final prototype of the QUICK box}}{51}{figure.caption.50}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Flashing the Mesh Potato}}{38}{figure.caption.41}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Web interface}}{39}{figure.caption.43}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces The composition of the \gls {quick} box}}{43}{figure.caption.47}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces The QUICK box in the making.\relax }}{44}{figure.caption.49}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Final prototype of the QUICK box}}{45}{figure.caption.50}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Composition of components during set-up of getting Internet from wall jack}}{63}{figure.caption.59}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Network Connections on Linux Ubuntu}}{64}{figure.caption.60}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces "Edit Connections" settings on Linux\relax }}{65}{figure.caption.61}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces The results from executing "uchcpc -i br-lan".}}{66}{figure.caption.62}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Composition of components during set-up of getting Internet via PC}}{68}{figure.caption.63}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Composition of components during set-up of getting Internet from wall jack}}{57}{figure.caption.59}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Network Connections on Linux Ubuntu}}{58}{figure.caption.60}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces "Edit Connections" settings on Linux\relax }}{58}{figure.caption.61}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces The results from executing "uchcpc -i br-lan".}}{59}{figure.caption.62}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Composition of components during set-up of getting Internet via PC}}{60}{figure.caption.63}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
