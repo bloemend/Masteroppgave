@@ -14,7 +14,7 @@
 \BOOKMARK [2][-]{subsection.2.3.2}{Orocovis, Puerto Rico}{section.2.3}% 14
 \BOOKMARK [2][-]{subsection.2.3.3}{Mataffin-Macadamia, Nelspruit South Africa}{section.2.3}% 15
 \BOOKMARK [2][-]{subsection.2.3.4}{Summary Developments}{section.2.3}% 16
-\BOOKMARK [1][-]{section.2.4}{The Evolution of the Telecommunication Industry}{chapter.2}% 17
+\BOOKMARK [1][-]{section.2.4}{The Evolution of the Telecommunications Industry}{chapter.2}% 17
 \BOOKMARK [2][-]{subsection.2.4.1}{Evolution of Telephony}{section.2.4}% 18
 \BOOKMARK [1][-]{section.2.5}{Relevant Technologies}{chapter.2}% 19
 \BOOKMARK [2][-]{subsection.2.5.1}{OpenWrt}{section.2.5}% 20
@@ -23,11 +23,11 @@
 \BOOKMARK [2][-]{subsection.2.5.4}{Wireless Mesh Networks}{section.2.5}% 23
 \BOOKMARK [2][-]{subsection.2.5.5}{Routing Protocols}{section.2.5}% 24
 \BOOKMARK [2][-]{subsection.2.5.6}{B.A.T.M.A.N}{section.2.5}% 25
-\BOOKMARK [1][-]{section.2.6}{Up-Links}{chapter.2}% 26
+\BOOKMARK [1][-]{section.2.6}{Uplinks}{chapter.2}% 26
 \BOOKMARK [2][-]{subsection.2.6.1}{Internet via Telephone-line}{section.2.6}% 27
 \BOOKMARK [2][-]{subsection.2.6.2}{Cellular Network Technologies}{section.2.6}% 28
 \BOOKMARK [2][-]{subsection.2.6.3}{Satellite}{section.2.6}% 29
-\BOOKMARK [2][-]{subsection.2.6.4}{Summary Up-Links}{section.2.6}% 30
+\BOOKMARK [2][-]{subsection.2.6.4}{Summary Uplinks}{section.2.6}% 30
 \BOOKMARK [1][-]{section.2.7}{Future Internet Access Methods}{chapter.2}% 31
 \BOOKMARK [2][-]{subsection.2.7.1}{Google's Internet Balloons}{section.2.7}% 32
 \BOOKMARK [1][-]{section.2.8}{Apple's Mesh Network}{chapter.2}% 33
@@ -56,15 +56,15 @@
 \BOOKMARK [0][-]{chapter.5}{Roll-out of the QUICK Box}{}% 56
 \BOOKMARK [1][-]{section.5.1}{Scripting}{chapter.5}% 57
 \BOOKMARK [1][-]{section.5.2}{Distributing Numbers}{chapter.5}% 58
-\BOOKMARK [1][-]{section.5.3}{Manuals}{chapter.5}% 59
-\BOOKMARK [2][-]{subsection.5.3.1}{Get Started - How to Use the QUICK Box}{section.5.3}% 60
-\BOOKMARK [2][-]{subsection.5.3.2}{Manual for Connecting the MP02 Directly to Cabled Internet}{section.5.3}% 61
-\BOOKMARK [2][-]{subsection.5.3.3}{Manual for Connecting the MP02 to Internet via PC Getting WiFi from Landline or Cellular Network}{section.5.3}% 62
-\BOOKMARK [2][-]{subsection.5.3.4}{Manual for Connecting the MP02 to Satellite}{section.5.3}% 63
-\BOOKMARK [1][-]{section.5.4}{Training}{chapter.5}% 64
-\BOOKMARK [1][-]{section.5.5}{How to Create a Network}{chapter.5}% 65
+\BOOKMARK [1][-]{section.5.3}{Training}{chapter.5}% 59
+\BOOKMARK [1][-]{section.5.4}{How to Create a Network}{chapter.5}% 60
+\BOOKMARK [1][-]{section.5.5}{Manuals}{chapter.5}% 61
+\BOOKMARK [2][-]{subsection.5.5.1}{Get Started - How to Use the QUICK Box}{section.5.5}% 62
+\BOOKMARK [2][-]{subsection.5.5.2}{Manual for Connecting the MP02 Directly to Cabled Internet}{section.5.5}% 63
+\BOOKMARK [2][-]{subsection.5.5.3}{Manual for Connecting the MP02 to Internet via PC Getting WiFi from Landline or Cellular Network}{section.5.5}% 64
+\BOOKMARK [2][-]{subsection.5.5.4}{Manual for Connecting the MP02 to Satellite}{section.5.5}% 65
 \BOOKMARK [0][-]{chapter.6}{Testing the QUICK Box}{}% 66
-\BOOKMARK [1][-]{section.6.1}{Test Execution}{chapter.6}% 67
+\BOOKMARK [1][-]{section.6.1}{Test Procedure}{chapter.6}% 67
 \BOOKMARK [1][-]{section.6.2}{Test Results}{chapter.6}% 68
 \BOOKMARK [2][-]{subsection.6.2.1}{Manual 1: Manual for Connecting the MP02 Directly to Cabled Internet}{section.6.2}% 69
 \BOOKMARK [2][-]{subsection.6.2.2}{Manual 2: Manual for Connecting the MP02 to Internet via PC Getting WiFi from Landline or Cellular Network}{section.6.2}% 70

@@ -4,7 +4,7 @@
 \select@language {norsk}
 \select@language {english}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Methodology for making of the \gls {quick} box}}{3}{figure.caption.8}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Method for constructing the \gls {quick} box.}}{3}{figure.caption.8}
 \addvspace {10pt}
 \contentsline {figure}{\numberline {2.1}{\ignorespaces MP01}}{6}{figure.caption.9}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces MP02}}{7}{figure.caption.11}
@@ -22,14 +22,14 @@
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Flashing the Mesh Potato}}{38}{figure.caption.41}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Web interface}}{39}{figure.caption.43}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces The composition of the \gls {quick} box}}{43}{figure.caption.47}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces The QUICK box in the making.\relax }}{44}{figure.caption.49}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Building the QUICK box.\relax }}{44}{figure.caption.49}
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Final prototype of the QUICK box}}{45}{figure.caption.50}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Composition of components during set-up of getting Internet from wall jack}}{57}{figure.caption.59}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Network Connections on Linux Ubuntu}}{58}{figure.caption.60}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces "Edit Connections" settings on Linux\relax }}{58}{figure.caption.61}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces The results from executing "uchcpc -i br-lan".}}{59}{figure.caption.62}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Composition of components during set-up of getting Internet via PC}}{60}{figure.caption.63}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces How the components are linked together during set-up for accessing the Internet from wall jack}}{58}{figure.caption.62}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Network Connections on Linux Ubuntu}}{59}{figure.caption.63}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces "Edit Connections" settings on Linux\relax }}{59}{figure.caption.64}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces The results from executing "uchcpc -i br-lan".}}{60}{figure.caption.65}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces How the components are linked together during set-up for accessing the Internet via a PC}}{61}{figure.caption.66}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}

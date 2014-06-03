@@ -32,7 +32,7 @@
 \contentsline {subsubsection}{The Deployment}{12}{section*.22}
 \contentsline {subsubsection}{Business Model}{12}{section*.23}
 \contentsline {subsection}{\numberline {2.3.4}Summary Developments}{12}{subsection.2.3.4}
-\contentsline {section}{\numberline {2.4}The Evolution of the Telecommunication Industry}{13}{section.2.4}
+\contentsline {section}{\numberline {2.4}The Evolution of the Telecommunications Industry}{13}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Evolution of Telephony}{13}{subsection.2.4.1}
 \contentsline {section}{\numberline {2.5}Relevant Technologies}{13}{section.2.5}
 \contentsline {subsection}{\numberline {2.5.1}OpenWrt}{14}{subsection.2.5.1}
@@ -42,22 +42,22 @@
 \contentsline {subsection}{\numberline {2.5.5}Routing Protocols}{16}{subsection.2.5.5}
 \contentsline {subsection}{\numberline {2.5.6}B.A.T.M.A.N}{16}{subsection.2.5.6}
 \contentsline {subsubsection}{Simple Unified Dashboard for mesh networks}{18}{section*.28}
-\contentsline {section}{\numberline {2.6}Up-Links}{18}{section.2.6}
+\contentsline {section}{\numberline {2.6}Uplinks}{18}{section.2.6}
 \contentsline {subsection}{\numberline {2.6.1}Internet via Telephone-line}{18}{subsection.2.6.1}
 \contentsline {subsubsection}{Dial-up Internet connection}{18}{section*.29}
 \contentsline {subsubsection}{ISDN}{19}{section*.30}
 \contentsline {subsubsection}{DSL}{19}{section*.31}
 \contentsline {subsection}{\numberline {2.6.2}Cellular Network Technologies}{19}{subsection.2.6.2}
 \contentsline {subsection}{\numberline {2.6.3}Satellite}{20}{subsection.2.6.3}
-\contentsline {subsection}{\numberline {2.6.4}Summary Up-Links}{21}{subsection.2.6.4}
+\contentsline {subsection}{\numberline {2.6.4}Summary Uplinks}{21}{subsection.2.6.4}
 \contentsline {section}{\numberline {2.7}Future Internet Access Methods}{21}{section.2.7}
 \contentsline {subsection}{\numberline {2.7.1}Google's Internet Balloons}{21}{subsection.2.7.1}
 \contentsline {subsubsection}{Iridium}{23}{section*.35}
 \contentsline {section}{\numberline {2.8}Apple's Mesh Network}{24}{section.2.8}
 \contentsline {chapter}{\chapternumberline {3}Refugees and IDPs}{27}{chapter.3}
 \contentsline {section}{\numberline {3.1}Definitions}{28}{section.3.1}
-\contentsline {paragraph}{Refugee.}{28}{section*.36}
-\contentsline {paragraph}{Internally Displaced Person.}{28}{section*.37}
+\contentsline {subsubsection}{Refugee}{28}{section*.36}
+\contentsline {subsubsection}{Internally Displaced Person}{28}{section*.37}
 \contentsline {section}{\numberline {3.2}Statistics}{28}{section.3.2}
 \contentsline {section}{\numberline {3.3}Interview with Norwegian Refugee Council}{29}{section.3.3}
 \contentsline {section}{\numberline {3.4}Interview with CARE - Dadaab Refugee Camp}{31}{section.3.4}
@@ -95,30 +95,30 @@
 \contentsline {chapter}{\chapternumberline {5}Roll-out of the QUICK Box}{53}{chapter.5}
 \contentsline {section}{\numberline {5.1}Scripting}{53}{section.5.1}
 \contentsline {section}{\numberline {5.2}Distributing Numbers}{53}{section.5.2}
-\contentsline {section}{\numberline {5.3}Manuals}{54}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Get Started - How to Use the QUICK Box}{55}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Manual for Connecting the MP02 Directly to Cabled Internet}{57}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Manual for Connecting the MP02 to Internet via PC Getting WiFi from Landline or Cellular Network}{60}{subsection.5.3.3}
-\contentsline {subsubsection}{Script providing Internet via PC}{63}{section*.64}
-\contentsline {subsection}{\numberline {5.3.4}Manual for Connecting the MP02 to Satellite}{64}{subsection.5.3.4}
-\contentsline {section}{\numberline {5.4}Training}{65}{section.5.4}
-\contentsline {section}{\numberline {5.5}How to Create a Network}{65}{section.5.5}
-\contentsline {subsubsection}{Placing the Mesh Potatoes}{65}{section*.65}
-\contentsline {subsubsection}{Have a stable power source}{65}{section*.66}
-\contentsline {subsubsection}{No stable power source}{65}{section*.67}
+\contentsline {section}{\numberline {5.3}Training}{54}{section.5.3}
+\contentsline {section}{\numberline {5.4}How to Create a Network}{54}{section.5.4}
+\contentsline {subsubsection}{Placing the Mesh Potatoes}{55}{section*.59}
+\contentsline {subsubsection}{Stable power source}{55}{section*.60}
+\contentsline {subsubsection}{No stable power source}{55}{section*.61}
+\contentsline {section}{\numberline {5.5}Manuals}{55}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Get Started - How to Use the QUICK Box}{56}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Manual for Connecting the MP02 Directly to Cabled Internet}{58}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}Manual for Connecting the MP02 to Internet via PC Getting WiFi from Landline or Cellular Network}{61}{subsection.5.5.3}
+\contentsline {subsubsection}{Script providing Internet via PC}{64}{section*.67}
+\contentsline {subsection}{\numberline {5.5.4}Manual for Connecting the MP02 to Satellite}{65}{subsection.5.5.4}
 \contentsline {chapter}{\chapternumberline {6}Testing the QUICK Box}{67}{chapter.6}
-\contentsline {section}{\numberline {6.1}Test Execution}{67}{section.6.1}
+\contentsline {section}{\numberline {6.1}Test Procedure}{67}{section.6.1}
 \contentsline {section}{\numberline {6.2}Test Results}{68}{section.6.2}
 \contentsline {subsection}{\numberline {6.2.1}Manual 1: Manual for Connecting the MP02 Directly to Cabled Internet}{68}{subsection.6.2.1}
 \contentsline {subsection}{\numberline {6.2.2}Manual 2: Manual for Connecting the MP02 to Internet via PC Getting WiFi from Landline or Cellular Network}{69}{subsection.6.2.2}
 \contentsline {subsection}{\numberline {6.2.3}Manual 3: Script Providing Internet via PC}{70}{subsection.6.2.3}
 \contentsline {subsection}{\numberline {6.2.4}Summary of the Test Results}{71}{subsection.6.2.4}
 \contentsline {chapter}{\chapternumberline {7}Discussion}{73}{chapter.7}
-\contentsline {chapter}{\chapternumberline {8}Conclusion}{77}{chapter.8}
-\contentsline {section}{\numberline {8.1}Future Work}{78}{section.8.1}
-\contentsline {chapter}{References}{79}{section*.70}
+\contentsline {chapter}{\chapternumberline {8}Conclusion}{79}{chapter.8}
+\contentsline {section}{\numberline {8.1}Future Work}{80}{section.8.1}
+\contentsline {chapter}{References}{81}{section*.70}
  \vspace {1em} \noindent \bfseries Appendices\par \vspace {-.5em} 
-\contentsline {appendix}{\chapternumberline {A}Interview with Care}{85}{appendix.A}
-\contentsline {appendix}{\chapternumberline {B}Script for Internet via PC}{89}{appendix.B}
-\contentsline {appendix}{\chapternumberline {C}SECN-1.1 User Guide}{91}{appendix.C}
-\contentsline {appendix}{\chapternumberline {D}SECN-2.0 User Guide}{131}{appendix.D}
+\contentsline {appendix}{\chapternumberline {A}Interview with Care}{87}{appendix.A}
+\contentsline {appendix}{\chapternumberline {B}Script for Internet via PC}{91}{appendix.B}
+\contentsline {appendix}{\chapternumberline {C}SECN-1.1 User Guide}{93}{appendix.C}
+\contentsline {appendix}{\chapternumberline {D}SECN-2.0 User Guide}{133}{appendix.D}
