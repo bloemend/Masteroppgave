@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.16)  4 JUN 2014 03:06
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.9.16)  4 JUN 2014 03:43
 entering extended mode
 **main.tex
 ("C:\Users\Ida Malene\Masteroppgave\Report\main.tex"
@@ -1925,9 +1925,9 @@ Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
 )
 ("C:\Users\Ida Malene\Masteroppgave\Report\glossary.tex")
 \glo@main@file=\write6
-Package glossaries Info: Writing glossary file main.glo on input line 37.
+Package glossaries Info: Writing glossary file main.glo on input line 39.
 \glo@acronym@file=\write7
-Package glossaries Info: Writing glossary file main.acn on input line 37.
+Package glossaries Info: Writing glossary file main.acn on input line 39.
 
 ("C:\Users\Ida Malene\Masteroppgave\Report\main.aux"
 ("C:\Users\Ida Malene\Masteroppgave\Report\abstract.aux")
@@ -1948,27 +1948,27 @@ LaTeX Warning: Label `fig:boxinmaking' multiply defined.
 ("C:\Users\Ida Malene\Masteroppgave\Report\appendixD.aux")
 ("C:\Users\Ida Malene\Masteroppgave\Report\appendixB.aux")
 ("C:\Users\Ida Malene\Masteroppgave\Report\appendixC.aux"))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 41.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 43.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1984,7 +1984,7 @@ LaTeX Font Info:    ... okay on input line 41.
 \makeMPintoPDFobject=\count341
 \everyMPtoPDFconversion=\toks60
 )
-LaTeX Info: Redefining \microtypecontext on input line 41.
+LaTeX Info: Redefining \microtypecontext on input line 43.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1999,7 +1999,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 \AtBeginShipoutBox=\box88
-Package hyperref Info: Link coloring ON on input line 41.
+Package hyperref Info: Link coloring ON on input line 43.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -2011,10 +2011,10 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 41.
-LaTeX Info: Redefining \ref on input line 41.
-LaTeX Info: Redefining \pageref on input line 41.
-LaTeX Info: Redefining \nameref on input line 41.
+LaTeX Info: Redefining \nameref on input line 43.
+LaTeX Info: Redefining \ref on input line 43.
+LaTeX Info: Redefining \pageref on input line 43.
+LaTeX Info: Redefining \nameref on input line 43.
 ("C:\Users\Ida Malene\Masteroppgave\Report\main.out")
 ("C:\Users\Ida Malene\Masteroppgave\Report\main.out")
 \@outlinefile=\write8
@@ -2026,9 +2026,9 @@ Package caption Info: End \AtBeginDocument code.
 File: ./figs/ntnu-logo.pdf Graphic file (type pdf)
 
 <use ./figs/ntnu-logo.pdf>
-Package pdftex.def Info: ./figs/ntnu-logo.pdf used on input line 49.
+Package pdftex.def Info: ./figs/ntnu-logo.pdf used on input line 51.
 (pdftex.def)             Requested size: 170.71652pt x 37.32436pt.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 49.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 51.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -2037,18 +2037,18 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (4.65376pt too wide) in paragraph at lines 49--49
+Overfull \hbox (4.65376pt too wide) in paragraph at lines 51--51
 \T1/lmss/bx/n/16.00006 Esther Bloe-men-daal & Ida Ma-lene Has-sel Øveråsen 
  []
 
-LaTeX Font Info:    Calculating math sizes for size <11.49994> on input line 49
+LaTeX Font Info:    Calculating math sizes for size <11.49994> on input line 51
 .
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <11.49994> on input line 49.
+(Font)              <11.49994> on input line 51.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8.04991> on input line 49.
+(Font)              <8.04991> on input line 51.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5.74997> on input line 49.
+(Font)              <5.74997> on input line 51.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-msa.cfg"
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
@@ -4112,8 +4112,8 @@ Package pdftex.def Info: ./figs/SECN2.pdf, page46 used on input line 4.
 \tf@toc=\write9
 \tf@lof=\write10
 \tf@lot=\write11
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 131.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 131.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 133.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 133.
  ("C:\Users\Ida Malene\Masteroppgave\Report\main.aux"
 ("C:\Users\Ida Malene\Masteroppgave\Report\abstract.aux")
 ("C:\Users\Ida Malene\Masteroppgave\Report\abstractnorwegian.aux")
@@ -4130,22 +4130,22 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 131.
 ("C:\Users\Ida Malene\Masteroppgave\Report\appendixD.aux")
 ("C:\Users\Ida Malene\Masteroppgave\Report\appendixB.aux")
 ("C:\Users\Ida Malene\Masteroppgave\Report\appendixC.aux"))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 131.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 131.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 133.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 133.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 64AE4DB9DAE494ED6A32C63E25770B17;5823.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 131.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 133.
  ) 
 Here is how much of TeX's memory you used:
- 30847 strings out of 493921
- 490421 string characters out of 3147267
- 746482 words of memory out of 3000000
- 32728 multiletter control sequences out of 15000+200000
- 103351 words of font info for 137 fonts, out of 3000000 for 9000
+ 30849 strings out of 493921
+ 490468 string characters out of 3147267
+ 747517 words of memory out of 3000000
+ 32730 multiletter control sequences out of 15000+200000
+ 106135 words of font info for 138 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  58i,18n,101p,10440b,2089s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Fil
@@ -4164,9 +4164,9 @@ ts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (199 pages, 30890804 bytes).
+Output written on main.pdf (199 pages, 30890217 bytes).
 PDF statistics:
  2928 PDF objects out of 2984 (max. 8388607)
  671 named destinations out of 1000 (max. 500000)
- 27353 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 27865 words of extra memory for PDF output out of 29859 (max. 10000000)
 
