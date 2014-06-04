@@ -1,6 +1,6 @@
 ;; This logfile was generated automatically by `xindy'
-;; at 04.06.2014  12:12:30
-;; Indexstyle: "C:\\Users\\IDAMAL~1\\AppData\\Local\\Temp\\ZrT8IFoxxD", Rawindex: "C:\\Users\\IDAMAL~1\\AppData\\Local\\Temp\\bvel6sMIRK", Output: "main.acr"
+;; at 04.06.2014  13:55:09
+;; Indexstyle: "C:\\Users\\IDAMAL~1\\AppData\\Local\\Temp\\n05XEnCI6q", Rawindex: "C:\\Users\\IDAMAL~1\\AppData\\Local\\Temp\\WhrIcHho0B", Output: "main.acr"
 
 
 Building indexentry-tree:
@@ -144,3 +144,5 @@ sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "åÃ¨È" -> "V"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "æ¨ÐÈ" -> "W"
+Reading raw-index "C:\\Users\\IDAMAL~1\\AppData\\Local\\Temp\\WhrIcHho0B"...WARNING: location-reference "{}{i}" did match multiple location-classes! (taking first one)
+WARNING: location-reference "{}{v}" did match multiple location-classes! (taking first one)

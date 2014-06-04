@@ -2,13 +2,13 @@
 \select@language {english}
 \select@language {english}
 \select@language {norsk}
-\contentsline {paragraph}{}{vii}{section*.1}
-\contentsline {paragraph}{}{vii}{section*.2}
-\contentsline {paragraph}{}{vii}{section*.3}
+\contentsline {paragraph}{}{v}{section*.1}
+\contentsline {paragraph}{}{v}{section*.2}
+\contentsline {paragraph}{}{v}{section*.3}
 \select@language {english}
-\contentsline {chapter}{List of Figures}{xiii}{section*.4}
-\contentsline {chapter}{List of Tables}{xv}{section*.5}
-\contentsline {chapter}{List of Acronyms}{xvii}{section*.6}
+\contentsline {chapter}{List of Figures}{xi}{section*.4}
+\contentsline {chapter}{List of Tables}{xiii}{section*.5}
+\contentsline {chapter}{List of Acronyms}{xv}{section*.6}
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Problem Description}{2}{section.1.2}
@@ -118,7 +118,7 @@
 \contentsline {section}{\numberline {8.1}Future Work}{80}{section.8.1}
 \contentsline {chapter}{References}{81}{section*.70}
  \vspace {1em} \noindent \bfseries Appendices\par \vspace {-.5em} 
-\contentsline {appendix}{\chapternumberline {A}Interview with Care}{87}{appendix.A}
-\contentsline {appendix}{\chapternumberline {B}Script for Internet via PC}{91}{appendix.B}
+\contentsline {appendix}{\chapternumberline {A}Interview with CARE}{87}{appendix.A}
+\contentsline {appendix}{\chapternumberline {B}Script for providing Internet access via PC}{91}{appendix.B}
 \contentsline {appendix}{\chapternumberline {C}SECN-1.1 User Guide}{93}{appendix.C}
 \contentsline {appendix}{\chapternumberline {D}SECN-2.0 User Guide}{133}{appendix.D}
