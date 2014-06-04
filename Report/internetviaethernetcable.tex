@@ -1,9 +1,9 @@
-One way to get Internet is by connecting the \gls{mp} with an Ethernet cable to the jack port in the wall. The Mesh Potato is delivered pre-configured, with the IP address and the name of the network (SSID) stated in the "Get Started - How to Use the Box"-document attached in the \gls{quick} box. \fref{fig:oppsettfraveggen} illustrates how the components are connected together in the following manual. The figure is provided to help the user get a better understanding of the network.  
+One way to provide Internet access is by connecting the \gls{mp} with an Ethernet cable to the jack port in the wall. The Mesh Potato is delivered pre-configured, with the IP address and the name of the network (SSID) stated in the "Get Started - How to Use the Box"-document included in the \gls{quick} box. \fref{fig:oppsettfraveggen} illustrates how the components are connected together in the following manual. The figure is provided to help the user get a better understanding of the network.  
 
 \begin{figure}[h!]
   \centering
       \includegraphics[width=0.78\textwidth]{oppsettfraveggen}
-  \caption [How the components are linked together during set-up for accessing the Internet from wall jack]{\textbf{How the components are linked together during set-up for accessing the Internet from wall jack.} This figure shows how the different components are set-up when the manual for getting Internet from wall jack is carried out. As shown the PC is connected to the MP via WiFi in order to perform the configurations on the MP.}
+  \caption [How the components are linked together during set-up for accessing the Internet from wall jack]{\textbf{How the components are linked together during set-up for accessing the Internet from wall jack.} This figure shows how the different components are set up when the manual for providing Internet access from a wall jack is carried out. As shown, the PC is connected to the MP via WiFi in order to perform the configurations on the MP.}
   \label{fig:oppsettfraveggen}
 \end{figure}
 
@@ -12,7 +12,7 @@ One way to get Internet is by connecting the \gls{mp} with an Ethernet cable to 
 \begin{enumerate}
 \item Do the following steps to connect the PC via WiFi to the \gls{mp}:
 \begin{enumerate}
-\item Press the WiFi symbol in the top right corner on your Linux Ubuntu home screen, and press "Edit Connections".
+\item Press the WiFi symbol in the top right corner of your Linux Ubuntu home screen, and press "Edit Connections".
 \item  Under the tab "Wireless" choose the network called "vt-mesh" and press "Edit" like shown in \fref{fig:networkconnections}.
 \begin{figure}[h!]
   \centering
@@ -44,14 +44,14 @@ One way to get Internet is by connecting the \gls{mp} with an Ethernet cable to 
 \item Press "Save" on the "Editing vt-mesh"-window, and then "Close" on the "Network Connections"-window. 
 \item Then choose "vt-mesh" from the list of available networks. This list is found after pressing the WiFi symbol in the top right corner on your screen. The PC should then be connected to the MP via WiFi. 
 \end{enumerate}
-\item Connect an Ethernet cable from the LAN-port on the MP (make sure the MP is powered up) to wired Internet (wall jack).
+\item Connect an Ethernet cable from the LAN-port on the MP (make sure the MP is powered up) to the wall jack (cabled Internet).
 \item Open the terminal window on the PC by pressing "Ctrl+Alt+t" and type in the following commands to telnet into the \gls{mp}:
 \noindent
 \begin{lstlisting}[language=bash]
   $ sudo su
   $ telnet 10.10.1.20
 \end{lstlisting}
-We highly recommend that you enhance the security on the \gls{mp} by enabling SSH instead of telnet. This has no impact on this set-up, and will not affect the ability to provide Internet to the network. Description on how to enable SSH is found in section \ref{subsubsec:ssh}.
+We highly recommend that you enhance the security on the \gls{mp} by enabling SSH instead of telnet. This has no impact on this set-up, and will not affect the ability to provide Internet access to the network. Description on how to enable SSH is found in section \ref{subsubsec:ssh}.
 \item To verify that the previous command was executed correctly, a "picture" will appear in your terminal saying "Welcome to Village Telco". Execute the following command to finish the set-up:
 \noindent
 \begin{lstlisting}[language=bash]

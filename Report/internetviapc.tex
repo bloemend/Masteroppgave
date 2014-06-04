@@ -1,7 +1,7 @@
 
 
 \begin{enumerate}
-\item Connect the MP (make sure the MP is powered up) to the PC, running Linux Ubuntu, with an Ethernet cable. The Ethernet cable must be put into the LAN-port on the MP. 
+\item Connect the MP to the PC (make sure the MP is powered up) running Linux Ubuntu, with an Ethernet cable. The Ethernet cable must be plugged into the LAN-port on the MP. 
 
 \item Open Linux terminal by pressing "Ctrl+Alt+t" and install telnet, dns and iptables by entering the following commands: 
 \noindent
@@ -28,7 +28,7 @@ If there is only one Ethernet port on the PC:
 \item [] \textbf{<INTERFACE CONNECTED TO MP> = eth0}
 \end{itemize}
 
-(This is not common, since most laptops only have one Ethernet port, but if there are two or more Ethernet ports on the PC, make sure to use the right ports in the following commands. In order to find out which ports are in use, execute the command "ifconfig" in the terminal. The ports in use will have a "inet addr" stated.) 
+(It is not common, since most laptops only have one Ethernet port, but if there are two or more Ethernet ports on the PC, make sure to use the right ports in the following commands. In order to find out which ports are in use, execute the command "ifconfig" in the terminal. The ports in use will have a "inet addr" stated.) 
 
 Go to the terminal and write the following commands in order to set up the ip tables correctly:
 \noindent
@@ -57,7 +57,7 @@ Go to the terminal and write the following commands in order to set up the ip ta
   $ route add default gateway 192.168.1.2
 \end{lstlisting} 
 
-We highly recommend that you enhance the security on the \gls{mp} by enabling SSH instead of telnet. This has no impact on this set-up, and will not affect the ability to provide Internet to the network. Description on how to enable SSH is found in section \ref{subsubsec:ssh}.
+We highly recommend that you enhance the security on the \gls{mp} by enabling SSH instead of telnet. This has no impact on this set-up, and will not affect the ability to provide Internet access to the network. Description on how to enable SSH is found in section \ref{subsubsec:ssh}.
 
 \item Go back to the web interface and click on the "Advanced"-tab at the top of the page. Change the following parameters under "DHCP Server":
 \begin{itemize}
@@ -67,7 +67,7 @@ We highly recommend that you enhance the security on the \gls{mp} by enabling SS
 \item Press "Save" at the bottom of the page. 
 \end{itemize}
 
-\item Internet should now be available in the mesh network. You can test this by connecting to the \gls{mp} from, for example, your smart phone or a PC. 
+\item Internet access should now be available in the mesh network. You can test this by connecting to the \gls{mp} from, for example, your smart phone or a PC. 
 \begin{itemize}
 \item The name of the network: \textbf{MP2_21}
 \item The password is: \textbf{potato-potato}
