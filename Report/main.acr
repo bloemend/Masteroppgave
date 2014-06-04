@@ -157,6 +157,7 @@
 \glsXpageXglsnumberformat{}{36}\delimN 
 \glsXpageXglsnumberformat{}{37}\delimN 
 \glsXpageXglsnumberformat{}{39}\delimN 
+\glsXpageXglsnumberformat{}{41}\delimN 
 \glsXpageXglsnumberformat{}{47}\delimN 
 \glsXpageXglsnumberformat{}{48}\delimN 
 \glsXpageXglsnumberformat{}{74}}}\relax\glsresetentrylist
@@ -218,14 +219,15 @@
 \glsXpageXglsnumberformat{}{xiii}\delimN 
 \glsXpageXglsnumberformat{}{xvii}, 
 \glsXpageXglsnumberformat{}{1}\delimR 
-\glsXpageXglsnumberformat{}{3}\delimN 
+\glsXpageXglsnumberformat{}{4}\delimN 
 \glsXpageXglsnumberformat{}{23}\delimN 
 \glsXpageXglsnumberformat{}{27}\delimN 
 \glsXpageXglsnumberformat{}{35}\delimN 
 \glsXpageXglsnumberformat{}{41}\delimN 
 \glsXpageXglsnumberformat{}{43}\delimN 
 \glsXpageXglsnumberformat{}{44}\delimN 
-\glsXpageXglsnumberformat{}{46}\delimR 
+\glsXpageXglsnumberformat{}{46}\delimN 
+\glsXpageXglsnumberformat{}{48}\delimN 
 \glsXpageXglsnumberformat{}{49}\delimN 
 \glsXpageXglsnumberformat{}{51}\delimN 
 \glsXpageXglsnumberformat{}{53}\delimR 
@@ -235,15 +237,14 @@
 \glsXpageXglsnumberformat{}{67}\delimN 
 \glsXpageXglsnumberformat{}{74}\delimN 
 \glsXpageXglsnumberformat{}{75}\delimN 
-\glsXpageXglsnumberformat{}{77}\delimN 
-\glsXpageXglsnumberformat{}{78}}}\glsgroupskip
+\glsXpageXglsnumberformat{}{79}\delimN 
+\glsXpageXglsnumberformat{}{80}}}\glsgroupskip
 \glsgroupheading{S}\relax\glsresetentrylist
 \glossaryentryfield{secn}{\glsnamefont{SECN}}{Small Enterprise/Campus Network}{\relax }{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{xvii}, 
 \glsXpageXglsnumberformat{}{35}\delimN 
 \glsXpageXglsnumberformat{}{37}\delimN 
 \glsXpageXglsnumberformat{}{39}\delimN 
-\glsXpageXglsnumberformat{}{40}\delimN 
 \glsXpageXglsnumberformat{}{44}\delimN 
 \glsXpageXglsnumberformat{}{74}}}\relax\glsresetentrylist
 \glossaryentryfield{sip}{\glsnamefont{SIP}}{Session Initiation Protocol}{\relax }{\glossaryentrynumbers{\relax 
